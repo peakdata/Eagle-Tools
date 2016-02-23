@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="10" fill="10" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="11" fill="10" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="12" fill="10" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="13" fill="10" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="14" fill="10" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="15" fill="10" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="16" fill="10" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="VELLEMAN_G304">
+<description>&lt;h1&gt;Velleman G304 or G308&lt;/h1&gt;
+&lt;h3&gt;SEALED ABS ENCLOSURE - DARK GRAY 4.5" x 2.6" x 1.6" (G304)&lt;/h3&gt;
+&lt;h3&gt;SEALED ABS ENCLOSURE - DARK GRAY 4.5" x 2.6" x 2.2" (G308)&lt;/h3&gt;
+
+&lt;p&gt;These enclosures consist of high-impact ABS (operating temperature : -4°F to +212°F).&lt;p/&gt;
+&lt;p&gt;The lid and the base equipped with a tongue and groove sealing system with a neoprene gasket. The mounting holes and the lid-fixing screws are outside the sealed, which prevents moisture and dust from entering the enclosure. Internal guide slots allow the vertical mounting of PCB assemblies.&lt;/p&gt;
+&lt;p&gt;Designed to meet IP65 of IEC529 and NAMA4 (dust- and hoseproof).&lt;/p&gt;
+&lt;p&gt;The bosses on the internal base allow the horizontal fixing of PCBs or the connection of terminals, etc. &lt;strong&gt;with threaded brass inserts.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;material: ABS&lt;/li&gt;
+&lt;li&gt;dimensions: 4.6" x 2.6" x 1.6" (G304)&lt;/li&gt;
+&lt;li&gt;dimensions: 4.6" x 2.6" x 2.2" (G308)&lt;/li&gt;
+&lt;li&gt;color: dark gray&lt;/li&gt;
+&lt;/li&gt;
+&lt;/p&gt;
+&lt;p&gt;Product homepage: &lt;a href="http://www.vellemanusa.com/products/view/?id=350353"&gt;http://www.vellemanusa.com/products/view/?id=350353&lt;/a&gt;</description>
+<hole x="5.5" y="15" drill="3.175"/>
+<hole x="5.5" y="43" drill="3.175"/>
+<hole x="100.5" y="15" drill="3.175"/>
+<hole x="100.5" y="43" drill="3.175"/>
+<wire x1="0" y1="46.5" x2="0" y2="32" width="0.254" layer="20"/>
+<wire x1="0" y1="26" x2="0" y2="12.5" width="0.254" layer="20"/>
+<wire x1="107" y1="46" x2="107" y2="32" width="0.254" layer="20"/>
+<wire x1="107" y1="26" x2="107" y2="12" width="0.254" layer="20"/>
+<wire x1="11" y1="58" x2="20" y2="58" width="0.254" layer="20"/>
+<wire x1="26" y1="58" x2="50" y2="58" width="0.254" layer="20"/>
+<wire x1="56" y1="58" x2="80" y2="58" width="0.254" layer="20"/>
+<wire x1="95" y1="0" x2="86" y2="0" width="0.254" layer="20"/>
+<wire x1="80" y1="0" x2="56" y2="0" width="0.254" layer="20"/>
+<wire x1="50" y1="0" x2="26" y2="0" width="0.254" layer="20"/>
+<wire x1="2" y1="48" x2="4" y2="48" width="0.254" layer="20"/>
+<wire x1="9" y1="53" x2="9" y2="56" width="0.254" layer="20"/>
+<wire x1="2" y1="10" x2="13" y2="10" width="0.254" layer="20"/>
+<wire x1="18" y1="5" x2="18" y2="4" width="0.254" layer="20"/>
+<wire x1="105" y1="48" x2="93" y2="48" width="0.254" layer="20"/>
+<wire x1="97" y1="2" x2="97" y2="5" width="0.254" layer="20"/>
+<wire x1="102" y1="10" x2="105" y2="10" width="0.254" layer="20"/>
+<wire x1="13" y1="10" x2="18" y2="5" width="0.254" layer="20" curve="-90"/>
+<wire x1="0" y1="12.5" x2="2" y2="10" width="0.254" layer="20" curve="90"/>
+<wire x1="0" y1="46.5" x2="2" y2="48" width="0.254" layer="20" curve="-90"/>
+<wire x1="4" y1="48" x2="9" y2="53" width="0.254" layer="20" curve="90"/>
+<wire x1="9" y1="56" x2="11" y2="58" width="0.254" layer="20" curve="-90"/>
+<wire x1="85.5" y1="55" x2="88" y2="53" width="0.254" layer="20" curve="-90"/>
+<wire x1="88" y1="53" x2="93" y2="48" width="0.254" layer="20" curve="90"/>
+<wire x1="105" y1="48" x2="107" y2="46" width="0.254" layer="20" curve="-90"/>
+<wire x1="107" y1="12" x2="105" y2="10" width="0.254" layer="20" curve="-90"/>
+<wire x1="102" y1="10" x2="97" y2="5" width="0.254" layer="20" curve="90"/>
+<wire x1="97" y1="2" x2="95" y2="0" width="0.254" layer="20" curve="-90"/>
+<wire x1="18" y1="4" x2="20" y2="2" width="0.254" layer="20" curve="90"/>
+<wire x1="50" y1="0" x2="50" y2="2" width="0.254" layer="20"/>
+<wire x1="50" y1="2" x2="56" y2="2" width="0.254" layer="20"/>
+<wire x1="56" y1="2" x2="56" y2="0" width="0.254" layer="20"/>
+<wire x1="50" y1="58" x2="50" y2="56" width="0.254" layer="20"/>
+<wire x1="50" y1="56" x2="56" y2="56" width="0.254" layer="20"/>
+<wire x1="56" y1="56" x2="56" y2="58" width="0.254" layer="20"/>
+<wire x1="20" y1="58" x2="20" y2="56" width="0.254" layer="20"/>
+<wire x1="20" y1="56" x2="26" y2="56" width="0.254" layer="20"/>
+<wire x1="26" y1="56" x2="26" y2="58" width="0.254" layer="20"/>
+<wire x1="80" y1="58" x2="80" y2="57" width="0.254" layer="20"/>
+<wire x1="82" y1="55" x2="85.5" y2="55" width="0.254" layer="20"/>
+<wire x1="26" y1="0" x2="26" y2="2" width="0.254" layer="20"/>
+<wire x1="26" y1="2" x2="20" y2="2" width="0.254" layer="20"/>
+<wire x1="86" y1="0" x2="86" y2="2" width="0.254" layer="20"/>
+<wire x1="86" y1="2" x2="80" y2="2" width="0.254" layer="20"/>
+<wire x1="80" y1="2" x2="80" y2="0" width="0.254" layer="20"/>
+<wire x1="80" y1="57" x2="82" y2="55" width="0.254" layer="20" curve="90"/>
+<wire x1="0" y1="32" x2="1" y2="32" width="0.254" layer="20"/>
+<wire x1="1" y1="32" x2="1" y2="26" width="0.254" layer="20"/>
+<wire x1="1" y1="26" x2="0" y2="26" width="0.254" layer="20"/>
+<wire x1="107" y1="32" x2="105" y2="32" width="0.254" layer="20"/>
+<wire x1="105" y1="32" x2="105" y2="26" width="0.254" layer="20"/>
+<wire x1="105" y1="26" x2="107" y2="26" width="0.254" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="58" x3="-3.5" y3="29" textsize="1.778" layer="51" extoffset="1" precision="3" visible="yes"/>
+<dimension x1="0" y1="0" x2="107" y2="0" x3="53.5" y3="-4" textsize="1.778" layer="51" extoffset="1" precision="3" visible="yes"/>
+<polygon width="0.5" layer="39" spacing="0.2">
+<vertex x="5.5" y="45.75" curve="-90"/>
+<vertex x="8.25" y="43" curve="-90"/>
+<vertex x="5.5" y="40.25" curve="-90"/>
+<vertex x="2.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="5.5" y="46.75" curve="-90"/>
+<vertex x="9.25" y="43" curve="-90"/>
+<vertex x="5.5" y="39.25" curve="-90"/>
+<vertex x="1.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="11" y="44.25"/>
+<vertex x="11" y="41.75"/>
+<vertex x="9" y="41.75"/>
+<vertex x="9" y="44.25"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="4.25" y="48.5"/>
+<vertex x="6.75" y="48.5"/>
+<vertex x="6.75" y="46.5"/>
+<vertex x="4.25" y="46.5"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="0" y="41.75"/>
+<vertex x="0" y="44.25"/>
+<vertex x="2" y="44.25"/>
+<vertex x="2" y="41.75"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="6.75" y="37.5"/>
+<vertex x="4.25" y="37.5"/>
+<vertex x="4.25" y="39.5"/>
+<vertex x="6.75" y="39.5"/>
+</polygon>
+<polygon width="0.5" layer="42" spacing="0.2">
+<vertex x="5.5" y="44.75" curve="-90"/>
+<vertex x="7.25" y="43" curve="-90"/>
+<vertex x="5.5" y="41.25" curve="-90"/>
+<vertex x="3.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="41" spacing="0.2">
+<vertex x="5.5" y="45.75" curve="-90"/>
+<vertex x="8.25" y="43" curve="-90"/>
+<vertex x="5.5" y="40.25" curve="-90"/>
+<vertex x="2.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="39" spacing="0.2">
+<vertex x="5.5" y="17.75" curve="-90"/>
+<vertex x="8.25" y="15" curve="-90"/>
+<vertex x="5.5" y="12.25" curve="-90"/>
+<vertex x="2.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="5.5" y="18.75" curve="-90"/>
+<vertex x="9.25" y="15" curve="-90"/>
+<vertex x="5.5" y="11.25" curve="-90"/>
+<vertex x="1.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="11" y="16.25"/>
+<vertex x="11" y="13.75"/>
+<vertex x="9" y="13.75"/>
+<vertex x="9" y="16.25"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="4.25" y="20.5"/>
+<vertex x="6.75" y="20.5"/>
+<vertex x="6.75" y="18.5"/>
+<vertex x="4.25" y="18.5"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="0" y="13.75"/>
+<vertex x="0" y="16.25"/>
+<vertex x="2" y="16.25"/>
+<vertex x="2" y="13.75"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="6.75" y="9.5"/>
+<vertex x="4.25" y="9.5"/>
+<vertex x="4.25" y="11.5"/>
+<vertex x="6.75" y="11.5"/>
+</polygon>
+<polygon width="0.5" layer="42" spacing="0.2">
+<vertex x="5.5" y="16.75" curve="-90"/>
+<vertex x="7.25" y="15" curve="-90"/>
+<vertex x="5.5" y="13.25" curve="-90"/>
+<vertex x="3.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="41" spacing="0.2">
+<vertex x="5.5" y="17.75" curve="-90"/>
+<vertex x="8.25" y="15" curve="-90"/>
+<vertex x="5.5" y="12.25" curve="-90"/>
+<vertex x="2.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="39" spacing="0.2">
+<vertex x="100.5" y="17.75" curve="-90"/>
+<vertex x="103.25" y="15" curve="-90"/>
+<vertex x="100.5" y="12.25" curve="-90"/>
+<vertex x="97.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="100.5" y="18.75" curve="-90"/>
+<vertex x="104.25" y="15" curve="-90"/>
+<vertex x="100.5" y="11.25" curve="-90"/>
+<vertex x="96.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="106" y="16.25"/>
+<vertex x="106" y="13.75"/>
+<vertex x="104" y="13.75"/>
+<vertex x="104" y="16.25"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="99.25" y="20.5"/>
+<vertex x="101.75" y="20.5"/>
+<vertex x="101.75" y="18.5"/>
+<vertex x="99.25" y="18.5"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="95" y="13.75"/>
+<vertex x="95" y="16.25"/>
+<vertex x="97" y="16.25"/>
+<vertex x="97" y="13.75"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="101.75" y="9.5"/>
+<vertex x="99.25" y="9.5"/>
+<vertex x="99.25" y="11.5"/>
+<vertex x="101.75" y="11.5"/>
+</polygon>
+<polygon width="0.5" layer="42" spacing="0.2">
+<vertex x="100.5" y="16.75" curve="-90"/>
+<vertex x="102.25" y="15" curve="-90"/>
+<vertex x="100.5" y="13.25" curve="-90"/>
+<vertex x="98.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="41" spacing="0.2">
+<vertex x="100.5" y="17.75" curve="-90"/>
+<vertex x="103.25" y="15" curve="-90"/>
+<vertex x="100.5" y="12.25" curve="-90"/>
+<vertex x="97.75" y="15" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="39" spacing="0.2">
+<vertex x="100.5" y="45.75" curve="-90"/>
+<vertex x="103.25" y="43" curve="-90"/>
+<vertex x="100.5" y="40.25" curve="-90"/>
+<vertex x="97.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="100.5" y="46.75" curve="-90"/>
+<vertex x="104.25" y="43" curve="-90"/>
+<vertex x="100.5" y="39.25" curve="-90"/>
+<vertex x="96.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="106" y="44.25"/>
+<vertex x="106" y="41.75"/>
+<vertex x="104" y="41.75"/>
+<vertex x="104" y="44.25"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="99.25" y="48.5"/>
+<vertex x="101.75" y="48.5"/>
+<vertex x="101.75" y="46.5"/>
+<vertex x="99.25" y="46.5"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="95" y="41.75"/>
+<vertex x="95" y="44.25"/>
+<vertex x="97" y="44.25"/>
+<vertex x="97" y="41.75"/>
+</polygon>
+<polygon width="0.5" layer="40" spacing="0.2">
+<vertex x="101.75" y="37.5"/>
+<vertex x="99.25" y="37.5"/>
+<vertex x="99.25" y="39.5"/>
+<vertex x="101.75" y="39.5"/>
+</polygon>
+<polygon width="0.5" layer="42" spacing="0.2">
+<vertex x="100.5" y="44.75" curve="-90"/>
+<vertex x="102.25" y="43" curve="-90"/>
+<vertex x="100.5" y="41.25" curve="-90"/>
+<vertex x="98.75" y="43" curve="-90"/>
+</polygon>
+<polygon width="0.5" layer="41" spacing="0.2">
+<vertex x="100.5" y="45.75" curve="-90"/>
+<vertex x="103.25" y="43" curve="-90"/>
+<vertex x="100.5" y="40.25" curve="-90"/>
+<vertex x="97.75" y="43" curve="-90"/>
+</polygon>
+</package>
+<package name="VELLEMAN_G362">
+<description>&lt;h1&gt;Velleman G362&lt;/h1&gt;
+&lt;h3&gt;SEALED ABS ENCLOSURE - DARK GRAY 2.1" x 2.0" x 1.4"&lt;/h3&gt;
+
+&lt;p&gt;These enclosures consist of high-impact ABS (operating temperature : -4°F to +212°F).&lt;p/&gt;
+&lt;p&gt;The lid and the base equipped with a tongue and groove sealing system with a neoprene gasket. The mounting holes and the lid-fixing screws are outside the sealed, which prevents moisture and dust from entering the enclosure. Internal guide slots allow the vertical mounting of PCB assemblies.&lt;/p&gt;
+&lt;p&gt;Designed to meet IP65 of IEC529 and NAMA4 (dust- and hoseproof).&lt;/p&gt;
+&lt;p&gt;The bosses on the internal base allow the horizontal fixing of PCBs or the connection of terminals, etc. &lt;strong&gt;with threaded brass inserts.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;material: ABS&lt;/li&gt;
+&lt;li&gt;dimensions: 2.1" x 2.0" x 1.4"&lt;/li&gt;
+&lt;li&gt;color: dark gray&lt;/li&gt;
+&lt;/li&gt;
+&lt;/p&gt;
+&lt;p&gt;Product homepage: &lt;a href="http://www.vellemanusa.com/products/view/?id=350362"&gt;http://www.vellemanusa.com/products/view/?id=350362&lt;/a&gt;</description>
+<wire x1="0" y1="12" x2="0" y2="30" width="0.5" layer="20"/>
+<wire x1="12" y1="42" x2="31.9" y2="42" width="0.5" layer="20"/>
+<wire x1="43.9" y1="30" x2="43.9" y2="12" width="0.5" layer="20"/>
+<wire x1="31.9" y1="0" x2="12" y2="0" width="0.5" layer="20"/>
+<wire x1="9" y1="39" x2="3" y2="33" width="0.5" layer="20" curve="-90"/>
+<wire x1="3" y1="33" x2="0" y2="30" width="0.5" layer="20" curve="90"/>
+<wire x1="9" y1="39" x2="12" y2="42" width="0.5" layer="20" curve="-90"/>
+<wire x1="34.9" y1="39" x2="40.9" y2="33" width="0.5" layer="20" curve="90"/>
+<wire x1="40.9" y1="33" x2="43.9" y2="30" width="0.5" layer="20" curve="-90"/>
+<wire x1="34.9" y1="39" x2="31.9" y2="42" width="0.5" layer="20" curve="90"/>
+<wire x1="34.9" y1="3" x2="40.9" y2="9" width="0.5" layer="20" curve="-90"/>
+<wire x1="40.9" y1="9" x2="43.9" y2="12" width="0.5" layer="20" curve="90"/>
+<wire x1="34.9" y1="3" x2="31.9" y2="0" width="0.5" layer="20" curve="-90"/>
+<wire x1="9" y1="3" x2="3" y2="9" width="0.5" layer="20" curve="90"/>
+<wire x1="3" y1="9" x2="0" y2="12" width="0.5" layer="20" curve="-90"/>
+<wire x1="9" y1="3" x2="12" y2="0" width="0.5" layer="20" curve="90"/>
+<wire x1="-2" y1="3" x2="3" y2="-2" width="0.5" layer="49" curve="90"/>
+<wire x1="-2" y1="3" x2="-2" y2="39" width="0.5" layer="49"/>
+<wire x1="3" y1="-2" x2="40.9" y2="-2" width="0.5" layer="49"/>
+<wire x1="40.9" y1="-2" x2="45.9" y2="3" width="0.5" layer="49" curve="90"/>
+<wire x1="45.9" y1="3" x2="45.9" y2="39" width="0.5" layer="49"/>
+<wire x1="45.9" y1="39" x2="40.9" y2="44" width="0.5" layer="49" curve="90"/>
+<wire x1="40.9" y1="44" x2="3" y2="44" width="0.5" layer="49"/>
+<wire x1="-2" y1="39" x2="3" y2="44" width="0.5" layer="49" curve="-90"/>
+<circle x="40.4" y="38.5" radius="2.5" width="0.5" layer="49"/>
+<circle x="3.5" y="3.5" radius="2.5" width="0.5" layer="49"/>
+<hole x="13.6" y="21" drill="3.175"/>
+<hole x="30.3" y="21" drill="3.175"/>
+<polygon width="0.4" layer="39" spacing="0.2">
+<vertex x="10.8" y="21" curve="-90"/>
+<vertex x="13.6" y="23.8" curve="-90"/>
+<vertex x="16.4" y="21" curve="-90"/>
+<vertex x="13.6" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="41" spacing="0.2">
+<vertex x="10.8" y="21" curve="-90"/>
+<vertex x="13.6" y="23.8" curve="-90"/>
+<vertex x="16.4" y="21" curve="-90"/>
+<vertex x="13.6" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="40" spacing="0.2">
+<vertex x="10.8" y="21" curve="-90"/>
+<vertex x="13.6" y="23.8" curve="-90"/>
+<vertex x="16.4" y="21" curve="-90"/>
+<vertex x="13.6" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="42" spacing="0.2">
+<vertex x="10.8" y="21" curve="-90"/>
+<vertex x="13.6" y="23.8" curve="-90"/>
+<vertex x="16.4" y="21" curve="-90"/>
+<vertex x="13.6" y="18.2" curve="-90"/>
+</polygon>
+<wire x1="13.6" y1="13" x2="13.6" y2="29" width="2" layer="40"/>
+<polygon width="0.4" layer="39" spacing="0.2">
+<vertex x="27.5" y="21" curve="-90"/>
+<vertex x="30.3" y="23.8" curve="-90"/>
+<vertex x="33.1" y="21" curve="-90"/>
+<vertex x="30.3" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="41" spacing="0.2">
+<vertex x="27.5" y="21" curve="-90"/>
+<vertex x="30.3" y="23.8" curve="-90"/>
+<vertex x="33.1" y="21" curve="-90"/>
+<vertex x="30.3" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="40" spacing="0.2">
+<vertex x="27.5" y="21" curve="-90"/>
+<vertex x="30.3" y="23.8" curve="-90"/>
+<vertex x="33.1" y="21" curve="-90"/>
+<vertex x="30.3" y="18.2" curve="-90"/>
+</polygon>
+<polygon width="0.4" layer="42" spacing="0.2">
+<vertex x="27.5" y="21" curve="-90"/>
+<vertex x="30.3" y="23.8" curve="-90"/>
+<vertex x="33.1" y="21" curve="-90"/>
+<vertex x="30.3" y="18.2" curve="-90"/>
+</polygon>
+<wire x1="30.3" y1="13" x2="30.3" y2="29" width="2" layer="40"/>
+<dimension x1="-3" y1="0" x2="-3" y2="42" x3="-6" y3="21" textsize="1.27" layer="51" visible="yes"/>
+<dimension x1="0" y1="-3" x2="43.9" y2="-3" x3="21.95" y3="-6" textsize="1.27" layer="51" visible="yes"/>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="VELLEMAN-300-SERIES-WATERPROOF-CASE">
+<description>&lt;h1&gt;Velleman 300 series Sealed ABS Enclosures&lt;/h1&gt;
+
+&lt;p&gt;These enclosures consist of high-impact ABS (operating temperature : -4°F to +212°F).&lt;p/&gt;
+&lt;p&gt;The lid and the base equipped with a tongue and groove sealing system with a neoprene gasket. The mounting holes and the lid-fixing screws are outside the sealed, which prevents moisture and dust from entering the enclosure. Internal guide slots allow the vertical mounting of PCB assemblies.&lt;/p&gt;
+&lt;p&gt;Designed to meet IP65 of IEC529 and NAMA4 (dust- and hoseproof).&lt;/p&gt;
+&lt;p&gt;The bosses on the internal base allow the horizontal fixing of PCBs or the connection of terminals, etc. &lt;strong&gt;with threaded brass inserts.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;material: ABS&lt;/li&gt;
+&lt;li&gt;dimensions: Multiple&lt;/li&gt;
+&lt;li&gt;color: dark gray&lt;/li&gt;
+&lt;/li&gt;
+&lt;/p&gt;
+&lt;p&gt;Product homepage: &lt;a href="http://www.vellemanusa.com/products/list/?id=344207"&gt;http://www.vellemanusa.com/products/list/?id=344207&lt;/a&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="G304" package="VELLEMAN_G304">
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Velleman" constant="no"/>
+<attribute name="PARTNUM" value="G304" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="G308" package="VELLEMAN_G304">
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Velleman" constant="no"/>
+<attribute name="PARTNUM" value="G308" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="G362" package="VELLEMAN_G362">
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Velleman" constant="no"/>
+<attribute name="PARTNUM" value="G362" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

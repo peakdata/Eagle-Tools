@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt;Voltage Regulator&lt;/h3&gt;</description>
+<packages>
+<package name="SOT23-6">
+<wire x1="-1.524" y1="0.762" x2="-1.524" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.508" x2="1.27" y2="-0.508" width="0.3048" layer="21"/>
+<wire x1="-1.524" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="1.524" y1="-0.762" x2="-1.524" y2="-0.762" width="0.127" layer="51"/>
+<smd name="VIN" x="0" y="1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="GND" x="0" y="-1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="SW" x="-1.016" y="1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="BOOST" x="-1.016" y="-1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="FB" x="1.016" y="-1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<smd name="EN/DIM" x="1.016" y="1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<text x="-1.778" y="-1.778" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.778" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.143" y1="0.762" x2="-0.889" y2="1.651" layer="51"/>
+<rectangle x1="-0.127" y1="0.762" x2="0.127" y2="1.651" layer="51"/>
+<rectangle x1="0.889" y1="0.762" x2="1.143" y2="1.651" layer="51"/>
+<rectangle x1="0.889" y1="-1.651" x2="1.143" y2="-0.762" layer="51"/>
+<rectangle x1="-0.127" y1="-1.651" x2="0.127" y2="-0.762" layer="51"/>
+<rectangle x1="-1.143" y1="-1.651" x2="-0.889" y2="-0.762" layer="51"/>
+</package>
+<package name="TO92D">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
+grid 2.54 mm</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.1524" layer="21" curve="-111.098957" cap="flat"/>
+<wire x1="0.7868" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.09954" cap="flat"/>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.1524" layer="51" curve="-34.293591" cap="flat"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="0" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="MSOP8">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.44" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.44" dy="1" layer="1"/>
+<text x="-2.286" y="-2.54" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-2.54" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
+</package>
+<package name="SOT23">
+<wire x1="1.4224" y1="0.8104" x2="1.4224" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.8104" x2="-1.4224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="51"/>
+<wire x1="-0.5224" y1="0.8104" x2="0.5224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-0.5656" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.8104" x2="0.5656" y2="-0.8104" width="0.1524" layer="21"/>
+<wire x1="1.3276" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.8104" x2="-1.3276" y2="0.8104" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="1" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="0.8104" y1="-1.4224" x2="-0.8104" y2="-1.4224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="-1.4224" x2="-0.8104" y2="1.4224" width="0.1524" layer="51"/>
+<wire x1="-0.8104" y1="1.4224" x2="0.8104" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="-1.4224" width="0.1524" layer="51"/>
+<wire x1="0.8104" y1="0.5224" x2="0.8104" y2="-0.5224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="0.4276" x2="-0.8104" y2="0.5224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="-0.5224" x2="-0.8104" y2="-0.4276" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="1.3276" x2="-0.8104" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="-1.4224" x2="-0.8104" y2="-1.3276" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="-1.3276" x2="0.8104" y2="-1.4224" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="1.3276" width="0.1524" layer="21"/>
+<wire x1="-0.4" y1="1" x2="-0.4" y2="1.1" width="0.127" layer="21"/>
+<smd name="1" x="-1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-1.3001" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-0.325" x2="-0.925" y2="0.325" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R270"/>
+</package>
+<package name="TSSOP16">
+<wire x1="-2.2" y1="2" x2="-2.2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.8" y1="2" x2="2.8" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="2" x2="-2" y2="2.2" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2" y1="2.2" x2="2.6" y2="2.2" width="0.127" layer="51"/>
+<wire x1="2.6" y1="2.2" x2="2.8" y2="2" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.8" y1="-2" x2="2.6" y2="-2.2" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.6" y1="-2.2" x2="-2" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2.2" x2="-2.2" y2="-2" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.95" y1="2.3" x2="-1.95" y2="3.2" width="0.25" layer="51"/>
+<wire x1="-1.3" y1="2.3" x2="-1.3" y2="3.2" width="0.25" layer="51"/>
+<wire x1="-0.65" y1="2.3" x2="-0.65" y2="3.2" width="0.25" layer="51"/>
+<wire x1="0" y1="2.3" x2="0" y2="3.2" width="0.25" layer="51"/>
+<wire x1="0.65" y1="2.3" x2="0.65" y2="3.2" width="0.25" layer="51"/>
+<wire x1="1.3" y1="2.3" x2="1.3" y2="3.2" width="0.25" layer="51"/>
+<wire x1="1.95" y1="2.3" x2="1.95" y2="3.2" width="0.25" layer="51"/>
+<wire x1="2.6" y1="2.3" x2="2.6" y2="3.2" width="0.25" layer="51"/>
+<wire x1="2.6" y1="-3.2" x2="2.6" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="1.95" y1="-3.2" x2="1.95" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="1.3" y1="-3.2" x2="1.3" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="0.65" y1="-3.2" x2="0.65" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="0" y1="-3.2" x2="0" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="-0.65" y1="-3.2" x2="-0.65" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="-1.3" y1="-3.2" x2="-1.3" y2="-2.3" width="0.25" layer="51"/>
+<wire x1="-1.95" y1="-3.2" x2="-1.95" y2="-2.3" width="0.25" layer="51"/>
+<circle x="-1.3" y="-1.1" radius="0.5" width="0.127" layer="21"/>
+<smd name="4" x="0" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="3" x="-0.65" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="2" x="-1.3" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="1" x="-1.95" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="5" x="0.65" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="6" x="1.3" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="7" x="1.95" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="8" x="2.6" y="-3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="9" x="2.6" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="10" x="1.95" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="11" x="1.3" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="12" x="0.65" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="13" x="0" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="14" x="-0.65" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="15" x="-1.3" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<smd name="16" x="-1.95" y="3" dx="1.78" dy="0.42" layer="1" rot="R90"/>
+<text x="-3" y="-3" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="5" y="-3" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SC70-5_DCK">
+<description>TI TLV700xx SC70-5 DCK Package</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.7" x2="-1.1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.7" x2="1.1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="1.1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0.7" x2="-0.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="1.2" y2="1.6" width="0.127" layer="39"/>
+<wire x1="1.2" y1="1.6" x2="1.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="1.2" y1="-1.6" x2="-1.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="-1.2" y1="-1.6" x2="-1.2" y2="1.6" width="0.127" layer="39"/>
+<smd name="2" x="0" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.5" y="-2.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-1.2" x2="-0.55" y2="-0.7" layer="51"/>
+<rectangle x1="-0.1" y1="-1.2" x2="0.1" y2="-0.7" layer="51"/>
+<rectangle x1="0.55" y1="-1.2" x2="0.75" y2="-0.7" layer="51"/>
+<rectangle x1="0.55" y1="0.7" x2="0.75" y2="1.2" layer="51"/>
+<rectangle x1="-0.75" y1="0.7" x2="-0.55" y2="1.2" layer="51"/>
+</package>
+<package name="SOT223-6">
+<description>&lt;h3&gt;SOT223 6 Lead Package&lt;/h3&gt;
+&lt;p&gt;TI DCQ package, from &lt;a href="http://focus.ti.com/lit/ml/mpds098c/mpds098c.pdf"&gt;Mechanical Datasheet&lt;/a&gt;.&lt;/p&gt;</description>
+<wire x1="3.302" y1="1.778" x2="3.302" y2="-1.778" width="0.254" layer="21"/>
+<wire x1="3.302" y1="-1.778" x2="-3.302" y2="-1.778" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="-1.778" x2="-3.302" y2="1.778" width="0.254" layer="21"/>
+<wire x1="-3.302" y1="1.778" x2="3.302" y2="1.778" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-3.6322" width="0.4064" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="-3.6322" width="0.4064" layer="51"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-3.6322" width="0.4064" layer="51"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="-3.6322" width="0.4064" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-3.6322" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="39"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-1.905" x2="-3.175" y2="-4.445" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-4.445" x2="3.175" y2="-4.445" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-4.445" x2="3.175" y2="-1.905" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="39"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="39"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="39"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="3.81" width="0.254" layer="39"/>
+<wire x1="1.905" y1="3.81" x2="-1.905" y2="3.81" width="0.254" layer="39"/>
+<wire x1="-1.905" y1="3.81" x2="-1.905" y2="1.905" width="0.254" layer="39"/>
+<wire x1="-1.905" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="39"/>
+<smd name="1" x="-2.54" y="-3.175" dx="0.762" dy="1.651" layer="1"/>
+<smd name="2" x="-1.27" y="-3.175" dx="0.762" dy="1.651" layer="1"/>
+<smd name="3" x="0" y="-3.175" dx="0.762" dy="1.651" layer="1"/>
+<smd name="4" x="1.27" y="-3.175" dx="0.762" dy="1.651" layer="1"/>
+<smd name="5" x="2.54" y="-3.175" dx="0.762" dy="1.651" layer="1"/>
+<smd name="6" x="0" y="3.3655" dx="1.016" dy="3.556" layer="1" rot="R90"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="1.778" x2="1.524" y2="3.6322" layer="51"/>
+</package>
+<package name="R-PDSO-G20">
+<description>&lt;h3&gt;TI PWP (R-PDSO-G20) PowerPad Plastic Small Outline&lt;/h3&gt;</description>
+<wire x1="-3.3" y1="2.25" x2="-3.3" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="3.3" y1="2.25" x2="3.3" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.25" x2="3.3" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-2.25" x2="3.3" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="3.9" x2="3.25" y2="3.9" width="0.127" layer="39"/>
+<wire x1="3.25" y1="3.9" x2="3.25" y2="2.6" width="0.127" layer="39"/>
+<wire x1="3.25" y1="2.6" x2="3.5" y2="2.6" width="0.127" layer="39"/>
+<wire x1="3.5" y1="2.6" x2="3.5" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="3.5" y1="-2.6" x2="3.25" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-2.6" x2="3.25" y2="-3.9" width="0.127" layer="39"/>
+<wire x1="3.25" y1="-3.9" x2="-3.25" y2="-3.9" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-3.9" x2="-3.25" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="-2.6" x2="-3.5" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="-2.6" x2="-3.5" y2="2.6" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="2.6" x2="-3.25" y2="2.6" width="0.127" layer="39"/>
+<wire x1="-3.25" y1="2.6" x2="-3.25" y2="3.9" width="0.127" layer="39"/>
+<circle x="-2.8" y="-1.4" radius="0.1" width="0.3" layer="21"/>
+<smd name="1" x="-2.925" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-2.275" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-1.625" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-0.975" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-0.325" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.975" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="1.625" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="2.275" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="2.925" y="-2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="2.925" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="2.275" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="1.625" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="0.975" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="0.325" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-0.325" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-0.975" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-1.625" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="-2.275" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="-2.925" y="2.8" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="0" dx="2.4" dy="3.38" layer="1" rot="R90"/>
+<text x="-3.9" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.2" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.975" y1="2.25" x2="-2.875" y2="3.3" layer="51"/>
+<rectangle x1="-2.325" y1="2.25" x2="-2.225" y2="3.3" layer="51"/>
+<rectangle x1="-1.675" y1="2.25" x2="-1.575" y2="3.3" layer="51"/>
+<rectangle x1="-1.025" y1="2.25" x2="-0.925" y2="3.3" layer="51"/>
+<rectangle x1="-0.375" y1="2.25" x2="-0.275" y2="3.3" layer="51"/>
+<rectangle x1="0.275" y1="2.25" x2="0.375" y2="3.3" layer="51"/>
+<rectangle x1="0.925" y1="2.25" x2="1.025" y2="3.3" layer="51"/>
+<rectangle x1="1.575" y1="2.25" x2="1.675" y2="3.3" layer="51"/>
+<rectangle x1="2.225" y1="2.25" x2="2.325" y2="3.3" layer="51"/>
+<rectangle x1="2.875" y1="2.25" x2="2.975" y2="3.3" layer="51"/>
+<rectangle x1="2.875" y1="-3.3" x2="2.975" y2="-2.25" layer="51"/>
+<rectangle x1="2.225" y1="-3.3" x2="2.325" y2="-2.25" layer="51"/>
+<rectangle x1="1.575" y1="-3.3" x2="1.675" y2="-2.25" layer="51"/>
+<rectangle x1="0.925" y1="-3.3" x2="1.025" y2="-2.25" layer="51"/>
+<rectangle x1="0.275" y1="-3.3" x2="0.375" y2="-2.25" layer="51"/>
+<rectangle x1="0.275" y1="-3.3" x2="0.375" y2="-2.25" layer="51"/>
+<rectangle x1="-0.375" y1="-3.3" x2="-0.275" y2="-2.25" layer="51"/>
+<rectangle x1="-1.025" y1="-3.3" x2="-0.925" y2="-2.25" layer="51"/>
+<rectangle x1="-1.675" y1="-3.3" x2="-1.575" y2="-2.25" layer="51"/>
+<rectangle x1="-2.325" y1="-3.3" x2="-2.225" y2="-2.25" layer="51"/>
+<rectangle x1="-2.975" y1="-3.3" x2="-2.875" y2="-2.25" layer="51"/>
+</package>
+<package name="8_SO-EP">
+<description>&lt;h3&gt;Thermally enhanced 5mm x 4mm 8-pin SO package&lt;/h3&gt;
+&lt;p&gt;Maxim Package Land Pattern [S8E-12 / S8E+12]&lt;/p&gt;
+&lt;p&gt;10/19/2011, document number 90-0150&lt;/p&gt;</description>
+<wire x1="-2.032" y1="2.54" x2="2.032" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-2.54" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="2.54" x2="-2.032" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="2.032" y1="2.54" x2="2.032" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.127" layer="39"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="39"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="39"/>
+<circle x="-1.27" y="2.032" radius="0.254" width="0.127" layer="21"/>
+<smd name="1" x="-2.6543" y="1.905" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="2" x="-2.6543" y="0.635" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="3" x="-2.6543" y="-0.635" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="4" x="-2.6543" y="-1.905" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="5" x="2.6543" y="-1.905" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="6" x="2.6543" y="-0.635" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="7" x="2.6543" y="0.635" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="8" x="2.6543" y="1.905" dx="0.5334" dy="1.6002" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="0" dx="2.413" dy="3.0988" layer="1"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="1.651" x2="-2.032" y2="2.159" layer="51"/>
+<rectangle x1="-3.048" y1="0.381" x2="-2.032" y2="0.889" layer="51"/>
+<rectangle x1="-3.048" y1="-0.889" x2="-2.032" y2="-0.381" layer="51"/>
+<rectangle x1="-3.048" y1="-2.159" x2="-2.032" y2="-1.651" layer="51"/>
+<rectangle x1="2.032" y1="-2.159" x2="3.048" y2="-1.651" layer="51"/>
+<rectangle x1="2.032" y1="-0.889" x2="3.048" y2="-0.381" layer="51"/>
+<rectangle x1="2.032" y1="0.381" x2="3.048" y2="0.889" layer="51"/>
+<rectangle x1="2.032" y1="1.651" x2="3.048" y2="2.159" layer="51"/>
+</package>
+<package name="PSOP-8">
+<description>&lt;h3&gt;8-Lead Plastic PSOP-8&lt;/h3&gt;
+&lt;p&gt;Package NS Package Number MRA08B&lt;/p&gt;
+&lt;p&gt;From LM22672 datasheet, added 6/5/2012&lt;/p&gt;</description>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="2.925" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="2.925" x2="2.54" y2="2.925" width="0.127" layer="39"/>
+<wire x1="2.54" y1="2.925" x2="2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="39"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-2.925" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.925" x2="-2.54" y2="-2.925" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-2.925" x2="-2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="39"/>
+<smd name="1" x="-2.78" y="1.905" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="2" x="-2.78" y="0.635" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="3" x="-2.78" y="-0.635" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="4" x="-2.78" y="-1.905" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="5" x="2.78" y="-1.905" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="6" x="2.78" y="-0.635" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="7" x="2.78" y="0.635" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="8" x="2.78" y="1.905" dx="0.61" dy="1.91" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="0" dx="2.41" dy="3.1" layer="1"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.5" x2="-2" y2="2.5" width="0.127" layer="51"/>
+<rectangle x1="-3" y1="1.655" x2="-2" y2="2.155" layer="51"/>
+<rectangle x1="2" y1="1.655" x2="3" y2="2.155" layer="51"/>
+<rectangle x1="-3" y1="0.405" x2="-2" y2="0.905" layer="51"/>
+<rectangle x1="-3" y1="-0.895" x2="-2" y2="-0.395" layer="51"/>
+<rectangle x1="-3" y1="-2.145" x2="-2" y2="-1.645" layer="51"/>
+<rectangle x1="2" y1="0.405" x2="3" y2="0.905" layer="51"/>
+<rectangle x1="2" y1="-0.895" x2="3" y2="-0.395" layer="51"/>
+<rectangle x1="2" y1="-2.145" x2="3" y2="-1.645" layer="51"/>
+<circle x="-1.35" y="2" radius="0.25" width="0.127" layer="21"/>
+</package>
+<package name="µMAX">
+<description>&lt;h3&gt;µMax 8 Package&lt;/h3&gt;
+&lt;p&gt;Pakage outline based on Maxim document 21-0036 Rev. I&lt;/p&gt;
+&lt;p&gt;Land pattern based on Maxim document 90-0092 Rev. B&lt;/p&gt;
+&lt;p&gt;Added 6/6/2012&lt;/p&gt;</description>
+<smd name="P$2" x="-2.15" y="0.325" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$1" x="-2.15" y="0.975" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$3" x="-2.15" y="-0.325" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$4" x="-2.15" y="-0.975" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$5" x="2.15" y="-0.975" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$6" x="2.15" y="-0.325" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$7" x="2.15" y="0.325" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$8" x="2.15" y="0.975" dx="1.35" dy="0.4" layer="1"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="51"/>
+<circle x="-1" y="1" radius="0.25" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.3" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.3" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="-1.3" width="0.127" layer="21"/>
+<rectangle x1="-2.5" y1="0.825" x2="-1.6" y2="1.125" layer="21"/>
+<rectangle x1="-2.5" y1="0.175" x2="-1.6" y2="0.475" layer="21"/>
+<rectangle x1="-2.5" y1="-0.475" x2="-1.6" y2="-0.175" layer="21"/>
+<rectangle x1="-2.5" y1="-1.125" x2="-1.6" y2="-0.825" layer="21"/>
+<rectangle x1="1.6" y1="-1.125" x2="2.5" y2="-0.825" layer="21"/>
+<rectangle x1="1.6" y1="-0.475" x2="2.5" y2="-0.175" layer="21"/>
+<rectangle x1="1.6" y1="0.175" x2="2.5" y2="0.475" layer="21"/>
+<rectangle x1="1.6" y1="0.825" x2="2.5" y2="1.125" layer="21"/>
+<wire x1="-2" y1="2" x2="-2" y2="1.5" width="0.127" layer="39"/>
+<wire x1="-2" y1="1.5" x2="-3" y2="1.5" width="0.127" layer="39"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="-3" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="-2" width="0.127" layer="39"/>
+<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.127" layer="39"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="2" y1="-1.5" x2="3" y2="-1.5" width="0.127" layer="39"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1.5" width="0.127" layer="39"/>
+<wire x1="3" y1="1.5" x2="2" y2="1.5" width="0.127" layer="39"/>
+<wire x1="2" y1="1.5" x2="2" y2="2" width="0.127" layer="39"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.127" layer="39"/>
+<text x="-2" y="2" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2" y="-3.5" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LM3405">
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="EN/DIM" x="-17.78" y="-10.16" length="middle"/>
+<pin name="FB" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SW" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="BOOST" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="VIN" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND" x="0" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="L4931_SERIES">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="sup"/>
+</symbol>
+<symbol name="LM3478">
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.715" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="ISEN" x="-15.24" y="2.54" length="middle"/>
+<pin name="COMP" x="-15.24" y="0" length="middle"/>
+<pin name="FB" x="-15.24" y="-2.54" length="middle"/>
+<pin name="AGND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PGND" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="DR" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="FA/SD" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="VIN" x="15.24" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LM3480">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.4064" layer="94"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pwr"/>
+</symbol>
+<symbol name="LM4120">
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="9.144" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="0" visible="pin" length="short" direction="pwr"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="REF" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="LM5007">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-6.35" y="8.89" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-6.35" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="VIN" x="-12.7" y="5.08" length="middle"/>
+<pin name="SD" x="-12.7" y="2.54" length="middle"/>
+<pin name="FB" x="-12.7" y="-5.08" length="middle"/>
+<pin name="RCL" x="-12.7" y="0" length="middle"/>
+<pin name="RTN" x="-12.7" y="-2.54" length="middle"/>
+<pin name="VCC" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="BST" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SW" x="12.7" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LM5574">
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.4064" layer="94"/>
+<text x="-7.62" y="13.462" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="13.462" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="VIN" x="-10.16" y="7.62" length="short"/>
+<pin name="SYNC" x="-10.16" y="0" length="short"/>
+<pin name="SD" x="-10.16" y="10.16" length="short"/>
+<pin name="RT" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="VCC" x="-10.16" y="2.54" length="short"/>
+<pin name="SS" x="-10.16" y="5.08" length="short"/>
+<pin name="RAMP" x="-10.16" y="-2.54" length="short"/>
+<pin name="PRE" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="AGND" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="PGND" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="COMP" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="FB" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="OUT" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="IS" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="SW" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="BST" x="10.16" y="10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="LMS5214">
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="9.144" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<pin name="OUT" x="7.62" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+</symbol>
+<symbol name="VREG-WITH-EN">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="OUT" x="10.16" y="0" length="short" rot="R180"/>
+</symbol>
+<symbol name="VREG-EN-NR">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="2.54" length="short"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+<pin name="NR" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="GND@1" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND@2" x="10.16" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="SUPERVISOR-3-PIN">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="!RES" x="10.16" y="0" length="short" rot="R180"/>
+</symbol>
+<symbol name="TPS3836">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="-10.16" y="2.54" length="short"/>
+<pin name="CT" x="-10.16" y="0" length="short"/>
+<pin name="!MR" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="RES" x="10.16" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="MAX1724">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BATT" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="0" length="short"/>
+<pin name="!SHDN" x="-10.16" y="-2.54" length="short"/>
+<pin name="LX" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="OUT" x="10.16" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="TPS60140">
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="23.622" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND@1" x="-12.7" y="-10.16" length="short"/>
+<pin name="GND@2" x="-12.7" y="-12.7" length="short"/>
+<pin name="ENABLE" x="-12.7" y="12.7" length="short"/>
+<pin name="FB" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="OUT" x="12.7" y="20.32" length="short" rot="R180"/>
+<pin name="C1+" x="-12.7" y="7.62" length="short"/>
+<pin name="IN@1" x="-12.7" y="20.32" length="short"/>
+<pin name="C1-" x="-12.7" y="5.08" length="short"/>
+<pin name="PGND@1" x="-12.7" y="0" length="short"/>
+<pin name="PGND@2" x="-12.7" y="-2.54" length="short"/>
+<pin name="PGND@3" x="-12.7" y="-5.08" length="short"/>
+<pin name="PGND@4" x="-12.7" y="-7.62" length="short"/>
+<pin name="C2-" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="IN@2" x="-12.7" y="17.78" length="short"/>
+<pin name="C2+" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="NC" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="LBO" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="LBI" x="-12.7" y="15.24" length="short"/>
+<pin name="GND@3" x="-12.7" y="-15.24" length="short"/>
+<pin name="GND@4" x="-12.7" y="-17.78" length="short"/>
+<pin name="PAD" x="12.7" y="-17.78" length="short" rot="R180"/>
+</symbol>
+<symbol name="MAX16910">
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" length="short"/>
+<pin name="EN" x="-10.16" y="2.54" length="short"/>
+<pin name="SET" x="-10.16" y="0" length="short"/>
+<pin name="GND@1" x="-10.16" y="-5.08" length="short"/>
+<pin name="TIMEOUT" x="-10.16" y="-2.54" length="short"/>
+<pin name="!RESET" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SETOV" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="OUT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+<symbol name="TC54">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-10.16" y="0" length="short"/>
+<pin name="VSS" x="-10.16" y="-2.54" length="short"/>
+<pin name="VOUT" x="10.16" y="0" length="short" rot="R180"/>
+</symbol>
+<symbol name="LM22672">
+<description>&lt;h3&gt;LM22672 1A SIMPLE SWITCHER, Step-Down Voltage Regulator&lt;h3&gt;
+
+&lt;p&gt;Added 6/5/2012&lt;/p&gt;</description>
+<pin name="VIN" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="GND@1" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="GND@PAD" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="RT/SYNC" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="SS" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="EN" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="SW" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="BOOT" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="FB" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MAX1795-7">
+<description>&lt;h3&gt;Maxim Low Supply Current, Step-Up DC-DC Converters with True-Shutdown&lt;/h3&gt;
+&lt;p&gt;Added 6/6/2012&lt;/p&gt;</description>
+<pin name="LBI" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="FB" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="LBO" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="SHDN" x="-10.16" y="-5.08" length="short" direction="pas"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="LX" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="BATT" x="-10.16" y="2.54" length="short" direction="pas"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="97">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM3405" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Switchmode Regulator&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM3405" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="BOOST" pad="BOOST"/>
+<connect gate="G$1" pin="EN/DIM" pad="EN/DIM"/>
+<connect gate="G$1" pin="FB" pad="FB"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SW" pad="SW"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L4931_SERIES" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Linear Regulator&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="L4931_SERIES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92D">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3478" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;LM3478/LM3478Q&lt;/h2&gt;
+&lt;h3&gt;High Efficiency Low-Side N-Channel Controller for Switching Regulator&lt;/h3&gt;
+&lt;p&gt;General Description&lt;/p&gt;
+&lt;p&gt;The LM3478 is a versatile Low-Side N-Channel MOSFET controller for switching regulators. It is suitable for use in topologies requiring a low side MOSFET, such as boost, flyback, SEPIC, etc.
+Moreover, the LM3478 can be operated at extremely high switching frequency in order to reduce the overall solution size. The switching frequency of the LM3478 can be adjusted to any value between 100kHz and 1MHz by using a single external resistor.
+&lt;b&gt;Current mode control&lt;/b&gt; provides superior bandwidth and transient response, besides cycle-by-cycle current limiting. Output current can be pro- 
+grammed with a single external resistor. The LM3478 has built in features such as thermal shutdown, short-circuit protection, over voltage protection, etc.
+Power saving shutdown mode reduces the total supply current to 5µA and allows power supply sequencing. Internal soft-start limits the inrush current at start-up.&lt;/p&gt;
+&lt;ul&gt;
+Key Specifications:
+&lt;li&gt;Wide supply voltage range of 2.97V to 40V&lt;/li&gt;
+&lt;li&gt;100kHz to 1MHz Adjustable clock frequency&lt;/li&gt;
+&lt;li&gt;±2.5% (over temperature) internal reference&lt;/li&gt;
+&lt;li&gt;10µA shutdown current (over temperature)&lt;/li&gt;
+Features:
+&lt;li&gt;LM3478Q is AEC-Q100 qualified and manufactured on an Automotive Grade Flow&lt;/li&gt;
+&lt;li&gt;8-lead Mini-SO8 (MSOP-8) package&lt;/li&gt;
+&lt;li&gt;Internal push-pull driver with 1A peak current capability&lt;/li&gt;
+&lt;li&gt;Current limit and thermal shutdown&lt;/li&gt;
+&lt;li&gt;Frequency compensation optimized with a capacitor and a resistor&lt;/li&gt;
+&lt;li&gt;Internal softstart&lt;/li&gt;
+&lt;li&gt;Current Mode Operation&lt;/li&gt;
+&lt;li&gt;Undervoltage Lockout with hysteresis&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM3478" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="COMP" pad="2"/>
+<connect gate="G$1" pin="DR" pad="6"/>
+<connect gate="G$1" pin="FA/SD" pad="7"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="ISEN" pad="1"/>
+<connect gate="G$1" pin="PGND" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM3480" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;100 mA Low Dropout Linear Voltage Regulator&lt;/b&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM3480" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM4120" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;LM4120 LDO Voltage Reference&lt;/b&gt;
+Precision Micropower Low Dropout Voltage Reference. 5ma Source/Sink capability, 120mV dropout voltage. 160uA supply current. Up to 12V input voltage, +-0.2%/+-0.5% output voltage accuracy.</description>
+<gates>
+<gate name="G$1" symbol="LM4120" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="REF" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM5007" prefix="IC" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LM5007" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP8">
+<connects>
+<connect gate="G$1" pin="BST" pad="2"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="RCL" pad="3"/>
+<connect gate="G$1" pin="RTN" pad="4"/>
+<connect gate="G$1" pin="SD" pad="6"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM5574" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;LM5574&lt;/b&gt;&lt;br&gt;
+SIMPLE SWITCHER 75V, 0.5A Step-Down Switching Regulator&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM5574" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP16">
+<connects>
+<connect gate="G$1" pin="AGND" pad="9"/>
+<connect gate="G$1" pin="BST" pad="16"/>
+<connect gate="G$1" pin="COMP" pad="5"/>
+<connect gate="G$1" pin="FB" pad="6"/>
+<connect gate="G$1" pin="IS" pad="13"/>
+<connect gate="G$1" pin="OUT" pad="11"/>
+<connect gate="G$1" pin="PGND" pad="12"/>
+<connect gate="G$1" pin="PRE" pad="15"/>
+<connect gate="G$1" pin="RAMP" pad="8"/>
+<connect gate="G$1" pin="RT" pad="7"/>
+<connect gate="G$1" pin="SD" pad="2"/>
+<connect gate="G$1" pin="SS" pad="10"/>
+<connect gate="G$1" pin="SW" pad="14"/>
+<connect gate="G$1" pin="SYNC" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP3990" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;150mA Linear Voltage Regulator&lt;b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LMS5214" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REF33XX" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;5 mA Low Dropout Voltage Reference&lt;/b&gt;&lt;br&gt;
+The REF33xx is a low-power, precision, low-dropout voltage reference family available in the tiny SC70-3 and SOT23-3 packages. Small size and low power consumption(5uA max) make the REF33xx ideal for a wide variety of portable and battery-powered applications. The REF33xx can be operated at a supply voltage 180mV above the specified output voltage under normal load conditions, with the exception of the REF3312, which has a minimum supply voltage of 1.8V. All models are specified for the wide temperature range, ?40°C to +125°C.
+
+? HIGH OUTPUT CURRENT:±5mA
+? LOW TEMPERATURE DRIFT:30ppm/°C(max)
+? HIGH INITIAL ACCURACY:±0.15%(max)</description>
+<gates>
+<gate name="G$1" symbol="LM3480" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBZ" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="REF33XXXXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV700XX" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Texas Instruments 200-mA, Low-IQ, Low-Dropout Regulator for Portable Devices&lt;/h3&gt;
+&lt;p&gt;The TLV700xx series of low-dropout (LDO) linear regulators are low quiescent current devices with excellent line and load transient performance. These LDOs are designed for power-sensitive applications. A precision bandgap and error amplifier provides overall 2% accuracy. Low output noise, very high power-supply rejection ratio (PSRR), and low dropout voltage make this series of devices ideal for most battery-operated handheld equipment. All device versions have thermal shutdown and current limit for safety.
+Furthermore, these devices are stable with an effective output capacitance of only 0.1 ?F. This feature enables the use of cost-effective capacitors that have higher bias voltages and temperature derating. The devices regulate to specified accuracy with no output load.
+The TLV700xx series of LDOs are available in 1,5-mm x 1,5-mm SON-6, SOT23-5, and SC-70 packages.&lt;/p&gt;
+&lt;ul&gt;
+FEATURES
+&lt;li&gt;Very Low Dropout: 175 mV at 200 mA
+&lt;li&gt;2% Accuracy
+&lt;li&gt;Low IQ: 31 ?A
+&lt;li&gt;Available in Fixed-Output Voltages from 0.7 V to 4.8 V
+&lt;li&gt;High PSRR: 68 dB at 1 kHz
+&lt;li&gt;Stable with Effective Capacitance of 0.1 ?F
+&lt;li&gt;Thermal Shutdown and Overcurrent Protection
+&lt;li&gt;Available in 1,5-mm × 1,5-mm SON-6, SOT23-5, and SC-70 packages
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="VREG-WITH-EN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DCK" package="SC70-5_DCK">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TLV700__ ___" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_DDC" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS732XX" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Cap-Free, NMOS, 250mALowDropout Regulator with Reverse Current Protection&lt;/h3&gt;
+&lt;ul&gt;Features
+&lt;li&gt;Stable with No Output Capacitor or Any Value or Type of Capacitor&lt;/li&gt;
+&lt;li&gt;Input Voltage Range: 1.7V to 5.5V&lt;/li&gt;
+&lt;li&gt;Ultralow Dropout Voltage: 40mV Typ at 250mA&lt;/li&gt;
+&lt;li&gt;Excellent Load Transient Response?with or without Optional Output Capacitor&lt;/li&gt;
+&lt;li&gt;New NMOS Topology Provides Low Reverse Leakage Current&lt;/li&gt;
+&lt;li&gt;Low Noise: 30mVRMS Typ (10kHz to 100kHz)&lt;/li&gt;
+&lt;li&gt;0.5% Initial Accuracy&lt;/li&gt;
+&lt;li&gt;1% Overall Accuracy (Line, Load, and Temperature)&lt;/li&gt;
+&lt;li&gt;Less Than 1mA Max IQ in Shutdown Mode&lt;/li&gt;
+&lt;li&gt;Thermal Shutdown and Specified Min/Max Current Limit Protection&lt;/li&gt;
+&lt;li&gt;Available in Multiple Output Voltage Versions&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="VREG-EN-NR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DCQ" package="SOT223-6">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NR" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="TPS732XX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV809XXX" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;3-Pin Supply Voltage Supervisors&lt;/h3&gt;
+&lt;p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;3-Pin SOT23 Package&lt;/li&gt;
+&lt;li&gt;Supply Current: 9 ?A (Typical)&lt;/li&gt;
+&lt;li&gt;Precision Supply Voltage Monitor: 2.5 V, 3 V, 3.3 V, 5 V&lt;/li&gt;
+&lt;li&gt;Power-On Reset Generator with Fixed Delay Time of 200 ms&lt;/li&gt;
+&lt;li&gt;Pin-for-Pin Compatible with MAX809&lt;/li&gt;
+&lt;li&gt;Temperature Range: ?40°C to +85°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The TLV809 family of supervisory circuits provides circuit initialization and timing supervision, primarily for DSPs and processor-based systems.&lt;/p&gt;&lt;p&gt;
+During power-on, RESET is asserted when the supply voltage (VDD) becomes higher than 1.1 V. Thereafter, the supervisory circuit monitors VDD and keeps RESET active as long as VDD remains below the threshold voltage VIT. An internal timer delays the return of the output to the inactive state (high) to ensure proper system reset. The delay time (td(typ) = 200 ms) starts after VDD has risen above the threshold voltage, VIT. When the supply voltage drops below the VIT threshold voltage, the output becomes active (low) again. No external components are required. All the devices in this family have a fixed sense-threshold voltage (VIT) set by an internal voltage divider.&lt;/p&gt;&lt;p&gt;
+The product spectrum is designed for supply voltages of 2.5 V, 3 V, 3.3 V, and 5 V. The circuits are available in a 3-pin SOT-23 package. The TLV809 devices are characterized for operation over a temperature range of ?40°C to +85°C.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SUPERVISOR-3-PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBV/DBZ" package="SOT23">
+<connects>
+<connect gate="G$1" pin="!RES" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="TLV809XXXDBV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS3836" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;NanoPower Supervisory Circuits&lt;/h3&gt;
+&lt;h4&gt;DESCRIPTION&lt;/h4&gt;
+&lt;p&gt;The TPS3836, TPS3837, and TPS3838 families of supervisory circuits provide circuit initialization and timing	supervision,	primarily	for	DSP and processor-based systems.&lt;/p&gt;
+&lt;p&gt;During power-on, RESET is asserted when the supply voltage VDD becomes higher than 1.1 V. Thereafter, the supervisory circuit monitors VDD and keeps the RESET output active as long as VDD remains below the threshold voltage of VIT. An internal timer delays the return of the output to the inactive state (high) to ensure proper system reset. The delay time starts after VDD has risen above the threshold voltage VIT.&lt;/p&gt;
+&lt;p&gt;When CT is connected to GND, a fixed delay time of typical 10 ms is asserted. When connected to VDD, the delay time is typically 200 ms. When the supply voltage drops below the threshold voltage VIT, the output becomes active (low) again. All the devices of this family have a fixed-sense threshold voltage (VIT) set by an internal voltage divider.&lt;/p&gt;
+&lt;p&gt;The TPS3836 has an active-low, push-pull RESET output. The TPS3837 has an active-high, push-pull RESET, and the TPS3838 integrates an active-low, open-drain RESET output. The product spectrum is designed for supply voltages of 1.8 V, 2.5 V, 3.0 V, and 3.3 V. The circuits are available in either a SOT23-5 or 2x2 SON-6 package. The TPS3836, TPS3837, and TPS3838 families are characterized for operation over a temperature range of ?40°C to +85°C.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS3836" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!MR" pad="3"/>
+<connect gate="G$1" pin="CT" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="RES" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Texas Instruments" constant="no"/>
+<attribute name="PARTNUM" value="TPS3836XXXDBV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX1724" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;1.5uA IQ, Step-Up DC-DC Converters in Thin SOT23-5&lt;/h3&gt;
+&lt;p&gt;The MAX1722/MAX1723/MAX1724 compact, high-effi- ciency, step-up DC-DC converters are available in tiny, 5- pin thin SOT23 packages. They feature an extremely low 1.5?A quiescent supply current to ensure the highest pos- sible light-load efficiency. Optimized for operation from one to two alkaline or nickel-metal-hydride (NiMH) cells, or a single Li+ cell, these devices are ideal for applications where extremely low quiescent current and ultra-small size are critical.&lt;/p&gt;&lt;p&gt;Built-in synchronous rectification significantly improves efficiency and reduces size and cost by eliminating the need for an external Schottky diode. All three devices fea- ture a 0.5? N-channel power switch. The MAX1722/ MAX1724 also feature proprietary noise-reduction circuitry, which suppresses electromagnetic interference (EMI) caused by the inductor in many step-up applications. The family offers different combinations of fixed or adjustable outputs, shutdown, and EMI reduction.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX1724" x="0" y="0"/>
+</gates>
+<devices>
+<device name="EZK" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="BATT" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LX" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Maxim" constant="no"/>
+<attribute name="PARTNUM" value="MAX1724EZK__" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS60140" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;TPS60140 LOW POWER DC-DC CONVERTER REGULATED 5 V, 100 mA CHARGE PUMP VOLTAGE TRIPLER&lt;/h3&gt;
+&lt;ul&gt;Features
+&lt;li&gt;Regulated 5 V ± 4% Output Voltage With up to 100 mA Output Current From a 1.8 V to 3.6 V Input Voltage Range&lt;/li&gt;
+&lt;li&gt;65-?A Quiescent Supply Current&lt;/li&gt;
+&lt;li&gt;0.05-?A Shutdown Current, Battery Is Isolated From Load in Shutdown&lt;/li&gt;
+&lt;li&gt;Integrated Low-Battery or Power-Good Indicator&lt;/li&gt;
+&lt;li&gt;Low Output Voltage Ripple Over Complete Output Current Range&lt;/li&gt;
+&lt;li&gt;Easy-To-Design With Low-EMI Power Supply Since no Inductors Are Required&lt;/li&gt;
+&lt;li&gt;Evaluation Module Available (TPS60140EVM-144)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS60140" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R-PDSO-G20">
+<connects>
+<connect gate="G$1" pin="C1+" pad="6"/>
+<connect gate="G$1" pin="C1-" pad="8"/>
+<connect gate="G$1" pin="C2+" pad="15"/>
+<connect gate="G$1" pin="C2-" pad="13"/>
+<connect gate="G$1" pin="ENABLE" pad="3"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@2" pad="2"/>
+<connect gate="G$1" pin="GND@3" pad="19"/>
+<connect gate="G$1" pin="GND@4" pad="20"/>
+<connect gate="G$1" pin="IN@1" pad="7"/>
+<connect gate="G$1" pin="IN@2" pad="14"/>
+<connect gate="G$1" pin="LBI" pad="18"/>
+<connect gate="G$1" pin="LBO" pad="17"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
+<connect gate="G$1" pin="PGND@1" pad="9"/>
+<connect gate="G$1" pin="PGND@2" pad="10"/>
+<connect gate="G$1" pin="PGND@3" pad="11"/>
+<connect gate="G$1" pin="PGND@4" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TPS60140PWP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX16910" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;200mA Automotive Ultra-Low Quiescent Current Linear Regulator&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Low 20?A Quiescent Current&lt;/li&gt;
+&lt;li&gt;+3.5V to +30V Wide Input Voltage Range, +45V Tolerant&lt;/li&gt;
+&lt;li&gt;Operates Through Cold-Crank Conditions&lt;/li&gt;
+&lt;li&gt;Low-Dropout Voltage of 280mV at 200mA&lt;/li&gt;
+&lt;li&gt;Up to 200mA Output Current Capability&lt;/li&gt;
+&lt;li&gt;Stable Operation with Tiny 4.7?F Output Capacitor&lt;/li&gt;
+&lt;li&gt;User-Selectable Output Voltage: +3.3V or +5V Fixed, +1.5V to +11V Adjustable with External Resistive Divider&lt;/li&gt;
+&lt;li&gt;Open-Drain RESET Output with Adjustable Delay&lt;/li&gt;
+&lt;li&gt;Fixed-Reset Threshold Options: 87.5% or 92.5%&lt;/li&gt;
+&lt;li&gt;High-Voltage Enable Input (+45V)&lt;/li&gt;
+&lt;li&gt;Thermal and Short-Circuit Protection&lt;/li&gt;
+&lt;li&gt;Operating -40°C to +125°C Temperature Range&lt;/li&gt;
+&lt;li&gt;Operating -40°C to +150°C (TJ) Temperature Range&lt;/li&gt;
+&lt;li&gt;Automotive Qualified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;General Description&lt;/p&gt;
+&lt;p&gt;The MAX16910 ultra-low quiescent current, high-voltage linear regulator is ideal for use in automotive and battery- operated systems. The device operates from a +3.5V to +30V input voltage, delivers up to 200mA of load cur- rent, and consumes only 20?A of quiescent current at no load. The device consumes only 1.6?A current when in shutdown. The input is +45V transient tolerant and is designed to operate under load-dump conditions. The MAX16910 can be configured as either fixed output volt- age (+3.3V or +5V) or adjustable output voltage using an external resistive divider.&lt;/p&gt;
+&lt;p&gt;The MAX16910 features an open-drain, active-low RESET output with fixed thresholds offered at 92.5% and 87.5% of the output voltage. The RESET output remains low for a fixed period of 60?s after the output voltage exceeds its threshold. The RESET delay can be extended with an external capacitor.&lt;/p&gt;
+&lt;p&gt;The MAX16910 includes an enable input, short-circuit protection, and thermal shutdown. The MAX16910 oper- ates over the -40°C to +125°C automotive temperature range. The device is available in a space-saving, ther- mally enhanced, 3mm x 3mm, 8-pin TDFN package and 5mm x 4mm, 8-pin SO package.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX16910" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CASA" package="8_SO-EP">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="7"/>
+<connect gate="G$1" pin="GND@2" pad="PAD"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="8"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="SETOV" pad="6"/>
+<connect gate="G$1" pin="TIMEOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Maxim" constant="no"/>
+<attribute name="PARTNUM" value="MAX16910CASAx/V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC54" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Voltage Detector&lt;/h3&gt;
+&lt;ul&gt;Features
+&lt;li&gt;±2.0% Detection Thresholds&lt;/li&gt;
+&lt;li&gt;Small Packages:3-PinSOT-23A,SOT-89,and TO-92&lt;/li&gt;
+&lt;li&gt;Low Current Drain:1?A,typical&lt;/li&gt;
+&lt;li&gt;Wide Detection Range: 1.1V to 6.0V&lt;/li&gt;
+&lt;li&gt;Wide Operating Voltage Range: 0.7V to 10V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The TC54 series are CMOS voltage detectors that are especially well suited for battery powered applications because of their extremely low 1 ?A operating current and small surface mount packaging. Each part is laser trimmed to the desired threshold voltage, which can be specified from 1.4V to 6.0V with a 2% tolerance.&lt;/p&gt;
+&lt;p&gt;The TC54 is available with either an open-drain or complementary output stage. During operation, the output (VOUT) remains in the logic high state as long as VIN is greater than the specified threshold voltage (VDET ?). When VIN falls below VDET ?, the output is driven to a logic low. VOUT remains low until VIN rises above VDET ? by an amount VHYST, when it resets to a logic- high state.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TC54" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CB" package="SOT23">
+<connects>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Microchip" constant="no"/>
+<attribute name="PARTNUM" value="TC54VxxxxxxCB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM22672" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;LM22672 1A SIMPLE SWITCHER, Step-Down Voltage Regulator&lt;/h3&gt;
+&lt;ul&gt;Features:
+&lt;li&gt;Wide input voltage range: 4.5V to 42V&lt;/li&gt;
+&lt;li&gt;Internally compensated voltage mode control&lt;/li&gt;
+&lt;li&gt;Stable with low ESR ceramic capacitors&lt;/li&gt;
+&lt;li&gt;200 mΩ N-channel MOSFET&lt;/li&gt;
+&lt;li&gt;Output voltage options: -ADJ (outputs as low as 1.285V) -5.0 (output fixed to 5V)&lt;/li&gt;
+&lt;li&gt;±1.5% feedback reference accuracy&lt;/li&gt;
+&lt;li&gt;Switching frequency of 500 kHz, adjustable between 200 kHz and 1 MHz&lt;/li&gt;
+&lt;li&gt;-40°C to 125°C operating junction temperature range&lt;/li&gt;
+&lt;li&gt;Precision enable pin&lt;/li&gt;
+&lt;li&gt;Integrated boot diode&lt;/li&gt;
+&lt;li&gt;Adjustable soft-start&lt;/li&gt;
+&lt;li&gt;Fully WEBENCH® enabled&lt;/li&gt;
+&lt;li&gt;Step-down and inverting buck-boost applications&lt;/li&gt;
+&lt;li&gt;LM22672Q is an Automotive Grade product that is AEC- Q100 grade 1 qualified (-40°C to +125°C operating junction temperature)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Added 6/5/2012&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM22672" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MR" package="PSOP-8">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="1"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="6"/>
+<connect gate="G$1" pin="GND@PAD" pad="PAD"/>
+<connect gate="G$1" pin="RT/SYNC" pad="3"/>
+<connect gate="G$1" pin="SS" pad="2"/>
+<connect gate="G$1" pin="SW" pad="8"/>
+<connect gate="G$1" pin="VIN" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="LM22672XMRX-XXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

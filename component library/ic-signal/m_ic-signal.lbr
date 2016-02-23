@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tAxes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="58" name="bAxes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt;Signal ICs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ADC
+&lt;li&gt;DAC
+&lt;li&gt;Current Sensors
+&lt;li&gt;OP-Amps
+&lt;/ul&gt;</description>
+<packages>
+<package name="SO08">
+<description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;
+NS Package M08A</description>
+<wire x1="1.904" y1="-2.4" x2="-1.904" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.904" y1="-2.4" x2="-1.904" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="-1.904" y1="2.4" x2="1.904" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="1.904" y1="2.4" x2="1.904" y2="-2.4" width="0.2032" layer="51"/>
+<circle x="-1.02" y="1.778" radius="0.254" width="0.127" layer="21"/>
+<smd name="2" x="-2.604" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="7" x="2.604" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="1" x="-2.604" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="3" x="-2.604" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="4" x="-2.604" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="8" x="2.604" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="6" x="2.604" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="5" x="2.604" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<text x="-1.909" y="2.667" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.909" y="-3.937" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.799" y1="1.355" x2="-2.309" y2="2.455" layer="51" rot="R270"/>
+<rectangle x1="-2.799" y1="0.085" x2="-2.309" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="-2.799" y1="-1.185" x2="-2.309" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="-2.799" y1="-2.455" x2="-2.309" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.309" y1="-2.455" x2="2.799" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.309" y1="-1.185" x2="2.799" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="2.309" y1="0.085" x2="2.799" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="2.309" y1="1.355" x2="2.799" y2="2.455" layer="51" rot="R270"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="0.8104" y1="-1.4224" x2="-0.8354" y2="-1.4224" width="0.127" layer="21"/>
+<wire x1="-0.8354" y1="-1.4224" x2="-0.8354" y2="1.4224" width="0.127" layer="51"/>
+<wire x1="-0.825" y1="1.425" x2="0.8104" y2="1.4224" width="0.127" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="-1.4224" width="0.127" layer="51"/>
+<wire x1="-0.35" y1="0.825" x2="-0.35" y2="1.075" width="0.3048" layer="21"/>
+<smd name="1" x="-1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-1.3001" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-0.325" x2="-0.925" y2="0.325" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R270"/>
+<wire x1="-0.825" y1="1.425" x2="0.8" y2="1.425" width="0.127" layer="21"/>
+<wire x1="0.825" y1="0.45" x2="0.825" y2="-0.45" width="0.127" layer="21"/>
+</package>
+<package name="SC70">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SSOP16">
+<description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
+package type SS</description>
+<wire x1="-2.53" y1="-2.6" x2="3.8" y2="-2.6" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="-2.6" x2="3.8" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="3.8" y1="2.6" x2="-2.53" y2="2.6" width="0.2032" layer="21"/>
+<wire x1="-2.555" y1="2.575" x2="-2.53" y2="2.575" width="0.127" layer="21"/>
+<wire x1="-2.53" y1="2.575" x2="-2.53" y2="-2.6" width="0.2032" layer="21"/>
+<circle x="-1.778" y="-1.778" radius="0.3592" width="0.2032" layer="21"/>
+<smd name="1" x="-1.655" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="2" x="-1.005" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="3" x="-0.355" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="4" x="0.295" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="5" x="0.945" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="6" x="1.595" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="7" x="2.245" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="8" x="2.895" y="-3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="9" x="2.895" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="10" x="2.245" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="11" x="1.595" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="12" x="0.945" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="13" x="0.295" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="14" x="-0.355" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="15" x="-1.005" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<smd name="16" x="-1.655" y="3.625" dx="0.4" dy="1.5" layer="1"/>
+<text x="-2.936" y="-2.5999" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="5.506" y="-2.5999" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<rectangle x1="2.7494" y1="-3.937" x2="3.105" y2="-2.6416" layer="51"/>
+<rectangle x1="2.0988" y1="-3.937" x2="2.4544" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.8029" y1="-3.937" x2="-1.4473" y2="-2.6416" layer="51"/>
+<rectangle x1="-1.1529" y1="-3.937" x2="-0.7973" y2="-2.6416" layer="51"/>
+<rectangle x1="-0.5029" y1="-3.937" x2="-0.1473" y2="-2.6416" layer="51"/>
+<rectangle x1="0.1471" y1="-3.937" x2="0.5027" y2="-2.6416" layer="51"/>
+<rectangle x1="0.7971" y1="-3.937" x2="1.1527" y2="-2.6416" layer="51"/>
+<rectangle x1="1.4473" y1="-3.937" x2="1.8029" y2="-2.6416" layer="51"/>
+<rectangle x1="1.4471" y1="2.6416" x2="1.8027" y2="3.937" layer="51"/>
+<rectangle x1="0.7972" y1="2.6416" x2="1.1528" y2="3.937" layer="51"/>
+<rectangle x1="0.1472" y1="2.6416" x2="0.5028" y2="3.937" layer="51"/>
+<rectangle x1="-0.5027" y1="2.6416" x2="-0.1471" y2="3.937" layer="51"/>
+<rectangle x1="-1.1527" y1="2.6416" x2="-0.7971" y2="3.937" layer="51"/>
+<rectangle x1="-1.8027" y1="2.6416" x2="-1.4471" y2="3.937" layer="51"/>
+<rectangle x1="2.099" y1="2.6416" x2="2.4546" y2="3.937" layer="51"/>
+<rectangle x1="2.7495" y1="2.6416" x2="3.1051" y2="3.937" layer="51"/>
+</package>
+<package name="LGA-14">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="-0.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1.2" x2="0.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="0.2" y1="1.2" x2="-0.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.8" x2="-0.2" y2="1.2" width="0.127" layer="21"/>
+<smd name="11" x="1" y="0.4" dx="0.9" dy="0.6" layer="1"/>
+<smd name="12" x="1" y="1.2" dx="0.9" dy="0.6" layer="1"/>
+<smd name="13" x="1" y="2" dx="0.9" dy="0.6" layer="1"/>
+<smd name="14" x="0" y="2" dx="0.9" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="2" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="2" x="-1" y="1.2" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="3" x="-1" y="0.4" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="4" x="-1" y="-0.4" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="5" x="-1" y="-1.2" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="6" x="-1" y="-2" dx="0.9" dy="0.6" layer="1" rot="R180"/>
+<smd name="7" x="0" y="-2" dx="0.9" dy="0.6" layer="1" rot="R270"/>
+<smd name="8" x="1" y="-2" dx="0.9" dy="0.6" layer="1"/>
+<smd name="9" x="1" y="-1.2" dx="0.9" dy="0.6" layer="1"/>
+<smd name="10" x="1" y="-0.4" dx="0.9" dy="0.6" layer="1"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="LGA-14-LARGEPAD">
+<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="-0.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1.2" x2="0.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="0.2" y1="1.2" x2="-0.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.8" x2="-0.2" y2="1.2" width="0.127" layer="21"/>
+<smd name="11" x="1.3" y="0.4" dx="1.5" dy="0.6" layer="1"/>
+<smd name="12" x="1.3" y="1.2" dx="1.5" dy="0.6" layer="1"/>
+<smd name="13" x="1.3" y="2" dx="1.5" dy="0.6" layer="1"/>
+<smd name="14" x="0" y="2.3" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="2" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="2" x="-1.3" y="1.2" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="3" x="-1.3" y="0.4" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="4" x="-1.3" y="-0.4" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="5" x="-1.3" y="-1.2" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="6" x="-1.3" y="-2" dx="1.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="7" x="0" y="-2.3" dx="1.5" dy="0.6" layer="1" rot="R270"/>
+<smd name="8" x="1.3" y="-2" dx="1.5" dy="0.6" layer="1"/>
+<smd name="9" x="1.3" y="-1.2" dx="1.5" dy="0.6" layer="1"/>
+<smd name="10" x="1.3" y="-0.4" dx="1.5" dy="0.6" layer="1"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SC70-5_DCK">
+<description>TI TLV700xx SC70-5 DCK Package</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.7" x2="-1.1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.7" x2="1.1" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="1.1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0.7" x2="-0.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="1.2" y2="1.6" width="0.127" layer="39"/>
+<wire x1="1.2" y1="1.6" x2="1.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="1.2" y1="-1.6" x2="-1.2" y2="-1.6" width="0.127" layer="39"/>
+<wire x1="-1.2" y1="-1.6" x2="-1.2" y2="1.6" width="0.127" layer="39"/>
+<smd name="2" x="0" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.5" y="-2.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-1.2" x2="-0.55" y2="-0.7" layer="51"/>
+<rectangle x1="-0.1" y1="-1.2" x2="0.1" y2="-0.7" layer="51"/>
+<rectangle x1="0.55" y1="-1.2" x2="0.75" y2="-0.7" layer="51"/>
+<rectangle x1="0.55" y1="0.7" x2="0.75" y2="1.2" layer="51"/>
+<rectangle x1="-0.75" y1="0.7" x2="-0.55" y2="1.2" layer="51"/>
+</package>
+<package name="LGA-28_ST">
+<description>&lt;h3&gt;LGA-28 Package, from ST LPR403AL Datasheet&lt;/h3&gt;
+With elongated pads for hand soldering.</description>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.1" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2" x2="-2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.1" y2="2" width="0.127" layer="21"/>
+<wire x1="3.1" y1="2.6" x2="3.1" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="3.1" y1="-2.6" x2="-3.1" y2="-2.6" width="0.127" layer="39"/>
+<wire x1="-3.1" y1="-2.6" x2="-3.1" y2="2.6" width="0.127" layer="39"/>
+<wire x1="-3.1" y1="2.6" x2="3.1" y2="2.6" width="0.127" layer="39"/>
+<circle x="-3.5" y="2" radius="0.15" width="0.3" layer="21"/>
+<smd name="1" x="-2.5" y="1.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-2.5" y="0.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-2.5" y="0.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-2.5" y="-0.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-2.5" y="-0.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-2.5" y="-1.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-1.75" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="8" x="-1.25" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="9" x="-0.75" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="10" x="-0.25" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="11" x="0.25" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="12" x="0.75" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="13" x="1.25" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="1.75" y="-2" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="2.5" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="16" x="2.5" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="17" x="2.5" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="18" x="2.5" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="19" x="2.5" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="20" x="2.5" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="21" x="1.75" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="1.25" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="0.75" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="0.25" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="-0.25" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="26" x="-0.75" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="27" x="-1.25" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="28" x="-1.75" y="2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<text x="-2.5" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT23">
+<wire x1="0.8104" y1="-1.4224" x2="-0.8104" y2="-1.4224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="-1.4224" x2="-0.8104" y2="1.4224" width="0.1524" layer="51"/>
+<wire x1="-0.8104" y1="1.4224" x2="0.8104" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="-1.4224" width="0.1524" layer="51"/>
+<wire x1="-0.8104" y1="-0.4724" x2="-0.8104" y2="0.4724" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="-0.5176" x2="0.8104" y2="-1.4224" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="0.4926" width="0.1524" layer="21"/>
+<wire x1="-0.4" y1="1" x2="-0.4" y2="1.1" width="0.127" layer="21"/>
+<smd name="1" x="-1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="1.27" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="1.02" y1="-0.325" x2="1.52" y2="0.325" layer="51" rot="R270"/>
+</package>
+<package name="VTI_SCC1300">
+<description>&lt;h3&gt;VTI Technologies SCC1300 Gyroscope/Accelerometer MEMS ASIC&lt;/h3&gt;</description>
+<wire x1="-10" y1="4.2" x2="-8" y2="4.2" width="0.127" layer="21"/>
+<wire x1="-8" y1="4.2" x2="8" y2="4.2" width="0.127" layer="51"/>
+<wire x1="8" y1="4.2" x2="10" y2="4.2" width="0.127" layer="21"/>
+<wire x1="10" y1="4.2" x2="10" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="10" y1="-4.2" x2="8" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="8" y1="-4.2" x2="-8" y2="-4.2" width="0.127" layer="51"/>
+<wire x1="-8" y1="-4.2" x2="-10" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="-10" y1="-4.2" x2="-10" y2="4.2" width="0.127" layer="21"/>
+<wire x1="-10" y1="4.2" x2="10" y2="4.2" width="0.127" layer="39"/>
+<wire x1="10" y1="4.2" x2="10" y2="-4.2" width="0.127" layer="39"/>
+<wire x1="10" y1="-4.2" x2="-10" y2="-4.2" width="0.127" layer="39"/>
+<wire x1="-10" y1="-4.2" x2="-10" y2="4.2" width="0.127" layer="39"/>
+<circle x="-9" y="-3" radius="0.5" width="0.127" layer="21"/>
+<smd name="1" x="-7.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="-6.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="-5.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="-4.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="-3.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="-2.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="7" x="-1.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="-0.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="9" x="0.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="10" x="1.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="11" x="2.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="12" x="3.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="13" x="4.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="14" x="5.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="15" x="6.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="16" x="7.5" y="-5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="17" x="7.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="18" x="6.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="19" x="5.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="20" x="4.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="21" x="3.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="22" x="2.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="23" x="1.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="24" x="0.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="25" x="-0.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="26" x="-1.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="27" x="-2.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="28" x="-3.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="29" x="-4.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="30" x="-5.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="31" x="-6.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<smd name="32" x="-7.5" y="5.4" dx="2.2" dy="0.7" layer="1" rot="R90"/>
+<text x="-10.3" y="-3" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="11.5" y="-3" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.2" y1="4.2" x2="0.8" y2="6" layer="51"/>
+<rectangle x1="-0.8" y1="4.2" x2="-0.2" y2="6" layer="51"/>
+<rectangle x1="-1.8" y1="4.2" x2="-1.2" y2="6" layer="51"/>
+<rectangle x1="-2.8" y1="4.2" x2="-2.2" y2="6" layer="51"/>
+<rectangle x1="-3.8" y1="4.2" x2="-3.2" y2="6" layer="51"/>
+<rectangle x1="-4.8" y1="4.2" x2="-4.2" y2="6" layer="51"/>
+<rectangle x1="-5.8" y1="4.2" x2="-5.2" y2="6" layer="51"/>
+<rectangle x1="-6.8" y1="4.2" x2="-6.2" y2="6" layer="51"/>
+<rectangle x1="-7.8" y1="4.2" x2="-7.2" y2="6" layer="51"/>
+<rectangle x1="1.2" y1="4.2" x2="1.8" y2="6" layer="51"/>
+<rectangle x1="2.2" y1="4.2" x2="2.8" y2="6" layer="51"/>
+<rectangle x1="3.2" y1="4.2" x2="3.8" y2="6" layer="51"/>
+<rectangle x1="4.2" y1="4.2" x2="4.8" y2="6" layer="51"/>
+<rectangle x1="5.2" y1="4.2" x2="5.8" y2="6" layer="51"/>
+<rectangle x1="6.2" y1="4.2" x2="6.8" y2="6" layer="51"/>
+<rectangle x1="7.2" y1="4.2" x2="7.8" y2="6" layer="51"/>
+<rectangle x1="0.2" y1="-6" x2="0.8" y2="-4.2" layer="51"/>
+<rectangle x1="-0.8" y1="-6" x2="-0.2" y2="-4.2" layer="51"/>
+<rectangle x1="-1.8" y1="-6" x2="-1.2" y2="-4.2" layer="51"/>
+<rectangle x1="-2.8" y1="-6" x2="-2.2" y2="-4.2" layer="51"/>
+<rectangle x1="-3.8" y1="-6" x2="-3.2" y2="-4.2" layer="51"/>
+<rectangle x1="-4.8" y1="-6" x2="-4.2" y2="-4.2" layer="51"/>
+<rectangle x1="-5.8" y1="-6" x2="-5.2" y2="-4.2" layer="51"/>
+<rectangle x1="-6.8" y1="-6" x2="-6.2" y2="-4.2" layer="51"/>
+<rectangle x1="-7.8" y1="-6" x2="-7.2" y2="-4.2" layer="51"/>
+<rectangle x1="1.2" y1="-6" x2="1.8" y2="-4.2" layer="51"/>
+<rectangle x1="2.2" y1="-6" x2="2.8" y2="-4.2" layer="51"/>
+<rectangle x1="3.2" y1="-6" x2="3.8" y2="-4.2" layer="51"/>
+<rectangle x1="4.2" y1="-6" x2="4.8" y2="-4.2" layer="51"/>
+<rectangle x1="5.2" y1="-6" x2="5.8" y2="-4.2" layer="51"/>
+<rectangle x1="6.2" y1="-6" x2="6.8" y2="-4.2" layer="51"/>
+<rectangle x1="7.2" y1="-6" x2="7.8" y2="-4.2" layer="51"/>
+</package>
+<package name="SCC22XX">
+<description>&lt;h3&gt;Murata SCC22XX MEMS IC&lt;/h3&gt;
+&lt;p&gt;Created 2015-07-30, from SCC2230-E02 datasheet Doc.Nr. 82 1888 00 rev B0.&lt;/p&gt;</description>
+<smd name="1" x="-5.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-4.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-3.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-2.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-1.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="-0.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="0.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="1.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="2.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="3.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="4.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="12" x="5.5" y="-5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="13" x="5.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="14" x="4.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="15" x="3.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="16" x="2.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="17" x="1.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="18" x="0.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="19" x="-0.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="20" x="-1.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="21" x="-2.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="22" x="-3.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="23" x="-4.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="24" x="-5.5" y="5.4" dx="2.2" dy="0.6" layer="1" rot="R90"/>
+<wire x1="7.3" y1="4.3" x2="6.1" y2="4.3" width="0.254" layer="21"/>
+<wire x1="6.1" y1="4.3" x2="-6.1" y2="4.3" width="0.254" layer="51"/>
+<wire x1="-6.1" y1="4.3" x2="-7.3" y2="4.3" width="0.254" layer="21"/>
+<wire x1="-7.3" y1="4.3" x2="-7.3" y2="-4.3" width="0.254" layer="21"/>
+<wire x1="-7.3" y1="-4.3" x2="-6.1" y2="-4.3" width="0.254" layer="21"/>
+<wire x1="-6.1" y1="-4.3" x2="6.1" y2="-4.3" width="0.254" layer="51"/>
+<wire x1="6.1" y1="-4.3" x2="7.3" y2="-4.3" width="0.254" layer="21"/>
+<wire x1="7.3" y1="-4.3" x2="7.3" y2="4.3" width="0.254" layer="21"/>
+<polygon width="0.2" layer="21">
+<vertex x="-7.5" y="-5.8" curve="-90"/>
+<vertex x="-7.8" y="-5.5" curve="-90"/>
+<vertex x="-7.5" y="-5.2" curve="-90"/>
+<vertex x="-7.2" y="-5.5" curve="-90"/>
+</polygon>
+<text x="-9" y="-4" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="7.5" y="-4" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<wire x1="7.5" y1="5" x2="7.5" y2="-5" width="0.2" layer="39"/>
+<wire x1="7.5" y1="-5" x2="6.5" y2="-5" width="0.2" layer="39"/>
+<wire x1="6.5" y1="-5" x2="6.5" y2="-7" width="0.2" layer="39"/>
+<wire x1="6.5" y1="-7" x2="-6.5" y2="-7" width="0.2" layer="39"/>
+<wire x1="-6.5" y1="-7" x2="-6.5" y2="-5" width="0.2" layer="39"/>
+<wire x1="-6.5" y1="-5" x2="-8.5" y2="-5" width="0.2" layer="39"/>
+<wire x1="-8.5" y1="-5" x2="-8.5" y2="5" width="0.2" layer="39"/>
+<wire x1="-8.5" y1="5" x2="-6.5" y2="5" width="0.2" layer="39"/>
+<wire x1="-6.5" y1="5" x2="-6.5" y2="7" width="0.2" layer="39"/>
+<wire x1="-6.5" y1="7" x2="6.5" y2="7" width="0.2" layer="39"/>
+<wire x1="6.5" y1="7" x2="6.5" y2="5" width="0.2" layer="39"/>
+<wire x1="6.5" y1="5" x2="7.5" y2="5" width="0.2" layer="39"/>
+<wire x1="-7" y1="3.5" x2="-6.5" y2="4" width="0.2" layer="51" curve="-90"/>
+<wire x1="-6.5" y1="4" x2="6.5" y2="4" width="0.2" layer="51"/>
+<wire x1="6.5" y1="4" x2="7" y2="3.5" width="0.2" layer="51" curve="-90"/>
+<wire x1="7" y1="3.5" x2="7" y2="-3.5" width="0.2" layer="51"/>
+<wire x1="7" y1="-3.5" x2="6.5" y2="-4" width="0.2" layer="51" curve="-90"/>
+<wire x1="6.5" y1="-4" x2="-6.5" y2="-4" width="0.2" layer="51"/>
+<wire x1="-6.5" y1="-4" x2="-7" y2="-3.5" width="0.2" layer="51" curve="-90"/>
+<wire x1="-7" y1="-3.5" x2="-7" y2="3.5" width="0.2" layer="51"/>
+<rectangle x1="-7.75" y1="-0.25" x2="-6.5" y2="0.25" layer="51"/>
+<rectangle x1="-7.9" y1="3" x2="-7.4" y2="4" layer="51"/>
+<rectangle x1="-7.9" y1="-4" x2="-7.4" y2="-3" layer="51"/>
+<text x="-2" y="1" size="1.27" layer="51" font="vector" ratio="16">M</text>
+<wire x1="-1.6" y1="0.6" x2="-1.6" y2="2.6" width="0.2" layer="51" curve="-253.739795"/>
+<text x="-4.8" y="-2" size="0.6096" layer="51" font="vector" ratio="16">SCC2XXX-XXX</text>
+<text x="-4.8" y="-3" size="0.6096" layer="51" font="vector" ratio="16">XXXXXXXXXXX.X</text>
+<circle x="-5.5" y="-3.4" radius="0.282840625" width="0.1" layer="51"/>
+<rectangle x1="2.5" y1="-1.5" x2="5.5" y2="1.5" layer="51"/>
+<wire x1="13.5" y1="10.5" x2="9.5" y2="10.5" width="0.2" layer="57"/>
+<wire x1="13.5" y1="10.5" x2="13.5" y2="6.5" width="0.2" layer="57"/>
+<polygon width="0.2" layer="57">
+<vertex x="9.5" y="10.5"/>
+<vertex x="10.5" y="11"/>
+<vertex x="10.5" y="10"/>
+</polygon>
+<polygon width="0.2" layer="57">
+<vertex x="13.5" y="6.5"/>
+<vertex x="13" y="7.5"/>
+<vertex x="14" y="7.5"/>
+</polygon>
+<text x="8.5" y="10.5" size="1.27" layer="57" font="vector" ratio="16" align="center">Y</text>
+<text x="13.5" y="5.5" size="1.27" layer="57" font="vector" ratio="16" align="center">X</text>
+<circle x="10.5" y="7.5" radius="0.75" width="0.2" layer="57"/>
+<wire x1="9" y1="7.5" x2="10.5" y2="6" width="0.1" layer="57" curve="-270"/>
+<polygon width="0.1" layer="57">
+<vertex x="8.7" y="7.5"/>
+<vertex x="9.3" y="7.5"/>
+<vertex x="9" y="7"/>
+</polygon>
+<polygon width="0.1" layer="57">
+<vertex x="10.2" y="7.5" curve="-90"/>
+<vertex x="10.5" y="7.8" curve="-90"/>
+<vertex x="10.8" y="7.5" curve="-90"/>
+<vertex x="10.5" y="7.2" curve="-90"/>
+</polygon>
+<text x="9.5" y="6" size="1.27" layer="57" font="vector" ratio="16" align="center">Z</text>
+</package>
+<package name="MSOP10">
+<description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf&lt;br&gt;
+COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-0.8" y1="-1.1" x2="-0.8" y2="-0.5" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-0.8" y1="-0.5" x2="-0.8" y2="-1.1" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-2.1131" dx="0.25" dy="1" layer="1"/>
+<smd name="2" x="-0.5" y="-2.1131" dx="0.25" dy="1" layer="1"/>
+<smd name="3" x="0" y="-2.1131" dx="0.25" dy="1" layer="1"/>
+<smd name="4" x="0.5" y="-2.1131" dx="0.25" dy="1" layer="1"/>
+<smd name="5" x="1" y="-2.1131" dx="0.25" dy="1" layer="1"/>
+<smd name="6" x="1" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
+<smd name="7" x="0.5" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
+<smd name="8" x="0" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
+<smd name="9" x="-0.5" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
+<smd name="10" x="-1" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
+<text x="-2.032" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.1244" y1="-2.5" x2="-0.8744" y2="-1.5" layer="51"/>
+<rectangle x1="-0.6244" y1="-2.5" x2="-0.3744" y2="-1.5" layer="51"/>
+<rectangle x1="-0.1244" y1="-2.5" x2="0.1256" y2="-1.5" layer="51"/>
+<rectangle x1="0.3756" y1="-2.5" x2="0.6256" y2="-1.5" layer="51"/>
+<rectangle x1="0.8756" y1="-2.5" x2="1.1256" y2="-1.5" layer="51"/>
+<rectangle x1="0.8744" y1="1.5" x2="1.1244" y2="2.5" layer="51" rot="R180"/>
+<rectangle x1="0.3744" y1="1.5" x2="0.6244" y2="2.5" layer="51" rot="R180"/>
+<rectangle x1="-0.1256" y1="1.5" x2="0.1244" y2="2.5" layer="51" rot="R180"/>
+<rectangle x1="-0.6256" y1="1.5" x2="-0.3756" y2="2.5" layer="51" rot="R180"/>
+<rectangle x1="-1.1256" y1="1.5" x2="-0.8756" y2="2.5" layer="51" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ACS712">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="IP+" x="-15.24" y="5.08" length="middle"/>
+<pin name="IP++" x="-15.24" y="2.54" length="middle"/>
+<pin name="IP--" x="-15.24" y="0" length="middle"/>
+<pin name="IP-" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="FILTR" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="INA19*">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95" font="vector" ratio="7">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector" ratio="7">&gt;VALUE</text>
+<pin name="VIN+" x="-10.16" y="5.08" length="short" direction="pas"/>
+<pin name="VIN-" x="10.16" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="V+" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="OPAMP+-">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="3.175" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="1.27" y="-4.445" size="0.8128" layer="93" rot="R90">V-</text>
+<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="MAX5312">
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.4064" layer="94"/>
+<text x="-12.7" y="13.97" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="SCLK" x="-17.78" y="10.16" length="middle" function="clk"/>
+<pin name="DIN" x="-17.78" y="7.62" length="middle"/>
+<pin name="DOUT" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="CS_" x="-17.78" y="2.54" length="middle"/>
+<pin name="SHDN_" x="-17.78" y="0" length="middle"/>
+<pin name="UNI/BIP" x="-17.78" y="-7.62" length="middle"/>
+<pin name="OUT" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="SGND" x="17.78" y="2.54" length="middle" direction="sup" rot="R180"/>
+<pin name="AGND" x="17.78" y="0" length="middle" direction="sup" rot="R180"/>
+<pin name="VSS" x="17.78" y="-5.08" length="middle" direction="sup" rot="R180"/>
+<pin name="REF" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="CLR_" x="-17.78" y="-2.54" length="middle"/>
+<pin name="LDAC_" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DGND" x="17.78" y="-2.54" length="middle" direction="sup" rot="R180"/>
+</symbol>
+<symbol name="MMA7455L">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.922" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="10.922" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="GND@1" x="-15.24" y="-7.62" visible="pin" length="short" direction="pas"/>
+<pin name="GND@2" x="-15.24" y="-10.16" visible="pin" length="short" direction="pas"/>
+<pin name="DVDD" x="-15.24" y="-2.54" visible="pin" length="short" direction="pas"/>
+<pin name="SCL/SPC" x="-15.24" y="7.62" visible="pin" length="short" direction="in" function="clk"/>
+<pin name="IADDR0" x="-15.24" y="2.54" visible="pin" length="short" direction="pas"/>
+<pin name="AVDD" x="-15.24" y="-5.08" visible="pin" length="short" direction="pas"/>
+<pin name="!CS" x="-15.24" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="INT1/DRDY" x="15.24" y="-10.16" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="INT2" x="15.24" y="-7.62" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SDO" x="15.24" y="7.62" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SDA/SDI/SDO" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="NC" x="15.24" y="-5.08" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TLC5615">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DIN" x="-12.7" y="2.54" length="middle"/>
+<pin name="SCK" x="-12.7" y="0" length="middle"/>
+<pin name="!CS" x="-12.7" y="-2.54" length="middle"/>
+<pin name="DOUT" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="REF" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VDD" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="TMP20_TEMPERATURE_SENSOR">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="6.096" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-12.7" y="2.54" length="middle"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="GND@0" x="-12.7" y="0" length="middle"/>
+<pin name="GND@1" x="-12.7" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="LPR403AL">
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<text x="-12.7" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="OUT_X" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="4XIN_X" x="-15.24" y="-10.16" length="short"/>
+<pin name="4XOUT_X" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="VDD" x="-15.24" y="10.16" length="short"/>
+<pin name="4XOUT_Y" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="4XIN_Y" x="-15.24" y="-12.7" length="short"/>
+<pin name="VCONT" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="FILTVDD" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="VDD@1" x="-15.24" y="7.62" length="short"/>
+<pin name="OUT_Y" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="VREF" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="HP" x="-15.24" y="0" length="short"/>
+<pin name="RES" x="-15.24" y="-2.54" length="short"/>
+<pin name="ST" x="-15.24" y="5.08" length="short"/>
+<pin name="SLEEP/PD" x="-15.24" y="2.54" length="short"/>
+<pin name="GND" x="-15.24" y="-5.08" length="short"/>
+</symbol>
+<symbol name="DUAL-OPAMP">
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-2.54" width="0.4064" layer="94"/>
+<text x="2.54" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+@1" x="-7.62" y="10.16" length="short"/>
+<pin name="-@1" x="-7.62" y="5.08" length="short"/>
+<pin name="+@2" x="-7.62" y="-5.08" length="short"/>
+<pin name="-@2" x="-7.62" y="-10.16" length="short"/>
+<pin name="OUT@1" x="7.62" y="7.62" visible="pad" length="short" rot="R180"/>
+<pin name="OUT@2" x="7.62" y="-7.62" visible="pad" length="short" rot="R180"/>
+<pin name="VDD" x="0" y="15.24" visible="pad" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-15.24" visible="pad" length="middle" rot="R90"/>
+</symbol>
+<symbol name="HALL-SENSOR-3TERM">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.794" x2="1.016" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.762" x2="1.016" y2="2.794" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="V" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="OUT" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="SCC1300_ACCELEROMETER-GYROSCOPE">
+<wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="30.48" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="15.24" x2="0" y2="2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94" style="shortdash"/>
+<text x="-7.62" y="0" size="1.778" layer="97" font="vector">GYROSCOPE</text>
+<text x="-10.16" y="27.94" size="1.778" layer="97" font="vector">ACCELEROMETER</text>
+<text x="-15.24" y="30.988" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-33.02" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="HEAT@1" x="-17.78" y="12.7" length="short"/>
+<pin name="REFGND@G" x="-17.78" y="-15.24" length="short"/>
+<pin name="VREFP@G" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="EXTRESN@G" x="-17.78" y="-2.54" length="short"/>
+<pin name="TCLK@G" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="AHVVDD@G" x="-17.78" y="-22.86" length="short"/>
+<pin name="LHV@G" x="-17.78" y="-20.32" length="short"/>
+<pin name="DVDD@G" x="-17.78" y="-5.08" length="short"/>
+<pin name="DVSS@G" x="-17.78" y="-10.16" length="short"/>
+<pin name="MISO@G" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="SCK@A" x="17.78" y="25.4" length="short" rot="R180"/>
+<pin name="MOSI@A" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="PWM@A" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="DVDD@A" x="-17.78" y="25.4" length="short"/>
+<pin name="DVSS@A" x="-17.78" y="20.32" length="short"/>
+<pin name="HEAT@2" x="-17.78" y="10.16" length="short"/>
+<pin name="HEAT@3" x="-17.78" y="7.62" length="short"/>
+<pin name="TI@A" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="AVSS@A" x="-17.78" y="17.78" length="short"/>
+<pin name="AVDD@A" x="-17.78" y="22.86" length="short"/>
+<pin name="!CS@A" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="MISO@A" x="17.78" y="20.32" length="short" rot="R180"/>
+<pin name="MOSI@G" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="SCK@G" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="!CS@G" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="TOP@G" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="TON@G" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="AVDD@G" x="-17.78" y="-7.62" length="short"/>
+<pin name="AVSS@G" x="-17.78" y="-12.7" length="short"/>
+<pin name="TIP@G" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="TIN@G" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="HEAT@4" x="-17.78" y="5.08" length="short"/>
+</symbol>
+<symbol name="SCR1100_GYROSCOPE">
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<text x="-15.24" y="15.748" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-20.32" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="HEAT@1" x="-17.78" y="-12.7" length="short"/>
+<pin name="REFGND@G" x="-17.78" y="0" length="short"/>
+<pin name="VREFP@G" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="EXTRESN@G" x="-17.78" y="12.7" length="short"/>
+<pin name="AHVVDD@G" x="-17.78" y="-7.62" length="short"/>
+<pin name="LHV@G" x="-17.78" y="-5.08" length="short"/>
+<pin name="DVDD@G" x="-17.78" y="10.16" length="short"/>
+<pin name="DVSS@G" x="-17.78" y="5.08" length="short"/>
+<pin name="MISO@G" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="HEAT@2" x="-17.78" y="-15.24" length="short"/>
+<pin name="HEAT@3" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="MOSI@G" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="SCK@G" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="!CS@G" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="AVDD@G" x="-17.78" y="7.62" length="short"/>
+<pin name="AVSS@G" x="-17.78" y="2.54" length="short"/>
+<pin name="HEAT@4" x="17.78" y="-12.7" length="short" rot="R180"/>
+</symbol>
+<symbol name="MAX4372">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="RS-" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="RS+" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="VCC" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="OUT" x="10.16" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="ADXL345">
+<description>&lt;h3&gt;ADXL345&lt;/h3&gt;
+&lt;p&gt;3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer&lt;/p&gt;
+&lt;p&gt;Added 6/22/2012&lt;/p&gt;</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="10.922" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="GND@1" x="-15.24" y="0" length="short" direction="pas"/>
+<pin name="GND@2" x="-15.24" y="-2.54" length="short" direction="pas"/>
+<pin name="VDD_IO" x="-15.24" y="5.08" length="short" direction="pas"/>
+<pin name="SCL/SCLK" x="15.24" y="-5.08" length="short" direction="pas" function="clk" rot="R180"/>
+<pin name="SDO/ALT-ADDR" x="15.24" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="VS" x="-15.24" y="7.62" length="short" direction="pas"/>
+<pin name="!CS" x="15.24" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="INT2" x="15.24" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="SDA/SDI/SDIO" x="15.24" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="GND@3" x="-15.24" y="-5.08" length="short" direction="pas"/>
+<pin name="INT1" x="15.24" y="7.62" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SCC2230">
+<description>&lt;h3&gt;Murata SCC2230 MEMS IC&lt;/h3&gt;
+&lt;p&gt;Created 2015-07-30, from SCC2230-E02 datasheet Doc.Nr. 82 1888 00 rev B0.&lt;/p&gt;</description>
+<wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<text x="-15.24" y="20.828" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-15.24" y="-22.86" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="HEAT@1" x="-17.78" y="-5.08" length="short"/>
+<pin name="AVSS_REF" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="EXTRESN" x="-17.78" y="17.78" length="short"/>
+<pin name="VBOOST" x="-17.78" y="0" length="short"/>
+<pin name="LBOOST" x="-17.78" y="2.54" length="short"/>
+<pin name="DVDD" x="-17.78" y="15.24" length="short"/>
+<pin name="DVSS" x="-17.78" y="10.16" length="short"/>
+<pin name="MISO" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="HEAT@2" x="-17.78" y="-7.62" length="short"/>
+<pin name="HEAT@3" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="MOSI" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="SCK" x="17.78" y="17.78" length="short" rot="R180"/>
+<pin name="!CS" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="AVDD" x="-17.78" y="12.7" length="short"/>
+<pin name="AVSS" x="-17.78" y="7.62" length="short"/>
+<pin name="HEAT@4" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="RES@1" x="-17.78" y="-12.7" length="short"/>
+<pin name="RES@2" x="-17.78" y="-15.24" length="short"/>
+<pin name="RES@3" x="-17.78" y="-17.78" length="short"/>
+<pin name="RES@4" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="RES@5" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="RES@6" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="D_EXTC" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="A_EXTC" x="17.78" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="ADG736">
+<description>&lt;h3&gt;ADG736&lt;/h3&gt;
+&lt;h4&gt;Analog Devices CMOS Low Voltage 2.5 Ω Dual SPDT Switch&lt;/h4&gt;
+&lt;p&gt;Added 2016-02-21&lt;/p&gt;</description>
+<pin name="S1A" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="S1B" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="IN1" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="D1" x="-12.7" y="5.08" length="short" direction="pas"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0.762" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-2.286" y2="2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="5.08"/>
+<vertex x="0.762" y="5.334"/>
+<vertex x="0.508" y="5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="7.62"/>
+<vertex x="0.254" y="7.366"/>
+<vertex x="0.508" y="7.62"/>
+</polygon>
+<circle x="-2.032" y="5.08" radius="0.127" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-2.286" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.778" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-2.286" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="3.302" x2="-2.286" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="6.604" width="0.254" layer="94" style="dashdot"/>
+<pin name="S2A" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="S2B" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="IN2" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="D2" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0.762" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="-7.62" x2="-2.286" y2="-7.62" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="1.016" y="-5.08"/>
+<vertex x="0.762" y="-4.826"/>
+<vertex x="0.508" y="-5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="-2.54"/>
+<vertex x="0.254" y="-2.794"/>
+<vertex x="0.508" y="-2.54"/>
+</polygon>
+<circle x="-2.032" y="-5.08" radius="0.127" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-7.62" x2="-2.286" y2="-8.382" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-8.382" x2="-1.27" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-7.62" x2="-2.286" y2="-6.858" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-6.858" x2="-2.286" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-7.62" x2="-0.508" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-7.62" x2="-0.508" y2="-3.556" width="0.254" layer="94" style="dashdot"/>
+<pin name="GND" x="-12.7" y="-12.7" length="short" direction="pas"/>
+<pin name="VDD" x="-12.7" y="12.7" length="short" direction="pas"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.032" y1="5.08" x2="0.254" y2="7.366" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-5.08" x2="0.254" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-5.08" x2="-4.064" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="5.08" x2="-4.064" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ACS712" prefix="IC" uservalue="yes">
+<description>&lt;B&gt;Allegro Hall Effect current sensor IC&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ACS712" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="FILTR" pad="6"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="IP+" pad="1"/>
+<connect gate="G$1" pin="IP++" pad="2"/>
+<connect gate="G$1" pin="IP-" pad="4"/>
+<connect gate="G$1" pin="IP--" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA19" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;CURRENT SHUNT MONITOR&lt;/b&gt; 
+&lt;p&gt;?16V to +80V Common-Mode Range&lt;/p&gt;
+&lt;p&gt;
+FEATURES
+&lt;ul&gt;
+&lt;li&gt;WIDE COMMON-MODE VOLTAGE: ?16V to +80V&lt;/li&gt;
+&lt;li&gt;LOW ERROR: 3.0% Over Temp (max)&lt;/li&gt;
+&lt;li&gt;BANDWIDTH: Up to 500kHz&lt;/li&gt;
+&lt;li&gt;THREE TRANSFER FUNCTIONS AVAILABLE:&lt;/li&gt;
+&lt;li&gt;20V/V, 50V/V, and 100V/V&lt;/li&gt;
+&lt;li&gt;QUIESCENT CURRENT: 900µA (max)&lt;/li&gt;
+&lt;li&gt;COMPLETE CURRENT SENSE SOLUTION&lt;/li&gt;
+&lt;/ul&gt;
+DESCRIPTION 
+The INA193?INA198 family of current shunt monitors with voltage output can sense drops across shunts at common-mode voltages from -16V to +80V, independent of the INA19x supply voltage. They are available with three output voltage scales: 20V/V, 50V/V, and 100V/V. The 500kHz bandwidth simplifies use in current control loops. The INA193?INA195 provide identical functions but 
+alternative pin configurations to the INA196?INA198, respectively. 
+The INA193?INA198 operate from a single +2.7V to +18V supply, drawing a maximum of 900µA of supply current. They are specified over the extended operating 
+temperature range (?40°C to +125°C), and are offered in a space-saving SOT23 package.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INA19*" x="0" y="0"/>
+</gates>
+<devices>
+<device name="[6,7,8]" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="3"/>
+<connect gate="G$1" pin="VIN+" pad="4"/>
+<connect gate="G$1" pin="VIN-" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="INA196-8" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="[3,4,5]" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="VIN+" pad="3"/>
+<connect gate="G$1" pin="VIN-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="INA196-8" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPV511" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;LPV511 Micropower Rail to Rail OP AMP&lt;/b&gt;&lt;br&gt;</description>
+<gates>
+<gate name="A" symbol="OPAMP+-" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="SOT23-5" package="SC70">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="4"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="5"/>
+<connect gate="A" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX5312" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;Maxim MAX5312 DAC&lt;/b&gt;&lt;br&gt;
+The MAX5312 12-bit, serial interface, digital-to-analog converter (DAC) provides bipolar +/-5V to +/-10V outputs from +/-12V to +/-15V power supply voltages, or a unipolar 5V to 10V output from a single 12V to 15V power supply voltage.</description>
+<gates>
+<gate name="G$1" symbol="MAX5312" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP16">
+<connects>
+<connect gate="G$1" pin="AGND" pad="11"/>
+<connect gate="G$1" pin="CLR_" pad="15"/>
+<connect gate="G$1" pin="CS_" pad="3"/>
+<connect gate="G$1" pin="DGND" pad="5"/>
+<connect gate="G$1" pin="DIN" pad="2"/>
+<connect gate="G$1" pin="DOUT" pad="4"/>
+<connect gate="G$1" pin="LDAC_" pad="16"/>
+<connect gate="G$1" pin="OUT" pad="9"/>
+<connect gate="G$1" pin="REF" pad="13"/>
+<connect gate="G$1" pin="SCLK" pad="1"/>
+<connect gate="G$1" pin="SGND" pad="10"/>
+<connect gate="G$1" pin="SHDN_" pad="7"/>
+<connect gate="G$1" pin="UNI/BIP" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="14"/>
+<connect gate="G$1" pin="VSS" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMA7455L" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;Freescale Semiconductor ±2g/±4g/±8g Three Axis Low-g Digital Output Accelerometer&lt;/h2&gt;
+&lt;p&gt;
+The MMA7455L is a Digital Output (I2C/SPI), low power, low profile capacitive micromachined accelerometer featuring signal conditioning, a low pass filter, temperature compensation, self-test, configurable to detect 0g through interrupt pins (INT1 or INT2), and pulse detect for quick motion detection. 0g offset and sensitivity are factory set and require no external devices. The 0g offset can be customer calibrated using assigned 0g registers and g-Select which allows for command selection for 3 acceleration ranges (2g/4g/8g). The MMA7455L includes a Standby Mode that makes it ideal for handheld battery powered electronics.
+&lt;/p&gt;
+&lt;ul&gt;
+Features
+&lt;li&gt;Digital Output (I2C/SPI)
+&lt;li&gt;3mm x 5mm x 1mm LGA-14 Package
+&lt;li&gt;Self-Test for Z-Axis
+&lt;li&gt;Low Voltage Operation: 2.4 V ? 3.6 V
+&lt;li&gt;User Assigned Registers for Offset Calibration
+&lt;li&gt;Programmable Threshold Interrupt Output
+&lt;li&gt;Level Detection for Motion Recognition (Shock, Vibration, Freefall)
+&lt;li&gt;Pulse Detection for Single or Double Pulse Recognition
+&lt;li&gt;Sensitivity (64 LSB/g @ 2g and @ 8g in 10-Bit Mode) 
+&lt;li&gt;Selectable Sensitivity (±2g, ±4g, ±8g) for 8-bit Mode
+&lt;li&gt;Robust Design, High Shocks Survivability (5,000g)
+&lt;li&gt;RoHS Compliant
+&lt;li&gt;Environmentally Preferred Product
+&lt;li&gt;Low Cost
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MMA7455L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-14">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="AVDD" pad="6"/>
+<connect gate="G$1" pin="DVDD" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="IADDR0" pad="4"/>
+<connect gate="G$1" pin="INT1/DRDY" pad="8"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="SCL/SPC" pad="14"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="13"/>
+<connect gate="G$1" pin="SDO" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="MMA7455L" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LARGEPAD" package="LGA-14-LARGEPAD">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="AVDD" pad="6"/>
+<connect gate="G$1" pin="DVDD" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="IADDR0" pad="4"/>
+<connect gate="G$1" pin="INT1/DRDY" pad="8"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="NC" pad="3"/>
+<connect gate="G$1" pin="SCL/SPC" pad="14"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="13"/>
+<connect gate="G$1" pin="SDO" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="MMA7455L" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLC5615" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;10 bit serial DAC&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TLC5615" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="!CS" pad="3"/>
+<connect gate="G$1" pin="DIN" pad="1"/>
+<connect gate="G$1" pin="DOUT" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="REF" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TS951" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;Input/Output rail-to-rail low power operational amplifiers&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPAMP+-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT23-5" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP20" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;&amp;plusmn;2.5&amp;deg;C Low-Power, AnalogOut TEMPERATURE SENSOR&lt;/h3&gt;
+&lt;ul&gt;
+FEATURES
+&lt;li&gt;&amp;plusmn;2.5&amp;deg;C ACCURACY FROM &amp;#8211;55&amp;deg;C to +130&amp;deg;C &lt;/li&gt;
+&lt;li&gt;SUPPLY VOLTAGE RANGE: 1.8V to 5.5V &lt;/li&gt;
+&lt;li&gt;LOW POWER: 4&amp;#956;A (max) &lt;/li&gt;
+&lt;li&gt;MicroSIZE PACKAGES: SOT563, SC70-5 &lt;/li&gt;
+&lt;li&gt;SC70 PIN-COMPATIBLE WITH LM20&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DESCRIPTION&lt;/p&gt;
+&lt;p&gt;The TMP20 is a CMOS, precision analog output temperature sensor available in the tiny SOT563 package. The TMP20 operates from &amp;#8211;55&amp;deg;C to +130&amp;deg;C on a supply voltage of 2.7V to 5.5V with a supply current of 4&amp;#956;A. Operation as low as 1.8V is possible for temperatures between +15&amp;deg;C and +130&amp;deg;C. The linear transfer function has a slope of &amp;#8211;11.77mV/&amp;deg;C (typ) and has an output voltage of 1.8639V (typ) at 0&amp;deg;C. The TMP20 has a &amp;plusmn;2.5&amp;deg;C accuracy across the entire specified temperature range of &amp;#8211;55&amp;deg;C to +130&amp;deg;C.
+The TMP20 4&amp;#956;A (max) supply current limits self-heating of the device to less than 0.01&amp;deg;C. When V+ is less than 0.5V, the device is in shutdown mode and consumes less than 20nA (typ).
+The TMP20 is available in either a 5-lead SC70 or 6-lead SOT563 package, reducing the overall board space required.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TMP20_TEMPERATURE_SENSOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DCK" package="SC70-5_DCK">
+<connects>
+<connect gate="G$1" pin="GND@0" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="TMP20AIDCK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPR403AL" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;LPR403AL&lt;/h3&gt;
+&lt;h4&gt;MEMS motion sensor: dual-axis pitch and roll ±30 dps analog gyroscope&lt;/h4&gt;
+&lt;ul&gt;
+Features:
+&lt;li&gt;2.7 V to 3.6 V single-supply operation&lt;/li&gt;
+&lt;li&gt;Wide operating temperature range (-40 °C to +85 °C)&lt;/li&gt;
+&lt;li&gt;High stability over temperature&lt;/li&gt;
+&lt;li&gt;Analog absolute angular-rate outputs&lt;/li&gt;
+&lt;li&gt;Two separate outputs for each axis (1x and 4x amplified)&lt;/li&gt;
+&lt;li&gt;Integrated low-pass filters&lt;/li&gt;
+&lt;li&gt;Low power consumption&lt;/li&gt;
+&lt;li&gt;Embedded power-down&lt;/li&gt;
+&lt;li&gt;Embedded self-test&lt;/li&gt;
+&lt;li&gt;Sleep mode&lt;/li&gt;
+&lt;li&gt;High shock and vibration survivability&lt;/li&gt;
+&lt;li&gt;ECOP ACK® RoHS and ?Green? compliant (see Section 6)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LPR403AL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-28_ST">
+<connects>
+<connect gate="G$1" pin="4XIN_X" pad="5"/>
+<connect gate="G$1" pin="4XIN_Y" pad="16"/>
+<connect gate="G$1" pin="4XOUT_X" pad="7"/>
+<connect gate="G$1" pin="4XOUT_Y" pad="14"/>
+<connect gate="G$1" pin="FILTVDD" pad="18"/>
+<connect gate="G$1" pin="GND" pad="26"/>
+<connect gate="G$1" pin="HP" pad="24"/>
+<connect gate="G$1" pin="OUT_X" pad="1"/>
+<connect gate="G$1" pin="OUT_Y" pad="20"/>
+<connect gate="G$1" pin="RES" pad="25"/>
+<connect gate="G$1" pin="SLEEP/PD" pad="28"/>
+<connect gate="G$1" pin="ST" pad="27"/>
+<connect gate="G$1" pin="VCONT" pad="17"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VDD@1" pad="19"/>
+<connect gate="G$1" pin="VREF" pad="22"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ST,LPR403AL;" constant="no"/>
+<attribute name="PARTNUM" value="LPR403AL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV2762" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Micropower Rail-To-Rail Input/Output Operational Amplifier&lt;/h3&gt;
+&lt;ul&gt;
+Features
+&lt;li&gt;Low Supply Voltage 1.8V to 3.6V&lt;/li&gt;
+&lt;li&gt;Very Low Supply Current . . . 20 ?A (per channel)&lt;/li&gt;
+&lt;li&gt;Ultralow Power Shut-Down Mode ? IDD(SHDN) = 10 nA/Channel&lt;/li&gt;
+&lt;li&gt;CMOS Rail-to-Rail Input/Output&lt;/li&gt;
+&lt;li&gt;Input Common-Mode Voltage Range ... ?0.2VtoVDD+0.2V	&lt;/li&gt;
+&lt;li&gt;Input Offset Voltage . . . 550 ?V&lt;/li&gt;
+&lt;li&gt;Wide Bandwidth . . . 500 kHz&lt;/li&gt;
+&lt;li&gt;Slew Rate . . . 0.20 V/?s&lt;/li&gt;
+&lt;li&gt;Specified Temperature Range: 0°C to 70°C . . . Commercial Grade ?40°C to 85°C . . . Industrial Grade&lt;/li&gt;
+&lt;li&gt;Ultrasmall Packaging 5 or 6 Pin SOT-23 (TLV2760/1) 8 or 10 Pin MSOP (TLV2762/3)&lt;/li&gt;
+&lt;li&gt;Universal Op-Amp EVM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;The TLV276x single supply operational amplifiers provide 500 kHz bandwidth from only 20 ?A while operating down to 1.8 V over the industrial temperature range. The maximum recommended supply voltage is 3.6 V, which allows the devices to be operated from (1.8 V supplies down to 0.9 V) two AA or AAA cells. The devices have been characterized at 1.8 V (end of life of 2 AA(A) cells) and at 2.4 V (nominal voltage of 2 NiCd/NiMH cells). The TLV276x have rail-to-rail input and output capability which is a necessity at 1.8 V.&lt;/p&gt;
+&lt;p&gt;The low supply current is coupled with extremely low input bias currents enabling them to be used with mega-ohm resistors. Low shutdown current of only 10 nA make these devices ideal for low frequency measurement applications desiring long active battery life.
+All members are available in PDIP and SOIC with the singles in the small SOT-23 package, duals in the MSOP, and quads in the TSSOP package.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DUAL-OPAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CD" package="SO08">
+<connects>
+<connect gate="G$1" pin="+@1" pad="3"/>
+<connect gate="G$1" pin="+@2" pad="5"/>
+<connect gate="G$1" pin="-@1" pad="2"/>
+<connect gate="G$1" pin="-@2" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="OUT@1" pad="1"/>
+<connect gate="G$1" pin="OUT@2" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNUM" value="TLV2762XXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS361CT" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;High Sensitivity Bipolar Latching Hall-Effect Digital Sensor ICs&lt;/h3&gt;
+&lt;p&gt;Description&lt;/p&gt;
+&lt;p&gt;The SS361CT/SS461C latches are small, sensitive and versatile digital Hall-effect devices that are operated by the magnetic field from a permanent magnet or an electromagnet. They are designed to respond to alternating North and South poles.
+These bipolar sensor ICs have enhanced sensitivity which often allows for the use of less expensive magnets.
+They offer reverse polarity protection and deliver a stable output over a -40 °C to 125 °C [-40 °F to 257 °F] temperature range. Operation from any dc supply voltage from 4 Vdc to 24 Vdc is acceptable.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="HALL-SENSOR-3TERM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="V" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Honeywell" constant="no"/>
+<attribute name="PARTNUM" value="SS361CT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCC1300" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;SCC1300-D02 COMBINED GYROSCOPE AND 3-AXIS ACCELEROMETER WITH DIGITAL SPI INTERFACES&lt;/h3&gt;
+&lt;h4&gt;General Description&lt;/h4&gt;
+&lt;p&gt;SCC1300-D02 is a combined high performance gyroscope and accelerometer component. The sensor is based on VTI's proven capacitive 3D-MEMS technology. The component integrates angular rate and acceleration sensing together with flexible separate digital SPI interfaces. Small robust packaging guarantees reliable operation over product lifetime. The housing is suitable for SMD mounting and the component is compatible with RoHS and ELV directives.&lt;/p&gt;
+&lt;p&gt;SCC1300-D02 is designed, manufactured and tested against high stability, reliability and quality requirements. The angular rate and acceleration sensors provide highly stable output over wide ranges of temperature and mechanical noise. The angular rate sensor bias stability is in the elite of MEMS gyros and it is also exceptionally insensitive to all mechanical vibrations and shocks. Component has several advanced self diagnostics features.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCC1300_ACCELEROMETER-GYROSCOPE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VTI_SCC1300">
+<connects>
+<connect gate="G$1" pin="!CS@A" pad="21"/>
+<connect gate="G$1" pin="!CS@G" pad="25"/>
+<connect gate="G$1" pin="AHVVDD@G" pad="6"/>
+<connect gate="G$1" pin="AVDD@A" pad="20"/>
+<connect gate="G$1" pin="AVDD@G" pad="28"/>
+<connect gate="G$1" pin="AVSS@A" pad="19"/>
+<connect gate="G$1" pin="AVSS@G" pad="29"/>
+<connect gate="G$1" pin="DVDD@A" pad="14"/>
+<connect gate="G$1" pin="DVDD@G" pad="8"/>
+<connect gate="G$1" pin="DVSS@A" pad="15"/>
+<connect gate="G$1" pin="DVSS@G" pad="9"/>
+<connect gate="G$1" pin="EXTRESN@G" pad="4"/>
+<connect gate="G$1" pin="HEAT@1" pad="1"/>
+<connect gate="G$1" pin="HEAT@2" pad="16"/>
+<connect gate="G$1" pin="HEAT@3" pad="17"/>
+<connect gate="G$1" pin="HEAT@4" pad="32"/>
+<connect gate="G$1" pin="LHV@G" pad="7"/>
+<connect gate="G$1" pin="MISO@A" pad="22"/>
+<connect gate="G$1" pin="MISO@G" pad="10"/>
+<connect gate="G$1" pin="MOSI@A" pad="12"/>
+<connect gate="G$1" pin="MOSI@G" pad="23"/>
+<connect gate="G$1" pin="PWM@A" pad="13"/>
+<connect gate="G$1" pin="REFGND@G" pad="2"/>
+<connect gate="G$1" pin="SCK@A" pad="11"/>
+<connect gate="G$1" pin="SCK@G" pad="24"/>
+<connect gate="G$1" pin="TCLK@G" pad="5"/>
+<connect gate="G$1" pin="TI@A" pad="18"/>
+<connect gate="G$1" pin="TIN@G" pad="31"/>
+<connect gate="G$1" pin="TIP@G" pad="30"/>
+<connect gate="G$1" pin="TON@G" pad="27"/>
+<connect gate="G$1" pin="TOP@G" pad="26"/>
+<connect gate="G$1" pin="VREFP@G" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="VTI Technologies" constant="no"/>
+<attribute name="PARTNUM" value="SCC1300-D02" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCR1100" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;SCR1100-D02 SINGLE AXIS GYROSCOPE WITH DIGITAL SPI INTERFACE&lt;/h3&gt;
+&lt;h4&gt;General Description&lt;/h4&gt;
+&lt;p&gt;SCR1100-D02 is a single axis high performance gyroscope. It is part of VTI's high performance gyro family and it has the same gyro section as the combined gyro acceleration product SCC1300-D02. The sensor is based on VTI's proven capacitive 3D-MEMS technology and it has highly sophisticated signal conditioning ASIC with digital SPI interface. Small robust packaging guarantees reliable operation over product lifetime. The housing is suitable for SMD mounting and the component is compatible with RoHS and ELV directives.&lt;/p&gt;
+&lt;p&gt;SCR1100-D02 is designed, manufactured and tested against high stability, reliability and quality requirements. The angular rate sensor provides highly stable output over wide ranges of temperature and mechanical noise. The bias stability is in the elite of MEMS gyros and the component has several advanced self diagnostics features.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCR1100_GYROSCOPE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VTI_SCC1300">
+<connects>
+<connect gate="G$1" pin="!CS@G" pad="25"/>
+<connect gate="G$1" pin="AHVVDD@G" pad="6"/>
+<connect gate="G$1" pin="AVDD@G" pad="28"/>
+<connect gate="G$1" pin="AVSS@G" pad="29"/>
+<connect gate="G$1" pin="DVDD@G" pad="8"/>
+<connect gate="G$1" pin="DVSS@G" pad="9"/>
+<connect gate="G$1" pin="EXTRESN@G" pad="4"/>
+<connect gate="G$1" pin="HEAT@1" pad="1"/>
+<connect gate="G$1" pin="HEAT@2" pad="16"/>
+<connect gate="G$1" pin="HEAT@3" pad="17"/>
+<connect gate="G$1" pin="HEAT@4" pad="32"/>
+<connect gate="G$1" pin="LHV@G" pad="7"/>
+<connect gate="G$1" pin="MISO@G" pad="10"/>
+<connect gate="G$1" pin="MOSI@G" pad="23"/>
+<connect gate="G$1" pin="REFGND@G" pad="2"/>
+<connect gate="G$1" pin="SCK@G" pad="24"/>
+<connect gate="G$1" pin="VREFP@G" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="VTI Technologies" constant="no"/>
+<attribute name="PARTNUM" value="SCR1100-D02" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX4372" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;Low-Cost, UCSP/SOT23, Micropower, High-Side Current-Sense Amplifier with Voltage Output&lt;/h3&gt;
+&lt;h4&gt;General Description&lt;/h4&gt;
+&lt;p&gt;The MAX4372 low-cost, precision, high-side current- sense amplifier is available in a tiny, space-saving SOT23-5-pin package. Offered in three gain versions (T = 20V/V, F = 50V/V, and H = 100V/V), this device operates from a single 2.7V to 28V supply and con- sumes only 30?A. It features a voltage output that elimi- nates the need for gain-setting resistors and is ideal for today?s notebook computers, cell phones, and other systems where battery/DC current monitoring is critical.&lt;/p&gt;
+&lt;p&gt;High-side current monitoring is especially useful in bat- tery-powered systems since it does not interfere with the ground path of the battery charger. The input com- mon-mode range of 0 to 28V is independent of the sup- ply voltage and ensures that the current-sense feedback remains viable even when connected to a 2-cell battery pack in deep discharge.&lt;/p&gt;
+&lt;p&gt;The user can set the full-scale current reading by choosing the device (T, F, or H) with the desired volt- age gain and selecting the appropriate external sense resistor. This capability offers a high level of integration and flexibility, resulting in a simple and compact cur- rent-sense solution. For higher bandwidth applications, refer to the MAX4173T/F/H data sheet.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX4372" x="0" y="0"/>
+</gates>
+<devices>
+<device name="UK" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="RS+" pad="4"/>
+<connect gate="G$1" pin="RS-" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Maxim" constant="no"/>
+<attribute name="PARTNUM" value="MAX4372xEUK+T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADXL345" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;ADXL345 3-Axis, ±2 g/±4 g/±8 g/±16 g Digital Accelerometer&lt;/h3&gt;
+
+&lt;ul&gt;FEATURES
+&lt;li&gt;Ultralow power: as low as 23 μA in measurement mode and 0.1 μA in standby mode at VS = 2.5 V (typical)&lt;/li&gt;
+&lt;li&gt;Power consumption scales automatically with bandwidth&lt;/li&gt;
+&lt;li&gt;User-selectable resolution&lt;/li&gt;
+&lt;li&gt;Fixed 10-bit resolution Full resolution, where resolution increases with g range, up to 13-bit resolution at ±16 g (maintaining 4 mg/LSB scale factor in all g ranges)&lt;/li&gt;
+&lt;li&gt;Patent pending, embedded memory management system with FIFO technology minimizes host processor load&lt;/li&gt;
+&lt;li&gt;Single tap/double tap detection&lt;/li&gt;
+&lt;li&gt;Activity/inactivity monitoring&lt;/li&gt;
+&lt;li&gt;Free-fall detection&lt;/li&gt;
+&lt;li&gt;Supply voltage range: 2.0 V to 3.6&lt;/li&gt;
+&lt;li&gt;V I/O voltage range: 1.7 V to VS&lt;/li&gt;
+&lt;li&gt;SPI (3- and 4-wire) and I2C digital interfaces&lt;/li&gt;
+&lt;li&gt;Flexible interrupt modes mappable to either interrupt pin&lt;/li&gt;
+&lt;li&gt;Measurement ranges selectable via serial command&lt;/li&gt;
+&lt;li&gt;Bandwidth selectable via serial command&lt;/li&gt;
+&lt;li&gt;Wide temperature range (−40°C to +85°C)&lt;/li&gt;
+&lt;li&gt;10,000 g shock survival&lt;/li&gt;
+&lt;li&gt;Pb free/RoHS compliant&lt;/li&gt;
+&lt;li&gt;Small and thin: 3 mm × 5 mm × 1 mm LGA package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Added 6/22/2012, datasheet revision C.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADXL345" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BCCZ" package="LGA-14">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="GND@3" pad="5"/>
+<connect gate="G$1" pin="INT1" pad="8"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="14"/>
+<connect gate="G$1" pin="SDA/SDI/SDIO" pad="13"/>
+<connect gate="G$1" pin="SDO/ALT-ADDR" pad="12"/>
+<connect gate="G$1" pin="VDD_IO" pad="1"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BCCZ-HANDSOLDER" package="LGA-14-LARGEPAD">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+<connect gate="G$1" pin="GND@3" pad="5"/>
+<connect gate="G$1" pin="INT1" pad="8"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="14"/>
+<connect gate="G$1" pin="SDA/SDI/SDIO" pad="13"/>
+<connect gate="G$1" pin="SDO/ALT-ADDR" pad="12"/>
+<connect gate="G$1" pin="VDD_IO" pad="1"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Analog Devices" constant="no"/>
+<attribute name="PARTNUM" value="ADXL345BCCZ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCC2230" prefix="IC" uservalue="yes">
+<description>&lt;h1&gt;SCC2000 Series Combined Gyro Sensor and Accelerometer&lt;/h1&gt;
+&lt;h3&gt;Combined X-axis or Z-axis Gyroscope &amp;amp; 3-axis Accelerometer&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span&gt;Single axis X or Z-axis gyroscope with ±125°/s or ±300°/s measurement range&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3-axis accelerometer with ±2g or ±6g measurement range&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Extensive self diagnostics features&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;SPI digital interface&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;User selectable low pass filter via SPI&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;−40°C…+125°C operating range&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3.0V…3.6V supply voltage&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Size 12.1 x 15.0 x 4.35 mm (w x l x h)&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Product platform qualified according to AEC-Q100 standard and compliant to ISO26262 standard&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Also gyro only version available&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Benefits:&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span&gt;Complete product platform for acceleration and angular rate detection in all three sensing axis directions. With the newly introduced Z axis gyroscope enables implementation of &amp;nbsp;a 6DOF sensor solution on one application PCB&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Excellent bias stability, low noise level and good vibration robustness&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Field proven reliability and high performance in very demanding applications&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;SCC2000 series is targeted at applications demanding high stability with tough environmental requirements. Typical applications include:&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;span&gt;Inertial Measurement Units (IMUs) for highly demanding environments&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Platform stabilization and control&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Machine control systems&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Electronic Stability Control (ESC)&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Hill Start Assist (HSA)&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Roll over detection&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Navigation systems&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Product Homepage:&lt;/h3&gt;
+&lt;a href="http://www.murata.com/en-global/products/sensor/gyro/scc2000"&gt;http://www.murata.com/en-global/products/sensor/gyro/scc2000&lt;/a&gt;
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCC2230" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCC22XX">
+<connects>
+<connect gate="G$1" pin="!CS" pad="18"/>
+<connect gate="G$1" pin="AVDD" pad="14"/>
+<connect gate="G$1" pin="AVSS" pad="17"/>
+<connect gate="G$1" pin="AVSS_REF" pad="16"/>
+<connect gate="G$1" pin="A_EXTC" pad="15"/>
+<connect gate="G$1" pin="DVDD" pad="9"/>
+<connect gate="G$1" pin="DVSS" pad="8"/>
+<connect gate="G$1" pin="D_EXTC" pad="10"/>
+<connect gate="G$1" pin="EXTRESN" pad="3"/>
+<connect gate="G$1" pin="HEAT@1" pad="1"/>
+<connect gate="G$1" pin="HEAT@2" pad="12"/>
+<connect gate="G$1" pin="HEAT@3" pad="13"/>
+<connect gate="G$1" pin="HEAT@4" pad="24"/>
+<connect gate="G$1" pin="LBOOST" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="5"/>
+<connect gate="G$1" pin="MOSI" pad="19"/>
+<connect gate="G$1" pin="RES@1" pad="2"/>
+<connect gate="G$1" pin="RES@2" pad="11"/>
+<connect gate="G$1" pin="RES@3" pad="20"/>
+<connect gate="G$1" pin="RES@4" pad="21"/>
+<connect gate="G$1" pin="RES@5" pad="22"/>
+<connect gate="G$1" pin="RES@6" pad="23"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="VBOOST" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Murata" constant="no"/>
+<attribute name="PARTNUM" value="SCC2230-XXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADG736" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;ADG736 CMOS Low Voltage 2.5 Ω Dual SPDT Switch&lt;/h3&gt;
+&lt;p&gt;Added 2016-02-21&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADG736" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP10">
+<connects>
+<connect gate="G$1" pin="D1" pad="10"/>
+<connect gate="G$1" pin="D2" pad="6"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="IN1" pad="1"/>
+<connect gate="G$1" pin="IN2" pad="5"/>
+<connect gate="G$1" pin="S1A" pad="2"/>
+<connect gate="G$1" pin="S1B" pad="9"/>
+<connect gate="G$1" pin="S2A" pad="4"/>
+<connect gate="G$1" pin="S2B" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Analog Devices" constant="no"/>
+<attribute name="PARTNUM" value="ADG736BRM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

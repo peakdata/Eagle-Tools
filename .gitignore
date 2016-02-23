@@ -1,0 +1,7 @@
+# ignore Eagle locking files
+*.lck
+# ignore library backup files
+*.l#*
+# ignore libraries made by other authors
+component\ library/other_authors
+
