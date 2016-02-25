@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -196,24 +196,24 @@
 <wire x1="-2" y1="1.4" x2="-1.2" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="1.4" x2="-1" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1" y1="1.4" x2="2" y2="1.4" width="0.127" layer="21"/>
-<wire x1="2" y1="1.4" x2="2" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-2" y1="1.4" x2="-2" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2" y1="1.4" x2="2" y2="1.225" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="1.225" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.225" x2="-2" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-2" y1="-1.4" x2="-1.2" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-1.2" y1="-1.4" x2="-1.1" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1.4" x2="2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.4" x2="2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.4" x2="2" y2="-1.225" width="0.127" layer="21"/>
 <wire x1="-1" y1="1.4" x2="-1" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1.4" x2="-1.1" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="-1.4" x2="-1.1" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="1.4" x2="-1.2" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-1.2" y1="1.4" x2="-1.2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2" y1="1.2" x2="-2" y2="1" width="0.127" layer="51"/>
+<wire x1="-2" y1="1.225" x2="-2" y2="1" width="0.127" layer="51"/>
 <wire x1="-2" y1="1" x2="-2" y2="-1" width="0.127" layer="51"/>
-<wire x1="-2" y1="-1" x2="-2" y2="-1.2" width="0.127" layer="51"/>
-<wire x1="2" y1="1.2" x2="2" y2="1" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="-1.225" width="0.127" layer="51"/>
+<wire x1="2" y1="1.225" x2="2" y2="1" width="0.127" layer="51"/>
 <wire x1="2" y1="1" x2="2" y2="-1" width="0.127" layer="51"/>
-<wire x1="2" y1="-1" x2="2" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="2" y1="-1" x2="2" y2="-1.225" width="0.127" layer="51"/>
 <wire x1="-2" y1="1" x2="-2.5" y2="1" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="1" x2="-2.5" y2="-1" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="-1" x2="-2" y2="-1" width="0.127" layer="51"/>
@@ -222,8 +222,8 @@
 <wire x1="2.5" y1="-1" x2="2" y2="-1" width="0.127" layer="51"/>
 <smd name="CATHODE" x="-2.2" y="0" dx="1.4" dy="2.1" layer="1"/>
 <smd name="ANODE" x="2.2" y="0" dx="1.4" dy="2.1" layer="1"/>
-<text x="-2.54" y="1.778" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.5" y="1.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-1.75" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 <package name="MICRO-SMP">
 <wire x1="-1.55" y1="0.75" x2="1.05" y2="0.75" width="0.127" layer="21"/>
