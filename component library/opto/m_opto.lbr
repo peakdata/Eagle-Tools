@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36,7 +36,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -431,6 +431,188 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <rectangle x1="-0.675" y1="0.05" x2="0.675" y2="0.3" layer="21"/>
 <rectangle x1="-0.1" y1="-0.125" x2="0.1" y2="0.05" layer="21"/>
 </package>
+<package name="HIROSE_FH26W-39S-0.3SHW">
+<description>&lt;h3&gt;Hirose FH26 Series 0.3mm Pitch, 1.0 mm Height FPC Connector, 39 conductor&lt;/h3&gt;
+&lt;p&gt;Low-profile 0.3 mm pitch FPC connector, SMT with 0.6mm mounting pitch. Rotating one-touch ZIF mechanism.&lt;p&gt;
+&lt;p&gt;Footprint based on Hirose FH26 series datasheet dated July 1, 2016.&lt;/p&gt;
+&lt;p&gt;Added 2016-07-16.&lt;/p&gt;</description>
+<smd name="1" x="-5.7" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="3" x="-5.1" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="5" x="-4.5" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="7" x="-3.9" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="9" x="-3.3" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="11" x="-2.7" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="13" x="-2.1" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="15" x="-1.5" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="17" x="-0.9" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="19" x="-0.3" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="21" x="0.3" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="23" x="0.9" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="25" x="1.5" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="27" x="2.1" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="29" x="2.7" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="31" x="3.3" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="33" x="3.9" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="35" x="4.5" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="37" x="5.1" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="39" x="5.7" y="-1.4" dx="0.3" dy="0.8" layer="1" roundness="25" cream="no"/>
+<smd name="2" x="-5.4" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="4" x="-4.8" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="6" x="-4.2" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="8" x="-3.6" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="10" x="-3" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="12" x="-2.4" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="14" x="-1.8" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="16" x="-1.2" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="18" x="-0.6" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="20" x="0" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="22" x="0.6" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="24" x="1.2" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="26" x="1.8" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="28" x="2.4" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="30" x="3" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="32" x="3.6" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="34" x="4.2" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="36" x="4.8" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="38" x="5.4" y="1.475" dx="0.3" dy="0.65" layer="1" roundness="25" cream="no"/>
+<smd name="NC@2" x="6.4" y="-1.125" dx="0.4" dy="0.95" layer="1" roundness="25" cream="no"/>
+<smd name="NC@1" x="-6.4" y="-1.125" dx="0.4" dy="0.95" layer="1" roundness="25" cream="no"/>
+<rectangle x1="-5.815" y1="-1.8" x2="-5.585" y2="-1.15" layer="31"/>
+<rectangle x1="-5.215" y1="-1.8" x2="-4.985" y2="-1.15" layer="31"/>
+<rectangle x1="-4.615" y1="-1.8" x2="-4.385" y2="-1.15" layer="31"/>
+<rectangle x1="-4.015" y1="-1.8" x2="-3.785" y2="-1.15" layer="31"/>
+<rectangle x1="-3.415" y1="-1.8" x2="-3.185" y2="-1.15" layer="31"/>
+<rectangle x1="-2.815" y1="-1.8" x2="-2.585" y2="-1.15" layer="31"/>
+<rectangle x1="-2.215" y1="-1.8" x2="-1.985" y2="-1.15" layer="31"/>
+<rectangle x1="-1.615" y1="-1.8" x2="-1.385" y2="-1.15" layer="31"/>
+<rectangle x1="-1.015" y1="-1.8" x2="-0.785" y2="-1.15" layer="31"/>
+<rectangle x1="-0.415" y1="-1.8" x2="-0.185" y2="-1.15" layer="31"/>
+<rectangle x1="0.185" y1="-1.8" x2="0.415" y2="-1.15" layer="31"/>
+<rectangle x1="0.785" y1="-1.8" x2="1.015" y2="-1.15" layer="31"/>
+<rectangle x1="1.385" y1="-1.8" x2="1.615" y2="-1.15" layer="31"/>
+<rectangle x1="1.985" y1="-1.8" x2="2.215" y2="-1.15" layer="31"/>
+<rectangle x1="2.585" y1="-1.8" x2="2.815" y2="-1.15" layer="31"/>
+<rectangle x1="3.185" y1="-1.8" x2="3.415" y2="-1.15" layer="31"/>
+<rectangle x1="3.785" y1="-1.8" x2="4.015" y2="-1.15" layer="31"/>
+<rectangle x1="4.385" y1="-1.8" x2="4.615" y2="-1.15" layer="31"/>
+<rectangle x1="4.985" y1="-1.8" x2="5.215" y2="-1.15" layer="31"/>
+<rectangle x1="5.585" y1="-1.8" x2="5.815" y2="-1.15" layer="31"/>
+<rectangle x1="-5.515" y1="1.25" x2="-5.285" y2="1.8" layer="31"/>
+<rectangle x1="-4.915" y1="1.25" x2="-4.685" y2="1.8" layer="31"/>
+<rectangle x1="-4.315" y1="1.25" x2="-4.085" y2="1.8" layer="31"/>
+<rectangle x1="-3.715" y1="1.25" x2="-3.485" y2="1.8" layer="31"/>
+<rectangle x1="-3.115" y1="1.25" x2="-2.885" y2="1.8" layer="31"/>
+<rectangle x1="-2.515" y1="1.25" x2="-2.285" y2="1.8" layer="31"/>
+<rectangle x1="-1.915" y1="1.25" x2="-1.685" y2="1.8" layer="31"/>
+<rectangle x1="-1.315" y1="1.25" x2="-1.085" y2="1.8" layer="31"/>
+<rectangle x1="-0.715" y1="1.25" x2="-0.485" y2="1.8" layer="31"/>
+<rectangle x1="-0.115" y1="1.25" x2="0.115" y2="1.8" layer="31"/>
+<rectangle x1="0.485" y1="1.25" x2="0.715" y2="1.8" layer="31"/>
+<rectangle x1="1.085" y1="1.25" x2="1.315" y2="1.8" layer="31"/>
+<rectangle x1="1.685" y1="1.25" x2="1.915" y2="1.8" layer="31"/>
+<rectangle x1="2.285" y1="1.25" x2="2.515" y2="1.8" layer="31"/>
+<rectangle x1="2.885" y1="1.25" x2="3.115" y2="1.8" layer="31"/>
+<rectangle x1="3.485" y1="1.25" x2="3.715" y2="1.8" layer="31"/>
+<rectangle x1="4.085" y1="1.25" x2="4.315" y2="1.8" layer="31"/>
+<rectangle x1="4.685" y1="1.25" x2="4.915" y2="1.8" layer="31"/>
+<rectangle x1="5.285" y1="1.25" x2="5.515" y2="1.8" layer="31"/>
+<rectangle x1="-6.6" y1="-1.6" x2="-6.3" y2="-0.9" layer="31"/>
+<rectangle x1="6.3" y1="-1.6" x2="6.6" y2="-0.9" layer="31"/>
+<wire x1="-6.1" y1="1.35" x2="6.1" y2="1.35" width="0.127" layer="51"/>
+<wire x1="6.6" y1="0.9" x2="6.6" y2="-1" width="0.127" layer="51"/>
+<wire x1="-6.6" y1="-1" x2="-6.6" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-6.6" y1="0.9" x2="-6.1" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-6.1" y1="0.9" x2="-6.1" y2="1.35" width="0.127" layer="51"/>
+<wire x1="6.6" y1="0.9" x2="6.1" y2="0.9" width="0.127" layer="51"/>
+<wire x1="6.1" y1="0.9" x2="6.1" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-1.6" x2="-6.2" y2="-1" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-1" x2="-6.55" y2="-1" width="0.127" layer="51"/>
+<wire x1="-6.55" y1="-1" x2="-6.6" y2="-1" width="0.127" layer="51"/>
+<wire x1="6.2" y1="-1.6" x2="6.2" y2="-1" width="0.127" layer="51"/>
+<wire x1="6.2" y1="-1" x2="6.6" y2="-1" width="0.127" layer="51"/>
+<rectangle x1="-5.46" y1="1.4" x2="-5.34" y2="1.65" layer="51"/>
+<rectangle x1="-4.86" y1="1.4" x2="-4.74" y2="1.65" layer="51"/>
+<rectangle x1="-4.26" y1="1.4" x2="-4.14" y2="1.65" layer="51"/>
+<rectangle x1="-3.66" y1="1.4" x2="-3.54" y2="1.65" layer="51"/>
+<rectangle x1="-3.06" y1="1.4" x2="-2.94" y2="1.65" layer="51"/>
+<rectangle x1="-2.46" y1="1.4" x2="-2.34" y2="1.65" layer="51"/>
+<rectangle x1="-1.86" y1="1.4" x2="-1.74" y2="1.65" layer="51"/>
+<rectangle x1="-1.26" y1="1.4" x2="-1.14" y2="1.65" layer="51"/>
+<rectangle x1="-0.66" y1="1.4" x2="-0.54" y2="1.65" layer="51"/>
+<rectangle x1="-0.06" y1="1.4" x2="0.06" y2="1.65" layer="51"/>
+<rectangle x1="0.54" y1="1.4" x2="0.66" y2="1.65" layer="51"/>
+<rectangle x1="1.14" y1="1.4" x2="1.26" y2="1.65" layer="51"/>
+<rectangle x1="1.74" y1="1.4" x2="1.86" y2="1.65" layer="51"/>
+<rectangle x1="2.34" y1="1.4" x2="2.46" y2="1.65" layer="51"/>
+<rectangle x1="2.94" y1="1.4" x2="3.06" y2="1.65" layer="51"/>
+<rectangle x1="3.54" y1="1.4" x2="3.66" y2="1.65" layer="51"/>
+<rectangle x1="4.14" y1="1.4" x2="4.26" y2="1.65" layer="51"/>
+<rectangle x1="4.74" y1="1.4" x2="4.86" y2="1.65" layer="51"/>
+<rectangle x1="5.34" y1="1.4" x2="5.46" y2="1.65" layer="51"/>
+<rectangle x1="-5.76" y1="-1.75" x2="-5.64" y2="-1.55" layer="51"/>
+<rectangle x1="-5.16" y1="-1.75" x2="-5.04" y2="-1.55" layer="51"/>
+<rectangle x1="-4.56" y1="-1.75" x2="-4.44" y2="-1.55" layer="51"/>
+<rectangle x1="-3.96" y1="-1.75" x2="-3.84" y2="-1.55" layer="51"/>
+<rectangle x1="-3.36" y1="-1.75" x2="-3.24" y2="-1.55" layer="51"/>
+<rectangle x1="-2.76" y1="-1.75" x2="-2.64" y2="-1.55" layer="51"/>
+<rectangle x1="-2.16" y1="-1.75" x2="-2.04" y2="-1.55" layer="51"/>
+<rectangle x1="-1.56" y1="-1.75" x2="-1.44" y2="-1.55" layer="51"/>
+<rectangle x1="-0.96" y1="-1.75" x2="-0.84" y2="-1.55" layer="51"/>
+<rectangle x1="-0.36" y1="-1.75" x2="-0.24" y2="-1.55" layer="51"/>
+<rectangle x1="0.24" y1="-1.75" x2="0.36" y2="-1.55" layer="51"/>
+<rectangle x1="0.84" y1="-1.75" x2="0.96" y2="-1.55" layer="51"/>
+<rectangle x1="1.44" y1="-1.75" x2="1.56" y2="-1.55" layer="51"/>
+<rectangle x1="2.04" y1="-1.75" x2="2.16" y2="-1.55" layer="51"/>
+<rectangle x1="2.64" y1="-1.75" x2="2.76" y2="-1.55" layer="51"/>
+<rectangle x1="3.24" y1="-1.75" x2="3.36" y2="-1.55" layer="51"/>
+<rectangle x1="3.84" y1="-1.75" x2="3.96" y2="-1.55" layer="51"/>
+<rectangle x1="4.44" y1="-1.75" x2="4.56" y2="-1.55" layer="51"/>
+<rectangle x1="5.04" y1="-1.75" x2="5.16" y2="-1.55" layer="51"/>
+<rectangle x1="5.64" y1="-1.75" x2="5.76" y2="-1.55" layer="51"/>
+<wire x1="-6.55" y1="-1" x2="-6.55" y2="-1.4" width="0.075" layer="51"/>
+<wire x1="-6.55" y1="-1.4" x2="-6.4" y2="-1.4" width="0.075" layer="51" curve="180"/>
+<wire x1="-6.4" y1="-1.4" x2="-6.35" y2="-1.15" width="0.075" layer="51"/>
+<wire x1="6.55" y1="-1" x2="6.55" y2="-1.4" width="0.075" layer="51"/>
+<wire x1="6.4" y1="-1.4" x2="6.35" y2="-1.15" width="0.075" layer="51"/>
+<wire x1="6.55" y1="-1.4" x2="6.4" y2="-1.4" width="0.075" layer="51" curve="-180"/>
+<wire x1="-5.4" y1="-1.9" x2="-1.2" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-1.9" x2="5.4" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-1" x2="-6.2" y2="0.1" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="0.1" x2="6.2" y2="0.1" width="0.127" layer="51"/>
+<wire x1="6.2" y1="0.1" x2="6.2" y2="-1" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-1.6" x2="-5.4" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-5.4" y1="-1.6" x2="-5.4" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="6.2" y1="-1.6" x2="5.4" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="5.4" y1="-1.6" x2="5.4" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-1.9" x2="-1.2" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="-1.75" x2="1.2" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.2" y1="-1.75" x2="1.2" y2="-1.9" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-4.8" y="-1.7"/>
+<vertex x="-4.4" y="-1"/>
+<vertex x="-4" y="-1.7"/>
+</polygon>
+<wire x1="-5.75" y1="1.5" x2="-6.75" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="1.5" x2="-6.75" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="5.75" y1="1.5" x2="6.75" y2="1.5" width="0.127" layer="21"/>
+<wire x1="6.75" y1="1.5" x2="6.75" y2="-0.4" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-7.1" y="-1.4"/>
+<vertex x="-7.7" y="-0.8"/>
+<vertex x="-7.7" y="-2"/>
+</polygon>
+<text x="-6.8" y="2.1" size="1.27" layer="21" ratio="16">&gt;NAME</text>
+<polygon width="0.4" layer="39">
+<vertex x="-7" y="2"/>
+<vertex x="7" y="2"/>
+<vertex x="7" y="-2"/>
+<vertex x="6.4" y="-2.6"/>
+<vertex x="6.4" y="-12.2"/>
+<vertex x="-6.4" y="-12.2"/>
+<vertex x="-6.4" y="-2.6"/>
+<vertex x="-7" y="-2"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="OPTICAL-ENCODER-WITH-SWITCH">
@@ -673,6 +855,60 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <pin name="EXTMODE" x="15.24" y="-12.7" length="short" rot="R180"/>
 <pin name="VSS" x="-15.24" y="-10.16" length="short"/>
 <pin name="VSSA" x="-15.24" y="-12.7" length="short"/>
+</symbol>
+<symbol name="INNOLUX_LCD_MIPI_DSI">
+<description>&lt;h3&gt;Innolux TFT LCD with MIPI-DSI Interface&lt;/h3&gt;
+&lt;p&gt;From N101ICE-G62 datasheet, version 1.0 2013-10-24&lt;/p&gt;
+&lt;p&gt;Added 2016-07-16&lt;/p&gt;</description>
+<pin name="VCC@1" x="-17.78" y="43.18" length="short" direction="pas"/>
+<pin name="VCC@2" x="-17.78" y="40.64" length="short" direction="pas"/>
+<pin name="VCC@3" x="-17.78" y="38.1" length="short" direction="pas"/>
+<pin name="IOVCC" x="-17.78" y="35.56" length="short" direction="pas"/>
+<pin name="NC@1" x="17.78" y="43.18" length="short" direction="pas" rot="R180"/>
+<pin name="NC@2" x="17.78" y="40.64" length="short" direction="pas" rot="R180"/>
+<pin name="NC@3" x="17.78" y="38.1" length="short" direction="pas" rot="R180"/>
+<pin name="LCD_ID" x="-17.78" y="30.48" length="short" direction="pas"/>
+<pin name="D3-" x="-17.78" y="-7.62" length="short" direction="pas"/>
+<pin name="D3+" x="-17.78" y="-10.16" length="short" direction="pas"/>
+<pin name="GND@2" x="-17.78" y="-12.7" length="short" direction="pas"/>
+<pin name="D0-" x="-17.78" y="15.24" length="short" direction="pas"/>
+<pin name="D0+" x="-17.78" y="12.7" length="short" direction="pas"/>
+<pin name="GND@3" x="-17.78" y="25.4" length="short" direction="pas"/>
+<pin name="CLK-" x="-17.78" y="22.86" length="short" direction="pas"/>
+<pin name="CLK+" x="-17.78" y="20.32" length="short" direction="pas"/>
+<pin name="GND@4" x="-17.78" y="17.78" length="short" direction="pas"/>
+<pin name="D1+" x="-17.78" y="5.08" length="short" direction="pas"/>
+<pin name="D1-" x="-17.78" y="7.62" length="short" direction="pas"/>
+<pin name="GND@5" x="-17.78" y="2.54" length="short" direction="pas"/>
+<pin name="D2-" x="-17.78" y="0" length="short" direction="pas"/>
+<pin name="D2+" x="-17.78" y="-2.54" length="short" direction="pas"/>
+<pin name="GND@6" x="-17.78" y="-5.08" length="short" direction="pas"/>
+<pin name="PWM_OUT" x="17.78" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="BIST/NC" x="17.78" y="27.94" length="short" direction="pas" rot="R180"/>
+<pin name="NC@5" x="17.78" y="33.02" length="short" direction="pas" rot="R180"/>
+<pin name="NC@6" x="17.78" y="30.48" length="short" direction="pas" rot="R180"/>
+<pin name="PWM_IN" x="-17.78" y="-17.78" length="short" direction="pas"/>
+<pin name="LED_ANODE@2" x="-17.78" y="-20.32" length="short" direction="pas"/>
+<pin name="LED_ANODE@1" x="-17.78" y="-22.86" length="short" direction="pas"/>
+<pin name="LED_CATHODE@2" x="-17.78" y="-25.4" length="short" direction="pas"/>
+<pin name="LED_CATHODE@1" x="-17.78" y="-27.94" length="short" direction="pas"/>
+<pin name="LED_CATHODE@4" x="-17.78" y="-30.48" length="short" direction="pas"/>
+<pin name="LED_CATHODE@3" x="-17.78" y="-33.02" length="short" direction="pas"/>
+<pin name="LED_CATHODE@6" x="-17.78" y="-35.56" length="short" direction="pas"/>
+<pin name="LED_CATHODE@5" x="-17.78" y="-38.1" length="short" direction="pas"/>
+<pin name="GND@7" x="-17.78" y="-43.18" length="short" direction="pas"/>
+<pin name="NC@4" x="17.78" y="35.56" length="short" direction="pas" rot="R180"/>
+<pin name="GND@1" x="-17.78" y="10.16" length="short" direction="pas"/>
+<wire x1="-15.24" y1="45.72" x2="15.24" y2="45.72" width="0.254" layer="94"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-45.72" x2="-15.24" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-45.72" x2="-15.24" y2="45.72" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="25.4" x2="-2.54" y2="25.4" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="25.4" x2="-2.54" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<text x="0" y="-5.08" size="1.778" layer="97" rot="R90">MIPI-DSI 4 Lane</text>
+<text x="-15.24" y="46.482" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-46.482" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -926,6 +1162,85 @@ Product and Ordering Information
 <technology name="">
 <attribute name="MANUF" value="Osram" constant="no"/>
 <attribute name="PARTNUM" value="LG R971" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INNOLUX_N101ICE-G62_LCD" prefix="LCD" uservalue="yes">
+<description>&lt;h3&gt;Innolux N101ICE-G62 LCD&lt;/h3&gt;
+&lt;p&gt;N101ICE-G61 is a 10.1” (10.1” diagonal) TFT Liquid Crystal Display module with LED Backlight unit and 39 pins MIPI interface. This module supports 1280 x 800 WXGA mode.&lt;/p&gt;
+￼
+&lt;h4&gt;General Specifications&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Specification&lt;/th&gt;&lt;th&gt;Unit&lt;/th&gt;&lt;th&gt;Note&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Screen Size&lt;/th&gt;&lt;td&gt;10.1 inch(Diagonal)&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Driver Element&lt;/th&gt;&lt;td&gt;a-si TFT active matrix&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+￼
+￼
+&lt;tr&gt;&lt;th&gt;Pixel Number&lt;/th&gt;&lt;td&gt;1280 x R.G.B. x 800&lt;/td&gt;&lt;td&gt;pixel&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Pixel Pitch&lt;/th&gt;&lt;td&gt;0.1695 (H) x 0.0565 (V)&lt;/td&gt;&lt;td&gt;mm&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Pixel Arrangement&lt;/th&gt;&lt;td&gt;RGB vertical stripe&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Display Colors&lt;/th&gt;&lt;td&gt;16,777,216 (8bit color depth)&lt;/td&gt;&lt;td&gt;color&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Transmissive Mode&lt;/th&gt;&lt;td&gt;Normally black&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Surface Treatment&lt;/th&gt;&lt;td&gt;Hard coating (3H), Glare&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Luminance, White&lt;/th&gt;&lt;td&gt;350&lt;/td&gt;&lt;td&gt;Cd/m2&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Interface&lt;/th&gt;&lt;td&gt;MIPI 4lane&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Power Consumption&lt;/th&gt;&lt;td&gt;Total 3.67 W (Max.) ( panel 1.15 W (Max.), BL 2.52 W (Max.))&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
+￼
+&lt;/table&gt;
+&lt;h4&gt;Connector: HIROSE FH26W-39S-0.3SHW&lt;/h4&gt;
+&lt;p&gt;Added 2016-07-16&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INNOLUX_LCD_MIPI_DSI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="HIROSE_FH26W-39S" package="HIROSE_FH26W-39S-0.3SHW">
+<connects>
+<connect gate="G$1" pin="BIST/NC" pad="27"/>
+<connect gate="G$1" pin="CLK+" pad="18"/>
+<connect gate="G$1" pin="CLK-" pad="17"/>
+<connect gate="G$1" pin="D0+" pad="15"/>
+<connect gate="G$1" pin="D0-" pad="14"/>
+<connect gate="G$1" pin="D1+" pad="21"/>
+<connect gate="G$1" pin="D1-" pad="20"/>
+<connect gate="G$1" pin="D2+" pad="24"/>
+<connect gate="G$1" pin="D2-" pad="23"/>
+<connect gate="G$1" pin="D3+" pad="12"/>
+<connect gate="G$1" pin="D3-" pad="11"/>
+<connect gate="G$1" pin="GND@1" pad="10"/>
+<connect gate="G$1" pin="GND@2" pad="13"/>
+<connect gate="G$1" pin="GND@3" pad="16"/>
+<connect gate="G$1" pin="GND@4" pad="19"/>
+<connect gate="G$1" pin="GND@5" pad="22"/>
+<connect gate="G$1" pin="GND@6" pad="25"/>
+<connect gate="G$1" pin="GND@7" pad="39"/>
+<connect gate="G$1" pin="IOVCC" pad="4"/>
+<connect gate="G$1" pin="LCD_ID" pad="8"/>
+<connect gate="G$1" pin="LED_ANODE@1" pad="32"/>
+<connect gate="G$1" pin="LED_ANODE@2" pad="31"/>
+<connect gate="G$1" pin="LED_CATHODE@1" pad="34"/>
+<connect gate="G$1" pin="LED_CATHODE@2" pad="33"/>
+<connect gate="G$1" pin="LED_CATHODE@3" pad="36"/>
+<connect gate="G$1" pin="LED_CATHODE@4" pad="35"/>
+<connect gate="G$1" pin="LED_CATHODE@5" pad="38"/>
+<connect gate="G$1" pin="LED_CATHODE@6" pad="37"/>
+<connect gate="G$1" pin="NC@1" pad="5"/>
+<connect gate="G$1" pin="NC@2" pad="6"/>
+<connect gate="G$1" pin="NC@3" pad="7"/>
+<connect gate="G$1" pin="NC@4" pad="9"/>
+<connect gate="G$1" pin="NC@5" pad="28"/>
+<connect gate="G$1" pin="NC@6" pad="29"/>
+<connect gate="G$1" pin="PWM_IN" pad="30"/>
+<connect gate="G$1" pin="PWM_OUT" pad="26"/>
+<connect gate="G$1" pin="VCC@1" pad="1"/>
+<connect gate="G$1" pin="VCC@2" pad="2"/>
+<connect gate="G$1" pin="VCC@3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Innolux" constant="no"/>
+<attribute name="PARTNUM" value="N101ICE-G62" constant="no"/>
 </technology>
 </technologies>
 </device>
