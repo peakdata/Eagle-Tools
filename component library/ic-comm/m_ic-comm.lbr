@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -22,25 +22,25 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -48,11 +48,11 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -62,15 +62,15 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>&lt;h3&gt;Communication ICs&lt;/h3&gt;
@@ -411,6 +411,122 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <rectangle x1="1.1" y1="1.675" x2="1.4" y2="2.65" layer="51" rot="R180"/>
 <rectangle x1="1.6" y1="1.675" x2="1.9" y2="2.65" layer="51" rot="R180"/>
 </package>
+<package name="SQFN-36">
+<description>&lt;h3&gt;36-Pin SQFN&lt;/h3&gt;
+&lt;p&gt;Based on data from Microchip USB251xB/xBi Datasheet, Document DS00001692C, 2015-10-20&lt;/p&gt;</description>
+<smd name="PAD" x="0" y="0" dx="3.7" dy="3.7" layer="1" roundness="5" cream="no"/>
+<smd name="1" x="-2.775" y="2" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="2" x="-2.775" y="1.5" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="3" x="-2.775" y="1" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="4" x="-2.775" y="0.5" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="5" x="-2.775" y="0" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="6" x="-2.775" y="-0.5" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="7" x="-2.775" y="-1" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="8" x="-2.775" y="-1.5" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="9" x="-2.775" y="-2" dx="0.9" dy="0.28" layer="1" roundness="5"/>
+<smd name="10" x="-2" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="11" x="-1.5" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="12" x="-1" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="13" x="-0.5" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="14" x="0" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="15" x="0.5" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="16" x="1" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="17" x="1.5" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="18" x="2" y="-2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R90"/>
+<smd name="19" x="2.775" y="-2" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="20" x="2.775" y="-1.5" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="21" x="2.775" y="-1" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="22" x="2.775" y="-0.5" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="23" x="2.775" y="0" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="24" x="2.775" y="0.5" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="25" x="2.775" y="1" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="26" x="2.775" y="1.5" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="27" x="2.775" y="2" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R180"/>
+<smd name="28" x="2" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="29" x="1.5" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="30" x="1" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="31" x="0.5" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="32" x="0" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="33" x="-0.5" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="34" x="-1" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="35" x="-1.5" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<smd name="36" x="-2" y="2.775" dx="0.9" dy="0.28" layer="1" roundness="5" rot="R270"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="51"/>
+<rectangle x1="-3" y1="1.875" x2="-2.4" y2="2.125" layer="51"/>
+<rectangle x1="-3" y1="1.375" x2="-2.4" y2="1.625" layer="51"/>
+<rectangle x1="-3" y1="0.875" x2="-2.4" y2="1.125" layer="51"/>
+<rectangle x1="-3" y1="0.375" x2="-2.4" y2="0.625" layer="51"/>
+<rectangle x1="-3" y1="-0.125" x2="-2.4" y2="0.125" layer="51"/>
+<rectangle x1="-3" y1="-0.625" x2="-2.4" y2="-0.375" layer="51"/>
+<rectangle x1="-3" y1="-1.125" x2="-2.4" y2="-0.875" layer="51"/>
+<rectangle x1="-3" y1="-1.625" x2="-2.4" y2="-1.375" layer="51"/>
+<rectangle x1="-3" y1="-2.125" x2="-2.4" y2="-1.875" layer="51"/>
+<rectangle x1="-2.3" y1="-2.825" x2="-1.7" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="-1.8" y1="-2.825" x2="-1.2" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="-1.3" y1="-2.825" x2="-0.7" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="-0.8" y1="-2.825" x2="-0.2" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="-0.3" y1="-2.825" x2="0.3" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="0.2" y1="-2.825" x2="0.8" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="0.7" y1="-2.825" x2="1.3" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="1.2" y1="-2.825" x2="1.8" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="1.7" y1="-2.825" x2="2.3" y2="-2.575" layer="51" rot="R90"/>
+<rectangle x1="2.4" y1="-2.125" x2="3" y2="-1.875" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="-1.625" x2="3" y2="-1.375" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="-1.125" x2="3" y2="-0.875" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="-0.625" x2="3" y2="-0.375" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="-0.125" x2="3" y2="0.125" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="0.375" x2="3" y2="0.625" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="0.875" x2="3" y2="1.125" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="1.375" x2="3" y2="1.625" layer="51" rot="R180"/>
+<rectangle x1="2.4" y1="1.875" x2="3" y2="2.125" layer="51" rot="R180"/>
+<rectangle x1="1.7" y1="2.575" x2="2.3" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="1.2" y1="2.575" x2="1.8" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="0.7" y1="2.575" x2="1.3" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="0.2" y1="2.575" x2="0.8" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-0.3" y1="2.575" x2="0.3" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-0.8" y1="2.575" x2="-0.2" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-1.3" y1="2.575" x2="-0.7" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-1.8" y1="2.575" x2="-1.2" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-2.3" y1="2.575" x2="-1.7" y2="2.825" layer="51" rot="R270"/>
+<rectangle x1="-1.85" y1="-1.85" x2="1.85" y2="1.85" layer="51"/>
+<wire x1="-3" y1="2.325" x2="-3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-2.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3" x2="-2.325" y2="3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.325" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="-2.325" y2="-3" width="0.127" layer="21"/>
+<wire x1="2.325" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="-2.325" width="0.127" layer="21"/>
+<wire x1="3" y1="2.325" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="2.325" y2="3" width="0.127" layer="21"/>
+<text x="-3" y="3.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-3" y="-3.5" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<circle x="-2.675" y="-2.675" radius="0.08" width="0.16" layer="35"/>
+<circle x="2.675" y="-2.675" radius="0.08" width="0.16" layer="35"/>
+<circle x="2.675" y="2.675" radius="0.08" width="0.16" layer="35"/>
+<circle x="-2.675" y="2.675" radius="0.08" width="0.16" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-2.5" y="3.75"/>
+<vertex x="2.5" y="3.75"/>
+<vertex x="3.75" y="2.5"/>
+<vertex x="3.75" y="-2.5"/>
+<vertex x="2.5" y="-3.75"/>
+<vertex x="-2.5" y="-3.75"/>
+<vertex x="-3.75" y="-2.5"/>
+<vertex x="-3.75" y="2.5"/>
+</polygon>
+<rectangle x1="-0.6" y1="-0.6" x2="0.6" y2="0.6" layer="31"/>
+<rectangle x1="-1.85" y1="-0.6" x2="-0.8" y2="0.6" layer="31"/>
+<rectangle x1="0.8" y1="-0.6" x2="1.85" y2="0.6" layer="31" rot="R180"/>
+<rectangle x1="-1.85" y1="0.8" x2="-0.8" y2="1.85" layer="31"/>
+<rectangle x1="-0.6" y1="0.8" x2="0.6" y2="1.85" layer="31"/>
+<rectangle x1="0.8" y1="0.8" x2="1.85" y2="1.85" layer="31"/>
+<rectangle x1="0.8" y1="-1.85" x2="1.85" y2="-0.8" layer="31" rot="R180"/>
+<rectangle x1="-0.6" y1="-1.85" x2="0.6" y2="-0.8" layer="31" rot="R180"/>
+<rectangle x1="-1.85" y1="-1.85" x2="-0.8" y2="-0.8" layer="31" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX3420E">
@@ -529,6 +645,52 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <text x="-10.16" y="18.542" size="1.6764" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.6764" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MICROCHIP_USB2514B">
+<description>&lt;h3&gt;USB 2.0 Hi-Speed Hub Controller&lt;/h3&gt;</description>
+<pin name="USBDM_DN1/PRT_DIS_M1" x="25.4" y="33.02" length="short" direction="pas" rot="R180"/>
+<pin name="USBDP_DN1/PRT_DIS_P1" x="25.4" y="30.48" length="short" direction="pas" rot="R180"/>
+<pin name="USBDM_DN2/PRT_DIS_M2" x="25.4" y="17.78" length="short" direction="pas" rot="R180"/>
+<pin name="USBDP_DN2/PRT_DIS_P2" x="25.4" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="VDDA@5" x="-25.4" y="20.32" length="short" direction="pas"/>
+<pin name="USBDM_DN3/PRT_DIS_M3" x="25.4" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="USBDP_DN3/PRT_DIS_P3" x="25.4" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="USBDM_DN4/PRT_DIS_M4" x="25.4" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="USBDP_DN4/PRT_DIS_P4" x="25.4" y="-15.24" length="short" direction="pas" rot="R180"/>
+<pin name="VDDA@10" x="-25.4" y="17.78" length="short" direction="pas"/>
+<pin name="TEST" x="-25.4" y="30.48" length="short" direction="pas"/>
+<pin name="PRTPWR1/BC_EN1" x="25.4" y="27.94" length="short" direction="pas" rot="R180"/>
+<pin name="!OCS_1" x="25.4" y="25.4" length="short" direction="pas" rot="R180"/>
+<pin name="CRFILT" x="-25.4" y="-17.78" length="short" direction="pas"/>
+<pin name="VDD@15" x="-25.4" y="25.4" length="short" direction="pas"/>
+<pin name="PRTPWR2/BC_EN2" x="25.4" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="!OCS_2" x="25.4" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="PRTPWR3/BC_EN3" x="25.4" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="!OCS_3" x="25.4" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="PRTPWR4/BC_EN4" x="25.4" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="!OCS_4" x="25.4" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="SDA/SMBDATA/NON_REM1" x="-25.4" y="-33.02" length="short" direction="pas"/>
+<pin name="VDD@23" x="-25.4" y="22.86" length="short" direction="pas"/>
+<pin name="SCL/SMBCLK/CFG_SEL0" x="-25.4" y="-25.4" length="short" direction="pas"/>
+<pin name="HS_IND/CFG_SEL1" x="-25.4" y="-27.94" length="short" direction="pas"/>
+<pin name="!RESET" x="-25.4" y="33.02" length="short" direction="pas"/>
+<pin name="VBUS_DET" x="-25.4" y="-2.54" length="short" direction="pas"/>
+<pin name="SUSP_IND/LOCAL_PWR/NON_REM0" x="-25.4" y="-30.48" length="short" direction="pas"/>
+<pin name="VDDA@29" x="-25.4" y="15.24" length="short" direction="pas"/>
+<pin name="USBDM_UP" x="-25.4" y="2.54" length="short" direction="pas"/>
+<pin name="USBDP_UP" x="-25.4" y="0" length="short" direction="pas"/>
+<pin name="XTALOUT" x="-25.4" y="-7.62" length="short" direction="pas"/>
+<pin name="XTALIN/CLKIN" x="-25.4" y="-10.16" length="short" direction="pas"/>
+<pin name="PLLFILT" x="-25.4" y="-20.32" length="short" direction="pas"/>
+<pin name="RBIAS" x="-25.4" y="-15.24" length="short" direction="pas"/>
+<pin name="VDDA@36" x="-25.4" y="12.7" length="short" direction="pas"/>
+<pin name="GND" x="-25.4" y="7.62" length="short" direction="pas"/>
+<wire x1="-22.86" y1="35.56" x2="22.86" y2="35.56" width="0.254" layer="94"/>
+<wire x1="22.86" y1="35.56" x2="22.86" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-35.56" x2="-22.86" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-35.56" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
+<text x="-22.86" y="38.1" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-22.86" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -748,6 +910,96 @@ Transfer Data Concurrently with USB Transfers Over the Same Endpoint
 <technology name="">
 <attribute name="MANUF" value="Linear Technology" constant="no"/>
 <attribute name="PARTNUM" value="LTC6820IMS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICROCHIP_USB2514B" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;USB2514B USB 2.0 Hi-Speed Hub Controller&lt;/h3&gt;
+&lt;h4&gt;General Description&lt;/h4&gt;
+&lt;p&gt;The Microchip USB251xB/xBi hub is a family of low- power, configurable, MTT (multi transaction translator) hub controller IC products for embedded USB solutions. The x in the part number indicates the number of downstream ports available, while the B indicates battery charging support.&lt;/p&gt;
+&lt;p&gt;The Microchip hub supports low-speed, full-speed, and hi-speed (if operating as a hi-speed hub) downstream devices on all of the enabled downstream ports.&lt;/p&gt;
+&lt;h4&gt;Highlights&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;High performance, low-power, small footprint hub controller IC with 2, 3, or 4 downstream ports&lt;/li&gt;
+&lt;li&gt;Fully compliant with the USB2.0 Specification[1]&lt;/li&gt;
+&lt;li&gt;Enhanced OEM configuration options available through either a single serial I2C EEPROM, or SMBus slave port&lt;/li&gt;
+&lt;li&gt;MultiTRAK&lt;/li&gt;
+&lt;li&gt;High-performance multiple transaction translator which provides one transaction translator per port&lt;/li&gt;
+&lt;li&gt;PortMap&lt;/li&gt;
+&lt;li&gt;Flexible port mapping and disable sequencing&lt;/li&gt;
+&lt;li&gt;PortSwap&lt;/li&gt;
+&lt;li&gt;Programmable USB differential-pair pin locations ease PCB design by aligning USB signal lines directly to connectors&lt;/li&gt;
+&lt;li&gt;PHYBoost&lt;/li&gt;
+&lt;li&gt;Programmable USB signal drive strength for recovering signal integrity using 4-level driving strength resolution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;USB251xB/xBi products are fully footprint compatible with USB251x/xi/xA/xAi products as direct drop-in replacements — Cost savings include using the same PCB components and application of USB-IF Compliance by Similarity&lt;/li&gt;
+&lt;li&gt;Full power management with individual or ganged power control of each downstream port&lt;/li&gt;
+&lt;li&gt;Fully integrated USB termination and pull-up/pull-down resistors&lt;/li&gt;
+&lt;li&gt;Supports a single external 3.3V supply source; internal regulators provide 1.2 V internal core voltage&lt;/li&gt;
+&lt;li&gt;On board 24MHz crystal driver or external 24 MHz clock input&lt;/li&gt;
+&lt;li&gt;4 kilovolts of HBM JESD22-A114F ESD protection (powered and unpowered)&lt;/li&gt;
+&lt;li&gt;Supports self- or bus-powered operation&lt;/li&gt;
+&lt;li&gt;Supports the USB Battery Charging specification Rev. 1.1 for Charging Downstream Ports (CDP)&lt;/li&gt;
+&lt;li&gt;TheUSB251xB/xBi offers the following packages:
+- 36-pin SQFN(6x6mm)(Preferred)
+- 36-pin QFN(6x6mm)(Legacy)&lt;/li&gt;
+&lt;li&gt;USB251xBi products support the industrial temperature range of -40˚C to +85˚C&lt;/li&gt;
+&lt;li&gt;USB251xB products support the extended commercial temperature range of 0˚C to +85˚C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data from Microchip Document DS00001692C, 2015-10-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=USB2514B"&gt;Octopart&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MICROCHIP_USB2514B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/M2" package="SQFN-36">
+<connects>
+<connect gate="G$1" pin="!OCS_1" pad="13"/>
+<connect gate="G$1" pin="!OCS_2" pad="17"/>
+<connect gate="G$1" pin="!OCS_3" pad="19"/>
+<connect gate="G$1" pin="!OCS_4" pad="21"/>
+<connect gate="G$1" pin="!RESET" pad="26"/>
+<connect gate="G$1" pin="CRFILT" pad="14"/>
+<connect gate="G$1" pin="GND" pad="PAD"/>
+<connect gate="G$1" pin="HS_IND/CFG_SEL1" pad="25"/>
+<connect gate="G$1" pin="PLLFILT" pad="34"/>
+<connect gate="G$1" pin="PRTPWR1/BC_EN1" pad="12"/>
+<connect gate="G$1" pin="PRTPWR2/BC_EN2" pad="16"/>
+<connect gate="G$1" pin="PRTPWR3/BC_EN3" pad="18"/>
+<connect gate="G$1" pin="PRTPWR4/BC_EN4" pad="20"/>
+<connect gate="G$1" pin="RBIAS" pad="35"/>
+<connect gate="G$1" pin="SCL/SMBCLK/CFG_SEL0" pad="24"/>
+<connect gate="G$1" pin="SDA/SMBDATA/NON_REM1" pad="22"/>
+<connect gate="G$1" pin="SUSP_IND/LOCAL_PWR/NON_REM0" pad="28"/>
+<connect gate="G$1" pin="TEST" pad="11"/>
+<connect gate="G$1" pin="USBDM_DN1/PRT_DIS_M1" pad="1"/>
+<connect gate="G$1" pin="USBDM_DN2/PRT_DIS_M2" pad="3"/>
+<connect gate="G$1" pin="USBDM_DN3/PRT_DIS_M3" pad="6"/>
+<connect gate="G$1" pin="USBDM_DN4/PRT_DIS_M4" pad="8"/>
+<connect gate="G$1" pin="USBDM_UP" pad="30"/>
+<connect gate="G$1" pin="USBDP_DN1/PRT_DIS_P1" pad="2"/>
+<connect gate="G$1" pin="USBDP_DN2/PRT_DIS_P2" pad="4"/>
+<connect gate="G$1" pin="USBDP_DN3/PRT_DIS_P3" pad="7"/>
+<connect gate="G$1" pin="USBDP_DN4/PRT_DIS_P4" pad="9"/>
+<connect gate="G$1" pin="USBDP_UP" pad="31"/>
+<connect gate="G$1" pin="VBUS_DET" pad="27"/>
+<connect gate="G$1" pin="VDD@15" pad="15"/>
+<connect gate="G$1" pin="VDD@23" pad="23"/>
+<connect gate="G$1" pin="VDDA@10" pad="10"/>
+<connect gate="G$1" pin="VDDA@29" pad="29"/>
+<connect gate="G$1" pin="VDDA@36" pad="36"/>
+<connect gate="G$1" pin="VDDA@5" pad="5"/>
+<connect gate="G$1" pin="XTALIN/CLKIN" pad="33"/>
+<connect gate="G$1" pin="XTALOUT" pad="32"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Microchip" constant="no"/>
+<attribute name="PARTNUM" value="USB2514B/M2" constant="no"/>
 </technology>
 </technologies>
 </device>
