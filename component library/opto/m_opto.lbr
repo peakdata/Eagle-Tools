@@ -1266,27 +1266,27 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <pin name="AGND" x="-17.78" y="0" length="short" direction="pas"/>
 <pin name="AVDD" x="-17.78" y="7.62" length="short" direction="pas"/>
 <pin name="DGND" x="-17.78" y="-2.54" length="short" direction="pas"/>
-<pin name="I2C-SDA" x="17.78" y="22.86" length="short" direction="pas" rot="R180"/>
-<pin name="I2C-SCL" x="17.78" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="I2C-SDA" x="17.78" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="I2C-SCL" x="17.78" y="-7.62" length="short" direction="pas" rot="R180"/>
 <pin name="RESET" x="-17.78" y="22.86" length="short" direction="pas"/>
 <pin name="PWDN1" x="-17.78" y="20.32" length="short" direction="pas"/>
 <pin name="GND@13" x="-17.78" y="-7.62" length="short" direction="pas"/>
 <pin name="MCLK" x="-17.78" y="17.78" length="short" direction="pas"/>
 <pin name="GND@15" x="-17.78" y="-10.16" length="short" direction="pas"/>
-<pin name="CSI_DATA3_P" x="17.78" y="-7.62" length="short" direction="pas" rot="R180"/>
-<pin name="CSI_DATA3_N" x="17.78" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA3_P" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA3_N" x="17.78" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="GND@18" x="-17.78" y="-12.7" length="short" direction="pas"/>
-<pin name="CSI_DATA2_P" x="17.78" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="CSI_DATA2_N" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA2_P" x="17.78" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA2_N" x="17.78" y="7.62" length="short" direction="pas" rot="R180"/>
 <pin name="GND@21" x="-17.78" y="-15.24" length="short" direction="pas"/>
-<pin name="CSI_DATA1_P" x="17.78" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="CSI_DATA1_N" x="17.78" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA1_P" x="17.78" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA1_N" x="17.78" y="12.7" length="short" direction="pas" rot="R180"/>
 <pin name="GND@24" x="-17.78" y="-17.78" length="short" direction="pas"/>
-<pin name="CSI_CLK_P" x="17.78" y="12.7" length="short" direction="pas" rot="R180"/>
-<pin name="CSI_CLK_N" x="17.78" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_CLK_P" x="17.78" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_CLK_N" x="17.78" y="22.86" length="short" direction="pas" rot="R180"/>
 <pin name="GND@27" x="-17.78" y="-20.32" length="short" direction="pas"/>
-<pin name="CSI_DATA0_P" x="17.78" y="7.62" length="short" direction="pas" rot="R180"/>
-<pin name="CSI_DATA0_N" x="17.78" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA0_P" x="17.78" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="CSI_DATA0_N" x="17.78" y="17.78" length="short" direction="pas" rot="R180"/>
 <pin name="GND@30" x="-17.78" y="-22.86" length="short" direction="pas"/>
 <wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>

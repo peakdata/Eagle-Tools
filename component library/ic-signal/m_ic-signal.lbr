@@ -998,7 +998,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-2.032" y1="-5.08" x2="-4.064" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-2.032" y1="5.08" x2="-4.064" y2="5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ST_LIS331DLH">
+<symbol name="LIS331DLH">
 <description>&lt;h3&gt;ST LIS331DLH&lt;/h3&gt;
 &lt;h4&gt;MEMS digital output 3-axes accelerometer&lt;/h4&gt;</description>
 <pin name="VDD_IO" x="-22.86" y="7.62" length="short" direction="pas"/>
@@ -1015,7 +1015,7 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <pin name="GND@12" x="-22.86" y="-2.54" length="short" direction="pas"/>
 <pin name="GND@13" x="-22.86" y="-5.08" length="short" direction="pas"/>
 <pin name="VDD" x="-22.86" y="10.16" length="short" direction="pas"/>
-<pin name="RES_VDD" x="-22.86" y="2.54" length="short" direction="pas"/>
+<pin name="RES_VDD" x="-22.86" y="5.08" length="short" direction="pas"/>
 <pin name="GND@16" x="-22.86" y="-7.62" length="short" direction="pas"/>
 <wire x1="-20.32" y1="12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
 <wire x1="20.32" y1="12.7" x2="20.32" y2="-12.7" width="0.254" layer="94"/>
@@ -1140,7 +1140,10 @@ temperature range (?40°C to +125°C), and are offered in a space-saving SOT23 p
 <connect gate="A" pin="V-" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="LPV511MG" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1770,7 +1773,7 @@ They offer reverse polarity protection and deliver a stable output over a -40 °
 &lt;p&gt;Data from ST Doc ID 15094 Rev 3, July 2009&lt;/p&gt;
 &lt;a href="https://octopart.com/search?q=LIS331DLH"&gt;Octopart&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ST_LIS331DLH" x="0" y="0"/>
+<gate name="G$1" symbol="LIS331DLH" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="LGA16">
@@ -1793,7 +1796,10 @@ They offer reverse polarity protection and deliver a stable output over a -40 °
 <connect gate="G$1" pin="VDD_IO" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="ST" constant="no"/>
+<attribute name="PARTNUM" value="LIS331DLH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
