@@ -419,6 +419,25 @@ Source: TJ-Serie Vishay.pdf</description>
 <text x="-2.75" y="-3" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
 <wire x1="0" y1="1.25" x2="0" y2="-1.25" width="0.4" layer="35"/>
 </package>
+<package name="COILCRAFT_EPL3015">
+<description>&lt;h3&gt;Coilcraft EPL3015 Shielded Power Inductors&lt;/h3&gt;
+&lt;p&gt;Data from Coilcraft Document 634-1 Revised 09/20/16&lt;/p&gt;</description>
+<smd name="1" x="-1" y="0" dx="0.77" dy="2.69" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.77" dy="2.69" layer="1"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<text x="0.75" y="-1" size="0.4" layer="51" ratio="16">X</text>
+<text x="0.75" y="0.75" size="0.4" layer="51" ratio="16">X</text>
+<text x="-1" y="0" size="0.4" layer="51" ratio="16" align="center">X</text>
+<wire x1="-1.56" y1="1.56" x2="1.56" y2="1.56" width="0.127" layer="21"/>
+<wire x1="1.56" y1="1.56" x2="1.56" y2="-1.56" width="0.127" layer="21"/>
+<wire x1="1.56" y1="-1.56" x2="-1.56" y2="-1.56" width="0.127" layer="21"/>
+<wire x1="-1.56" y1="-1.56" x2="-1.56" y2="1.56" width="0.127" layer="21"/>
+<text x="-1.5" y="1.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.5" y="-1.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR-FERRITE">
@@ -961,6 +980,7 @@ value without current.&lt;/li&gt;
 </deviceset>
 <deviceset name="COILCRAFT_XAL50_SERIES" prefix="L" uservalue="yes">
 <description>&lt;h3&gt;Coiltronics Shielded Power Inductors –XAL50xx&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/23044201/image/Coilcraft-XAL5050-822MEC.jpg" alt="Coilcraft XAL50xx" /&gt;&lt;/div&gt;
 &lt;h4&gt;Features&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;High current; very low DCR; soft saturation&lt;/li&gt;
@@ -997,6 +1017,53 @@ value without current.&lt;/li&gt;
 <technology name="">
 <attribute name="MANUF" value="Coiltronics" constant="no"/>
 <attribute name="PARTNUM" value="XAL50?0-???ME?" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="COILCRAFT_EPL3015_SERIES" prefix="L" uservalue="yes">
+<description>&lt;h3&gt;Coilcraft EPL3015 Shielded Power Inductors&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/22042862/image/Coilcraft-EPL3015-901MLB.jpg" alt="Coilcraft EPL3015"/&gt;&lt;/div&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Low profile shielded power inductors, 3 × 3 × 1.5 mm&lt;/li&gt;
+&lt;li&gt;Very low DCR, high SRF ratings, Isat ratings up to 2.4 A&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Characteristics&lt;/h4&gt;
+&lt;table border=0.4 cellpadding=2&gt;
+&lt;tr&gt;&lt;th&gt;Designer’s Kit C405&lt;/th&gt;&lt;td&gt;contains 5 of each value&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Core material&lt;/th&gt;&lt;td&gt;Ferrite&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Core and winding loss&lt;/th&gt;&lt;td&gt;See &lt;a href="www.coilcraft.com/coreloss"&gt;www.coilcraft.com/coreloss&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Environmental&lt;/th&gt;&lt;td&gt;RoHS compliant, halogen free&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Terminations&lt;/th&gt;&lt;td&gt;RoHS compliant tin-silver-copper(96.5/3/0.5) over tin over nickel over silver-platinum. Other terminations available at additional cost.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Dimensions&lt;/th&gt;&lt;td&gt;3mm x 3mm x 1.5mm&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Weight&lt;/th&gt;&lt;td&gt;45 – 51 mg&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Ambient temperature&lt;/th&gt;&lt;td&gt;-40°C to +85°C with (40°C rise) Irms current.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Maximum part temperature&lt;/th&gt;&lt;td&gt;+125°C (ambient + temp rise). &lt;a href="http://www.coilcraft.com/apps/compare/compare_power.cfm"&gt;Derating.&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Storage temperature&lt;/th&gt;&lt;td&gt;–40°C to +125°C. Tape and reel packaging: –40°C to +80°C&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Resistance to soldering heat&lt;/th&gt;&lt;td&gt;Max three 40 second reflows at +260°C, parts cooled to room temperature between cycles&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Moisture Sensitivity Level (MSL)&lt;/th&gt;&lt;td&gt;1 (unlimited floor life at &amp;lt;30°C / 85% relative humidity)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Failures in Time (FIT) / Mean Time Between Failures (MTBF)&lt;/th&gt;&lt;td&gt;38 per billion hours / 26,315,789 hours, calculated per Telcordia SR-332 PCB washing Tested to MIL-STD-202 Method 215 plus an additional aqueous wash. See Doc787_PCB_Washing.pdf.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Packaging&lt;/th&gt;&lt;td&gt;2000/7′′reel; 7500/13′′ reel Plastic tape: 8 mm wide, 0.2 mm thick, 4 mm pocket spacing, 1.78 mm pocket depth&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;PCB washing&lt;/th&gt;&lt;td&gt;Tested to MIL-STD-202 Method 215 plus an additional aqueous wash. See Doc787_PCB_Washing.pdf.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;Data based on Coilcraft Document 634-1 Revised 09/20/16&lt;/p&gt;
+&lt;p&gt;Added 2016-10-10&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=EPL3015-*ML%3F"&gt;Octopart&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR-FERRITE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="COILCRAFT_EPL3015">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Coilcraft" constant="no"/>
+<attribute name="PARTNUM" value="EPL3015-*ML?" constant="no"/>
 </technology>
 </technologies>
 </device>
