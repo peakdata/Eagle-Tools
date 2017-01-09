@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1560,9 +1560,11 @@ The REF33xx is a low-power, precision, low-dropout voltage reference family avai
 </deviceset>
 <deviceset name="TLV700XX" prefix="IC" uservalue="yes">
 <description>&lt;h3&gt;Texas Instruments 200-mA, Low-IQ, Low-Dropout Regulator for Portable Devices&lt;/h3&gt;
-&lt;p&gt;The TLV700xx series of low-dropout (LDO) linear regulators are low quiescent current devices with excellent line and load transient performance. These LDOs are designed for power-sensitive applications. A precision bandgap and error amplifier provides overall 2% accuracy. Low output noise, very high power-supply rejection ratio (PSRR), and low dropout voltage make this series of devices ideal for most battery-operated handheld equipment. All device versions have thermal shutdown and current limit for safety.
-Furthermore, these devices are stable with an effective output capacitance of only 0.1 ?F. This feature enables the use of cost-effective capacitors that have higher bias voltages and temperature derating. The devices regulate to specified accuracy with no output load.
-The TLV700xx series of LDOs are available in 1,5-mm x 1,5-mm SON-6, SOT23-5, and SC-70 packages.&lt;/p&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/22120278/image/Texas-Instruments-TLV70033DDCT.jpg" alt="TLV700xx" /&gt;&lt;/div&gt;
+&lt;p&gt;The TLV700xx series of low-dropout (LDO) linear regulators are low quiescent current devices with excellent line and load transient performance. These LDOs are designed for power-sensitive applications.&lt;/p&gt;
+&lt;p&gt;A precision bandgap and error amplifier provides overall 2% accuracy. Low output noise, very high power-supply rejection ratio (PSRR), and low dropout voltage make this series of devices ideal for most battery-operated handheld equipment. All device versions have thermal shutdown and current limit for safety.&lt;/p&gt;
+&lt;p&gt;Furthermore, these devices are stable with an effective output capacitance of only 0.1 µF. This feature enables the use of cost-effective capacitors that have higher bias voltages and temperature derating. The devices regulate to specified accuracy with no output load.&lt;/p&gt;
+&lt;p&gt;The TLV700xx series of LDOs are available in 1,5-mm x 1,5-mm SON-6, SOT23-5, and SC-70 packages.&lt;/p&gt;
 &lt;ul&gt;
 FEATURES
 &lt;li&gt;Very Low Dropout: 175 mV at 200 mA
@@ -1573,7 +1575,9 @@ FEATURES
 &lt;li&gt;Stable with Effective Capacitance of 0.1 ?F
 &lt;li&gt;Thermal Shutdown and Overcurrent Protection
 &lt;li&gt;Available in 1,5-mm × 1,5-mm SON-6, SOT23-5, and SC-70 packages
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;a href="https://octopart.com/search?q=TLV700%3F%3FD*"&gt;Octopart&lt;/a&gt;
+&lt;p&gt;Updated 2017-01-09&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VREG-WITH-EN" x="0" y="0"/>
 </gates>
@@ -1588,7 +1592,7 @@ FEATURES
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="TI" constant="no"/>
-<attribute name="PARTNUM" value="TLV700__ ___" constant="no"/>
+<attribute name="PARTNUM" value="TLV700??DCK?" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1600,7 +1604,10 @@ FEATURES
 <connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TLV700??DDC?" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
