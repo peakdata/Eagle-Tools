@@ -30,7 +30,7 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
@@ -918,6 +918,81 @@ grid 2.54 mm</description>
 <vertex x="-1.25" y="-1.75"/>
 </polygon>
 </package>
+<package name="R-PDSO-G5">
+<description>&lt;h3&gt;Plastic Small Outline Package SOT-23 (5)&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/31469276/image/Texas-Instruments-LP2985AIM5X-1.8-NOPB.jpg" alt="SOT-23 (5) Package"&lt;/div&gt;
+&lt;p&gt;Based on TI drawings 4073253-4/N 12/14, 4209593-3/C 08/11&lt;/p&gt;
+&lt;p&gt;Note: The datsheet calls for a 0.07" soldermask clearance. Thedatasheet specifies paste stencil openings with 0.025" clearance to edge of copper pad. Polygons were used to preserve edge rounding per IEC standards.&lt;/p&gt;</description>
+<smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R180" cream="no"/>
+<smd name="5" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R180" cream="no"/>
+<polygon width="0.1" layer="31">
+<vertex x="0.225" y="-0.9"/>
+<vertex x="-0.225" y="-0.9"/>
+<vertex x="-0.225" y="-1.8"/>
+<vertex x="0.225" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-0.725" y="-0.9"/>
+<vertex x="-1.175" y="-0.9"/>
+<vertex x="-1.175" y="-1.8"/>
+<vertex x="-0.725" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.175" y="-0.9"/>
+<vertex x="0.725" y="-0.9"/>
+<vertex x="0.725" y="-1.8"/>
+<vertex x="1.175" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.175" y="0.9"/>
+<vertex x="-0.725" y="0.9"/>
+<vertex x="-0.725" y="1.8"/>
+<vertex x="-1.175" y="1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="0.725" y="0.9"/>
+<vertex x="1.175" y="0.9"/>
+<vertex x="1.175" y="1.8"/>
+<vertex x="0.725" y="1.8"/>
+</polygon>
+<wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.1" layer="51"/>
+<wire x1="1.525" y1="0.875" x2="1.525" y2="-0.875" width="0.1" layer="51"/>
+<wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1" layer="51"/>
+<wire x1="-1.525" y1="-0.875" x2="-1.525" y2="0.875" width="0.1" layer="51"/>
+<rectangle x1="-0.2" y1="-1.5" x2="0.2" y2="-0.875" layer="51"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.75" y2="-0.875" layer="51"/>
+<rectangle x1="0.75" y1="-1.5" x2="1.15" y2="-0.875" layer="51"/>
+<rectangle x1="0.75" y1="0.875" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.875" x2="-0.75" y2="1.5" layer="51" rot="R180"/>
+<text x="-1.5" y="-2" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
+<text x="-1.5" y="2" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<wire x1="-1.425" y1="0.875" x2="-1.525" y2="0.875" width="0.1" layer="21"/>
+<wire x1="-1.525" y1="0.875" x2="-1.525" y2="-0.875" width="0.1" layer="21"/>
+<wire x1="-1.525" y1="-0.875" x2="-1.425" y2="-0.875" width="0.1" layer="21"/>
+<wire x1="-1.425" y1="-0.875" x2="-1.425" y2="-1.9" width="0.1" layer="21"/>
+<wire x1="1.425" y1="-0.875" x2="1.525" y2="-0.875" width="0.1" layer="21"/>
+<wire x1="1.525" y1="-0.875" x2="1.525" y2="0.875" width="0.1" layer="21"/>
+<wire x1="1.525" y1="0.875" x2="1.425" y2="0.875" width="0.1" layer="21"/>
+<wire x1="-0.4875" y1="0.875" x2="0.4875" y2="0.875" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.4" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-1.5" y="2"/>
+<vertex x="1.5" y="2"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="2" y="1"/>
+<vertex x="2" y="-1"/>
+<vertex x="1.5" y="-1.5"/>
+<vertex x="1.5" y="-2"/>
+<vertex x="-1.5" y="-2"/>
+<vertex x="-1.5" y="-1.5"/>
+<vertex x="-2" y="-1"/>
+<vertex x="-2" y="1"/>
+<vertex x="-1.5" y="1.5"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="LM3405">
@@ -1326,6 +1401,20 @@ grid 2.54 mm</description>
 <pin name="IN" x="-10.16" y="2.54" length="short" direction="pas"/>
 <pin name="EN" x="-10.16" y="-2.54" length="short" direction="pas"/>
 <pin name="GND" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="VREG-IN-OUT-EN-BYP-GND">
+<description>&lt;h3&gt;Voltage regulator with input, output, enable, bypass (noise reduction), and ground pins&lt;/h3&gt;</description>
+<pin name="IN" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="BYP" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
 <pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2358,6 +2447,54 @@ The product spectrum is designed for supply voltages of 2.5 V, 3 V, 3.3 V, and 5
 <technology name="">
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="TLV733*PQDRVRQ1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP2985-N" prefix="IC">
+<description>&lt;h3&gt;Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator&lt;/h3&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The LP2985-N low noise linear (LDO) regulator delivers up to 150-mA output current and only requires 300-mV dropout voltage of input to output. Using an optimized vertically integrated PNP (VIP) process, the LP2985-N delivers unequaled performance for all battery-powered designs. The LP2985-N device provides 1% tolerance precision output voltage with only 75-µA quiescent current at 1-mA load and 850 µA at 150-mA load. By adding a 10-nF bypass capacitor, the output noise can be 		reduced to 30 µV&lt;sub&gt;RMS&lt;/sub&gt; in a 30-kHz bandwidth.&lt;/p&gt;
+&lt;p&gt;The LP2985-N is designed to work with a ceramic output capacitor with equivalent series resistance (ESR) as low as 5 mΩ. The device is available with fixed output voltage from 2.5 V to 6.1 V (1.5V, 1.8V, and 2.0V for LP2985LV-N). Contact Texas Instrument Sales for specific voltage option needs.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;Input Voltage Range: 2.5 V to 16 V&lt;/li&gt;
+&lt;li&gt;Ultra Low-Dropout Voltage&lt;/li&gt;
+&lt;li&gt;Ensured 150 mA Output Current&lt;/li&gt;
+&lt;li&gt;Requires Minimum External Components&lt;/li&gt;
+&lt;li&gt;Stable With Low-ESR Output Capacitor&lt;/li&gt;
+&lt;li&gt;&amp;lt; 1 µA Quiescent Current When Shut Down&lt;/li&gt;
+&lt;li&gt;Low Ground Pin Current at All Loads&lt;/li&gt;
+&lt;li&gt;Output Voltage Accuracy 1% (A Grade)&lt;/li&gt;
+&lt;li&gt;High Peak Current Capability&lt;/li&gt;
+&lt;li&gt;Low Z&lt;sub&gt;OUT&lt;/sub&gt;: 0.3 Ω Typical (10 Hz to 1 MHz)&lt;/li&gt;
+&lt;li&gt;Overtemperature and Overcurrent Protection&lt;/li&gt;
+&lt;li&gt;−40°C to 125°C Junction Temperature Range&lt;/li&gt;
+&lt;li&gt;Custom Voltages Available&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;TI product page: &lt;a href="http://www.ti.com/product/lp2985-n#parametrics"&gt;http://www.ti.com/product/lp2985-n&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data from TI datasheet SNVS018Y – MARCH 2000 – REVISED DECEMBER 2016&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=LP2985*IM5*-1.%3F%2FNOPB"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2017-01-12&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VREG-IN-OUT-EN-BYP-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DBV" package="R-PDSO-G5">
+<connects>
+<connect gate="G$1" pin="BYP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="LP2985*IM5*-?.?/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
