@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -163,7 +163,7 @@ grid 2.54 mm</description>
 <wire x1="-0.8104" y1="1.4224" x2="0.8104" y2="1.4224" width="0.1524" layer="21"/>
 <wire x1="0.8104" y1="1.4224" x2="0.8104" y2="-1.4224" width="0.1524" layer="51"/>
 <wire x1="0.8104" y1="0.4724" x2="0.8104" y2="-0.4724" width="0.1524" layer="21"/>
-<wire x1="-0.4" y1="1" x2="-0.4" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0.75" x2="-0.4" y2="1.1" width="0.2" layer="21"/>
 <smd name="1" x="-1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
 <smd name="2" x="-1.3001" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
 <smd name="3" x="-1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
@@ -707,7 +707,6 @@ grid 2.54 mm</description>
 <wire x1="2" y1="-2" x2="2" y2="-1.325" width="0.127" layer="21"/>
 <wire x1="2" y1="1.325" x2="2" y2="2" width="0.127" layer="21"/>
 <wire x1="2" y1="2" x2="1.325" y2="2" width="0.127" layer="21"/>
-<wire x1="-1.325" y1="-2" x2="-1.325" y2="-2.5" width="0.127" layer="21"/>
 <text x="-2" y="-2.75" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
 <text x="-2" y="2.75" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <polygon width="0.4" layer="39">
@@ -720,6 +719,7 @@ grid 2.54 mm</description>
 <vertex x="-2" y="-2.75"/>
 <vertex x="-2.75" y="-2"/>
 </polygon>
+<rectangle x1="-1.7" y1="-2.7" x2="-1.325" y2="-2" layer="21"/>
 </package>
 <package name="R-PVSON-N14">
 <description>&lt;h3&gt;Plastic Small Outline No-Lead 3mm x 4mm Package&lt;/h3&gt;
@@ -772,7 +772,6 @@ grid 2.54 mm</description>
 <wire x1="2" y1="-1.5" x2="2" y2="-0.875" width="0.127" layer="21"/>
 <wire x1="-1.8" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.5" x2="-2" y2="0.875" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="-1.5" x2="-1.8" y2="-2" width="0.127" layer="21"/>
 <rectangle x1="-0.12" y1="1.1" x2="0.12" y2="1.5" layer="51"/>
 <rectangle x1="0.38" y1="1.1" x2="0.62" y2="1.5" layer="51"/>
 <rectangle x1="0.88" y1="1.1" x2="1.12" y2="1.5" layer="51"/>
@@ -804,6 +803,7 @@ grid 2.54 mm</description>
 <vertex x="2.5" y="-2"/>
 <vertex x="2.5" y="2"/>
 </polygon>
+<rectangle x1="-2.0625" y1="-2.1" x2="-1.75" y2="-1.5" layer="21"/>
 </package>
 <package name="S-PVSON-N10">
 <description>&lt;h3&gt;TI S-PVSON-N10 Package&lt;/h3&gt;
@@ -860,7 +860,6 @@ grid 2.54 mm</description>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="-0.55" width="0.127" layer="21"/>
 <wire x1="1.5" y1="0.55" x2="1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="1.325" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.325" y1="-1.5" x2="-1.325" y2="-1.925" width="0.127" layer="21"/>
 <text x="-1.5" y="2" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-1.5" y="-2" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
 <polygon width="0.2" layer="39">
@@ -873,6 +872,7 @@ grid 2.54 mm</description>
 <vertex x="-2.25" y="-1.75"/>
 <vertex x="-2.25" y="1.75"/>
 </polygon>
+<rectangle x1="-1.5625" y1="-2.1" x2="-1.25" y2="-1.5" layer="21"/>
 </package>
 <package name="S-PWSON-N6">
 <description>&lt;h3&gt;TI S-PWSON-N6 Plastic Small Outline No-Lead Package&lt;/h3&gt;
