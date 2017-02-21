@@ -1,5 +1,5 @@
 description[de] = <b>EAGLE Design Rules</b>\n<p>\nDie Standard-Design-Rules sind so gewählt, dass sie für \ndie meisten Anwendungen passen. Sollte ihre Platine \nbesondere Anforderungen haben, treffen Sie die erforderlichen\nEinstellungen hier und speichern die Design Rules unter \neinem neuen Namen ab.
-description[en] = <h2>Marpos 4 -Layer</h2>\n<p>\nMarpos design rules for 4 layer, 1OZ board.\nObtained from: <a href="http://www.marpos.cz/wp-content/uploads/2015/07/technick%C3%A9-podm%C3%ADnky-kooperace.pdf">http://www.marpos.cz/wp-content/uploads/2015/07/technick%C3%A9-podm%C3%ADnky-kooperace.pdf</a></p>\n<h3>Specifications</h3>\n<table>\n<tr><th>Material</th><td>FR-4, FR-5, CEM-3, CEM-1, Metal Base(aluminum), High TG, Halogen Free</td></tr>\n<tr><th>Maximum Layer Count</th><td>20 layers</td></tr>\n<tr><th>Surface Finish</th><td>HAL - lead-free tin, HAL - tin, ENIG- chemical gold, tim immersion, galvatic gold, OSP</td></tr>\n<tr><th>Minimum Trace Width</th><td>0.10 mm (4 mil)</td></tr>\n<tr><th>Minimum Clearance</th><td>0.08 mm (3 mil)</td></tr>\n<tr><th>Minimum Drill Diameter</th><td>0.20 mm (8mil)</td></tr>\n<tr><th>Minimum Laser Drill Diameter</th><td>0.10 mm (4 mil)</td></tr>\n<tr><th>Plated Hole Tolerance</th><td>±0.076 mm (3mil)</td></tr>\n<tr><th>Non-Plated Hole Tolerance</th><td>±0.05 mm (2mil)</td></tr>\n<tr><th>Hole Position Tolerance</th><td>±0.05 mm (2mil)</td></tr>\n</table>\n\n<p>Created 16 February, 2016</p>\n
+description[en] = <h2>Marpos 4 -Layer</h2>\n<p>\nMarpos design rules for 4 layer, 1OZ board.\nObtained from: <a href="http://www.marpos.cz/wp-content/uploads/2015/07/technick%C3%A9-podm%C3%ADnky-kooperace.pdf">http://www.marpos.cz/wp-content/uploads/2015/07/technick%C3%A9-podm%C3%ADnky-kooperace.pdf</a></p>\n<h3>Specifications</h3>\n<table>\n<tr><th>Material</th><td>FR-4, FR-5, CEM-3, CEM-1, Metal Base(aluminum), High TG, Halogen Free</td></tr>\n<tr><th>Maximum Layer Count</th><td>20 layers</td></tr>\n<tr><th>Surface Finish</th><td>HAL - lead-free tin, HAL - tin, ENIG- chemical gold, tin immersion, galvatic gold, OSP</td></tr>\n<tr><th>Minimum Trace Width</th><td>0.10 mm (4 mil)</td></tr>\n<tr><th>Minimum Clearance</th><td>0.08 mm (3 mil)</td></tr>\n<tr><th>Minimum Drill Diameter</th><td>0.20 mm (8mil)</td></tr>\n<tr><th>Minimum Laser Drill Diameter</th><td>0.10 mm (4 mil)</td></tr>\n<tr><th>Plated Hole Tolerance</th><td>±0.076 mm (3mil)</td></tr>\n<tr><th>Non-Plated Hole Tolerance</th><td>±0.05 mm (2mil)</td></tr>\n<tr><th>Hole Position Tolerance</th><td>±0.05 mm (2mil)</td></tr>\n</table>\n\n<p>Created 16 February, 2016</p>\n
 layerSetup = (1+2*15+16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
 mtIsolate = 0.52mm 0.52mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.52mm
@@ -47,13 +47,13 @@ psBottom = -1
 psFirst = -1
 psElongationLong = 100
 psElongationOffset = 100
-mvStopFrame = 0.200000
+mvStopFrame = 0.100000
 mvCreamFrame = 0.000000
-mlMinStopFrame = 2.5mil
-mlMaxStopFrame = 4mil
+mlMinStopFrame = 0.05mm
+mlMaxStopFrame = 0.1mm
 mlMinCreamFrame = 0mil
 mlMaxCreamFrame = 0mil
-mlViaStopLimit = 20mil
+mlViaStopLimit = 0.8mm
 srRoundness = 0.000000
 srMinRoundness = 0mil
 srMaxRoundness = 0mil
