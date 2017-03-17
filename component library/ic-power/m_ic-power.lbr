@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -490,6 +490,41 @@ NS Package M08A</description>
 <rectangle x1="-1.675" y1="-3.3" x2="-1.575" y2="-2.25" layer="51"/>
 <rectangle x1="-2.325" y1="-3.3" x2="-2.225" y2="-2.25" layer="51"/>
 <rectangle x1="-2.975" y1="-3.3" x2="-2.875" y2="-2.25" layer="51"/>
+</package>
+<package name="R-PVQFN-N20">
+<smd name="9" x="-1.75" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="8" x="-1.25" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="7" x="-0.75" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="6" x="-0.25" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="5" x="0.25" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="2" x="1.75" y="1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="12" x="-1.75" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="13" x="-1.25" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="14" x="-0.75" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="16" x="0.25" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="17" x="0.75" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="18" x="1.25" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="19" x="1.75" y="-1.75" dx="0.8" dy="0.23" layer="1" rot="R90"/>
+<smd name="20" x="2.25" y="-0.75" dx="0.8" dy="0.23" layer="1" rot="R180"/>
+<smd name="1" x="2.25" y="0.75" dx="0.8" dy="0.23" layer="1" rot="R180"/>
+<smd name="10" x="-2.25" y="0.75" dx="0.8" dy="0.23" layer="1" rot="R180"/>
+<smd name="11" x="-2.25" y="-0.75" dx="0.8" dy="0.23" layer="1" rot="R180"/>
+<wire x1="-2.25" y1="1.75" x2="2.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="1.75" x2="2.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-1.75" x2="-2.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-1.75" x2="-2.25" y2="1.75" width="0.127" layer="21"/>
+<circle x="1.65" y="1.15" radius="0.26925625" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-2.65" y="2.15"/>
+<vertex x="2.65" y="2.15"/>
+<vertex x="2.65" y="-2.15"/>
+<vertex x="-2.65" y="-2.15"/>
+</polygon>
+<smd name="PAD" x="0" y="0" dx="3.05" dy="2.05" layer="1"/>
+<text x="-1.95" y="-1.45" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1277,7 +1312,7 @@ http://www.ti.com/product/TLC59108/datasheet</description>
 <gate name="G$1" symbol="TLC59108" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="R-PDSO-G20">
+<device name="R-PDSO-G20" package="R-PDSO-G20">
 <connects>
 <connect gate="G$1" pin="!OUT0" pad="6"/>
 <connect gate="G$1" pin="!OUT1" pad="7"/>
@@ -1294,6 +1329,33 @@ http://www.ti.com/product/TLC59108/datasheet</description>
 <connect gate="G$1" pin="A3" pad="5"/>
 <connect gate="G$1" pin="GND@13" pad="13"/>
 <connect gate="G$1" pin="GND@16" pad="16"/>
+<connect gate="G$1" pin="GND@8" pad="8"/>
+<connect gate="G$1" pin="R_EXT" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="18"/>
+<connect gate="G$1" pin="SDA" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R-PVQFN-N20" package="R-PVQFN-N20">
+<connects>
+<connect gate="G$1" pin="!OUT0" pad="6"/>
+<connect gate="G$1" pin="!OUT1" pad="7"/>
+<connect gate="G$1" pin="!OUT2" pad="9"/>
+<connect gate="G$1" pin="!OUT3" pad="10"/>
+<connect gate="G$1" pin="!OUT4" pad="11"/>
+<connect gate="G$1" pin="!OUT5" pad="12"/>
+<connect gate="G$1" pin="!OUT6" pad="14"/>
+<connect gate="G$1" pin="!OUT7" pad="15"/>
+<connect gate="G$1" pin="!RESET" pad="17"/>
+<connect gate="G$1" pin="A0" pad="2"/>
+<connect gate="G$1" pin="A1" pad="3"/>
+<connect gate="G$1" pin="A2" pad="4"/>
+<connect gate="G$1" pin="A3" pad="5"/>
+<connect gate="G$1" pin="GND@13" pad="13"/>
+<connect gate="G$1" pin="GND@16" pad="16 PAD"/>
 <connect gate="G$1" pin="GND@8" pad="8"/>
 <connect gate="G$1" pin="R_EXT" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="18"/>
