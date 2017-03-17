@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -615,6 +615,37 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <vertex x="-1.75" y="-1.75"/>
 </polygon>
 </package>
+<package name="R-PVQFN-N16">
+<smd name="PAD" x="0" y="0" dx="2.55" dy="2.05" layer="1"/>
+<smd name="8" x="-2" y="0.75" dx="0.28" dy="0.85" layer="1" rot="R270"/>
+<smd name="7" x="-1.25" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="6" x="-0.75" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="5" x="-0.25" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="4" x="0.25" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="3" x="0.75" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="2" x="1.25" y="1.725" dx="0.28" dy="0.85" layer="1"/>
+<smd name="1" x="2" y="0.75" dx="0.28" dy="0.85" layer="1" rot="R90"/>
+<smd name="9" x="-2" y="-0.75" dx="0.28" dy="0.85" layer="1" rot="R90"/>
+<smd name="16" x="2" y="-0.75" dx="0.28" dy="0.85" layer="1" rot="R90"/>
+<smd name="15" x="1.25" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="14" x="0.75" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="13" x="0.25" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="12" x="-0.25" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="11" x="-0.75" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<smd name="10" x="-1.25" y="-1.725" dx="0.28" dy="0.85" layer="1" rot="R180"/>
+<wire x1="-2" y1="1.75" x2="2" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2" y1="1.75" x2="2" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.75" x2="-2" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.75" x2="-2" y2="1.75" width="0.127" layer="21"/>
+<circle x="1.5" y="1.25" radius="0.22360625" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-2.45" y="2.2"/>
+<vertex x="2.45" y="2.2"/>
+<vertex x="2.45" y="-2.2"/>
+<vertex x="-2.45" y="-2.2"/>
+</polygon>
+<text x="-2.2" y="-3.2" size="0.8128" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ACS712">
@@ -1044,6 +1075,31 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-1.016" width="0.254" layer="97"/>
 <text x="-20.32" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-20.32" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SN74AVC4T245">
+<pin name="VCCA" x="-17.78" y="12.7" length="middle"/>
+<pin name="1DIR" x="-17.78" y="10.16" length="middle"/>
+<pin name="2DIR" x="-17.78" y="7.62" length="middle"/>
+<pin name="1A1" x="-17.78" y="5.08" length="middle"/>
+<pin name="1A2" x="-17.78" y="2.54" length="middle"/>
+<pin name="2A1" x="-17.78" y="0" length="middle"/>
+<pin name="2A2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GND@8" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="GND@9" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="2B2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="2B1" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="1B2" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="1B1" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="!2OE" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="!1OE" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="VCCB" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="GND@PAD" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<text x="5.08" y="-20.32" size="1.9304" layer="95">&gt;NAME</text>
+<text x="5.08" y="-22.86" size="1.9304" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1799,6 +1855,44 @@ They offer reverse polarity protection and deliver a stable output over a -40 °
 <technology name="">
 <attribute name="MANUF" value="ST" constant="no"/>
 <attribute name="PARTNUM" value="LIS331DLH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74AVC4T245" prefix="U">
+<description>SN74AVC4T245
+Dual-Bit Bus Transceiver with Configurable Voltage Translation and 3-State Outputs
+
+http://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf</description>
+<gates>
+<gate name="G$1" symbol="SN74AVC4T245" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="R-PVQFN-N16" package="R-PVQFN-N16">
+<connects>
+<connect gate="G$1" pin="!1OE" pad="15"/>
+<connect gate="G$1" pin="!2OE" pad="14"/>
+<connect gate="G$1" pin="1A1" pad="4"/>
+<connect gate="G$1" pin="1A2" pad="5"/>
+<connect gate="G$1" pin="1B1" pad="13"/>
+<connect gate="G$1" pin="1B2" pad="12"/>
+<connect gate="G$1" pin="1DIR" pad="2"/>
+<connect gate="G$1" pin="2A1" pad="6"/>
+<connect gate="G$1" pin="2A2" pad="7"/>
+<connect gate="G$1" pin="2B1" pad="11"/>
+<connect gate="G$1" pin="2B2" pad="10"/>
+<connect gate="G$1" pin="2DIR" pad="3"/>
+<connect gate="G$1" pin="GND@8" pad="8"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GND@PAD" pad="PAD"/>
+<connect gate="G$1" pin="VCCA" pad="1"/>
+<connect gate="G$1" pin="VCCB" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
+<attribute name="PARTNUM" value="SN74AVC4T245" constant="no"/>
 </technology>
 </technologies>
 </device>
