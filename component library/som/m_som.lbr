@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -4853,14 +4853,24 @@
 <wire x1="-21.315" y1="-12.5" x2="-21.315" y2="12.5" width="0.127" layer="21"/>
 <text x="-21" y="13" size="1.4224" layer="25" ratio="16">&gt;NAME</text>
 <text x="-21" y="-13" size="1.4224" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
-<polygon width="0.4" layer="39">
-<vertex x="-21.75" y="13"/>
-<vertex x="21.75" y="13"/>
-<vertex x="21.75" y="-13"/>
-<vertex x="-21.75" y="-13"/>
-</polygon>
 <wire x1="-13.394" y1="9.824" x2="-9.994" y2="9.824" width="0.4" layer="35"/>
 <wire x1="3.806" y1="9.824" x2="0.406" y2="9.824" width="0.4" layer="35"/>
+<circle x="-19.5" y="-10.7" radius="0.22360625" width="2.54" layer="39"/>
+<circle x="-19.5" y="10.7" radius="0.22360625" width="2.54" layer="39"/>
+<circle x="19.5" y="-10.7" radius="0.22360625" width="2.54" layer="39"/>
+<circle x="19.5" y="10.7" radius="0.22360625" width="2.54" layer="39"/>
+<polygon width="0.127" layer="39">
+<vertex x="-15.1" y="11.8"/>
+<vertex x="5.5" y="11.8"/>
+<vertex x="5.5" y="7.8"/>
+<vertex x="-15.1" y="7.8"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="-15.1" y="-7.8"/>
+<vertex x="5.5" y="-7.8"/>
+<vertex x="5.5" y="-11.8"/>
+<vertex x="-15.1" y="-11.8"/>
+</polygon>
 </package>
 </packages>
 <symbols>
