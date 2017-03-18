@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2239,6 +2239,69 @@
 </polygon>
 <text x="-2.9" y="0.3" size="1.27" layer="21" font="vector">&gt;NAME</text>
 </package>
+<package name="ATOM-A01682">
+<smd name="M@1" x="-6.8" y="-3.65" dx="1.45" dy="2" layer="1"/>
+<smd name="M@2" x="6.8" y="-3.65" dx="1.45" dy="2" layer="1"/>
+<smd name="M@3" x="-6.8" y="-12.95" dx="1.45" dy="2" layer="1"/>
+<smd name="M@4" x="6.8" y="-12.95" dx="1.45" dy="2" layer="1"/>
+<smd name="4" x="-0.1" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="-1.2" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="-2.3" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="-3.4" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="8" x="-4.5" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="2.1" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="3.2" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-6.6" y1="0" x2="6.6" y2="0" width="0.127" layer="21"/>
+<wire x1="6.6" y1="0" x2="6.6" y2="-3" width="0.127" layer="21"/>
+<wire x1="6.6" y1="-3" x2="6.6" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="6.6" y1="-14.4" x2="5.7" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-14.4" x2="4" y2="-13.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-13.5" x2="-0.4" y2="-12.8" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-12.8" x2="-4.8" y2="-13.5" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-13.5" x2="-5.7" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-14.4" x2="-6.6" y2="-14.4" width="0.127" layer="21"/>
+<wire x1="-6.6" y1="-14.4" x2="-6.6" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6.6" y1="-3" x2="-6.6" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="3.1202125" y1="-9.489296875" x2="3.0308625" y2="-8.08915" width="0.127" layer="21" curve="185.879652"/>
+<wire x1="-3.2002125" y1="-8.080703125" x2="-3.16" y2="-9.48" width="0.127" layer="21" curve="174.978792"/>
+<wire x1="-3.2" y1="-8.08" x2="3.02" y2="-8.09" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-9.48" x2="3.11" y2="-9.49" width="0.127" layer="21"/>
+<text x="-5.41" y="-10.13" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">OPEN</text>
+<text x="5.43" y="-6.07" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">LOCK</text>
+<wire x1="5.8" y1="-9.2" x2="5.8" y2="-9.7" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-9.7" x2="5.8" y2="-10" width="0.127" layer="21"/>
+<wire x1="5.8" y1="-10" x2="6.1" y2="-9.7" width="0.127" layer="21"/>
+<wire x1="-5.8" y1="-7" x2="-5.8" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-6.5" x2="-5.8" y2="-6.2" width="0.127" layer="21"/>
+<wire x1="-5.8" y1="-6.2" x2="-6.1" y2="-6.5" width="0.127" layer="21"/>
+<rectangle x1="-6.6" y1="-14.5" x2="6.6" y2="0" layer="39"/>
+<wire x1="-4.5" y1="-3.4" x2="-4.5" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="-2.3" y1="-3.4" x2="-2.3" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="-1.2" y1="-3.4" x2="-1.2" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="-0.1" y1="-3.4" x2="-0.1" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="1" y1="-3.4" x2="1" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="2.1" y1="-3.4" x2="2.1" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="3.2" y1="-3.4" x2="3.2" y2="-2.4" width="0.5" layer="21"/>
+<wire x1="-6.6" y1="-3" x2="-5.6" y2="-3" width="0.08" layer="21"/>
+<wire x1="-5.6" y1="-3" x2="-5.3" y2="-3.3" width="0.08" layer="21"/>
+<wire x1="-5.3" y1="-3.3" x2="-5" y2="-3.6" width="0.08" layer="21"/>
+<wire x1="-5" y1="-3.6" x2="3.6" y2="-3.6" width="0.08" layer="21"/>
+<wire x1="3.6" y1="-3.6" x2="3.9" y2="-3.3" width="0.08" layer="21"/>
+<wire x1="3.9" y1="-3.3" x2="4.2" y2="-3" width="0.08" layer="21"/>
+<wire x1="4.2" y1="-3" x2="6.6" y2="-3" width="0.08" layer="21"/>
+<wire x1="-5.6" y1="-3" x2="-5.6" y2="-0.5" width="0.08" layer="21"/>
+<wire x1="-5.6" y1="-0.5" x2="-5.2" y2="-0.1" width="0.08" layer="21"/>
+<wire x1="4.2" y1="-3" x2="4.2" y2="-0.5" width="0.08" layer="21"/>
+<wire x1="4.2" y1="-0.5" x2="3.8" y2="-0.1" width="0.08" layer="21"/>
+<wire x1="-5.3" y1="-3.3" x2="-5.3" y2="-0.8" width="0.08" layer="21" style="shortdash"/>
+<wire x1="-5.3" y1="-0.8" x2="3.9" y2="-0.8" width="0.08" layer="21" style="shortdash"/>
+<wire x1="3.9" y1="-0.8" x2="3.9" y2="-3.3" width="0.08" layer="21" style="shortdash"/>
+<wire x1="3.2" y1="-3.9" x2="2.9" y2="-4.2" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.9" y1="-4.2" x2="3.5" y2="-4.2" width="0.127" layer="21" style="shortdash"/>
+<wire x1="3.5" y1="-4.2" x2="3.2" y2="-3.9" width="0.127" layer="21" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -2713,6 +2776,23 @@
 <wire x1="-15.24" y1="-27.94" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
 <text x="-15.24" y="-30.48" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="20.32" y="-27.94" size="1.778" layer="96" font="vector" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="MICRO_SD+MOUNT">
+<pin name="VDD" x="-15.24" y="5.08" length="short" direction="pas"/>
+<pin name="CLK" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="CMD" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="DAT0" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="CD/DAT3" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-15.24" y="2.54" length="short" direction="pas"/>
+<pin name="DAT1" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="DAT2" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="10.922" size="1.778" layer="95" font="vector" ratio="7">&gt;NAME</text>
+<pin name="MNT" x="-15.24" y="0" length="short"/>
+<text x="-12.7" y="8.382" size="1.778" layer="96" font="vector" ratio="7">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4195,6 +4275,33 @@ Electrical:
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATOM-MR08C-06201" prefix="J">
+<description>Micro SD card slot from ATOM (Shenzhen) with front cover</description>
+<gates>
+<gate name="G$1" symbol="MICRO_SD+MOUNT" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="ATOM-A01682">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MNT" pad="M@1 M@2 M@3 M@4"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ATOM"/>
+<attribute name="PARTNO" value="MR08C-06201"/>
+</technology>
 </technologies>
 </device>
 </devices>
