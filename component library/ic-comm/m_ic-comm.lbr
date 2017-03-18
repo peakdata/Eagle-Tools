@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -36,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -570,6 +580,126 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <text x="-3" y="3.25" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-2.75" y1="-2.75" x2="2.75" y2="2.75" layer="39" rot="R90"/>
 </package>
+<package name="VFQFPN32">
+<description>&lt;b&gt;32-lead very thin fine pitch quad flat no-lead package (5 x 5)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-2.4" y1="2.4" x2="2.4" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="2.4" x2="2.4" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-2.4" x2="-2.4" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-2.4" x2="-2.4" y2="2.4" width="0.2032" layer="51"/>
+<wire x1="-2.55" y1="1.75" x2="-2.15" y2="1.75" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="1.75" x2="-2.15" y2="1.75" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="1.25" x2="-2.15" y2="1.25" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="1.25" x2="-2.15" y2="1.25" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="0.75" x2="-2.15" y2="0.75" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="0.75" x2="-2.15" y2="0.75" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="0.25" x2="-2.15" y2="0.25" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="0.25" x2="-2.15" y2="0.25" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="-0.25" x2="-2.15" y2="-0.25" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="-0.25" x2="-2.15" y2="-0.25" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="-0.75" x2="-2.15" y2="-0.75" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="-0.75" x2="-2.15" y2="-0.75" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="-1.25" x2="-2.15" y2="-1.25" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="-1.25" x2="-2.15" y2="-1.25" width="0.225" layer="31"/>
+<wire x1="-2.55" y1="-1.75" x2="-2.15" y2="-1.75" width="0.35" layer="29"/>
+<wire x1="-2.55" y1="-1.75" x2="-2.15" y2="-1.75" width="0.225" layer="31"/>
+<wire x1="-1.75" y1="-2.55" x2="-1.75" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="-1.75" y1="-2.55" x2="-1.75" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="-1.25" y1="-2.55" x2="-1.25" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="-1.25" y1="-2.55" x2="-1.25" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="-0.75" y1="-2.55" x2="-0.75" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="-0.75" y1="-2.55" x2="-0.75" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="-0.25" y1="-2.55" x2="-0.25" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="-0.25" y1="-2.55" x2="-0.25" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="0.25" y1="-2.55" x2="0.25" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="0.25" y1="-2.55" x2="0.25" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="0.75" y1="-2.55" x2="0.75" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="0.75" y1="-2.55" x2="0.75" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="1.25" y1="-2.55" x2="1.25" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="1.25" y1="-2.55" x2="1.25" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="1.75" y1="-2.55" x2="1.75" y2="-2.15" width="0.35" layer="29"/>
+<wire x1="1.75" y1="-2.55" x2="1.75" y2="-2.15" width="0.225" layer="31"/>
+<wire x1="2.55" y1="-1.75" x2="2.15" y2="-1.75" width="0.35" layer="29"/>
+<wire x1="2.55" y1="-1.75" x2="2.15" y2="-1.75" width="0.225" layer="31"/>
+<wire x1="2.55" y1="-1.25" x2="2.15" y2="-1.25" width="0.35" layer="29"/>
+<wire x1="2.55" y1="-1.25" x2="2.15" y2="-1.25" width="0.225" layer="31"/>
+<wire x1="2.55" y1="-0.75" x2="2.15" y2="-0.75" width="0.35" layer="29"/>
+<wire x1="2.55" y1="-0.75" x2="2.15" y2="-0.75" width="0.225" layer="31"/>
+<wire x1="2.55" y1="-0.25" x2="2.15" y2="-0.25" width="0.35" layer="29"/>
+<wire x1="2.55" y1="-0.25" x2="2.15" y2="-0.25" width="0.225" layer="31"/>
+<wire x1="2.55" y1="0.25" x2="2.15" y2="0.25" width="0.35" layer="29"/>
+<wire x1="2.55" y1="0.25" x2="2.15" y2="0.25" width="0.225" layer="31"/>
+<wire x1="2.55" y1="0.75" x2="2.15" y2="0.75" width="0.35" layer="29"/>
+<wire x1="2.55" y1="0.75" x2="2.15" y2="0.75" width="0.225" layer="31"/>
+<wire x1="2.55" y1="1.25" x2="2.15" y2="1.25" width="0.35" layer="29"/>
+<wire x1="2.55" y1="1.25" x2="2.15" y2="1.25" width="0.225" layer="31"/>
+<wire x1="2.55" y1="1.75" x2="2.15" y2="1.75" width="0.35" layer="29"/>
+<wire x1="2.55" y1="1.75" x2="2.15" y2="1.75" width="0.225" layer="31"/>
+<wire x1="1.75" y1="2.55" x2="1.75" y2="2.15" width="0.35" layer="29"/>
+<wire x1="1.75" y1="2.55" x2="1.75" y2="2.15" width="0.225" layer="31"/>
+<wire x1="1.25" y1="2.55" x2="1.25" y2="2.15" width="0.35" layer="29"/>
+<wire x1="1.25" y1="2.55" x2="1.25" y2="2.15" width="0.225" layer="31"/>
+<wire x1="0.75" y1="2.55" x2="0.75" y2="2.15" width="0.35" layer="29"/>
+<wire x1="0.75" y1="2.55" x2="0.75" y2="2.15" width="0.225" layer="31"/>
+<wire x1="0.25" y1="2.55" x2="0.25" y2="2.15" width="0.35" layer="29"/>
+<wire x1="0.25" y1="2.55" x2="0.25" y2="2.15" width="0.225" layer="31"/>
+<wire x1="-0.25" y1="2.55" x2="-0.25" y2="2.15" width="0.35" layer="29"/>
+<wire x1="-0.25" y1="2.55" x2="-0.25" y2="2.15" width="0.225" layer="31"/>
+<wire x1="-0.75" y1="2.55" x2="-0.75" y2="2.15" width="0.35" layer="29"/>
+<wire x1="-0.75" y1="2.55" x2="-0.75" y2="2.15" width="0.225" layer="31"/>
+<wire x1="-1.25" y1="2.55" x2="-1.25" y2="2.15" width="0.35" layer="29"/>
+<wire x1="-1.25" y1="2.55" x2="-1.25" y2="2.15" width="0.225" layer="31"/>
+<wire x1="-1.75" y1="2.55" x2="-1.75" y2="2.15" width="0.35" layer="29"/>
+<wire x1="-1.75" y1="2.55" x2="-1.75" y2="2.15" width="0.225" layer="31"/>
+<smd name="1" x="-2.35" y="1.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="2" x="-2.35" y="1.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="3" x="-2.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="4" x="-2.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="5" x="-2.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="6" x="-2.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="7" x="-2.35" y="-1.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="8" x="-2.35" y="-1.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="9" x="-1.75" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="-1.25" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="11" x="-0.75" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="12" x="-0.25" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="13" x="0.25" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="14" x="0.75" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="15" x="1.25" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="16" x="1.75" y="-2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no" cream="no"/>
+<smd name="17" x="2.35" y="-1.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="18" x="2.35" y="-1.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="19" x="2.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="20" x="2.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="21" x="2.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="22" x="2.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="23" x="2.35" y="1.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="24" x="2.35" y="1.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no" cream="no"/>
+<smd name="25" x="1.75" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="26" x="1.25" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="27" x="0.75" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="28" x="0.25" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="29" x="-0.25" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="30" x="-0.75" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="31" x="-1.25" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="32" x="-1.75" y="2.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
+<smd name="PAD" x="0" y="0" dx="3.45" dy="3.45" layer="1" stop="no" cream="no"/>
+<rectangle x1="-2.45" y1="2" x2="-2" y2="2.45" layer="21"/>
+<rectangle x1="-2.45" y1="0" x2="0" y2="2.45" layer="51"/>
+<rectangle x1="-1.5" y1="0.25" x2="-0.25" y2="1.5" layer="31"/>
+<rectangle x1="0.25" y1="0.25" x2="1.5" y2="1.5" layer="31"/>
+<rectangle x1="0.25" y1="-1.5" x2="1.5" y2="-0.25" layer="31"/>
+<rectangle x1="-1.5" y1="-1.5" x2="-0.25" y2="-0.25" layer="31"/>
+<polygon width="0.2" layer="29">
+<vertex x="-1.7" y="1.4" curve="106.554123"/>
+<vertex x="-1.4" y="1.7"/>
+<vertex x="1.7" y="1.7"/>
+<vertex x="1.7" y="-1.7"/>
+<vertex x="-1.7" y="-1.7"/>
+</polygon>
+<rectangle x1="-2.7" y1="-2.7" x2="2.7" y2="2.7" layer="39"/>
+<text x="-2.2" y="-3.7" size="0.8128" layer="25" font="vector" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX3420E">
@@ -775,6 +905,47 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <wire x1="-22.86" y1="-27.94" x2="-22.86" y2="30.48" width="0.254" layer="94"/>
 <text x="-20.32" y="-30.48" size="1.27" layer="95">&gt;NAME</text>
 <text x="12.7" y="-30.48" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ST95HF">
+<pin name="TX1" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="TX2" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="NC@3" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="NC@4" x="35.56" y="2.54" length="middle" rot="R180"/>
+<pin name="RX1" x="35.56" y="20.32" length="middle" rot="R180"/>
+<pin name="RX2" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="NC@7" x="35.56" y="0" length="middle" rot="R180"/>
+<pin name="GND_RX" x="7.62" y="-33.02" length="middle" rot="R90"/>
+<pin name="ST_R0" x="-38.1" y="15.24" length="middle"/>
+<pin name="NC@10" x="35.56" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC@11" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="!IRQ_IN" x="-38.1" y="-15.24" length="middle"/>
+<pin name="VPS" x="-7.62" y="30.48" length="middle" rot="R270"/>
+<pin name="!IRQ_OUT" x="-38.1" y="-12.7" length="middle"/>
+<pin name="!SPI_SS" x="-38.1" y="-7.62" length="middle"/>
+<pin name="SPI_MISO" x="-38.1" y="0" length="middle"/>
+<pin name="SPI_MOSI" x="-38.1" y="-2.54" length="middle"/>
+<pin name="SPI_SCK" x="-38.1" y="-5.08" length="middle"/>
+<pin name="SSI_0" x="-38.1" y="7.62" length="middle"/>
+<pin name="SSI_1" x="-38.1" y="5.08" length="middle"/>
+<pin name="ST_R1" x="-38.1" y="12.7" length="middle"/>
+<pin name="GND" x="10.16" y="-33.02" length="middle" rot="R90"/>
+<pin name="NC@23" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="NC@24" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="NC@25" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="NC@26" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="NC@27" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="NC@28" x="35.56" y="-20.32" length="middle" rot="R180"/>
+<pin name="XIN" x="-15.24" y="-33.02" length="middle" rot="R90"/>
+<pin name="XOUT" x="-12.7" y="-33.02" length="middle" rot="R90"/>
+<pin name="GND_TX" x="5.08" y="-33.02" length="middle" rot="R90"/>
+<pin name="VPS_TX" x="-5.08" y="30.48" length="middle" rot="R270"/>
+<pin name="GND@PAD" x="0" y="-33.02" length="middle" rot="R90"/>
+<wire x1="-33.02" y1="25.4" x2="30.48" y2="25.4" width="0.254" layer="94"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-27.94" x2="-33.02" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="-27.94" x2="-33.02" y2="25.4" width="0.254" layer="94"/>
+<text x="-33.02" y="-30.48" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="15.24" y="-30.48" size="1.778" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1141,6 +1312,69 @@ Direct access to all control registers allows fine tuning of various reader para
 <technology name="">
 <attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
 <attribute name="PARTNUM" value="TRF7970A"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ST95HF" prefix="U">
+<description>The ST95HF is an integrated transceiver IC for contactless applications.
+&lt;br&gt;&lt;br&gt;
+The ST95HF manages frame coding and decoding in Reader and Card Emulation modes
+for standard applications such as Near Field Communication (NFC), proximity and vicinity
+standards.
+&lt;br&gt;&lt;br&gt;
+The ST95HF embeds an Analog Front End to provide the 13.56 MHz Air Interface.
+The ST95HF supports ISO/IEC 14443 Type A and B communication in Reader and Card
+Emulation modes, ISO/IEC 15693 (single or double subcarrier in Reader mode only) and
+ISO/IEC 18092 communication protocols in Reader and Card Emulation modes.
+&lt;br&gt;&lt;br&gt;
+The ST95HF also supports the detection, reading and writing of NFC Forum Type 1, 2, 3
+and 4 tags.</description>
+<gates>
+<gate name="G$1" symbol="ST95HF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFQFPN32">
+<connects>
+<connect gate="G$1" pin="!IRQ_IN" pad="12"/>
+<connect gate="G$1" pin="!IRQ_OUT" pad="14"/>
+<connect gate="G$1" pin="!SPI_SS" pad="15"/>
+<connect gate="G$1" pin="GND" pad="22"/>
+<connect gate="G$1" pin="GND@PAD" pad="PAD"/>
+<connect gate="G$1" pin="GND_RX" pad="8"/>
+<connect gate="G$1" pin="GND_TX" pad="31"/>
+<connect gate="G$1" pin="NC@10" pad="10"/>
+<connect gate="G$1" pin="NC@11" pad="11"/>
+<connect gate="G$1" pin="NC@23" pad="23"/>
+<connect gate="G$1" pin="NC@24" pad="24"/>
+<connect gate="G$1" pin="NC@25" pad="25"/>
+<connect gate="G$1" pin="NC@26" pad="26"/>
+<connect gate="G$1" pin="NC@27" pad="27"/>
+<connect gate="G$1" pin="NC@28" pad="28"/>
+<connect gate="G$1" pin="NC@3" pad="3"/>
+<connect gate="G$1" pin="NC@4" pad="4"/>
+<connect gate="G$1" pin="NC@7" pad="7"/>
+<connect gate="G$1" pin="RX1" pad="5"/>
+<connect gate="G$1" pin="RX2" pad="6"/>
+<connect gate="G$1" pin="SPI_MISO" pad="16"/>
+<connect gate="G$1" pin="SPI_MOSI" pad="17"/>
+<connect gate="G$1" pin="SPI_SCK" pad="18"/>
+<connect gate="G$1" pin="SSI_0" pad="19"/>
+<connect gate="G$1" pin="SSI_1" pad="20"/>
+<connect gate="G$1" pin="ST_R0" pad="9"/>
+<connect gate="G$1" pin="ST_R1" pad="21"/>
+<connect gate="G$1" pin="TX1" pad="1"/>
+<connect gate="G$1" pin="TX2" pad="2"/>
+<connect gate="G$1" pin="VPS" pad="13"/>
+<connect gate="G$1" pin="VPS_TX" pad="32"/>
+<connect gate="G$1" pin="XIN" pad="29"/>
+<connect gate="G$1" pin="XOUT" pad="30"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ST Microelectronics"/>
+<attribute name="PARTNUM" value="ST95HF"/>
 </technology>
 </technologies>
 </device>
