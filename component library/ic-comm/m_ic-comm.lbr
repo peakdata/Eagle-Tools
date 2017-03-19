@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -18,10 +18,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -32,11 +32,11 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -527,6 +527,113 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <rectangle x1="-0.6" y1="-1.85" x2="0.6" y2="-0.8" layer="31" rot="R180"/>
 <rectangle x1="-1.85" y1="-1.85" x2="-0.8" y2="-0.8" layer="31" rot="R180"/>
 </package>
+<package name="HVQFN20">
+<description>&lt;h3&gt;HVQFN20 (SOT917-4) Package&lt;/h3&gt;
+&lt;p&gt;Source: NXP Semiconductor PTN5100 Datasheet, August 1 2016&lt;/p&gt;
+&lt;p&gt;Added 2017-03-19&lt;/p&gt;</description>
+<smd name="PAD" x="0" y="0" dx="2.8" dy="2.8" layer="1" thermals="no" cream="no"/>
+<rectangle x1="0.2" y1="0.2" x2="0.9" y2="0.9" layer="31"/>
+<rectangle x1="-0.9" y1="0.2" x2="-0.2" y2="0.9" layer="31" rot="R90"/>
+<rectangle x1="-0.9" y1="-0.9" x2="-0.2" y2="-0.2" layer="31" rot="R180"/>
+<rectangle x1="0.2" y1="-0.9" x2="0.9" y2="-0.2" layer="31" rot="R270"/>
+<smd name="1" x="-1" y="-2.125" dx="0.27" dy="0.9" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-1.11" y1="-2.55" x2="-0.89" y2="-1.7" layer="31"/>
+<smd name="2" x="-0.5" y="-2.125" dx="0.27" dy="0.9" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-0.61" y1="-2.55" x2="-0.39" y2="-1.7" layer="31"/>
+<smd name="3" x="0" y="-2.125" dx="0.27" dy="0.9" layer="1" thermals="no" cream="no"/>
+<rectangle x1="-0.11" y1="-2.55" x2="0.11" y2="-1.7" layer="31"/>
+<smd name="4" x="0.5" y="-2.125" dx="0.27" dy="0.9" layer="1" thermals="no" cream="no"/>
+<rectangle x1="0.39" y1="-2.55" x2="0.61" y2="-1.7" layer="31"/>
+<smd name="5" x="1" y="-2.125" dx="0.27" dy="0.9" layer="1" thermals="no" cream="no"/>
+<rectangle x1="0.89" y1="-2.55" x2="1.11" y2="-1.7" layer="31"/>
+<smd name="6" x="2.125" y="-1" dx="0.27" dy="0.9" layer="1" rot="R90" thermals="no" cream="no"/>
+<rectangle x1="2.015" y1="-1.425" x2="2.235" y2="-0.575" layer="31" rot="R90"/>
+<smd name="7" x="2.125" y="-0.5" dx="0.27" dy="0.9" layer="1" rot="R90" thermals="no" cream="no"/>
+<rectangle x1="2.015" y1="-0.925" x2="2.235" y2="-0.075" layer="31" rot="R90"/>
+<smd name="8" x="2.125" y="0" dx="0.27" dy="0.9" layer="1" rot="R90" thermals="no" cream="no"/>
+<rectangle x1="2.015" y1="-0.425" x2="2.235" y2="0.425" layer="31" rot="R90"/>
+<smd name="9" x="2.125" y="0.5" dx="0.27" dy="0.9" layer="1" rot="R90" thermals="no" cream="no"/>
+<rectangle x1="2.015" y1="0.075" x2="2.235" y2="0.925" layer="31" rot="R90"/>
+<smd name="10" x="2.125" y="1" dx="0.27" dy="0.9" layer="1" rot="R90" thermals="no" cream="no"/>
+<rectangle x1="2.015" y1="0.575" x2="2.235" y2="1.425" layer="31" rot="R90"/>
+<smd name="11" x="1" y="2.125" dx="0.27" dy="0.9" layer="1" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="0.89" y1="1.7" x2="1.11" y2="2.55" layer="31" rot="R180"/>
+<smd name="12" x="0.5" y="2.125" dx="0.27" dy="0.9" layer="1" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="0.39" y1="1.7" x2="0.61" y2="2.55" layer="31" rot="R180"/>
+<smd name="13" x="0" y="2.125" dx="0.27" dy="0.9" layer="1" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="-0.11" y1="1.7" x2="0.11" y2="2.55" layer="31" rot="R180"/>
+<smd name="14" x="-0.5" y="2.125" dx="0.27" dy="0.9" layer="1" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="-0.61" y1="1.7" x2="-0.39" y2="2.55" layer="31" rot="R180"/>
+<smd name="15" x="-1" y="2.125" dx="0.27" dy="0.9" layer="1" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="-1.11" y1="1.7" x2="-0.89" y2="2.55" layer="31" rot="R180"/>
+<smd name="16" x="-2.125" y="1" dx="0.27" dy="0.9" layer="1" rot="R270" thermals="no" cream="no"/>
+<rectangle x1="-2.235" y1="0.575" x2="-2.015" y2="1.425" layer="31" rot="R270"/>
+<smd name="17" x="-2.125" y="0.5" dx="0.27" dy="0.9" layer="1" rot="R270" thermals="no" cream="no"/>
+<rectangle x1="-2.235" y1="0.075" x2="-2.015" y2="0.925" layer="31" rot="R270"/>
+<smd name="18" x="-2.125" y="0" dx="0.27" dy="0.9" layer="1" rot="R270" thermals="no" cream="no"/>
+<rectangle x1="-2.235" y1="-0.425" x2="-2.015" y2="0.425" layer="31" rot="R270"/>
+<smd name="19" x="-2.125" y="-0.5" dx="0.27" dy="0.9" layer="1" rot="R270" thermals="no" cream="no"/>
+<rectangle x1="-2.235" y1="-0.925" x2="-2.015" y2="-0.075" layer="31" rot="R270"/>
+<smd name="20" x="-2.125" y="-1" dx="0.27" dy="0.9" layer="1" rot="R270" thermals="no" cream="no"/>
+<rectangle x1="-2.235" y1="-1.425" x2="-2.015" y2="-0.575" layer="31" rot="R270"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
+<rectangle x1="-0.125" y1="-2" x2="0.125" y2="-1.7" layer="51"/>
+<rectangle x1="-0.625" y1="-2" x2="-0.375" y2="-1.7" layer="51"/>
+<rectangle x1="-1.125" y1="-2" x2="-0.875" y2="-1.7" layer="51"/>
+<rectangle x1="0.875" y1="-2" x2="1.125" y2="-1.7" layer="51"/>
+<rectangle x1="0.375" y1="-2" x2="0.625" y2="-1.7" layer="51"/>
+<rectangle x1="1.725" y1="-0.15" x2="1.975" y2="0.15" layer="51" rot="R90"/>
+<rectangle x1="1.725" y1="-0.65" x2="1.975" y2="-0.35" layer="51" rot="R90"/>
+<rectangle x1="1.725" y1="-1.15" x2="1.975" y2="-0.85" layer="51" rot="R90"/>
+<rectangle x1="1.725" y1="0.85" x2="1.975" y2="1.15" layer="51" rot="R90"/>
+<rectangle x1="1.725" y1="0.35" x2="1.975" y2="0.65" layer="51" rot="R90"/>
+<rectangle x1="-0.125" y1="1.7" x2="0.125" y2="2" layer="51" rot="R180"/>
+<rectangle x1="0.375" y1="1.7" x2="0.625" y2="2" layer="51" rot="R180"/>
+<rectangle x1="0.875" y1="1.7" x2="1.125" y2="2" layer="51" rot="R180"/>
+<rectangle x1="-1.125" y1="1.7" x2="-0.875" y2="2" layer="51" rot="R180"/>
+<rectangle x1="-0.625" y1="1.7" x2="-0.375" y2="2" layer="51" rot="R180"/>
+<rectangle x1="-1.975" y1="-0.15" x2="-1.725" y2="0.15" layer="51" rot="R270"/>
+<rectangle x1="-1.975" y1="0.35" x2="-1.725" y2="0.65" layer="51" rot="R270"/>
+<rectangle x1="-1.975" y1="0.85" x2="-1.725" y2="1.15" layer="51" rot="R270"/>
+<rectangle x1="-1.975" y1="-1.15" x2="-1.725" y2="-0.85" layer="51" rot="R270"/>
+<rectangle x1="-1.975" y1="-0.65" x2="-1.725" y2="-0.35" layer="51" rot="R270"/>
+<wire x1="-2" y1="-1.4" x2="-2" y2="-2" width="0.127" layer="22"/>
+<wire x1="-2" y1="-2" x2="-1.4" y2="-2" width="0.127" layer="22"/>
+<wire x1="1.4" y1="-2" x2="2" y2="-2" width="0.127" layer="22"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.4" width="0.127" layer="22"/>
+<wire x1="2" y1="1.4" x2="2" y2="2" width="0.127" layer="22"/>
+<wire x1="2" y1="2" x2="1.4" y2="2" width="0.127" layer="22"/>
+<wire x1="-1.4" y1="2" x2="-2" y2="2" width="0.127" layer="22"/>
+<wire x1="-2" y1="2" x2="-2" y2="1.4" width="0.127" layer="22"/>
+<circle x="-1.7" y="-2.4" radius="0.16" width="0.127" layer="22"/>
+<polygon width="0.2" layer="39">
+<vertex x="-2.25" y="2.25"/>
+<vertex x="-1.5" y="2.25"/>
+<vertex x="-1.5" y="2.75"/>
+<vertex x="1.5" y="2.75"/>
+<vertex x="1.5" y="2.25"/>
+<vertex x="2.25" y="2.25"/>
+<vertex x="2.25" y="1.5"/>
+<vertex x="2.75" y="1.5"/>
+<vertex x="2.75" y="-1.5"/>
+<vertex x="2.25" y="-1.5"/>
+<vertex x="2.25" y="-2.25"/>
+<vertex x="1.5" y="-2.25"/>
+<vertex x="1.5" y="-2.75"/>
+<vertex x="-1.5" y="-2.75"/>
+<vertex x="-1.5" y="-2.25"/>
+<vertex x="-2.25" y="-2.25"/>
+<vertex x="-2.25" y="-1.5"/>
+<vertex x="-2.75" y="-1.5"/>
+<vertex x="-2.75" y="1.5"/>
+<vertex x="-2.25" y="1.5"/>
+</polygon>
+<text x="-2.75" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.75" y="-2.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX3420E">
@@ -691,6 +798,36 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <wire x1="-22.86" y1="-35.56" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
 <text x="-22.86" y="38.1" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-22.86" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PTN5100">
+<description>&lt;h3&gt;PTN5100 USB Type-C power delivery PHY and protocol IC&lt;/h3&gt;</description>
+<pin name="!USBSRC" x="17.78" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="!USBFET1" x="17.78" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="!USBFET2" x="17.78" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="CC1" x="-17.78" y="-7.62" length="short" direction="pas"/>
+<pin name="CC2" x="-17.78" y="-10.16" length="short" direction="pas"/>
+<pin name="!ORIENT_NORM" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="CC_CTRL1" x="-17.78" y="-15.24" length="short" direction="pas"/>
+<pin name="DBGACC" x="17.78" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="VCONN_IN" x="-17.78" y="15.24" length="short" direction="pas"/>
+<pin name="MOSI/SDA" x="17.78" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="MISO" x="17.78" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="SCLK/SCL" x="17.78" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="!CS" x="17.78" y="-15.24" length="short" direction="pas" rot="R180"/>
+<pin name="!INT" x="17.78" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="ADDR" x="-17.78" y="-17.78" length="short" direction="pas"/>
+<pin name="MCU_PWR" x="17.78" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="VIO" x="-17.78" y="10.16" length="short" direction="pas"/>
+<pin name="VBUS" x="-17.78" y="12.7" length="short" direction="pas"/>
+<pin name="VDD" x="-17.78" y="7.62" length="short" direction="pas"/>
+<pin name="BYPASS" x="-17.78" y="2.54" length="short" direction="pas"/>
+<pin name="GND" x="-17.78" y="-2.54" length="short" direction="pas"/>
+<wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<text x="-15.24" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-15.24" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1000,6 +1137,91 @@ Transfer Data Concurrently with USB Transfers Over the Same Endpoint
 <technology name="">
 <attribute name="MANUF" value="Microchip" constant="no"/>
 <attribute name="PARTNUM" value="USB2514B/M2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTN5100" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;PTN5100 USB Type-C power delivery PHY and protocol IC&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/43533945/image/NXP-Semiconductors-PTN5100DBSMP.gif" alt="https://octopart.com/search?q=PTN5100%3FBS*" /&gt;&lt;/div&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;PTN5100 is a single port USB Type-C Power Delivery (PD) PHY and Protocol IC that provides Type-C Configuration channel interface and USB PD Physical and Protocol layer functions to a System PD Port Policy Controller (Policy Engine and Device Policy Manager, Alternate mode controller). It complies with USB PD[1] and Type-C[2] specifications and delta updates of PD spec.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Complies with USB PD[1] and USB Type-C[2] specifications.&lt;/li&gt;
+&lt;li&gt;Supports implementation of various system PD roles: P, P/C, C, C/P&lt;/li&gt;
+&lt;li&gt;Supports Type-C role configurability&lt;/li&gt;
+&lt;li&gt;Type-C role (DFP, UFP, DRP) is Non-Volatile Memory (NVM) and register programmable based on OEM platform requirements&lt;/li&gt;
+&lt;li&gt;Implements UFP role pull down behavior to handle dead battery condition on battery powered platforms&lt;/li&gt;
+&lt;li&gt;Supports register programmable and variable ‘Rp’ indication (for DRP/DFP usage and accessory detection)&lt;/li&gt;
+&lt;li&gt;Implements 'Rd' indication on CC pin (for Device side implementation)&lt;/li&gt;
+&lt;li&gt;CC detection/indication scheme based on Type-C role&lt;/li&gt;
+&lt;li&gt;Indication of orientation detection via CC_ORIENT pin and status register(s)  Debug and Audio Accessory detection and indication in status register(s)&lt;/li&gt;
+&lt;li&gt;Cooperatively works under the control of Policy controller MCU for power delivery negotiation and contract(s), Alternate mode and VDM exchanges&lt;/li&gt;
+&lt;li&gt;Implements BMC (de)coding, 4B5B symbol (de)coding, CRC generation/checking, PD packet assembling/disassembling including Preamble, SOP, EOP, Good CRC response, Retries, Hard and Cable resets&lt;/li&gt;
+&lt;li&gt;PD PHY and Protocol layer interface control and status update handled via SPI/I2C interface&lt;/li&gt;
+&lt;li&gt;SOP* Configurability&lt;/li&gt;
+&lt;li&gt;Register programmable to generate and receive SOP, SOP', SOP'-debug, SOP", SOP"-debug'' in DFP/DRP (host use case)&lt;/li&gt;
+&lt;li&gt;Register programmable to receive and respond on SOP, SOP'-debug and SOP"-debug commands&lt;/li&gt;
+&lt;li&gt;Supports low RON VCONN switch with enable/disable (Hi-Z) support&lt;/li&gt;
+&lt;li&gt;Capable of maximum current delivery of 1 A over 2.7 V to 5.5 V  Supports register programmable Forward current protection control  Supports register programmable Reverse current protection&lt;/li&gt;
+&lt;li&gt;Back current protection on all pins when PTN5100 is unpowered&lt;/li&gt;
+&lt;li&gt;CC1 and CC2 pins are 5.5 V tolerant&lt;/li&gt;
+&lt;li&gt;VBUS pin and VBUS power path MOSFET enable pins are 28 V tolerant &lt;/li&gt;
+&lt;li&gt;Delivers (active LOW enable) gate control signals for PMOS Power MOSFETs on VBUS source and sink power paths&lt;/li&gt;
+&lt;li&gt;Provides dedicated IO pin (CC_ORIENT) for indicating Cable/plug orientation and IO pin (DBGACC_FOUND) for indicating Debug accessory detection&lt;/li&gt;
+&lt;li&gt;Delivers up to 30 mA (max) for powering Policy controller MCU&lt;/li&gt;
+&lt;li&gt;Supports SPI slave interface (SPI modes 1 and 2 supported) up to 30 MHz&lt;/li&gt;
+&lt;li&gt;Supports I2C slave interface standard mode (100 kHz), Fast mode (400 kHz) and Fast mode plus (1 MHz)&lt;/li&gt;
+&lt;li&gt;I2C Device slave address programmable up to 3 values&lt;/li&gt;
+&lt;li&gt;Supports 3.3 V or 1.8 V capable I2C-bus or SPI interface&lt;/li&gt;
+&lt;li&gt;Supports register access - device configuration, control and status/interrupt interfacing through Slave I2C-bus interface&lt;/li&gt;
+&lt;li&gt;Power supplies - VDD (3.3 V  10 %) or VBUS&lt;/li&gt;
+&lt;li&gt;Tolerant up to 28 V on VBUS and operational up to maximum of 25 V on VBUS&lt;/li&gt;
+&lt;li&gt;Operating temperature  20˚C to 85˚C&lt;/li&gt;
+&lt;li&gt;ESD 8 kV HBM, 1 kV CDM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Ordering Information&lt;/h4&gt;
+&lt;p&gt;&lt;b&gt;PTN5100BS&lt;/b&gt;, HVQFN20 (SOT917-4) plastic thermal enhanced very thin quad flat package; no leads; 20 terminals; SPI System Interface&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PTN5100ABS&lt;/b&gt;, HVQFN20 (SOT917-4) plastic thermal enhanced very thin quad flat package; no leads; 20 terminals; I2C System Interface&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=PTN5100%3FBS*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2017-03-19, based on data from NXP datasheet Rev. 1 2018-08-01.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTN5100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HVQFN20">
+<connects>
+<connect gate="G$1" pin="!CS" pad="7"/>
+<connect gate="G$1" pin="!INT" pad="13"/>
+<connect gate="G$1" pin="!ORIENT_NORM" pad="9"/>
+<connect gate="G$1" pin="!USBFET1" pad="1"/>
+<connect gate="G$1" pin="!USBFET2" pad="20"/>
+<connect gate="G$1" pin="!USBSRC" pad="3"/>
+<connect gate="G$1" pin="ADDR" pad="14"/>
+<connect gate="G$1" pin="BYPASS" pad="19"/>
+<connect gate="G$1" pin="CC1" pad="5"/>
+<connect gate="G$1" pin="CC2" pad="4"/>
+<connect gate="G$1" pin="CC_CTRL1" pad="10"/>
+<connect gate="G$1" pin="DBGACC" pad="6"/>
+<connect gate="G$1" pin="GND" pad="PAD"/>
+<connect gate="G$1" pin="MCU_PWR" pad="17"/>
+<connect gate="G$1" pin="MISO" pad="16"/>
+<connect gate="G$1" pin="MOSI/SDA" pad="12"/>
+<connect gate="G$1" pin="SCLK/SCL" pad="11"/>
+<connect gate="G$1" pin="VBUS" pad="2"/>
+<connect gate="G$1" pin="VCONN_IN" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="15"/>
+<connect gate="G$1" pin="VIO" pad="18"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="NXP" constant="no"/>
+<attribute name="PARTNUM" value="PTN5100?BS*" constant="no"/>
 </technology>
 </technologies>
 </device>
