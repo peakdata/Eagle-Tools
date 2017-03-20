@@ -906,7 +906,7 @@ The TPD4E001 is available in DRL, DBV (SOT-23), DCK (SC-70), DRS (QFN), and DPK 
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPD1E10B09">
+<deviceset name="TPD1E10B09" prefix="D">
 <description>The TPD1E10B09 device is  a  single-channel electrostatic discharge (ESD) transient voltage suppression (TVS) diode in a small 0402 package.
 
 &lt;br&gt;&lt;br&gt;
