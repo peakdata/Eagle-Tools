@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -807,6 +807,58 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <text x="-2.75" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.75" y="-2.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
 </package>
+<package name="X2QFN">
+<description>&lt;h3&gt;TI X2QFN (RWB0012A)&lt;/h3&gt;
+&lt;div&gt;&lt;img src="http://www.ti.com/graphics/folders/partimages/TUSB321.jpg" /&gt;&lt;/div&gt;
+&lt;p&gt;TI Drawing 4221631/A 12/2014&lt;/p&gt;
+&lt;p&gt;Added 2017-03-23&lt;/p&gt;</description>
+<smd name="1" x="-0.65" y="0.2" dx="0.7" dy="0.2" layer="1" roundness="20" thermals="no" cream="no"/>
+<smd name="2" x="-0.65" y="-0.2" dx="0.7" dy="0.2" layer="1" roundness="20" thermals="no" cream="no"/>
+<rectangle x1="-0.985" y1="-0.3" x2="-0.315" y2="-0.1" layer="31"/>
+<rectangle x1="-0.985" y1="0.1" x2="-0.315" y2="0.3" layer="31"/>
+<smd name="3" x="-0.6" y="-0.75" dx="0.2" dy="0.5" layer="1" roundness="20"/>
+<smd name="4" x="-0.2" y="-0.75" dx="0.2" dy="0.5" layer="1" roundness="20"/>
+<smd name="5" x="0.2" y="-0.75" dx="0.2" dy="0.5" layer="1" roundness="20"/>
+<smd name="6" x="0.6" y="-0.75" dx="0.2" dy="0.5" layer="1" roundness="20"/>
+<smd name="7" x="0.65" y="-0.2" dx="0.7" dy="0.2" layer="1" roundness="20" rot="R180" thermals="no" cream="no"/>
+<smd name="8" x="0.65" y="0.2" dx="0.7" dy="0.2" layer="1" roundness="20" rot="R180" thermals="no" cream="no"/>
+<rectangle x1="0.315" y1="0.1" x2="0.985" y2="0.3" layer="31" rot="R180"/>
+<rectangle x1="0.315" y1="-0.3" x2="0.985" y2="-0.1" layer="31" rot="R180"/>
+<smd name="9" x="0.6" y="0.75" dx="0.2" dy="0.5" layer="1" roundness="20" rot="R180"/>
+<smd name="10" x="0.2" y="0.75" dx="0.2" dy="0.5" layer="1" roundness="20" rot="R180"/>
+<smd name="11" x="-0.2" y="0.75" dx="0.2" dy="0.5" layer="1" roundness="20" rot="R180"/>
+<smd name="12" x="-0.6" y="0.75" dx="0.2" dy="0.5" layer="1" roundness="20" rot="R180"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.875" y1="0.5" x2="-0.875" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.875" y1="-0.5" x2="0.875" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.875" y1="0.5" x2="0.875" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.875" y1="-0.5" x2="-0.875" y2="-0.8" width="0.127" layer="21"/>
+<circle x="-1.1" y="0.6" radius="0.1" width="0.127" layer="21"/>
+<wire x1="0" y1="0.1" x2="0" y2="-0.1" width="0.127" layer="35"/>
+<text x="-1" y="1.2" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1" y="-1.2" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.25" y="1.25"/>
+<vertex x="1.25" y="1.25"/>
+<vertex x="1.25" y="-1.25"/>
+<vertex x="-1.25" y="-1.25"/>
+</polygon>
+<rectangle x1="0.1125" y1="-0.8" x2="0.2875" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2875" y1="-0.8" x2="-0.1125" y2="-0.5" layer="51"/>
+<rectangle x1="-0.6875" y1="-0.8" x2="-0.5125" y2="-0.5" layer="51"/>
+<rectangle x1="0.5125" y1="-0.8" x2="0.6875" y2="-0.5" layer="51"/>
+<rectangle x1="-0.8" y1="-0.2875" x2="-0.3" y2="-0.1125" layer="51"/>
+<rectangle x1="-0.8" y1="0.1125" x2="-0.3" y2="0.2875" layer="51"/>
+<rectangle x1="-0.2875" y1="0.5" x2="-0.1125" y2="0.8" layer="51" rot="R180"/>
+<rectangle x1="0.1125" y1="0.5" x2="0.2875" y2="0.8" layer="51" rot="R180"/>
+<rectangle x1="0.5125" y1="0.5" x2="0.6875" y2="0.8" layer="51" rot="R180"/>
+<rectangle x1="-0.6875" y1="0.5" x2="-0.5125" y2="0.8" layer="51" rot="R180"/>
+<rectangle x1="0.3" y1="0.1125" x2="0.8" y2="0.2875" layer="51" rot="R180"/>
+<rectangle x1="0.3" y1="-0.2875" x2="0.8" y2="-0.1125" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX3420E">
@@ -1083,6 +1135,27 @@ Source: &lt;a href="http://www.st.com/stonline/products/literature/ds/14771/stm8
 <wire x1="-15.24" y1="-20.32" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
 <text x="-15.24" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-15.24" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TUSB321">
+<description>&lt;h3&gt;TUSB321 USB Type-C Configuration Channel Logic and Port Control with VCONN&lt;/h3&gt;</description>
+<pin name="CC1" x="-15.24" y="0" length="short" direction="pas"/>
+<pin name="CC2" x="-15.24" y="-2.54" length="short" direction="pas"/>
+<pin name="CR_MODE" x="15.24" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="PORT" x="15.24" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VBUS_DET" x="-15.24" y="2.54" length="short" direction="pas"/>
+<pin name="!VCONN_FLT" x="15.24" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUT1" x="15.24" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUT2" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="ID" x="15.24" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-15.24" y="-10.16" length="short" direction="pas"/>
+<pin name="DIR" x="15.24" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="VDD" x="-15.24" y="7.62" length="short" direction="pas"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1597,6 +1670,70 @@ and 4 tags.</description>
 <technology name="">
 <attribute name="MANUF" value="NXP" constant="no"/>
 <attribute name="PARTNUM" value="PTN5100?BS*" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TUSB321" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;TUSB321 USB Type-C Configuration Channel Logic and Port Control with VCONN&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/41482381/image/Texas-Instruments-TUSB321RWBR.jpg" alt="https://octopart.com/search?q=TUSB321RWBR"/&gt;&lt;/div&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The TUSB321 device enables USB Type-C ports with the configuration channel (CC) logic needed for Type- C ecosystems. The TUSB321 device uses the CC pins to determine port attach and detach, cable orientation, role detection, and port control for Type-C current mode. The TUSB321 device can be configured as a downstream facing port (DFP), upstream facing port (UFP) or a dual role port (DRP) making it ideal for any application.&lt;/p&gt;
+&lt;p&gt;The TUSB321 device when configured as a DRP alternates configuration as a DFP or UFP according to the Type-C Specifications. The CC logic block monitors the CC1 and CC2 pins for pullup or pulldown resistances to determine when a USB port has been attached, the orientation of the cable, and the role detected. The CC logic detects the Type-C current mode as default, medium, or high depending on the role detected. VBUS detection is implemented to determine a successful attach in UFP and DRP modes.&lt;/p&gt;
+&lt;p&gt;The device operates over a wide supply range and has low-power consumption. The TUSB321 device is available in industrial and commercial temperature ranges.&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;USB Type-CTM Specification 1.1&lt;/li&gt;
+&lt;li&gt;Backward Compatible with USB Type-C&lt;/li&gt;
+&lt;li&gt;Specification 1.0&lt;/li&gt;
+&lt;li&gt;Supports Up to 3 A of Current Advertisement through dedicated Current Mode pin&lt;/li&gt;
+&lt;li&gt;Mode Configuration&lt;/li&gt;
+&lt;li&gt;Host Only – DFP (Source)&lt;/li&gt;
+&lt;li&gt;Device Only – UFP (Sink)&lt;/li&gt;
+&lt;li&gt;Dual Role Port – DRP&lt;/li&gt;
+&lt;li&gt;Channel Configuration (CC)&lt;/li&gt;
+&lt;li&gt;Attach of USB Port Detection&lt;/li&gt;
+&lt;li&gt;Cable Orientation Detection&lt;/li&gt;
+&lt;li&gt;Role Detection&lt;/li&gt;
+&lt;li&gt;Type-C Current Mode advertisement and detection (Default, Medium, High)&lt;/li&gt;
+&lt;li&gt;VBUS Detection&lt;/li&gt;
+&lt;li&gt;VCONN Support for Active Cables&lt;/li&gt;
+&lt;li&gt;Cable Detection and Direction Control for External Switches&lt;/li&gt;
+&lt;li&gt;Supply Voltage: 4.5 V to 5.5 V&lt;/li&gt;
+&lt;li&gt;Low Current Consumption&lt;/li&gt;
+&lt;li&gt;Industrial Temperature Range of –40 to 85°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Device Information&lt;/h4&gt;
+&lt;table border="0.5"&gt;
+&lt;tr&gt;&lt;th&gt;PART NUMBER&lt;/th&gt;&lt;th&gt;PACKAGE&lt;/th&gt;&lt;th&gt;BODY SIZE (NOM)&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;TUSB321&lt;/td&gt;&lt;td&gt;X2QFN (12)&lt;/td&gt;&lt;td&gt;1.60 mm × 1.60 mm × 0.4mm&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TUSB321RWBR"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2017-03-23&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TUSB321" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="X2QFN">
+<connects>
+<connect gate="G$1" pin="!VCONN_FLT" pad="6"/>
+<connect gate="G$1" pin="CC1" pad="1"/>
+<connect gate="G$1" pin="CC2" pad="2"/>
+<connect gate="G$1" pin="CR_MODE" pad="3"/>
+<connect gate="G$1" pin="DIR" pad="11"/>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="ID" pad="9"/>
+<connect gate="G$1" pin="OUT1" pad="7"/>
+<connect gate="G$1" pin="OUT2" pad="8"/>
+<connect gate="G$1" pin="PORT" pad="4"/>
+<connect gate="G$1" pin="VBUS_DET" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TUSB321RWBR" constant="no"/>
 </technology>
 </technologies>
 </device>
