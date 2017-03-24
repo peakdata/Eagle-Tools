@@ -17,7 +17,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -2480,6 +2480,226 @@
 <text x="3.115" y="-1.5" size="1.27" layer="51" font="vector" ratio="16" align="bottom-center">1</text>
 <text x="-1.99" y="-2" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
 </package>
+<package name="MOLEX_53261-1771">
+<description>&lt;h3&gt;Molex 53261 Series PicoBlade, 1.25mm Pitch, Right Angle, SMT, 17 Conductor&lt;/h3&gt;
+&lt;p&gt;Molex 1.25mm pitch right angle SMT connector. Pre tinned phosphor bronze pins, mates with 51021 series.&lt;/p&gt;</description>
+<smd name="1" x="9.435" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="2" x="8.185" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="3" x="6.935" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="4" x="5.685" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="5" x="4.435" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="13" x="-5.705" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="14" x="-6.955" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="15" x="-8.205" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="16" x="-9.455" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="17" x="-10.705" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="PAD@1" x="11.985" y="2.1" dx="2.1" dy="3" layer="1" roundness="10" rot="R180"/>
+<smd name="PAD@2" x="-13.255" y="2.1" dx="2.1" dy="3" layer="1" roundness="10" rot="R180"/>
+<wire x1="-12.205" y1="0" x2="-12.205" y2="3.125" width="0.127" layer="51"/>
+<wire x1="-12.205" y1="3.125" x2="-12.205" y2="4.2" width="0.127" layer="51"/>
+<wire x1="-12.205" y1="4.2" x2="-10.28" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="-5.955" y1="-1" x2="-5.455" y2="0" layer="51"/>
+<rectangle x1="-7.205" y1="-1" x2="-6.705" y2="0" layer="51"/>
+<rectangle x1="-8.455" y1="-1" x2="-7.955" y2="0" layer="51"/>
+<rectangle x1="-9.705" y1="-1" x2="-9.205" y2="0" layer="51"/>
+<rectangle x1="-10.955" y1="-1" x2="-10.455" y2="0" layer="51"/>
+<rectangle x1="-13.705" y1="1" x2="-12.205" y2="3.8" layer="51"/>
+<rectangle x1="-13.905" y1="1" x2="-13.705" y2="3.2" layer="51"/>
+<wire x1="-12.205" y1="3.125" x2="-11.33" y2="3.125" width="0.127" layer="51"/>
+<wire x1="-11.33" y1="3.125" x2="-11.33" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-10.28" y1="4.2" x2="-10.28" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-10.28" y1="2.9" x2="-9.88" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-9.88" y1="2.9" x2="-9.88" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="-5.905" y1="2.5" x2="-5.505" y2="3.5" layer="51"/>
+<rectangle x1="-7.155" y1="2.5" x2="-6.755" y2="3.5" layer="51"/>
+<rectangle x1="-8.405" y1="2.5" x2="-8.005" y2="3.5" layer="51"/>
+<rectangle x1="-9.655" y1="2.5" x2="-9.255" y2="3.5" layer="51"/>
+<rectangle x1="-10.905" y1="2.5" x2="-10.505" y2="3.5" layer="51"/>
+<wire x1="-11.38" y1="0" x2="-12.205" y2="0" width="0.127" layer="21"/>
+<wire x1="-12.205" y1="0" x2="-12.205" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-12.205" y1="4.2" x2="-12.205" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-12.205" y1="0" x2="10.935" y2="0" width="0.127" layer="51"/>
+<wire x1="10.935" y1="0" x2="10.935" y2="3.125" width="0.127" layer="51"/>
+<wire x1="10.935" y1="3.125" x2="10.935" y2="4.2" width="0.127" layer="51"/>
+<wire x1="10.935" y1="4.2" x2="9.01" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="4.185" y1="-1" x2="4.685" y2="0" layer="51" rot="R180"/>
+<rectangle x1="5.435" y1="-1" x2="5.935" y2="0" layer="51" rot="R180"/>
+<rectangle x1="6.685" y1="-1" x2="7.185" y2="0" layer="51" rot="R180"/>
+<rectangle x1="7.935" y1="-1" x2="8.435" y2="0" layer="51" rot="R180"/>
+<rectangle x1="9.185" y1="-1" x2="9.685" y2="0" layer="51" rot="R180"/>
+<rectangle x1="10.935" y1="1" x2="12.435" y2="3.8" layer="51" rot="R180"/>
+<rectangle x1="12.435" y1="1" x2="12.635" y2="3.2" layer="51" rot="R180"/>
+<wire x1="8.61" y1="4.2" x2="-9.88" y2="4.2" width="0.127" layer="51"/>
+<wire x1="10.935" y1="3.125" x2="10.06" y2="3.125" width="0.127" layer="51"/>
+<wire x1="10.06" y1="3.125" x2="10.06" y2="2.5" width="0.127" layer="51"/>
+<wire x1="10.06" y1="2.5" x2="-11.33" y2="2.5" width="0.127" layer="51"/>
+<wire x1="9.01" y1="4.2" x2="9.01" y2="2.9" width="0.127" layer="51"/>
+<wire x1="9.01" y1="2.9" x2="8.61" y2="2.9" width="0.127" layer="51"/>
+<wire x1="8.61" y1="2.9" x2="8.61" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="4.235" y1="2.5" x2="4.635" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="5.485" y1="2.5" x2="5.885" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="6.735" y1="2.5" x2="7.135" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="7.985" y1="2.5" x2="8.385" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="9.235" y1="2.5" x2="9.635" y2="3.5" layer="51" rot="R180"/>
+<wire x1="10.11" y1="0" x2="10.935" y2="0" width="0.127" layer="21"/>
+<wire x1="10.935" y1="0" x2="10.935" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-12.205" y1="4.2" x2="10.935" y2="4.2" width="0.127" layer="21"/>
+<wire x1="10.935" y1="4.2" x2="10.935" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-11.08" y1="2" x2="9.81" y2="2" width="0.8" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-11.58" y="-2"/>
+<vertex x="-11.58" y="-0.5"/>
+<vertex x="-12.58" y="-0.5"/>
+<vertex x="-12.58" y="0"/>
+<vertex x="-14.58" y="0"/>
+<vertex x="-14.58" y="4"/>
+<vertex x="-12.58" y="4"/>
+<vertex x="-12.58" y="8.5"/>
+<vertex x="11.31" y="8.5"/>
+<vertex x="11.31" y="4"/>
+<vertex x="13.31" y="4"/>
+<vertex x="13.31" y="0"/>
+<vertex x="11.31" y="0"/>
+<vertex x="11.31" y="-0.5"/>
+<vertex x="10.31" y="-0.5"/>
+<vertex x="10.31" y="-2"/>
+</polygon>
+<wire x1="10.11" y1="0" x2="10.11" y2="-1.5" width="0.127" layer="21"/>
+<text x="11.935" y="-1.5" size="1.27" layer="51" font="vector" ratio="16" align="bottom-center">1</text>
+<text x="-12.08" y="-2" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
+<smd name="12" x="-4.435" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="-4.685" y1="-1" x2="-4.185" y2="0" layer="51"/>
+<rectangle x1="-4.635" y1="2.5" x2="-4.235" y2="3.5" layer="51"/>
+<smd name="6" x="3.185" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="2.935" y1="-1" x2="3.435" y2="0" layer="51"/>
+<rectangle x1="2.985" y1="2.5" x2="3.385" y2="3.5" layer="51"/>
+<smd name="7" x="1.915" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="1.665" y1="-1" x2="2.165" y2="0" layer="51"/>
+<rectangle x1="1.715" y1="2.5" x2="2.115" y2="3.5" layer="51"/>
+<smd name="11" x="-3.165" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="-3.415" y1="-1" x2="-2.915" y2="0" layer="51"/>
+<rectangle x1="-3.365" y1="2.5" x2="-2.965" y2="3.5" layer="51"/>
+<smd name="8" x="0.645" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="9" x="-0.625" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="10" x="-1.895" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<rectangle x1="0.395" y1="-1" x2="0.895" y2="0" layer="51"/>
+<rectangle x1="-0.875" y1="-1" x2="-0.375" y2="0" layer="51"/>
+<rectangle x1="-2.145" y1="-1" x2="-1.645" y2="0" layer="51"/>
+<rectangle x1="0.445" y1="2.5" x2="0.845" y2="3.5" layer="51"/>
+<rectangle x1="-0.825" y1="2.5" x2="-0.425" y2="3.5" layer="51"/>
+<rectangle x1="-2.095" y1="2.5" x2="-1.695" y2="3.5" layer="51"/>
+</package>
+<package name="MOLEX_53261-0971">
+<description>&lt;h3&gt;Molex 53261 Series PicoBlade, 1.25mm Pitch, Right Angle, SMT, 9 Conductor&lt;/h3&gt;
+&lt;p&gt;Molex 1.25mm pitch right angle SMT connector. Pre tinned phosphor bronze pins, mates with 51021 series.&lt;/p&gt;</description>
+<smd name="1" x="5.625" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="2" x="4.375" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="3" x="3.125" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="4" x="1.875" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="5" x="0.645" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="6" x="-0.605" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="7" x="-1.855" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="8" x="-3.105" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="9" x="-4.355" y="-0.8" dx="0.8" dy="1.6" layer="1" roundness="10" rot="R180"/>
+<smd name="PAD@1" x="8.175" y="2.1" dx="2.1" dy="3" layer="1" roundness="10" rot="R180"/>
+<smd name="PAD@2" x="-6.905" y="2.1" dx="2.1" dy="3" layer="1" roundness="10" rot="R180"/>
+<wire x1="-5.855" y1="0" x2="-5.855" y2="3.125" width="0.127" layer="51"/>
+<wire x1="-5.855" y1="3.125" x2="-5.855" y2="4.2" width="0.127" layer="51"/>
+<wire x1="-5.855" y1="4.2" x2="-3.93" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="0.395" y1="-1" x2="0.895" y2="0" layer="51"/>
+<rectangle x1="-0.855" y1="-1" x2="-0.355" y2="0" layer="51"/>
+<rectangle x1="-2.105" y1="-1" x2="-1.605" y2="0" layer="51"/>
+<rectangle x1="-3.355" y1="-1" x2="-2.855" y2="0" layer="51"/>
+<rectangle x1="-4.605" y1="-1" x2="-4.105" y2="0" layer="51"/>
+<rectangle x1="-7.355" y1="1" x2="-5.855" y2="3.8" layer="51"/>
+<rectangle x1="-7.555" y1="1" x2="-7.355" y2="3.2" layer="51"/>
+<wire x1="-5.855" y1="3.125" x2="-4.98" y2="3.125" width="0.127" layer="51"/>
+<wire x1="-4.98" y1="3.125" x2="-4.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3.93" y1="4.2" x2="-3.93" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-3.93" y1="2.9" x2="-3.53" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-3.53" y1="2.9" x2="-3.53" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="0.445" y1="2.5" x2="0.845" y2="3.5" layer="51"/>
+<rectangle x1="-0.805" y1="2.5" x2="-0.405" y2="3.5" layer="51"/>
+<rectangle x1="-2.055" y1="2.5" x2="-1.655" y2="3.5" layer="51"/>
+<rectangle x1="-3.305" y1="2.5" x2="-2.905" y2="3.5" layer="51"/>
+<rectangle x1="-4.555" y1="2.5" x2="-4.155" y2="3.5" layer="51"/>
+<wire x1="-5.03" y1="0" x2="-5.855" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.855" y1="0" x2="-5.855" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-5.855" y1="4.2" x2="-5.855" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-5.855" y1="0" x2="7.125" y2="0" width="0.127" layer="51"/>
+<wire x1="7.125" y1="0" x2="7.125" y2="3.125" width="0.127" layer="51"/>
+<wire x1="7.125" y1="3.125" x2="7.125" y2="4.2" width="0.127" layer="51"/>
+<wire x1="7.125" y1="4.2" x2="5.2" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="1.625" y1="-1" x2="2.125" y2="0" layer="51" rot="R180"/>
+<rectangle x1="2.875" y1="-1" x2="3.375" y2="0" layer="51" rot="R180"/>
+<rectangle x1="4.125" y1="-1" x2="4.625" y2="0" layer="51" rot="R180"/>
+<rectangle x1="5.375" y1="-1" x2="5.875" y2="0" layer="51" rot="R180"/>
+<rectangle x1="7.125" y1="1" x2="8.625" y2="3.8" layer="51" rot="R180"/>
+<rectangle x1="8.625" y1="1" x2="8.825" y2="3.2" layer="51" rot="R180"/>
+<wire x1="4.8" y1="4.2" x2="-3.53" y2="4.2" width="0.127" layer="51"/>
+<wire x1="7.125" y1="3.125" x2="6.25" y2="3.125" width="0.127" layer="51"/>
+<wire x1="6.25" y1="3.125" x2="6.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="6.25" y1="2.5" x2="-4.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.2" y1="4.2" x2="5.2" y2="2.9" width="0.127" layer="51"/>
+<wire x1="5.2" y1="2.9" x2="4.8" y2="2.9" width="0.127" layer="51"/>
+<wire x1="4.8" y1="2.9" x2="4.8" y2="4.2" width="0.127" layer="51"/>
+<rectangle x1="1.675" y1="2.5" x2="2.075" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="2.925" y1="2.5" x2="3.325" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="4.175" y1="2.5" x2="4.575" y2="3.5" layer="51" rot="R180"/>
+<rectangle x1="5.425" y1="2.5" x2="5.825" y2="3.5" layer="51" rot="R180"/>
+<wire x1="6.3" y1="0" x2="7.125" y2="0" width="0.127" layer="21"/>
+<wire x1="7.125" y1="0" x2="7.125" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-5.855" y1="4.2" x2="7.125" y2="4.2" width="0.127" layer="21"/>
+<wire x1="7.125" y1="4.2" x2="7.125" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-4.73" y1="2" x2="6" y2="2" width="0.8" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-5.23" y="-2"/>
+<vertex x="-5.23" y="-0.5"/>
+<vertex x="-6.23" y="-0.5"/>
+<vertex x="-6.23" y="0"/>
+<vertex x="-8.23" y="0"/>
+<vertex x="-8.23" y="4"/>
+<vertex x="-6.23" y="4"/>
+<vertex x="-6.23" y="8.5"/>
+<vertex x="7.5" y="8.5"/>
+<vertex x="7.5" y="4"/>
+<vertex x="9.5" y="4"/>
+<vertex x="9.5" y="0"/>
+<vertex x="7.5" y="0"/>
+<vertex x="7.5" y="-0.5"/>
+<vertex x="6.5" y="-0.5"/>
+<vertex x="6.5" y="-2"/>
+</polygon>
+<wire x1="6.3" y1="0" x2="6.3" y2="-1.5" width="0.127" layer="21"/>
+<text x="8.125" y="-1.5" size="1.27" layer="51" font="vector" ratio="16" align="bottom-center">1</text>
+<text x="-5.73" y="-2" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
+</package>
+<package name="HOMYET-HY-311S">
+<wire x1="2.5" y1="-1.8" x2="2.3" y2="-2" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.3" y1="-2" x2="-2.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-2" x2="-2.5" y2="-1.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.5" y1="-1.8" x2="-2.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0" x2="-3.2" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.8" x2="2.5" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0" x2="3.2" y2="0" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0" x2="-2.5" y2="0" width="0.08" layer="21"/>
+<wire x1="-3.2" y1="0" x2="-3.2" y2="12" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="12" x2="3.2" y2="12" width="0.127" layer="21"/>
+<wire x1="3.2" y1="12" x2="3.2" y2="0" width="0.127" layer="21"/>
+<hole x="0" y="2.4" drill="1.5"/>
+<hole x="0" y="9.4" drill="1.5"/>
+<smd name="5" x="3.42" y="10.9" dx="2.15" dy="1.5" layer="1"/>
+<smd name="6" x="3.42" y="5.45" dx="2.15" dy="1.5" layer="1"/>
+<smd name="7" x="3.42" y="2.1" dx="2.15" dy="1.5" layer="1"/>
+<smd name="2" x="-3" y="2.1" dx="2.15" dy="1.5" layer="1"/>
+<smd name="3" x="-3" y="9.2" dx="2.15" dy="1.5" layer="1"/>
+<smd name="4" x="-3" y="11.5" dx="2.15" dy="1.5" layer="1"/>
+<wire x1="-4.1" y1="12.3" x2="4.6" y2="12.3" width="0.127" layer="39"/>
+<wire x1="4.6" y1="12.3" x2="4.6" y2="0" width="0.127" layer="39"/>
+<wire x1="4.6" y1="0" x2="-4.2" y2="0" width="0.127" layer="39"/>
+<wire x1="-4.2" y1="0" x2="-4.2" y2="12.3" width="0.127" layer="39"/>
+<text x="-4.5" y="0.1" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -4218,6 +4438,22 @@ Electrical:
 </technology>
 </technologies>
 </device>
+<device name="MOLEX-PICOBLADE-SMT-RIGHT_ANGLE" package="MOLEX_53261-0971">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+<connect gate="-9" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PINHD-10" prefix="J">
@@ -4405,13 +4641,13 @@ Electrical:
 </device>
 </devices>
 </deviceset>
-<deviceset name="HOMYET-HY-311CB" prefix="J">
+<deviceset name="HOMYET-HEADPHONE-JACK" prefix="J">
 <description>HOMYET 3.5 mm audio jack, 6pin</description>
 <gates>
 <gate name="G$1" symbol="HEADPHONE_JACK" x="0" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="HOMYET-HY-311CB">
+<device name="MIDMOUNT" package="HOMYET-HY-311CB">
 <connects>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
@@ -4424,7 +4660,7 @@ Electrical:
 <technology name=""/>
 </technologies>
 </device>
-<device name="ALT" package="HOMYET-HY-311CB-ALT">
+<device name="MIDMOUNT-ALT" package="HOMYET-HY-311CB-ALT">
 <connects>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
@@ -4432,6 +4668,19 @@ Electrical:
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TOPMOUNT" package="HOMYET-HY-311S">
+<connects>
+<connect gate="G$1" pin="2" pad="7"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4529,6 +4778,54 @@ Electrical:
 <connect gate="-10" pin="S" pad="10"/>
 <connect gate="-11" pin="S" pad="11"/>
 <connect gate="-12" pin="S" pad="12"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+<connect gate="-9" pin="S" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-17" prefix="J">
+<description>&lt;h3&gt;14 Pin Header&lt;/h3&gt;</description>
+<gates>
+<gate name="-1" symbol="M" x="2.54" y="0" addlevel="always"/>
+<gate name="-2" symbol="M" x="2.54" y="-2.54" addlevel="always"/>
+<gate name="-3" symbol="M" x="2.54" y="-5.08" addlevel="always"/>
+<gate name="-4" symbol="M" x="2.54" y="-7.62" addlevel="always"/>
+<gate name="-5" symbol="M" x="2.54" y="-10.16" addlevel="always"/>
+<gate name="-6" symbol="M" x="2.54" y="-12.7"/>
+<gate name="-7" symbol="M" x="2.54" y="-15.24" addlevel="always"/>
+<gate name="-8" symbol="M" x="2.54" y="-17.78" addlevel="always"/>
+<gate name="-9" symbol="M" x="2.54" y="-20.32" addlevel="always"/>
+<gate name="-10" symbol="M" x="2.54" y="-22.86" addlevel="always"/>
+<gate name="-11" symbol="M" x="2.54" y="-25.4" addlevel="always"/>
+<gate name="-12" symbol="M" x="2.54" y="-27.94" addlevel="always"/>
+<gate name="-13" symbol="M" x="2.54" y="-30.48" addlevel="always"/>
+<gate name="-14" symbol="M" x="2.54" y="-33.02" addlevel="always"/>
+<gate name="-15" symbol="M" x="2.54" y="-35.56" addlevel="always"/>
+<gate name="-16" symbol="M" x="2.54" y="-38.1" addlevel="always"/>
+<gate name="-17" symbol="M" x="2.54" y="-40.64" addlevel="always"/>
+</gates>
+<devices>
+<device name="MOLEX-PICOBLADE-SMT-RIGHT_ANGLE" package="MOLEX_53261-1771">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-10" pin="S" pad="10"/>
+<connect gate="-11" pin="S" pad="11"/>
+<connect gate="-12" pin="S" pad="12"/>
+<connect gate="-13" pin="S" pad="13"/>
+<connect gate="-14" pin="S" pad="14"/>
+<connect gate="-15" pin="S" pad="15"/>
+<connect gate="-16" pin="S" pad="16"/>
+<connect gate="-17" pin="S" pad="17"/>
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
