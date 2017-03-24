@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -276,8 +276,8 @@
 <wire x1="-1.524" y1="0.762" x2="-1.524" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="1.524" y1="0.762" x2="1.524" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-0.508" x2="1.27" y2="-0.508" width="0.254" layer="21"/>
-<wire x1="-1.524" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
-<wire x1="1.524" y1="-0.762" x2="-1.524" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="0.762" x2="1.524" y2="0.762" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.762" x2="-1.524" y2="-0.762" width="0.127" layer="21"/>
 <smd name="5" x="0" y="1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
 <smd name="2" x="0" y="-1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
 <smd name="6" x="-1.016" y="1.27" dx="1.016" dy="0.508" layer="1" rot="R90"/>
@@ -292,6 +292,10 @@
 <rectangle x1="0.889" y1="-1.651" x2="1.143" y2="-0.762" layer="51"/>
 <rectangle x1="-0.127" y1="-1.651" x2="0.127" y2="-0.762" layer="51"/>
 <rectangle x1="-1.143" y1="-1.651" x2="-0.889" y2="-0.762" layer="51"/>
+<wire x1="-1.6" y1="1.9" x2="1.6" y2="1.9" width="0.127" layer="39"/>
+<wire x1="1.6" y1="1.9" x2="1.6" y2="-1.9" width="0.127" layer="39"/>
+<wire x1="1.6" y1="-1.9" x2="-1.6" y2="-1.9" width="0.127" layer="39"/>
+<wire x1="-1.6" y1="-1.9" x2="-1.6" y2="1.9" width="0.127" layer="39"/>
 </package>
 <package name="TO247BV">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
@@ -448,10 +452,10 @@ grid 5.6 mm</description>
 <symbol name="ESD-PROTECTION-ARRAY-4CH">
 <description>&lt;h3&gt;4 Channel ESD Protection Array&lt;/h3&gt;
 &lt;p&gt;Added 11/17/2012&lt;/p&gt;</description>
-<pin name="IO2" x="-7.62" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="IO1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="IO4" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="IO3" x="7.62" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="IO2" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="IO1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="IO4" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="IO3" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="VCC" x="0" y="7.62" visible="off" length="point" direction="pas" rot="R270"/>
 <pin name="GND" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
 <wire x1="-5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
