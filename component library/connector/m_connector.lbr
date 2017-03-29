@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2196,12 +2196,12 @@
 <smd name="B3" x="1.625" y="4.125" dx="0.32" dy="0.85" layer="1" roundness="20"/>
 <smd name="B2" x="2.125" y="4.125" dx="0.32" dy="0.85" layer="1" roundness="20"/>
 <smd name="B1" x="2.625" y="4.125" dx="0.32" dy="0.85" layer="1" roundness="20"/>
-<smd name="MOUNT@6" x="4.32" y="4.85" dx="0.6" dy="1.6" layer="1" roundness="50" thermals="no"/>
-<smd name="MOUNT@3" x="-4.32" y="4.85" dx="0.6" dy="1.6" layer="1" roundness="50" thermals="no"/>
-<smd name="MOUNT@5" x="4.02" y="4.35" dx="1.2" dy="0.6" layer="1" roundness="50" thermals="no"/>
-<smd name="MOUNT@4" x="-4.02" y="4.35" dx="1.2" dy="0.6" layer="1" roundness="50" thermals="no"/>
-<smd name="MOUNT@2" x="5.52" y="0" dx="1.2" dy="0.6" layer="1" roundness="50" rot="R90" thermals="no"/>
-<smd name="MOUNT@1" x="-5.52" y="0" dx="1.2" dy="0.6" layer="1" roundness="50" rot="R90" thermals="no"/>
+<smd name="MOUNT6" x="4.32" y="4.85" dx="0.6" dy="1.6" layer="1" roundness="50" thermals="no"/>
+<smd name="MOUNT3" x="-4.32" y="4.85" dx="0.6" dy="1.6" layer="1" roundness="50" thermals="no"/>
+<smd name="MOUNT5" x="4.02" y="4.35" dx="1.2" dy="0.6" layer="1" roundness="50" thermals="no"/>
+<smd name="MOUNT4" x="-4.02" y="4.35" dx="1.2" dy="0.6" layer="1" roundness="50" thermals="no"/>
+<smd name="MNT2" x="5.52" y="0" dx="1.2" dy="0.6" layer="1" roundness="50" rot="R90" thermals="no"/>
+<smd name="MNT1" x="-5.52" y="0" dx="1.2" dy="0.6" layer="1" roundness="50" rot="R90" thermals="no"/>
 <wire x1="-4.47" y1="-2.45" x2="-3.2" y2="-2.45" width="0.127" layer="51"/>
 <wire x1="-3.2" y1="-2.45" x2="3.2" y2="-2.45" width="0.127" layer="51"/>
 <wire x1="3.2" y1="-2.45" x2="4.47" y2="-2.45" width="0.127" layer="51"/>
@@ -3356,37 +3356,40 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/1040912020_PCB_HEA
 <text x="-12.7" y="8.382" size="1.778" layer="96" font="vector" ratio="7">&gt;VALUE</text>
 </symbol>
 <symbol name="USB-C_RECEPTACLE">
-<pin name="GND@A1" x="0" y="-33.02" length="middle" rot="R90"/>
-<pin name="SSTXP1" x="-20.32" y="22.86" length="middle"/>
-<pin name="SSTXN1" x="-20.32" y="20.32" length="middle"/>
-<pin name="VBUS@A4" x="2.54" y="35.56" length="middle" rot="R270"/>
-<pin name="CC1" x="-20.32" y="-15.24" length="middle"/>
-<pin name="DP1" x="-20.32" y="-2.54" length="middle"/>
-<pin name="DN1" x="-20.32" y="-5.08" length="middle"/>
-<pin name="SBU1" x="-20.32" y="-25.4" length="middle"/>
-<pin name="VBUS@A9" x="5.08" y="35.56" length="middle" rot="R270"/>
-<pin name="SSRXN2" x="-20.32" y="10.16" length="middle"/>
-<pin name="SSRXP2" x="-20.32" y="7.62" length="middle"/>
-<pin name="GND@A12" x="2.54" y="-33.02" length="middle" rot="R90"/>
-<pin name="GND@B1" x="5.08" y="-33.02" length="middle" rot="R90"/>
-<pin name="SSTXP2" x="-20.32" y="5.08" length="middle"/>
-<pin name="SSTXN2" x="-20.32" y="2.54" length="middle"/>
-<pin name="VBUS@B4" x="7.62" y="35.56" length="middle" rot="R270"/>
-<pin name="CC2" x="-20.32" y="-17.78" length="middle"/>
-<pin name="DP2" x="-20.32" y="-7.62" length="middle"/>
-<pin name="DN2" x="-20.32" y="-10.16" length="middle"/>
-<pin name="SBU2" x="-20.32" y="-22.86" length="middle"/>
-<pin name="VBUS@B9" x="10.16" y="35.56" length="middle" rot="R270"/>
-<pin name="SSRXN1" x="-20.32" y="17.78" length="middle"/>
-<pin name="SSRXP1" x="-20.32" y="15.24" length="middle"/>
-<pin name="GND@B12" x="7.62" y="-33.02" length="middle" rot="R90"/>
-<pin name="MOUNT" x="10.16" y="-33.02" length="middle" rot="R90"/>
-<wire x1="-15.24" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
-<wire x1="17.78" y1="30.48" x2="17.78" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-27.94" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-27.94" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
-<text x="-15.24" y="-30.48" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="20.32" y="-27.94" size="1.778" layer="96" font="vector" rot="R90">&gt;VALUE</text>
+<description>&lt;h3&gt;USB-C Receptacle with shield&lt;/h3&gt;</description>
+<pin name="GND" x="10.16" y="-22.86" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSTXP1" x="10.16" y="20.32" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSTXN1" x="10.16" y="15.24" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="VBUS" x="10.16" y="25.4" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="CC1" x="10.16" y="-10.16" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="DP" x="10.16" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="DN" x="10.16" y="-5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SBU1" x="10.16" y="-15.24" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSRXN2" x="10.16" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSRXP2" x="10.16" y="7.62" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSTXP2" x="10.16" y="17.78" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSTXN2" x="10.16" y="12.7" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="CC2" x="10.16" y="-12.7" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SBU2" x="10.16" y="-17.78" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSRXN1" x="10.16" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SSRXP1" x="10.16" y="10.16" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="-10.16" y="-25.4" visible="pin" length="short" direction="pas"/>
+<wire x1="-7.62" y1="27.94" x2="7.62" y2="27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<text x="-7.62" y="30.48" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-30.48" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-7.62" y="0" size="2.54" layer="97" rot="R90" align="center">USB-C</text>
+<wire x1="-5.842" y1="22.86" x2="-5.842" y2="21.336" width="0.254" layer="94"/>
+<wire x1="-5.842" y1="21.336" x2="-5.842" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-5.842" y1="22.86" x2="-5.842" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-9.398" y1="-20.32" x2="-9.398" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-9.398" y1="22.86" x2="-7.62" y2="24.638" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="24.638" x2="-5.842" y2="22.86" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.842" y1="-20.32" x2="-7.62" y2="-22.098" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="-22.098" x2="-9.398" y2="-20.32" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="27.94" x2="-7.62" y2="24.638" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="-22.098" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4924,7 +4927,7 @@ Electrical:
 <connect gate="G$1" pin="GND@A12" pad="A12"/>
 <connect gate="G$1" pin="GND@B1" pad="B1"/>
 <connect gate="G$1" pin="GND@B12" pad="B12"/>
-<connect gate="G$1" pin="MOUNT" pad="MOUNT@1 MOUNT@2 MOUNT@3 MOUNT@4 MOUNT@5 MOUNT@6"/>
+<connect gate="G$1" pin="MOUNT" pad="MNT1 MNT2 MOUNT3 MOUNT4 MOUNT5 MOUNT6"/>
 <connect gate="G$1" pin="SBU1" pad="A8"/>
 <connect gate="G$1" pin="SBU2" pad="B8"/>
 <connect gate="G$1" pin="SSRXN1" pad="B10"/>
@@ -5109,6 +5112,41 @@ Electrical:
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATOM-A02960_USB-C_RECEPTACLE" prefix="J">
+<description>&lt;h3&gt;ATOM A02960 USB-C Receptacle&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-C_RECEPTACLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ATOM-A02960">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN" pad="A7 B7"/>
+<connect gate="G$1" pin="DP" pad="A6 B6"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD" pad="MNT1 MNT2 MOUNT3 MOUNT4 MOUNT5 MOUNT6"/>
+<connect gate="G$1" pin="SSRXN1" pad="B10"/>
+<connect gate="G$1" pin="SSRXN2" pad="A10"/>
+<connect gate="G$1" pin="SSRXP1" pad="B11"/>
+<connect gate="G$1" pin="SSRXP2" pad="A11"/>
+<connect gate="G$1" pin="SSTXN1" pad="A3"/>
+<connect gate="G$1" pin="SSTXN2" pad="B3"/>
+<connect gate="G$1" pin="SSTXP1" pad="A2"/>
+<connect gate="G$1" pin="SSTXP2" pad="B2"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ATOM" constant="no"/>
+<attribute name="PARTNUM" value="USB624FC-C2051200" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
