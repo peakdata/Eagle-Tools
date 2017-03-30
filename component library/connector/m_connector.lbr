@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2168,7 +2168,7 @@
 <text x="0.6" y="-10.8" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
 <rectangle x1="-5.5" y1="-12.5" x2="5.5" y2="0" layer="39"/>
 </package>
-<package name="ATOM-A02960">
+<package name="ATOM-USB624FC-C2051200">
 <description>&lt;h3&gt;ATOM USB 3.1 24P Female SMT USB-C Receptacle&lt;/h3&gt;
 &lt;p&gt;Based on data from ATOM-A02960 drawing, rev A&lt;/p&gt;
 &lt;p&gt;Updated 2017-03-29&lt;/p&gt;</description>
@@ -2264,11 +2264,12 @@
 </polygon>
 <circle x="-3.5" y="5.9" radius="0.15" width="0.3" layer="21"/>
 </package>
-<package name="ATOM-A01682">
+<package name="ATOM-MR08C-06201">
+<description>Drawing number ATOM-A01682</description>
 <smd name="M@1" x="-6.8" y="-3.65" dx="1.45" dy="2" layer="1"/>
 <smd name="M@2" x="6.8" y="-3.65" dx="1.45" dy="2" layer="1"/>
-<smd name="M@3" x="-6.8" y="-12.95" dx="1.45" dy="2" layer="1"/>
-<smd name="M@4" x="6.8" y="-12.95" dx="1.45" dy="2" layer="1"/>
+<smd name="M@3" x="-6.8" y="-11.85" dx="1.45" dy="2" layer="1"/>
+<smd name="M@4" x="6.8" y="-11.85" dx="1.45" dy="2" layer="1"/>
 <smd name="4" x="-0.1" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
 <smd name="5" x="-1.2" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
 <smd name="6" x="-2.3" y="-9.35" dx="1.5" dy="0.8" layer="1" rot="R90"/>
@@ -4909,53 +4910,13 @@ Electrical:
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATOM-A02960" prefix="J">
-<description>ATOM A02960 USB-C Connector</description>
-<gates>
-<gate name="G$1" symbol="USB-C_CONNECTOR" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="ATOM-A02960">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="DN1" pad="A7"/>
-<connect gate="G$1" pin="DN2" pad="B7"/>
-<connect gate="G$1" pin="DP1" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="B6"/>
-<connect gate="G$1" pin="GND@A1" pad="A1"/>
-<connect gate="G$1" pin="GND@A12" pad="A12"/>
-<connect gate="G$1" pin="GND@B1" pad="B1"/>
-<connect gate="G$1" pin="GND@B12" pad="B12"/>
-<connect gate="G$1" pin="MOUNT" pad="MNT1 MNT2 MOUNT3 MOUNT4 MOUNT5 MOUNT6"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SSRXN1" pad="B10"/>
-<connect gate="G$1" pin="SSRXN2" pad="A10"/>
-<connect gate="G$1" pin="SSRXP1" pad="B11"/>
-<connect gate="G$1" pin="SSRXP2" pad="A11"/>
-<connect gate="G$1" pin="SSTXN1" pad="A3"/>
-<connect gate="G$1" pin="SSTXN2" pad="B3"/>
-<connect gate="G$1" pin="SSTXP1" pad="A2"/>
-<connect gate="G$1" pin="SSTXP2" pad="B2"/>
-<connect gate="G$1" pin="VBUS@A4" pad="A4"/>
-<connect gate="G$1" pin="VBUS@A9" pad="A9"/>
-<connect gate="G$1" pin="VBUS@B4" pad="B4"/>
-<connect gate="G$1" pin="VBUS@B9" pad="B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATOM-MR08C-06201" prefix="J">
 <description>Micro SD card slot from ATOM (Shenzhen) with front cover</description>
 <gates>
 <gate name="G$1" symbol="MICRO_SD+MOUNT" x="-5.08" y="0"/>
 </gates>
 <devices>
-<device name="" package="ATOM-A01682">
+<device name="" package="ATOM-MR08C-06201">
 <connects>
 <connect gate="G$1" pin="CD/DAT3" pad="2"/>
 <connect gate="G$1" pin="CLK" pad="5"/>
@@ -5116,13 +5077,13 @@ Electrical:
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATOM-A02960_USB-C_RECEPTACLE" prefix="J">
+<deviceset name="ATOM-USB624FC-C2051200_USB-C_RECEPTACLE" prefix="J">
 <description>&lt;h3&gt;ATOM A02960 USB-C Receptacle&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="USB-C_RECEPTACLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ATOM-A02960">
+<device name="" package="ATOM-USB624FC-C2051200">
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
