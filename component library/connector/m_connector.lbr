@@ -3984,7 +3984,10 @@ Breaks out the following 4-pin header:
 <connect gate="-3" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Molex"/>
+<attribute name="PARTNUM" value="501331-0307"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4781,7 +4784,11 @@ Electrical:
 </devices>
 </deviceset>
 <deviceset name="KYOCERA-5804-10-PLUG" prefix="J">
-<description>See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
+<description>10-pin board-to-board connector, 0.4mm pitch
+&lt;br&gt;
+&lt;br&gt;
+
+See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR-10PIN" x="0" y="0"/>
 </gates>
@@ -4800,12 +4807,16 @@ Electrical:
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="AVX" constant="no"/>
+<attribute name="PARTNUM" value=" 145804010000829+"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="FP0515" prefix="J">
+<description>40-pin FFC cable header with 0.5mm pitch</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR_40+2PIN" x="-5.08" y="-2.54"/>
 </gates>
@@ -4931,7 +4942,7 @@ Electrical:
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="ATOM"/>
-<attribute name="PARTNO" value="MR08C-06201"/>
+<attribute name="PARTNUM" value="MR08C-06201"/>
 </technology>
 </technologies>
 </device>
