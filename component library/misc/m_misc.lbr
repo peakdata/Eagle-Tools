@@ -6292,7 +6292,7 @@ See http://datasheet.octopart.com/MCZ1210AH900L2T-TDK-datasheet-32036591.pdf</de
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="TDK"/>
-<attribute name="PARTNO" value="MCZ-AH series"/>
+<attribute name="PARTNUM" value="MCZ-AH series"/>
 </technology>
 </technologies>
 </device>

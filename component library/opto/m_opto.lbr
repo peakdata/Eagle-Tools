@@ -2212,7 +2212,10 @@ http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf</description>
 <connect gate="G$1" pin="RC" pad="C2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Osram"/>
+<attribute name="PARTNUM" value="LTRB GFSF-ABCB-QKYO"/>
+</technology>
 </technologies>
 </device>
 <device name="SMALLPAD" package="PLCC-6-SMALLPAD">
@@ -2225,7 +2228,10 @@ http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf</description>
 <connect gate="G$1" pin="RC" pad="C2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Osram"/>
+<attribute name="PARTNUM" value="LTRB GFSF-ABCB-QKYO"/>
+</technology>
 </technologies>
 </device>
 </devices>
