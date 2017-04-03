@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -62,7 +62,7 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
@@ -876,6 +876,7 @@ grid 2.54 mm</description>
 </package>
 <package name="S-PWSON-N6">
 <description>&lt;h3&gt;TI S-PWSON-N6 Plastic Small Outline No-Lead Package&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/31407385/image/Texas-Instruments-TPS60151DRVT.jpg" alt="https://octopart.com/search?q=TPS60151DRV%3F" width=200 /&gt;&lt;/div&gt;
 &lt;p&gt;Recommended soldermask clearance 0.07mm.&lt;/p&gt;
 &lt;p&gt;Data from TI document 4207812/K 04/15, 4206926/Q 04/15, 4206925/A 10/10&lt;/p&gt;</description>
 <smd name="PAD" x="0" y="0" dx="1.6" dy="1" layer="1" roundness="5" thermals="no" cream="no"/>
@@ -904,13 +905,13 @@ grid 2.54 mm</description>
 <rectangle x1="-0.8" y1="-1" x2="-0.5" y2="-0.75" layer="51" rot="R180"/>
 <wire x1="-0.975" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
 <wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1" x2="-0.975" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1.05" y2="-1" width="0.127" layer="21"/>
 <wire x1="0.975" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
 <wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
 <wire x1="1" y1="1" x2="0.975" y2="1" width="0.127" layer="21"/>
-<wire x1="-0.975" y1="-1" x2="-0.975" y2="-1.5" width="0.127" layer="21"/>
-<text x="-1" y="1.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="-1" y="-1.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-1.05" y1="-1" x2="-1.05" y2="-1.4" width="0.25" layer="21"/>
+<text x="-1" y="1.75" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1" y="-1.75" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
 <polygon width="0.2" layer="39">
 <vertex x="-1.25" y="1.75"/>
 <vertex x="1.25" y="1.75"/>
@@ -1700,6 +1701,21 @@ grid 2.54 mm</description>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS60151">
+<description>&lt;h3&gt;TPS60151 5-V and 140-mA Charge Pump&lt;/h3&gt;</description>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="VOUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="ENA" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="CP+" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="CP-" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3032,6 +3048,58 @@ http://www.ti.com/lit/ds/symlink/tps706.pdf</description>
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="TPS61252DSG?" constant="no"/>
 <attribute name="VALUE" value="TPS61252" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS60151" prefix="IC">
+<description>&lt;h3&gt;TPS60151 5-V and 140-mA Charge Pump&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/31407385/image/Texas-Instruments-TPS60151DRVT.jpg" alt="https://octopart.com/search?q=TPS60151DRV%3F" width=200 /&gt;&lt;/div&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The TPS60151 is a switched capacitor voltage converter which produces a regulated, low noise, and low-ripple output voltage of 5 V from an unregulated input voltage. It maintains 5-V regulation even when VIN is greater than 5 V.&lt;/p&gt;
+&lt;p&gt;The 5-V output can supply a minimum of 140-mA current.&lt;/p&gt;
+&lt;p&gt;The TPS60151 has built-in current limit and output reverse current protection that are ideal for HDMI, USB OTG and other battery powered applications.&lt;/p&gt;
+&lt;p&gt;TPS60151 operates in skip mode when the load current falls below 8 mA under typical condition. In skip mode operation, quiescent current is reduced to 90 μA.&lt;/p&gt;
+&lt;p&gt;Only 3 external capacitors are needed to generate the output voltage, thereby saving PCB space.&lt;/p&gt;
+&lt;p&gt;Inrush current is limited by the soft start function during power on and power transient states.&lt;/p&gt;
+&lt;p&gt;The TPS60151 operates over a free air temperature range of –40°C to 85°C. The device is available with a small 2-mm × 2-mm 6-pin SON package (QFN).&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;2.7 V to 5.5 V Input Voltage Range&lt;/li&gt;
+&lt;li&gt;Fixed Output Voltage of 5 V&lt;/li&gt;
+&lt;li&gt;Maximum Output Current: 140 mA&lt;/li&gt;
+&lt;li&gt;1.5 MHz Switching Frequency&lt;/li&gt;
+&lt;li&gt;Typical 90-μA Quiescent Current at No Load Condition (Skip Mode)&lt;/li&gt;
+&lt;li&gt;Output Reverse Current Protection&lt;/li&gt;
+&lt;li&gt;X2 Charge Pump&lt;/li&gt;
+&lt;li&gt;Hardware Enable and Disable Function&lt;/li&gt;
+&lt;li&gt;Built-in Soft Start&lt;/li&gt;
+&lt;li&gt;Built-in Undervoltage Lock Out Protection&lt;/li&gt;
+&lt;li&gt;Thermal and Over-current Protection&lt;/li&gt;
+&lt;li&gt;2-mm × 2-mm 6-Pin SON-Package with 0.8-mm Height&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TPS60151DRV%3F" &gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data from TI datasheet SLVSA02A – SEPTEMBER 2009 – REVISED OCTOBER 2015&lt;/p&gt;
+&lt;p&gt;Added 2017-04-03&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS60151" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DRV" package="S-PWSON-N6">
+<connects>
+<connect gate="G$1" pin="CP+" pad="4"/>
+<connect gate="G$1" pin="CP-" pad="5"/>
+<connect gate="G$1" pin="ENA" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1 PAD"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TPS60151DRV?" constant="no"/>
+<attribute name="VALUE" value="TPS60151" constant="no"/>
 </technology>
 </technologies>
 </device>
