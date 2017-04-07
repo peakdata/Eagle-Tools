@@ -5482,7 +5482,7 @@ See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MICRO-COAX-SMA">
+<deviceset name="MICRO-COAX-SMA" prefix="X">
 <description>Micro-coax connectors for SMA plugs</description>
 <gates>
 <gate name="G$1" symbol="BNC-F2" x="0" y="0"/>
