@@ -1128,6 +1128,30 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <wire x1="1.8" y1="-2.2" x2="-1.8" y2="-2.2" width="0.127" layer="39"/>
 <wire x1="-1.8" y1="-2.2" x2="-1.8" y2="2.2" width="0.127" layer="39"/>
 </package>
+<package name="HARVATEK-E3723FCH-20D0002H2E0058">
+<smd name="2" x="-0.925" y="-0.625" dx="1" dy="1" layer="1"/>
+<smd name="3" x="-0.925" y="0.625" dx="1" dy="1" layer="1"/>
+<smd name="4" x="0.925" y="0.625" dx="1" dy="1" layer="1"/>
+<smd name="1" x="0.925" y="-0.625" dx="1" dy="1" layer="1"/>
+<wire x1="-0.8" y1="0.65" x2="0.8" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.65" x2="1" y2="0.45" width="0.127" layer="21" curve="90"/>
+<wire x1="1" y1="0.45" x2="1" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.45" x2="0.8" y2="-0.65" width="0.127" layer="21" curve="90"/>
+<wire x1="0.8" y1="-0.65" x2="-0.55" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.65" x2="-0.75" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-0.65" x2="-0.95" y2="-0.45" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.95" y1="-0.45" x2="-1" y2="-0.45" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.45" x2="-1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1" y1="0.4" x2="-0.8" y2="0.6" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.8" y1="0.6" x2="-0.8" y2="0.65" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.1" x2="-1.4" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="-1.4" y1="-1.1" x2="1.4" y2="-1.1" width="0.127" layer="39"/>
+<wire x1="1.4" y1="-1.1" x2="1.4" y2="1.1" width="0.127" layer="39"/>
+<wire x1="1.4" y1="1.1" x2="-1.4" y2="1.1" width="0.127" layer="39"/>
+<wire x1="-0.55" y1="-0.65" x2="-0.55" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.3" x2="-0.75" y2="-0.3" width="0.127" layer="21"/>
+<text x="-1.15" y="-2.05" size="0.8128" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OPTICAL-ENCODER-WITH-SWITCH">
@@ -1670,6 +1694,74 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <wire x1="-30.48" y1="-25.4" x2="-30.48" y2="22.86" width="0.254" layer="94"/>
 <text x="-30.48" y="-27.94" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="30.48" y="-25.4" size="1.778" layer="96" font="vector" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="LED-RGB-COMMON-ANODE">
+<wire x1="6.35" y1="1.778" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-0.254" x2="3.81" y2="1.778" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-0.254" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-0.254" x2="3.81" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="6.35" y1="1.778" x2="3.81" y2="1.778" width="0.254" layer="94"/>
+<wire x1="3.048" y1="1.524" x2="2.159" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="2.921" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="-1.27" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.524" x2="-2.921" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-2.159" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.254" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-0.254" x2="-6.35" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.778" x2="-6.35" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-7.112" y1="1.524" x2="-8.001" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0.762" x2="-7.239" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="-5.08" y="2.54" radius="0.1796" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="0.1796" width="0.254" layer="94"/>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="5.461" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CBLUE" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="CGREEN" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="CRED" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="A2" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.032" y="1.016"/>
+<vertex x="1.778" y="0.254"/>
+<vertex x="2.54" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.794" y="0.254"/>
+<vertex x="2.54" y="-0.508"/>
+<vertex x="3.302" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.048" y="1.016"/>
+<vertex x="-3.302" y="0.254"/>
+<vertex x="-2.54" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.286" y="0.254"/>
+<vertex x="-2.54" y="-0.508"/>
+<vertex x="-1.778" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.128" y="1.016"/>
+<vertex x="-8.382" y="0.254"/>
+<vertex x="-7.62" y="0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-7.366" y="0.254"/>
+<vertex x="-7.62" y="-0.508"/>
+<vertex x="-6.858" y="-0.254"/>
+</polygon>
+<text x="-4.572" y="-1.778" size="1.016" layer="94" font="vector" ratio="13">R</text>
+<text x="0.508" y="-1.778" size="1.016" layer="94" font="vector" ratio="13">G</text>
+<text x="5.588" y="-1.778" size="1.016" layer="94" font="vector" ratio="13">B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2324,6 +2416,28 @@ http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf</description>
 <technology name="">
 <attribute name="MANUF" value="TRULY OPTO-ELECTRONICS LTD."/>
 <attribute name="PARTNUM" value="CM8487-B500SA-E"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HARVATEK-E3723FCH-20D0002H2E0058">
+<description>Harvatek Surface Mount CHIP LED</description>
+<gates>
+<gate name="G$1" symbol="LED-RGB-COMMON-ANODE" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="HARVATEK-E3723FCH-20D0002H2E0058">
+<connects>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="CBLUE" pad="1"/>
+<connect gate="G$1" pin="CGREEN" pad="3"/>
+<connect gate="G$1" pin="CRED" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="HARVATEK"/>
+<attribute name="PARTNUM" value="E3723FCH-20D0002H2E0058"/>
 </technology>
 </technologies>
 </device>
