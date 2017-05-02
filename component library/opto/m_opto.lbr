@@ -2421,7 +2421,7 @@ http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HARVATEK-E3723FCH-20D0002H2E0058">
+<deviceset name="HARVATEK-E3723FCH-20D0002H2E0058" prefix="LED">
 <description>Harvatek Surface Mount CHIP LED</description>
 <gates>
 <gate name="G$1" symbol="LED-RGB-COMMON-ANODE" x="0" y="-2.54"/>
