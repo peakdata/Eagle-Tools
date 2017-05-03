@@ -1086,7 +1086,7 @@ reduced space requirements.</description>
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="ON Semiconductor"/>
-<attribute name="PARTNO" value="NSR0240H"/>
+<attribute name="PARTNUM" value="NSR0240H"/>
 </technology>
 </technologies>
 </device>

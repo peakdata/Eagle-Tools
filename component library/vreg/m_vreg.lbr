@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -258,6 +258,7 @@ grid 2.54 mm</description>
 <rectangle x1="0.55" y1="-1.2" x2="0.75" y2="-0.7" layer="51"/>
 <rectangle x1="0.55" y1="0.7" x2="0.75" y2="1.2" layer="51"/>
 <rectangle x1="-0.75" y1="0.7" x2="-0.55" y2="1.2" layer="51"/>
+<circle x="-0.7" y="-0.2" radius="0.14141875" width="0.127" layer="21"/>
 </package>
 <package name="SOT223-6">
 <description>&lt;h3&gt;SOT223 6 Lead Package&lt;/h3&gt;
@@ -1115,7 +1116,7 @@ grid 2.54 mm</description>
 <smd name="10" x="1.4" y="0.225" dx="0.6" dy="0.2" layer="1" roundness="70" rot="R180"/>
 <smd name="11" x="1.4" y="0.675" dx="0.6" dy="0.2" layer="1" roundness="70" rot="R180"/>
 <smd name="12" x="1.4" y="1.125" dx="0.6" dy="0.2" layer="1" roundness="70" rot="R180"/>
-<smd name="PAD" x="0" y="0" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="PAD" x="0" y="0" dx="1.2" dy="2" layer="1" rot="R180" stop="no" cream="no"/>
 <polygon width="0.127" layer="39">
 <vertex x="-1.7" y="1.5"/>
 <vertex x="1.6" y="1.5"/>
@@ -1123,6 +1124,10 @@ grid 2.54 mm</description>
 <vertex x="-1.7" y="-1.5"/>
 </polygon>
 <text x="-1.4" y="-2.3" size="0.6096" layer="25">&gt;NAME</text>
+<rectangle x1="-0.6" y1="0.1" x2="0.6" y2="1" layer="29"/>
+<rectangle x1="-0.6" y1="-1" x2="0.6" y2="-0.1" layer="29"/>
+<rectangle x1="-0.6" y1="0.1" x2="0.6" y2="1" layer="31"/>
+<rectangle x1="-0.6" y1="-1" x2="0.6" y2="-0.1" layer="31"/>
 </package>
 <package name="S-PWSON-N8">
 <description>&lt;h3&gt;8 Pin PWSON Package (DSG)&lt;/h3&gt;
@@ -2875,7 +2880,7 @@ http://www.ti.com/lit/ds/symlink/tps61169.pdf</description>
 <gate name="G$1" symbol="TPS61169" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="R-PDSO-G5">
+<device name="DCK" package="SC70-5_DCK">
 <connects>
 <connect gate="G$1" pin="CTRL" pad="4"/>
 <connect gate="G$1" pin="FB" pad="3"/>
@@ -2886,7 +2891,7 @@ http://www.ti.com/lit/ds/symlink/tps61169.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
-<attribute name="PARTNUM" value="TPS61169" constant="no"/>
+<attribute name="PARTNUM" value="TPS61169DCKR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2939,7 +2944,7 @@ http://www.ti.com/lit/ds/symlink/tps65133.pdf</description>
 <gate name="G$1" symbol="TPS65133" x="15.24" y="-7.62"/>
 </gates>
 <devices>
-<device name="" package="DPD0012A">
+<device name="WSON" package="DPD0012A">
 <connects>
 <connect gate="G$1" pin="AGND" pad="5"/>
 <connect gate="G$1" pin="AVIN" pad="11"/>
@@ -2958,7 +2963,7 @@ http://www.ti.com/lit/ds/symlink/tps65133.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
-<attribute name="PARTNUM" value="TPS65133"/>
+<attribute name="PARTNUM" value="TPS65133DPDR"/>
 </technology>
 </technologies>
 </device>
