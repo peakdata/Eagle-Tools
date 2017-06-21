@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1012,9 +1012,7 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <circle x="-3.5" y="-0.5" radius="0.2" width="0.127" layer="51"/>
 <wire x1="-4.445" y1="-1.9" x2="4.445" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="4.445" y1="-1.9" x2="4.445" y2="1.9" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.9" x2="2.95" y2="1.9" width="0.127" layer="21"/>
-<wire x1="2.95" y1="1.9" x2="-3.05" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-3.05" y1="1.9" x2="-4.445" y2="1.9" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.9" x2="-4.445" y2="1.9" width="0.127" layer="21"/>
 <wire x1="-4.445" y1="1.9" x2="-4.445" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="-3.05" y1="1.9" x2="-3.05" y2="4.9" width="0.127" layer="51"/>
 <wire x1="-3.05" y1="4.9" x2="2.95" y2="4.9" width="0.127" layer="21"/>
@@ -1036,7 +1034,6 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <circle x="0" y="9.2" radius="0.761575" width="0.05" layer="51"/>
 <wire x1="-0.7" y1="9.2" x2="0.7" y2="9.2" width="0.05" layer="51"/>
 <wire x1="0" y1="9.9" x2="0" y2="8.5" width="0.05" layer="51"/>
-<rectangle x1="-4.3" y1="4.9" x2="4.3" y2="13.5" layer="41"/>
 <rectangle x1="-4.3" y1="4.9" x2="4.3" y2="13.5" layer="29"/>
 <rectangle x1="-4.2" y1="-1" x2="4.2" y2="1" layer="41"/>
 </package>
@@ -1103,13 +1100,12 @@ Source: http://www.osram.convergy.de ... LSG T770.pdf</description>
 <wire x1="-4.8" y1="7.5" x2="-4.8" y2="16" width="0.127" layer="21"/>
 <wire x1="-4.8" y1="16" x2="3.7" y2="16" width="0.127" layer="21"/>
 <wire x1="3.7" y1="7.5" x2="-4.8" y2="7.5" width="0.127" layer="21"/>
-<circle x="-0.55" y="11.75" radius="3.60069375" width="0.127" layer="21"/>
-<circle x="-0.55" y="11.75" radius="3.217528125" width="0.127" layer="21"/>
-<circle x="-0.55" y="11.75" radius="0.6" width="0.05" layer="21"/>
-<circle x="-0.55" y="11.75" radius="0.763215625" width="0.05" layer="21"/>
-<wire x1="-1.1" y1="11.75" x2="0" y2="11.75" width="0.05" layer="21"/>
-<wire x1="-0.55" y1="12.3" x2="-0.55" y2="11.2" width="0.05" layer="21"/>
-<rectangle x1="-4.8" y1="7.5" x2="3.7" y2="16" layer="41"/>
+<circle x="-0.55" y="11.75" radius="3.60069375" width="0.127" layer="51"/>
+<circle x="-0.55" y="11.75" radius="3.217528125" width="0.127" layer="51"/>
+<circle x="-0.55" y="11.75" radius="0.6" width="0.05" layer="51"/>
+<circle x="-0.55" y="11.75" radius="0.763215625" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="11.75" x2="0" y2="11.75" width="0.05" layer="51"/>
+<wire x1="-0.55" y1="12.3" x2="-0.55" y2="11.2" width="0.05" layer="51"/>
 <rectangle x1="-4.8" y1="7.5" x2="3.7" y2="16" layer="29"/>
 <polygon width="0.05" layer="39">
 <vertex x="4.8" y="-3.05" curve="90"/>
