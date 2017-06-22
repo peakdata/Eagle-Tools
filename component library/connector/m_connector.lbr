@@ -3726,12 +3726,12 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/1040912020_PCB_HEA
 <text x="0" y="-60.96" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="HEADPHONE_JACK">
-<pin name="2" x="-15.24" y="7.62" length="middle"/>
-<pin name="4" x="-15.24" y="5.08" length="middle"/>
-<pin name="5" x="-15.24" y="2.54" length="middle"/>
-<pin name="7" x="-15.24" y="0" length="middle"/>
-<pin name="6" x="-15.24" y="-2.54" length="middle"/>
-<pin name="3" x="-15.24" y="-5.08" length="middle"/>
+<pin name="SLEEVE" x="-12.7" y="7.62" visible="pad" length="short"/>
+<pin name="RING" x="-12.7" y="5.08" visible="pad" length="short"/>
+<pin name="RING_SW" x="-12.7" y="2.54" visible="pad" length="short"/>
+<pin name="TIP_SW" x="-12.7" y="0" visible="pad" length="short"/>
+<pin name="TIP" x="-12.7" y="-2.54" visible="pad" length="short"/>
+<pin name="AUX" x="-12.7" y="-5.08" visible="pad" length="short"/>
 <wire x1="-10.16" y1="7.62" x2="15.875" y2="7.62" width="0.254" layer="94"/>
 <wire x1="15.875" y1="7.62" x2="15.875" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="5.08" x2="5.715" y2="5.08" width="0.254" layer="94"/>
@@ -5348,12 +5348,12 @@ See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
 <devices>
 <device name="MIDMOUNT" package="HOMYET-HY-311CB">
 <connects>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="AUX" pad="3"/>
+<connect gate="G$1" pin="RING" pad="4"/>
+<connect gate="G$1" pin="RING_SW" pad="5"/>
+<connect gate="G$1" pin="SLEEVE" pad="2"/>
+<connect gate="G$1" pin="TIP" pad="6"/>
+<connect gate="G$1" pin="TIP_SW" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5361,12 +5361,12 @@ See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
 </device>
 <device name="MIDMOUNT-ALT" package="HOMYET-HY-311CB-ALT">
 <connects>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="AUX" pad="3"/>
+<connect gate="G$1" pin="RING" pad="4"/>
+<connect gate="G$1" pin="RING_SW" pad="5"/>
+<connect gate="G$1" pin="SLEEVE" pad="2"/>
+<connect gate="G$1" pin="TIP" pad="6"/>
+<connect gate="G$1" pin="TIP_SW" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5374,12 +5374,12 @@ See http://www.mouser.com/ds/2/40/5804-1016871.pdf</description>
 </device>
 <device name="TOPMOUNT" package="HOMYET-HY-311S">
 <connects>
-<connect gate="G$1" pin="2" pad="7"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="2"/>
+<connect gate="G$1" pin="AUX" pad="2"/>
+<connect gate="G$1" pin="RING" pad="6"/>
+<connect gate="G$1" pin="RING_SW" pad="5"/>
+<connect gate="G$1" pin="SLEEVE" pad="7"/>
+<connect gate="G$1" pin="TIP" pad="3"/>
+<connect gate="G$1" pin="TIP_SW" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
