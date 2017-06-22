@@ -194,33 +194,33 @@
 <smd name="PAD" x="0" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
 </package>
 <package name="MEMS_MIC_ESS">
-<smd name="1" x="2.32" y="3.11" dx="0.8" dy="0.8" layer="1" roundness="100"/>
-<smd name="2" x="2.33" y="0.65" dx="0.8" dy="0.8" layer="1" roundness="100"/>
-<smd name="3" x="0.63" y="0.65" dx="0.8" dy="0.8" layer="1" roundness="100"/>
-<smd name="4" x="0.63" y="3.11" dx="0.8" dy="0.8" layer="1" roundness="100"/>
-<wire x1="0" y1="3.76" x2="2.95" y2="3.76" width="0.127" layer="51"/>
-<wire x1="2.95" y1="3.76" x2="2.95" y2="0" width="0.127" layer="51"/>
-<wire x1="2.95" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="3.76" width="0.127" layer="51"/>
-<circle x="1.48" y="2.58" radius="0.2" width="0.45" layer="51"/>
-<text x="-0.16" y="4.14" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
-<text x="-0.11" y="-0.41" size="0.8128" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<smd name="1" x="0.82" y="1.21" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="0.83" y="-1.25" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="-0.87" y="-1.25" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="-0.87" y="1.21" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<wire x1="-1.5" y1="1.86" x2="1.45" y2="1.86" width="0.127" layer="51"/>
+<wire x1="1.45" y1="1.86" x2="1.45" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-1.9" x2="-1.5" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.9" x2="-1.5" y2="1.86" width="0.127" layer="51"/>
+<circle x="-0.02" y="0.68" radius="0.2" width="0.45" layer="51"/>
+<text x="-1.66" y="2.24" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.61" y="-2.31" size="0.8128" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
 <polygon width="0.4" layer="39">
-<vertex x="-0.01" y="3.79"/>
-<vertex x="2.94" y="3.79"/>
-<vertex x="2.94" y="0.04"/>
-<vertex x="-0.01" y="-0.01"/>
+<vertex x="-1.51" y="1.89"/>
+<vertex x="1.44" y="1.89"/>
+<vertex x="1.44" y="-1.86"/>
+<vertex x="-1.51" y="-1.91"/>
 </polygon>
-<wire x1="0" y1="-0.15" x2="3.1" y2="-0.15" width="0.127" layer="21"/>
-<wire x1="3.1" y1="-0.15" x2="3.1" y2="0.2" width="0.127" layer="21"/>
-<wire x1="3.1" y1="0.2" x2="3.1" y2="3.8" width="0.127" layer="21"/>
-<wire x1="3.1" y1="3.8" x2="3.1" y2="3.85" width="0.127" layer="21"/>
-<wire x1="3.1" y1="3.85" x2="3.1" y2="3.9" width="0.127" layer="21"/>
-<wire x1="3.1" y1="3.9" x2="-0.15" y2="3.9" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="3.9" x2="-0.15" y2="3.55" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="3.55" x2="-0.15" y2="1.85" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="1.85" x2="-0.15" y2="-0.15" width="0.127" layer="21"/>
-<wire x1="-0.15" y1="-0.15" x2="0" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2.05" x2="1.6" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-2.05" x2="1.6" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.7" x2="1.6" y2="1.9" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.9" x2="1.6" y2="1.95" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.95" x2="1.6" y2="2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2" x2="-1.65" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="2" x2="-1.65" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="1.65" x2="-1.65" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-0.05" x2="-1.65" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-2.05" x2="-1.5" y2="-2.05" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -421,7 +421,7 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MEMS_MIC_ESS">
+<deviceset name="MEMS_MIC_ESS" prefix="MIC">
 <gates>
 <gate name="G$1" symbol="MEMS_MIC_ESS" x="0" y="0"/>
 </gates>
@@ -434,7 +434,10 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 <connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="ESS"/>
+<attribute name="PARTNUM" value="MEMS_ANALOG" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
