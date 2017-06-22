@@ -506,7 +506,7 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="YD1609_SPEAKER">
+<deviceset name="YD1609_SPEAKER" prefix="SPK">
 <gates>
 <gate name="G$1" symbol="YD1609_SPEAKER" x="2.54" y="0"/>
 </gates>
