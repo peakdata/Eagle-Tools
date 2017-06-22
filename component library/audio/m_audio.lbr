@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -193,6 +193,35 @@
 <wire x1="-2.1" y1="-1.9" x2="-2.1" y2="1.9" width="0.127" layer="39"/>
 <smd name="PAD" x="0" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
 </package>
+<package name="MEMS_MIC_ESS">
+<smd name="1" x="2.32" y="3.11" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="2.33" y="0.65" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="0.63" y="0.65" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="0.63" y="3.11" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<wire x1="0" y1="3.76" x2="2.95" y2="3.76" width="0.127" layer="51"/>
+<wire x1="2.95" y1="3.76" x2="2.95" y2="0" width="0.127" layer="51"/>
+<wire x1="2.95" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="3.76" width="0.127" layer="51"/>
+<circle x="1.48" y="2.58" radius="0.2" width="0.45" layer="51"/>
+<text x="-0.16" y="4.14" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
+<text x="-0.11" y="-0.41" size="0.8128" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.4" layer="39">
+<vertex x="-0.01" y="3.79"/>
+<vertex x="2.94" y="3.79"/>
+<vertex x="2.94" y="0.04"/>
+<vertex x="-0.01" y="-0.01"/>
+</polygon>
+<wire x1="0" y1="-0.15" x2="3.1" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-0.15" x2="3.1" y2="0.2" width="0.127" layer="21"/>
+<wire x1="3.1" y1="0.2" x2="3.1" y2="3.8" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.8" x2="3.1" y2="3.85" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.85" x2="3.1" y2="3.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.9" x2="-0.15" y2="3.9" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="3.9" x2="-0.15" y2="3.55" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="3.55" x2="-0.15" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="1.85" x2="-0.15" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="-0.15" x2="0" y2="-0.15" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SPEAKER">
@@ -253,6 +282,26 @@
 <wire x1="-22.86" y1="-15.24" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
 <text x="-22.86" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="-22.86" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MEMS_MIC_ESS">
+<wire x1="0" y1="-1.016" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.254" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="0" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="0.254" x2="0.254" y2="5.334" layer="94" rot="R90"/>
+<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="GND@2" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="GND@1" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -368,6 +417,24 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 <attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
 <attribute name="PARTNUM" value="LM4666SD"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MEMS_MIC_ESS">
+<gates>
+<gate name="G$1" symbol="MEMS_MIC_ESS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEMS_MIC_ESS">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
