@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -25,9 +25,9 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -1178,6 +1178,59 @@ grid 2.54 mm</description>
 <vertex x="-1.25" y="-1.35"/>
 </polygon>
 </package>
+<package name="VQFN-11">
+<description>&lt;h3&gt;VQFN 11 Pin Plastic Quad Flatpack&lt;/h3&gt;
+&lt;div&gt;&lt;img src="http://www.ti.com/graphics/folders/partimages/TPS61089.jpg" /&gt;&lt;/div&gt;
+
+&lt;p&gt;TI Drawing RNR0011A, 4222143/A 08/2015&lt;/p&gt;</description>
+<smd name="1" x="-1.175" y="0.75" dx="0.55" dy="0.25" layer="1" roundness="10" thermals="no"/>
+<smd name="2" x="-1.175" y="0.25" dx="0.55" dy="0.25" layer="1" roundness="10" thermals="no"/>
+<smd name="3" x="-1.175" y="-0.25" dx="0.55" dy="0.25" layer="1" roundness="10" thermals="no"/>
+<smd name="4" x="-1.175" y="-0.75" dx="0.55" dy="0.25" layer="1" roundness="10" thermals="no"/>
+<smd name="7" x="1.175" y="-0.75" dx="0.55" dy="0.25" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="8" x="1.175" y="-0.25" dx="0.55" dy="0.25" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="9" x="1.175" y="0.25" dx="0.55" dy="0.25" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="10" x="1.175" y="0.75" dx="0.55" dy="0.25" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="5" x="-0.35" y="-0.7" dx="0.35" dy="1" layer="1" roundness="10" thermals="no" cream="no"/>
+<smd name="6" x="0.35" y="-0.7" dx="0.35" dy="1" layer="1" roundness="10" thermals="no" cream="no"/>
+<smd name="11" x="0" y="0.7" dx="1" dy="1" layer="1" roundness="10" thermals="no" cream="no"/>
+<circle x="0" y="1" radius="0.2" width="0.1" layer="51"/>
+<rectangle x1="-0.525" y1="-1.2" x2="-0.175" y2="-0.28" layer="31"/>
+<rectangle x1="0.175" y1="-1.2" x2="0.525" y2="-0.28" layer="31"/>
+<rectangle x1="-0.5" y1="0.2" x2="0.5" y2="0.72" layer="31"/>
+<rectangle x1="0.25" y1="0.92" x2="0.5" y2="1.2" layer="31"/>
+<rectangle x1="-0.5" y1="0.92" x2="-0.25" y2="1.2" layer="31"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="51"/>
+<circle x="-1.8" y="0.75" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-0.675" y1="1.05" x2="-1.25" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.25" y1="1.05" x2="0.675" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-1.05" x2="0.7" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.05" x2="-1.25" y2="-1.05" width="0.127" layer="21"/>
+<rectangle x1="-1.25" y1="0.625" x2="-0.9" y2="0.875" layer="51"/>
+<rectangle x1="-1.25" y1="0.125" x2="-0.9" y2="0.375" layer="51"/>
+<rectangle x1="-1.25" y1="-0.375" x2="-0.9" y2="-0.125" layer="51"/>
+<rectangle x1="-1.25" y1="-0.875" x2="-0.9" y2="-0.625" layer="51"/>
+<rectangle x1="0.9" y1="-0.875" x2="1.25" y2="-0.625" layer="51" rot="R180"/>
+<rectangle x1="0.9" y1="-0.375" x2="1.25" y2="-0.125" layer="51" rot="R180"/>
+<rectangle x1="0.9" y1="0.125" x2="1.25" y2="0.375" layer="51" rot="R180"/>
+<rectangle x1="0.9" y1="0.625" x2="1.25" y2="0.875" layer="51" rot="R180"/>
+<rectangle x1="-0.5" y1="0.2" x2="0.5" y2="0.82" layer="51"/>
+<rectangle x1="-0.5" y1="0.82" x2="-0.25" y2="1" layer="51"/>
+<rectangle x1="0.25" y1="0.82" x2="0.5" y2="1" layer="51"/>
+<rectangle x1="-0.525" y1="-1" x2="-0.175" y2="-0.2" layer="51"/>
+<rectangle x1="0.175" y1="-1" x2="0.525" y2="-0.2" layer="51"/>
+<polygon width="0.2" layer="39">
+<vertex x="-1.75" y="1.5"/>
+<vertex x="1.75" y="1.5"/>
+<vertex x="1.75" y="-1.5"/>
+<vertex x="-1.75" y="-1.5"/>
+</polygon>
+<text x="-2" y="1.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2" y="-1.5" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LM3405">
@@ -1721,6 +1774,26 @@ grid 2.54 mm</description>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="TPS61089X">
+<description>&lt;h3&gt;TPS61089x Synchronous Boost Converter&lt;/h3&gt;</description>
+<pin name="FSW" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VCC" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="FB" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="COMP" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="GND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="ILIM" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="BOOT" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="SW" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3105,6 +3178,57 @@ http://www.ti.com/lit/ds/symlink/tps706.pdf</description>
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="TPS60151DRV?" constant="no"/>
 <attribute name="VALUE" value="TPS60151" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS61089X" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;TPS61089x 12.6-V, 7-A Fully-Integrated Synchronous Boost Converter&lt;/h3&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Input Voltage Range: 2.7 V to 12 V&lt;/li&gt;
+&lt;li&gt;Output Voltage Range: 4.5 V to 12.6 V&lt;/li&gt;
+&lt;li&gt;Up to 90% Efficiency at VIN = 3.3V, VOUT = 9V, and IOUT = 2A&lt;/li&gt;
+&lt;li&gt;Resistor-Programmable Peak Current Limit up to 10 A for high pulse current&lt;/li&gt;
+&lt;li&gt;Adjustable Switching Frequency: 200 kHz to 2.2 MHz&lt;/li&gt;
+&lt;li&gt;4-ms Built-in Soft Start Time&lt;/li&gt;
+&lt;li&gt;PFM Operation Mode at Light Load (TPS61089)&lt;/li&gt;
+&lt;li&gt;Forced PWM Operation Mode at Light Load (TPS610891)&lt;/li&gt;
+&lt;li&gt;Internal Output Overvoltage Protection at 13.2 V&lt;/li&gt;
+&lt;li&gt;Cycle-by-Cycle Overcurrent Protection&lt;/li&gt;
+&lt;li&gt;Thermal Shutdown&lt;/li&gt;
+&lt;li&gt;2.00-mm × 2.50-mm VQFN Hotrod Package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The TPS61089x represents the TPS61089 and the TPS610891. The TPS61089x is a fully-integrated synchronous boost converter with a 19-mΩ main power switch and a 27-mΩ rectifier switch. The device provides a high efficiency and small size power solution for portable equipment. The TPS61089x features wide input voltage range from 2.7 V to 12 V to support applications powered with single cell or two cell Lithium ion/polymer batteries. The TPS61089x has 7-A continuous switch current capability and provides output voltage up to 12.6 V.&lt;/p&gt;
+&lt;p&gt;The TPS61089x uses adaptive constant off-time peak current control topology to regulate the output voltage. In moderate to heavy load condition, the TPS61089x works in the pulse width modulation (PWM) mode. In light load condition, the TPS61089 works in the pulse frequency modulation (PFM) mode to improve the efficiency, while the TPS610891 still works in the PWM mode to avoid application problems caused by low switching frequency. The switching frequency in the PWM mode is adjustable from 200 kHz to 2.2 MHz. The TPS61089x also implements a built-in 4-ms soft start function and an adjustable peak switch current limit function. In addition, the device provides 13.2-V output overvoltage protection, cycle-by-cycle overcurrent protection, and thermal shutdown protection.&lt;/p&gt;
+&lt;p&gt;The TPS61089x is available in an extremely compact size of a 2.0-mm × 2.5-mm 11-pin VQFN package.&lt;/p&gt;
+&lt;p&gt;Based on information from TI document SLVSD38B, NOVEMBER 2015 REVISED JULY 2016&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TPS61089RNR*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS61089X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RNR" package="VQFN-11">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="10"/>
+<connect gate="G$1" pin="COMP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="FSW" pad="1"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ILIM" pad="8"/>
+<connect gate="G$1" pin="SW" pad="11"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="9"/>
+<connect gate="G$1" pin="VOUT" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TPS61089RNR*" constant="no"/>
+<attribute name="VALUE" value="TPS61089X" constant="no"/>
 </technology>
 </technologies>
 </device>
