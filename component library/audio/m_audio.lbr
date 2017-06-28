@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -40,21 +40,21 @@
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -193,6 +193,77 @@
 <wire x1="-2.1" y1="-1.9" x2="-2.1" y2="1.9" width="0.127" layer="39"/>
 <smd name="PAD" x="0" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
 </package>
+<package name="MEMS_MIC_ESS">
+<smd name="1" x="0.82" y="1.21" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="2" x="0.83" y="-1.25" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="3" x="-0.87" y="-1.25" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<smd name="4" x="-0.87" y="1.21" dx="0.8" dy="0.8" layer="1" roundness="100"/>
+<wire x1="-1.5" y1="1.86" x2="1.45" y2="1.86" width="0.127" layer="51"/>
+<wire x1="1.45" y1="1.86" x2="1.45" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-1.9" x2="-1.5" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.9" x2="-1.5" y2="1.86" width="0.127" layer="51"/>
+<circle x="-0.02" y="0.68" radius="0.2" width="0.45" layer="51"/>
+<text x="-1.66" y="2.24" size="0.8128" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.61" y="-2.31" size="0.8128" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.4" layer="39">
+<vertex x="-1.51" y="1.89"/>
+<vertex x="1.44" y="1.89"/>
+<vertex x="1.44" y="-1.86"/>
+<vertex x="-1.51" y="-1.91"/>
+</polygon>
+<wire x1="-1.5" y1="-2.05" x2="1.6" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-2.05" x2="1.6" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.7" x2="1.6" y2="1.9" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.9" x2="1.6" y2="1.95" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.95" x2="1.6" y2="2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2" x2="-1.65" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="2" x2="-1.65" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="1.65" x2="-1.65" y2="-0.05" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-0.05" x2="-1.65" y2="-2.05" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-2.05" x2="-1.5" y2="-2.05" width="0.127" layer="21"/>
+</package>
+<package name="YD16094_SPEAKER">
+<smd name="P$1" x="3.2" y="7.2" dx="2.5" dy="1.5" layer="1" cream="no"/>
+<wire x1="-4.2" y1="-8" x2="4.3" y2="-8" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-8" x2="-4.5" y2="-7.8" width="0.127" layer="21" curve="-71.565051"/>
+<wire x1="-4.5" y1="-7.8" x2="-4.5" y2="7.8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-7.8" x2="4.3" y2="-8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.5" y1="7.8" x2="-4.3" y2="8" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.3" y1="8" x2="4.5" y2="7.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.3" y1="8" x2="4.3" y2="8" width="0.127" layer="21"/>
+<wire x1="4.5" y1="7.8" x2="4.5" y2="-7.8" width="0.127" layer="21"/>
+<smd name="P$2" x="3.2" y="-7.2" dx="2.5" dy="1.5" layer="1" cream="no"/>
+<wire x1="-3.3" y1="5.4" x2="-2.4" y2="6.3" width="0.127" layer="21" curve="-86.82017"/>
+<wire x1="2.4" y1="6.3" x2="3.3" y2="5.4" width="0.127" layer="21" curve="-86.82017"/>
+<wire x1="-2.4" y1="-6.2" x2="-3.3" y2="-5.3" width="0.127" layer="21" curve="-86.82017"/>
+<wire x1="3.3" y1="-5.3" x2="2.4" y2="-6.2" width="0.127" layer="21" curve="-86.82017"/>
+<wire x1="-2.4" y1="-6.2" x2="2.4" y2="-6.2" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-5.3" x2="3.3" y2="5.4" width="0.127" layer="21"/>
+<wire x1="2.4" y1="6.3" x2="-2.3" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="6.3" x2="-2.5" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="5.4" x2="-3.3" y2="-5.3" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.4" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="-8.2" x2="4.3" y2="-8.2" width="0.127" layer="21"/>
+<wire x1="4.7" y1="-7.8" x2="4.7" y2="7.7" width="0.127" layer="21"/>
+<wire x1="4.3" y1="8.2" x2="-4.3" y2="8.2" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="7.7" x2="-4.7" y2="-7.9" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-4.5" y="-7.9"/>
+<vertex x="1.8" y="-7.9"/>
+<vertex x="1.8" y="-6.3"/>
+<vertex x="4.5" y="-6.3"/>
+<vertex x="4.5" y="6.3"/>
+<vertex x="1.8" y="6.3"/>
+<vertex x="1.8" y="8"/>
+<vertex x="-4.5" y="8"/>
+</polygon>
+<text x="-4.2" y="8.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.5" y="-9.6" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SPEAKER">
@@ -253,6 +324,48 @@
 <wire x1="-22.86" y1="-15.24" x2="-22.86" y2="17.78" width="0.254" layer="94"/>
 <text x="-22.86" y="-17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="-22.86" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MEMS_MIC_ESS">
+<wire x1="0" y1="-1.016" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.254" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="0" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.254" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="0.254" x2="0.254" y2="5.334" layer="94" rot="R90"/>
+<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="GND@2" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="GND@1" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="YD1609_SPEAKER">
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="+" x="-17.78" y="5.08" length="short"/>
+<pin name="-" x="-17.78" y="-5.08" length="short"/>
+<text x="-15.24" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -367,6 +480,46 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 <technology name="">
 <attribute name="MANUF" value="TEXAS INSTRUMENTS"/>
 <attribute name="PARTNUM" value="LM4666SD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MEMS_MIC_ESS" prefix="MIC">
+<gates>
+<gate name="G$1" symbol="MEMS_MIC_ESS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEMS_MIC_ESS">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ESS"/>
+<attribute name="PARTNUM" value="MEMS_ANALOG" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YD1609_SPEAKER" prefix="SPK">
+<gates>
+<gate name="G$1" symbol="YD1609_SPEAKER" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="YD16094_SPEAKER">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ESS"/>
+<attribute name="PARTNUM" value="YD1609" constant="no"/>
 </technology>
 </technologies>
 </device>
