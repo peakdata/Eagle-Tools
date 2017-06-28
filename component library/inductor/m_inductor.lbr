@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -463,6 +463,50 @@ Source: TJ-Serie Vishay.pdf</description>
 <wire x1="1.4" y1="-0.6" x2="-1.4" y2="-0.6" width="0.08" layer="39"/>
 <wire x1="-1.4" y1="-0.6" x2="-1.4" y2="0.6" width="0.08" layer="39"/>
 <text x="-1.3" y="-1.3" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="BOURNS_SRP5015TA_SERIES">
+<description>&lt;h3&gt;Bourns SRP5015TA Series - Shielded Power Inductor&lt;/h3&gt;
+&lt;div&gt;&lt;img src="http://sigma.octopart.com/46733409/image/Bourns-SRP5015TA-3R3M.jpg" /&gt;&lt;/div&gt;
+&lt;p&gt;Data from Bourns RP5015TA Series datasheet 08/15&lt;/p&gt;</description>
+<smd name="1" x="-2.1" y="0" dx="2" dy="2.8" layer="1"/>
+<smd name="2" x="2.1" y="0" dx="2" dy="2.8" layer="1"/>
+<wire x1="-2.2" y1="2.6" x2="2.2" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.6" y1="2.2" x2="2.6" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="2.2" y1="-2.6" x2="-2.2" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="-2.2" x2="-2.6" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="2.2" x2="-2.2" y2="2.6" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.2" y1="2.6" x2="2.6" y2="2.2" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.2" y1="-2.6" x2="2.6" y2="-2.2" width="0.127" layer="51" curve="90"/>
+<wire x1="-2.6" y1="-2.2" x2="-2.2" y2="-2.6" width="0.127" layer="51" curve="90"/>
+<rectangle x1="-2.85" y1="-1.25" x2="-1.75" y2="1.25" layer="51"/>
+<rectangle x1="1.75" y1="-1.25" x2="2.85" y2="1.25" layer="51" rot="R180"/>
+<wire x1="-2.6" y1="1.6" x2="-2.6" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="2.2" x2="-2.2" y2="2.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.2" y1="2.6" x2="2.2" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="2.6" x2="2.6" y2="2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.6" y1="2.2" x2="2.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.6" x2="2.6" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-2.2" x2="2.2" y2="-2.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.2" y1="-2.6" x2="-2.2" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-2.6" x2="-2.6" y2="-2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.6" y1="-2.2" x2="-2.6" y2="-1.6" width="0.127" layer="21"/>
+<text x="-3.1" y="2.7" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-3.1" y="-2.7" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.3" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-2.75" y="2.75"/>
+<vertex x="2.75" y="2.75"/>
+<vertex x="2.75" y="1.75"/>
+<vertex x="3.5" y="1.75"/>
+<vertex x="3.5" y="-1.75"/>
+<vertex x="2.75" y="-1.75"/>
+<vertex x="2.75" y="-2.75"/>
+<vertex x="-2.75" y="-2.75"/>
+<vertex x="-2.75" y="-1.75"/>
+<vertex x="-3.5" y="-1.75"/>
+<vertex x="-3.5" y="1.75"/>
+<vertex x="-2.75" y="1.75"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -1160,6 +1204,39 @@ http://datasheet.octopart.com/LQM21NNR56K10D-Murata-datasheet-14392808.pdf</desc
 <technology name="">
 <attribute name="MANUF" value="MURATA"/>
 <attribute name="PARTNUM" value="LQM21NNR56K10XXXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOURNS_SRP5015TA_SERIES" prefix="L" uservalue="yes">
+<description>&lt;h3&gt;Bourns SRP5015TA Series - Shielded Power Inductor&lt;/h3&gt;
+&lt;div&gt;&lt;img src="http://sigma.octopart.com/46733409/image/Bourns-SRP5015TA-3R3M.jpg" /&gt;&lt;/div&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Shielded construction&lt;/li&gt;
+&lt;li&gt;Carbonyl powder core&lt;/li&gt;
+&lt;li&gt;High saturation current&lt;/li&gt;
+&lt;li&gt;1.3mm height&lt;/li&gt;
+&lt;li&gt;Inductance range: 0.15 to 22μH&lt;/li&gt;
+&lt;li&gt;AEC-Q200 qualified&lt;/li&gt;
+&lt;li&gt;RoHS compliant and halogen free&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://datasheet.octopart.com/SRP5015TA-1R0M-Bourns-datasheet-83961195.pdf"&gt;Datasheet Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data from Bourns RP5015TA Series datasheet 08/15&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR-FERRITE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOURNS_SRP5015TA_SERIES">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Bourns" constant="no"/>
+<attribute name="PARTNUM" value="SRP5015TA-???M" constant="no"/>
 </technology>
 </technologies>
 </device>
