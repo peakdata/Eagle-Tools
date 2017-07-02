@@ -107,6 +107,38 @@
 <wire x1="1.024" y1="-0.712" x2="1.024" y2="0.712" width="0.0762" layer="21"/>
 <wire x1="1.024" y1="0.712" x2="-0.974" y2="0.712" width="0.0762" layer="21"/>
 </package>
+<package name="C0805">
+<wire x1="-1.8" y1="0.95" x2="1.8" y2="0.95" width="0.0508" layer="39"/>
+<wire x1="1.8" y1="0.95" x2="1.8" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="1.8" y1="-1.05" x2="-1.8" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="-1.8" y1="-1.05" x2="-1.8" y2="0.95" width="0.0508" layer="39"/>
+<wire x1="-1.068" y1="0.827" x2="1.168" y2="0.827" width="0.1016" layer="51"/>
+<wire x1="-1.068" y1="-0.977" x2="1.168" y2="-0.977" width="0.1016" layer="51"/>
+<smd name="1" x="-0.9" y="-0.05" dx="1.15" dy="1.45" layer="1"/>
+<smd name="2" x="0.9" y="-0.05" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.774" y="1.039" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.674" y="-1.901" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.774" y1="0.962" x2="-1.774" y2="-1.062" width="0.0762" layer="21"/>
+<wire x1="-1.774" y1="-1.062" x2="1.774" y2="-1.062" width="0.0762" layer="21"/>
+<wire x1="1.774" y1="-1.062" x2="1.774" y2="0.962" width="0.0762" layer="21"/>
+<wire x1="1.774" y1="0.962" x2="-1.774" y2="0.962" width="0.0762" layer="21"/>
+</package>
+<package name="C1210">
+<wire x1="-2.4" y1="1.7" x2="2.35" y2="1.7" width="0.0508" layer="39"/>
+<wire x1="2.35" y1="1.7" x2="2.35" y2="-1.6" width="0.0508" layer="39"/>
+<wire x1="2.35" y1="-1.6" x2="-2.4" y2="-1.6" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.6" x2="-2.4" y2="1.7" width="0.0508" layer="39"/>
+<wire x1="-1.068" y1="-1.523" x2="1.168" y2="-1.523" width="0.1016" layer="51"/>
+<wire x1="-1.068" y1="1.623" x2="1.168" y2="1.623" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0.05" dx="1.4" dy="2.8" layer="1"/>
+<smd name="2" x="1.4" y="0.05" dx="1.4" dy="2.8" layer="1"/>
+<text x="-2.274" y="1.789" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.174" y="-2.551" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-2.374" y1="1.712" x2="-2.374" y2="-1.612" width="0.0762" layer="21"/>
+<wire x1="-2.374" y1="-1.612" x2="2.374" y2="-1.612" width="0.0762" layer="21"/>
+<wire x1="2.374" y1="-1.612" x2="2.374" y2="1.712" width="0.0762" layer="21"/>
+<wire x1="2.374" y1="1.712" x2="-2.374" y2="1.712" width="0.0762" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -136,6 +168,24 @@
 </technologies>
 </device>
 <device name="0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1210" package="C1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
