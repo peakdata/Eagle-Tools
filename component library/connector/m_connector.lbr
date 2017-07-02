@@ -2848,6 +2848,12 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/5013310307_PCB_HEA
 <wire x1="-1.8" y1="-1.2" x2="1.8" y2="-1.2" width="0.08" layer="21"/>
 <wire x1="1.8" y1="-1.1" x2="-1.8" y2="-1.1" width="0.08" layer="21"/>
 <wire x1="2" y1="1.9" x2="2.4" y2="1.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-3" y="-1.8"/>
+<vertex x="-3" y="2.4"/>
+<vertex x="3" y="2.4"/>
+<vertex x="3" y="-1.8"/>
+</polygon>
 </package>
 <package name="MOLEX_104091-2020">
 <description>IllumiMate™ 1.25mm Pitch Wire-to-Board Header, Surface Mount, Single Row, Right Angle, 20 Circuits
@@ -3335,6 +3341,54 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/1040912020_PCB_HEA
 <vertex x="-2.4" y="-4.6"/>
 </polygon>
 <text x="-2.3" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="MOLEX_501331-0407">
+<description>1.00mm Pitch Pico-Clasp™ Wire-to-Board Header, Surface Mount, Single Row, Vertical, Tin Plated, with Inner Friction Lock, with Pick-and-Place Tape, 4 Circuits
+&lt;br&gt;
+http://www.molex.com/molex/products/datasheet.jsp?part=active/5013310407_PCB_HEADERS.xml</description>
+<smd name="3" x="-0.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="MOUNT@1" x="2.8" y="-0.8" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<smd name="MOUNT@2" x="-2.8" y="-0.8" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="21"/>
+<wire x1="3" y1="2" x2="3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.5" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="-3" y2="2" width="0.127" layer="21"/>
+<rectangle x1="-1.6" y1="-0.4" x2="-1.4" y2="0.3" layer="21"/>
+<rectangle x1="-0.6" y1="-0.4" x2="-0.4" y2="0.3" layer="21"/>
+<rectangle x1="0.4" y1="-0.4" x2="0.6" y2="0.3" layer="21"/>
+<text x="-1.8" y="-2.6" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.5" y1="1.7" x2="2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.5" y1="1.7" x2="2.5" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.5" y1="-0.4" x2="-2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="1.5" x2="2.3" y2="1.5" width="0.08" layer="21"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-0.4" x2="-2.3" y2="1.5" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="1.5" x2="-2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.3" y1="1.5" x2="2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-0.4" x2="2.8" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="2.8" y1="-0.4" x2="2.8" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.8" y1="-1.2" x2="2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.2" x2="2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.1" x2="2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-0.4" x2="-2.8" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.8" y1="-0.4" x2="-2.8" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="-2.8" y1="-1.2" x2="-2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.1" x2="-2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.1" x2="-2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="2.5" y1="1.9" x2="2.9" y2="1.5" width="0.127" layer="21"/>
+<smd name="1" x="1.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<rectangle x1="1.4" y1="-0.4" x2="1.6" y2="0.3" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-3.6" y="0.2"/>
+<vertex x="-3.6" y="-1.9"/>
+<vertex x="3.6" y="-1.9"/>
+<vertex x="3.6" y="2.3"/>
+<vertex x="-3.6" y="2.3"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -4332,6 +4386,22 @@ Breaks out the following 4-pin header:
 <technology name="">
 <attribute name="MANUF" value="Molex" constant="no"/>
 <attribute name="PARTNUM" value="53398-0471" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PICOCLASP" package="MOLEX_501331-0407">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="MOLEX"/>
+<attribute name="PARTNUM" value="501331-0407
+
+"/>
 </technology>
 </technologies>
 </device>
