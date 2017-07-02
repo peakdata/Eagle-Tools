@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2848,6 +2848,12 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/5013310307_PCB_HEA
 <wire x1="-1.8" y1="-1.2" x2="1.8" y2="-1.2" width="0.08" layer="21"/>
 <wire x1="1.8" y1="-1.1" x2="-1.8" y2="-1.1" width="0.08" layer="21"/>
 <wire x1="2" y1="1.9" x2="2.4" y2="1.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-3" y="-1.8"/>
+<vertex x="-3" y="2.4"/>
+<vertex x="3" y="2.4"/>
+<vertex x="3" y="-1.8"/>
+</polygon>
 </package>
 <package name="MOLEX_104091-2020">
 <description>IllumiMate™ 1.25mm Pitch Wire-to-Board Header, Surface Mount, Single Row, Right Angle, 20 Circuits
@@ -3304,6 +3310,85 @@ http://www.molex.com/molex/products/datasheet.jsp?part=active/1040912020_PCB_HEA
 <wire x1="-7.6454" y1="-2.0066" x2="7.9629" y2="-2.0066" width="0.127" layer="21"/>
 <wire x1="7.9629" y1="-2.0066" x2="7.9629" y2="-1.4478" width="0.127" layer="21"/>
 <text x="-8.5344" y="-3.7084" size="1.4224" layer="21" font="vector" ratio="1">&gt;NAME</text>
+</package>
+<package name="JST-SM02B-SRSS-TB">
+<wire x1="-2" y1="2.1" x2="-1.2" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="2.1" x2="1.2" y2="2.1" width="0.127" layer="21"/>
+<wire x1="1.2" y1="2.1" x2="2" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2" y1="2.1" x2="2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="1.6" x2="2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="0.8" x2="2" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.1" x2="-2" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.1" x2="-2" y2="0.8" width="0.127" layer="21"/>
+<smd name="MNT@2" x="1.8" y="-1.5" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="MNT@1" x="-1.8" y="-1.5" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="0.5" y="2.3" dx="0.6" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="-0.5" y="2.3" dx="0.6" dy="1.5" layer="1" rot="R180"/>
+<wire x1="-2" y1="0.8" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.6" x2="-2" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.8" x2="-1.2" y2="0.8" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="0.8" x2="-1.2" y2="1.6" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="-1.2" y2="2.1" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="-2" y2="1.6" width="0.1" layer="21"/>
+<wire x1="1.2" y1="2.1" x2="1.2" y2="1.6" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.6" x2="1.2" y2="0.8" width="0.1" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="2" y2="0.8" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.6" x2="2" y2="1.6" width="0.1" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.4" y="3.1"/>
+<vertex x="2.5" y="3.1"/>
+<vertex x="2.5" y="-4.6"/>
+<vertex x="-2.4" y="-4.6"/>
+</polygon>
+<text x="-2.3" y="-4.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="MOLEX_501331-0407">
+<description>1.00mm Pitch Pico-Clasp™ Wire-to-Board Header, Surface Mount, Single Row, Vertical, Tin Plated, with Inner Friction Lock, with Pick-and-Place Tape, 4 Circuits
+&lt;br&gt;
+http://www.molex.com/molex/products/datasheet.jsp?part=active/5013310407_PCB_HEADERS.xml</description>
+<smd name="3" x="-0.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="MOUNT@1" x="2.8" y="-0.8" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<smd name="MOUNT@2" x="-2.8" y="-0.8" dx="1.2" dy="1.8" layer="1" rot="R180"/>
+<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="21"/>
+<wire x1="3" y1="2" x2="3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3" y1="-1.5" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="-3" y2="2" width="0.127" layer="21"/>
+<rectangle x1="-1.6" y1="-0.4" x2="-1.4" y2="0.3" layer="21"/>
+<rectangle x1="-0.6" y1="-0.4" x2="-0.4" y2="0.3" layer="21"/>
+<rectangle x1="0.4" y1="-0.4" x2="0.6" y2="0.3" layer="21"/>
+<text x="-1.8" y="-2.6" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-2.5" y1="1.7" x2="2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.5" y1="1.7" x2="2.5" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.5" y1="-0.4" x2="-2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="1.5" x2="2.3" y2="1.5" width="0.08" layer="21"/>
+<wire x1="2.3" y1="1.5" x2="2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-0.4" x2="-2.3" y2="1.5" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="1.5" x2="-2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.3" y1="1.5" x2="2.5" y2="1.7" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-0.4" x2="2.8" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="2.8" y1="-0.4" x2="2.8" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.8" y1="-1.2" x2="2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.2" x2="2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.1" x2="2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-0.4" x2="-2.8" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.8" y1="-0.4" x2="-2.8" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="-2.8" y1="-1.2" x2="-2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.1" x2="-2.3" y2="-0.4" width="0.08" layer="21"/>
+<wire x1="-2.3" y1="-1.2" x2="2.3" y2="-1.2" width="0.08" layer="21"/>
+<wire x1="2.3" y1="-1.1" x2="-2.3" y2="-1.1" width="0.08" layer="21"/>
+<wire x1="2.5" y1="1.9" x2="2.9" y2="1.5" width="0.127" layer="21"/>
+<smd name="1" x="1.5" y="1.6" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<rectangle x1="1.4" y1="-0.4" x2="1.6" y2="0.3" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="-3.6" y="0.2"/>
+<vertex x="-3.6" y="-1.9"/>
+<vertex x="3.6" y="-1.9"/>
+<vertex x="3.6" y="2.3"/>
+<vertex x="-3.6" y="2.3"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -4304,6 +4389,22 @@ Breaks out the following 4-pin header:
 </technology>
 </technologies>
 </device>
+<device name="PICOCLASP" package="MOLEX_501331-0407">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="MOLEX"/>
+<attribute name="PARTNUM" value="501331-0407
+
+"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PINHD-5" prefix="J">
@@ -4371,6 +4472,18 @@ Breaks out the following 4-pin header:
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="" package="JST-SM02B-SRSS-TB">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="JST"/>
+<attribute name="PARTNUM" value="SM02B-SRSS-TB" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

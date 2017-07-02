@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -223,7 +223,6 @@
 <wire x1="-1.65" y1="-2.05" x2="-1.5" y2="-2.05" width="0.127" layer="21"/>
 </package>
 <package name="YD16094_SPEAKER">
-<smd name="P$1" x="3.2" y="7.2" dx="2.5" dy="1.5" layer="1" cream="no"/>
 <wire x1="-4.2" y1="-8" x2="4.3" y2="-8" width="0.127" layer="21"/>
 <wire x1="-4.2" y1="-8" x2="-4.5" y2="-7.8" width="0.127" layer="21" curve="-71.565051"/>
 <wire x1="-4.5" y1="-7.8" x2="-4.5" y2="7.8" width="0.127" layer="21"/>
@@ -232,7 +231,6 @@
 <wire x1="4.3" y1="8" x2="4.5" y2="7.8" width="0.127" layer="21" curve="-90"/>
 <wire x1="-4.3" y1="8" x2="4.3" y2="8" width="0.127" layer="21"/>
 <wire x1="4.5" y1="7.8" x2="4.5" y2="-7.8" width="0.127" layer="21"/>
-<smd name="P$2" x="3.2" y="-7.2" dx="2.5" dy="1.5" layer="1" cream="no"/>
 <wire x1="-3.3" y1="5.4" x2="-2.4" y2="6.3" width="0.127" layer="21" curve="-86.82017"/>
 <wire x1="2.4" y1="6.3" x2="3.3" y2="5.4" width="0.127" layer="21" curve="-86.82017"/>
 <wire x1="-2.4" y1="-6.2" x2="-3.3" y2="-5.3" width="0.127" layer="21" curve="-86.82017"/>
@@ -253,12 +251,8 @@
 <wire x1="-4.7" y1="7.7" x2="-4.7" y2="-7.9" width="0.127" layer="21"/>
 <polygon width="0.127" layer="39">
 <vertex x="-4.5" y="-7.9"/>
-<vertex x="1.8" y="-7.9"/>
-<vertex x="1.8" y="-6.3"/>
-<vertex x="4.5" y="-6.3"/>
-<vertex x="4.5" y="6.3"/>
-<vertex x="1.8" y="6.3"/>
-<vertex x="1.8" y="8"/>
+<vertex x="4.5" y="-7.9"/>
+<vertex x="4.5" y="8"/>
 <vertex x="-4.5" y="8"/>
 </polygon>
 <text x="-4.2" y="8.5" size="1.27" layer="25">&gt;NAME</text>
@@ -345,7 +339,7 @@
 <text x="-10.16" y="10.16" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="YD1609_SPEAKER">
+<symbol name="SPEAKER_DUMMY">
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
@@ -362,8 +356,6 @@
 <wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<pin name="+" x="-17.78" y="5.08" length="short"/>
-<pin name="-" x="-17.78" y="-5.08" length="short"/>
 <text x="-15.24" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -508,14 +500,10 @@ See http://www.ti.com/lit/ds/symlink/lm4666.pdf</description>
 </deviceset>
 <deviceset name="YD1609_SPEAKER" prefix="SPK">
 <gates>
-<gate name="G$1" symbol="YD1609_SPEAKER" x="2.54" y="0"/>
+<gate name="G$1" symbol="SPEAKER_DUMMY" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="YD16094_SPEAKER">
-<connects>
-<connect gate="G$1" pin="+" pad="P$1"/>
-<connect gate="G$1" pin="-" pad="P$2"/>
-</connects>
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="ESS"/>
