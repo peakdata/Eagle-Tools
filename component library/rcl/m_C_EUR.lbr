@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -124,20 +124,20 @@
 <wire x1="1.774" y1="0.962" x2="-1.774" y2="0.962" width="0.0762" layer="21"/>
 </package>
 <package name="C1210">
-<wire x1="-2.4" y1="1.7" x2="2.35" y2="1.7" width="0.0508" layer="39"/>
-<wire x1="2.35" y1="1.7" x2="2.35" y2="-1.6" width="0.0508" layer="39"/>
-<wire x1="2.35" y1="-1.6" x2="-2.4" y2="-1.6" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.6" x2="-2.4" y2="1.7" width="0.0508" layer="39"/>
-<wire x1="-1.068" y1="-1.523" x2="1.168" y2="-1.523" width="0.1016" layer="51"/>
-<wire x1="-1.068" y1="1.623" x2="1.168" y2="1.623" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0.05" dx="1.4" dy="2.8" layer="1"/>
-<smd name="2" x="1.4" y="0.05" dx="1.4" dy="2.8" layer="1"/>
-<text x="-2.274" y="1.789" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.174" y="-2.551" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-2.374" y1="1.712" x2="-2.374" y2="-1.612" width="0.0762" layer="21"/>
-<wire x1="-2.374" y1="-1.612" x2="2.374" y2="-1.612" width="0.0762" layer="21"/>
-<wire x1="2.374" y1="-1.612" x2="2.374" y2="1.712" width="0.0762" layer="21"/>
-<wire x1="2.374" y1="1.712" x2="-2.374" y2="1.712" width="0.0762" layer="21"/>
+<wire x1="-2.4" y1="1.65" x2="2.35" y2="1.65" width="0.0508" layer="39"/>
+<wire x1="2.35" y1="1.65" x2="2.35" y2="-1.65" width="0.0508" layer="39"/>
+<wire x1="2.35" y1="-1.65" x2="-2.4" y2="-1.65" width="0.0508" layer="39"/>
+<wire x1="-2.4" y1="-1.65" x2="-2.4" y2="1.65" width="0.0508" layer="39"/>
+<wire x1="-1.068" y1="-1.573" x2="1.168" y2="-1.573" width="0.1016" layer="51"/>
+<wire x1="-1.068" y1="1.573" x2="1.168" y2="1.573" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.4" dy="2.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.4" dy="2.8" layer="1"/>
+<text x="-2.274" y="1.739" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.174" y="-2.601" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-2.374" y1="1.662" x2="-2.374" y2="-1.662" width="0.0762" layer="21"/>
+<wire x1="-2.374" y1="-1.662" x2="2.374" y2="-1.662" width="0.0762" layer="21"/>
+<wire x1="2.374" y1="-1.662" x2="2.374" y2="1.662" width="0.0762" layer="21"/>
+<wire x1="2.374" y1="1.662" x2="-2.374" y2="1.662" width="0.0762" layer="21"/>
 </package>
 </packages>
 <symbols>
