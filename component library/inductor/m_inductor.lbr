@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -463,6 +463,28 @@ Source: TJ-Serie Vishay.pdf</description>
 <wire x1="1.4" y1="-0.6" x2="-1.4" y2="-0.6" width="0.08" layer="39"/>
 <wire x1="-1.4" y1="-0.6" x2="-1.4" y2="0.6" width="0.08" layer="39"/>
 <text x="-1.3" y="-1.3" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="VLCF5020-1">
+<smd name="P$1" x="-1.7" y="-0.1" dx="2.1" dy="4.9" layer="1" roundness="7" rot="R180"/>
+<smd name="P$2" x="1.7" y="-0.1" dx="2.1" dy="4.9" layer="1" roundness="7" rot="R180"/>
+<wire x1="-3.2" y1="2.2" x2="-2.6" y2="2.8" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="2.8" x2="2.6" y2="2.8" width="0.1" layer="21"/>
+<wire x1="2.6" y1="2.8" x2="3.2" y2="2.2" width="0.1" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-2.4" width="0.1" layer="21"/>
+<wire x1="3.2" y1="-2.4" x2="2.6" y2="-3" width="0.1" layer="21"/>
+<wire x1="2.6" y1="-3" x2="-2.6" y2="-3" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="-3" x2="-3.2" y2="-2.4" width="0.1" layer="21"/>
+<wire x1="-3.2" y1="-2.4" x2="-3.2" y2="2.2" width="0.1" layer="21"/>
+<wire x1="-3.2" y1="-2.4" x2="-2.6" y2="-3" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="-3" x2="2.6" y2="-3" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-3" x2="3.2" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-2.4" x2="3.2" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.2" y1="2.2" x2="2.6" y2="2.8" width="0.1" layer="51"/>
+<wire x1="2.6" y1="2.8" x2="-2.6" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="2.8" x2="-3.2" y2="2.2" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="2.2" x2="-3.2" y2="-2.4" width="0.1" layer="51"/>
+<text x="-3.1" y="3.1" size="0.8128" layer="51">&gt;NAME</text>
+<text x="-3.1" y="-3.9" size="0.8128" layer="51">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1160,6 +1182,25 @@ http://datasheet.octopart.com/LQM21NNR56K10D-Murata-datasheet-14392808.pdf</desc
 <technology name="">
 <attribute name="MANUF" value="MURATA"/>
 <attribute name="PARTNUM" value="LQM21NNR56K10XXXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VLCF5020-1" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="INDUCTOR-FERRITE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLCF5020-1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TDK"/>
+<attribute name="PARTNUM" value="VLC5020" constant="no"/>
 </technology>
 </technologies>
 </device>
