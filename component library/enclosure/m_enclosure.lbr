@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -67,11 +67,11 @@
 <layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
 <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
 <layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
@@ -465,30 +465,30 @@
 &lt;h4&gt;G369&lt;/h4&gt;
 &lt;p&gt;Dimensions: 160mm &amp;times; 80mm &amp;times; 85mm (6.3" &amp;times; 3.15" &amp;times; 3.4")&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://octopart.com/search?q=G369"&gt;https://octopart.com/search?q=G369&lt;/a&gt;&lt;/p&gt;</description>
-<circle x="15.25" y="65" radius="4" width="0.127" layer="51"/>
-<wire x1="15.25" y1="64" x2="15.25" y2="66" width="0.127" layer="51"/>
-<wire x1="14.25" y1="65" x2="16.25" y2="65" width="0.127" layer="51"/>
-<circle x="136.75" y="65" radius="4" width="0.127" layer="51"/>
-<wire x1="136.75" y1="64" x2="136.75" y2="66" width="0.127" layer="51"/>
-<wire x1="135.75" y1="65" x2="137.75" y2="65" width="0.127" layer="51"/>
-<circle x="15.25" y="7" radius="4" width="0.127" layer="51"/>
-<wire x1="15.25" y1="6" x2="15.25" y2="8" width="0.127" layer="51"/>
-<wire x1="14.25" y1="7" x2="16.25" y2="7" width="0.127" layer="51"/>
-<circle x="136.75" y="7" radius="4" width="0.127" layer="51"/>
-<wire x1="136.75" y1="6" x2="136.75" y2="8" width="0.127" layer="51"/>
-<wire x1="135.75" y1="7" x2="137.75" y2="7" width="0.127" layer="51"/>
-<circle x="76" y="65" radius="4" width="0.127" layer="51"/>
-<wire x1="76" y1="64" x2="76" y2="66" width="0.127" layer="51"/>
-<wire x1="75" y1="65" x2="77" y2="65" width="0.127" layer="51"/>
-<circle x="76" y="7" radius="4" width="0.127" layer="51"/>
-<wire x1="76" y1="6" x2="76" y2="8" width="0.127" layer="51"/>
-<wire x1="75" y1="7" x2="77" y2="7" width="0.127" layer="51"/>
-<circle x="8.15" y="36" radius="4" width="0.127" layer="51"/>
-<wire x1="8.15" y1="35" x2="8.15" y2="37" width="0.127" layer="51"/>
-<wire x1="7.15" y1="36" x2="9.15" y2="36" width="0.127" layer="51"/>
-<circle x="143.85" y="36" radius="4" width="0.127" layer="51"/>
-<wire x1="143.85" y1="35" x2="143.85" y2="37" width="0.127" layer="51"/>
-<wire x1="142.85" y1="36" x2="144.85" y2="36" width="0.127" layer="51"/>
+<circle x="15.25" y="65" radius="4" width="0.127" layer="47"/>
+<wire x1="15.25" y1="64" x2="15.25" y2="66" width="0.127" layer="47"/>
+<wire x1="14.25" y1="65" x2="16.25" y2="65" width="0.127" layer="47"/>
+<circle x="136.75" y="65" radius="4" width="0.127" layer="47"/>
+<wire x1="136.75" y1="64" x2="136.75" y2="66" width="0.127" layer="47"/>
+<wire x1="135.75" y1="65" x2="137.75" y2="65" width="0.127" layer="47"/>
+<circle x="15.25" y="7" radius="4" width="0.127" layer="47"/>
+<wire x1="15.25" y1="6" x2="15.25" y2="8" width="0.127" layer="47"/>
+<wire x1="14.25" y1="7" x2="16.25" y2="7" width="0.127" layer="47"/>
+<circle x="136.75" y="7" radius="4" width="0.127" layer="47"/>
+<wire x1="136.75" y1="6" x2="136.75" y2="8" width="0.127" layer="47"/>
+<wire x1="135.75" y1="7" x2="137.75" y2="7" width="0.127" layer="47"/>
+<circle x="76" y="65" radius="4" width="0.127" layer="47"/>
+<wire x1="76" y1="64" x2="76" y2="66" width="0.127" layer="47"/>
+<wire x1="75" y1="65" x2="77" y2="65" width="0.127" layer="47"/>
+<circle x="76" y="7" radius="4" width="0.127" layer="47"/>
+<wire x1="76" y1="6" x2="76" y2="8" width="0.127" layer="47"/>
+<wire x1="75" y1="7" x2="77" y2="7" width="0.127" layer="47"/>
+<circle x="8.15" y="36" radius="4" width="0.127" layer="47"/>
+<wire x1="8.15" y1="35" x2="8.15" y2="37" width="0.127" layer="47"/>
+<wire x1="7.15" y1="36" x2="9.15" y2="36" width="0.127" layer="47"/>
+<circle x="143.85" y="36" radius="4" width="0.127" layer="47"/>
+<wire x1="143.85" y1="35" x2="143.85" y2="37" width="0.127" layer="47"/>
+<wire x1="142.85" y1="36" x2="144.85" y2="36" width="0.127" layer="47"/>
 <rectangle x1="135.3931" y1="-2.9831" x2="136.2095" y2="-2.5749" layer="201"/>
 <rectangle x1="14.1577" y1="-2.5749" x2="15.3823" y2="-2.1667" layer="201"/>
 <rectangle x1="40.6907" y1="-2.5749" x2="41.0989" y2="-2.1667" layer="201"/>
@@ -1480,19 +1480,19 @@
 <wire x1="152" y1="52" x2="150" y2="54" width="0.4" layer="20" curve="90"/>
 <wire x1="146" y1="54" x2="143" y2="57" width="0.4" layer="20" curve="-90"/>
 <wire x1="143" y1="70" x2="141" y2="72" width="0.4" layer="20" curve="90"/>
-<dimension x1="0" y1="77" x2="152" y2="77" x3="76" y3="87" textsize="1.27" layer="20"/>
-<dimension x1="9" y1="77" x2="143" y2="77" x3="76" y3="82" textsize="1.27" layer="20"/>
-<dimension x1="157" y1="72" x2="157" y2="0" x3="164" y3="36" textsize="1.27" layer="20"/>
-<dimension x1="158" y1="54" x2="158" y2="18" x3="160" y3="36" textsize="1.27" layer="20"/>
-<wire x1="-1" y1="36" x2="153" y2="36" width="0.1" layer="20" style="dashdot"/>
-<wire x1="76" y1="75" x2="76" y2="-3" width="0.1" layer="20" style="dashdot"/>
-<dimension x1="76" y1="-9" x2="15.25" y2="-9" x3="45.625" y3="-11" textsize="1.27" layer="20"/>
-<dimension x1="8.15" y1="-17" x2="76" y2="-17" x3="42.075" y3="-15" textsize="1.27" layer="20"/>
-<dimension x1="-10" y1="7" x2="-10" y2="36" x3="-12" y3="21.5" textsize="1.27" layer="20"/>
-<wire x1="13" y1="7" x2="-9" y2="7" width="0.1" layer="20" style="shortdash"/>
-<wire x1="15.25" y1="-8" x2="15.25" y2="5" width="0.1" layer="20" style="shortdash"/>
-<wire x1="8.15" y1="-12" x2="8.15" y2="34" width="0.1" layer="20" style="shortdash"/>
-<dimension x1="136.75" y1="65" x2="132.75" y2="65" x3="134.75" y3="65.5" textsize="1.27" layer="20" dtype="radius"/>
+<dimension x1="0" y1="77" x2="152" y2="77" x3="76" y3="87" textsize="1.27" layer="47"/>
+<dimension x1="9" y1="77" x2="143" y2="77" x3="76" y3="82" textsize="1.27" layer="47"/>
+<dimension x1="157" y1="72" x2="157" y2="0" x3="164" y3="36" textsize="1.27" layer="47"/>
+<dimension x1="158" y1="54" x2="158" y2="18" x3="160" y3="36" textsize="1.27" layer="47"/>
+<wire x1="-1" y1="36" x2="153" y2="36" width="0.1" layer="47" style="dashdot"/>
+<wire x1="76" y1="75" x2="76" y2="-3" width="0.1" layer="47" style="dashdot"/>
+<dimension x1="76" y1="-9" x2="15.25" y2="-9" x3="45.625" y3="-11" textsize="1.27" layer="47"/>
+<dimension x1="8.15" y1="-17" x2="76" y2="-17" x3="42.075" y3="-15" textsize="1.27" layer="47"/>
+<dimension x1="-10" y1="7" x2="-10" y2="36" x3="-12" y3="21.5" textsize="1.27" layer="47"/>
+<wire x1="13" y1="7" x2="-9" y2="7" width="0.1" layer="47" style="shortdash"/>
+<wire x1="15.25" y1="-8" x2="15.25" y2="5" width="0.1" layer="47" style="shortdash"/>
+<wire x1="8.15" y1="-12" x2="8.15" y2="34" width="0.1" layer="47" style="shortdash"/>
+<dimension x1="136.75" y1="65" x2="132.75" y2="65" x3="134.75" y3="65.5" textsize="1.27" layer="47" dtype="radius"/>
 </package>
 </packages>
 <symbols>
