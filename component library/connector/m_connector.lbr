@@ -2898,6 +2898,42 @@
 <rectangle x1="-7.035" y1="-1" x2="-6.715" y2="-0.4" layer="51"/>
 <rectangle x1="-7.075" y1="2.075" x2="-6.675" y2="2.675" layer="51"/>
 </package>
+<package name="MOLEX_70543-0002">
+<description>&lt;h3&gt;Molex SL Header, Single Row, Vertical, Shrouded, 3 Circuits&lt;/h3&gt;
+&lt;h4&gt;2.54mm Pitch&lt;/h4&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/8475900/image/Molex-70543-0002.jpg" alt="https://octopart.com/search?q=70543-0002" /&gt;&lt;/div&gt;
+
+&lt;p&gt;Based on data from Molex drawing SDA-70543-**** revision G dated 2012-01-11&lt;/p&gt;
+&lt;p&gt;Added 2018-08-05&lt;/p&gt;</description>
+<pad name="1" x="2.54" y="0" drill="1.0922"/>
+<pad name="2" x="0" y="0" drill="1.0922"/>
+<pad name="3" x="-2.54" y="0" drill="1.0922"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="4.06" x2="2.54" y2="4.06" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.06" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="4.06" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="4" y="-3"/>
+<vertex x="3.7" y="-4"/>
+<vertex x="4.3" y="-4"/>
+</polygon>
+<text x="-5" y="-3" size="1.27" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<text x="-5" y="4.5" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<polygon width="0.4" layer="39">
+<vertex x="5.3" y="-2.7"/>
+<vertex x="-5.3" y="-2.7"/>
+<vertex x="-5.3" y="2.8"/>
+<vertex x="-2.7" y="2.8"/>
+<vertex x="-2.7" y="4.1"/>
+<vertex x="2.7" y="4.1"/>
+<vertex x="2.7" y="2.8"/>
+<vertex x="5.3" y="2.8"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -3935,6 +3971,19 @@ Breaks out the following 4-pin header:
 <technology name="">
 <attribute name="MANUF" value="Molex" constant="no"/>
 <attribute name="PARTNUM" value="53261-0371" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_SL_VERTICAL" package="MOLEX_70543-0002">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="70543-0002" constant="no"/>
 </technology>
 </technologies>
 </device>
