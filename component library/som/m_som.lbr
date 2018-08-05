@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -7873,27 +7873,6 @@
 <text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
-<symbol name="PMOD-2A-ESPI">
-<description>&lt;h3&gt;Digilent PMOD Interface Type 2A Expanded SPI&lt;/h3&gt;</description>
-<pin name="SS" x="10.16" y="10.16" length="short" direction="pas" rot="R180"/>
-<pin name="MOSI" x="10.16" y="7.62" length="short" direction="pas" rot="R180"/>
-<pin name="MISO" x="10.16" y="5.08" length="short" direction="pas" rot="R180"/>
-<pin name="SCK" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="GND@1" x="-10.16" y="-7.62" length="short" direction="pas"/>
-<pin name="VCC@1" x="10.16" y="-10.16" length="short" direction="pas" rot="R180"/>
-<pin name="INT" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="RESET" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="N/S@1" x="-10.16" y="-2.54" length="short" direction="pas"/>
-<pin name="N/S@2" x="-10.16" y="-5.08" length="short" direction="pas"/>
-<pin name="GND@2" x="-10.16" y="-10.16" length="short" direction="pas"/>
-<pin name="VCC@2" x="10.16" y="-7.62" length="short" direction="pas" rot="R180"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="-7.62" y="15.24" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 <symbol name="PMOD-I2C">
 <description>&lt;h3&gt;Digilent PMOD I2C Interface&lt;/h3&gt;</description>
 <pin name="SCL" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
@@ -7906,6 +7885,27 @@
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PMOD-2A-ESPI">
+<description>&lt;h3&gt;Digilent PMOD Interface Type 2A Expanded SPI&lt;/h3&gt;</description>
+<pin name="SS" x="10.16" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="MOSI" x="10.16" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="MISO" x="10.16" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="SCK" x="10.16" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND@1" x="-10.16" y="-10.16" length="short" direction="pas"/>
+<pin name="VCC@1" x="10.16" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="INT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="RESET" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="NS@1" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="NS@2" x="10.16" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND@2" x="-10.16" y="-12.7" length="short" direction="pas"/>
+<pin name="VCC@2" x="10.16" y="-12.7" length="short" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="17.78" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8611,8 +8611,8 @@ The DART-SD410 is a high performance System-on-Module. It provides an ideal buil
 <connect gate="G$1" pin="INT" pad="7"/>
 <connect gate="G$1" pin="MISO" pad="3"/>
 <connect gate="G$1" pin="MOSI" pad="2"/>
-<connect gate="G$1" pin="N/S@1" pad="9"/>
-<connect gate="G$1" pin="N/S@2" pad="10"/>
+<connect gate="G$1" pin="NS@1" pad="9"/>
+<connect gate="G$1" pin="NS@2" pad="10"/>
 <connect gate="G$1" pin="RESET" pad="8"/>
 <connect gate="G$1" pin="SCK" pad="4"/>
 <connect gate="G$1" pin="SS" pad="1"/>
@@ -8634,8 +8634,8 @@ The DART-SD410 is a high performance System-on-Module. It provides an ideal buil
 <connect gate="G$1" pin="INT" pad="7"/>
 <connect gate="G$1" pin="MISO" pad="3"/>
 <connect gate="G$1" pin="MOSI" pad="2"/>
-<connect gate="G$1" pin="N/S@1" pad="9"/>
-<connect gate="G$1" pin="N/S@2" pad="10"/>
+<connect gate="G$1" pin="NS@1" pad="9"/>
+<connect gate="G$1" pin="NS@2" pad="10"/>
 <connect gate="G$1" pin="RESET" pad="8"/>
 <connect gate="G$1" pin="SCK" pad="4"/>
 <connect gate="G$1" pin="SS" pad="1"/>
@@ -8657,8 +8657,8 @@ The DART-SD410 is a high performance System-on-Module. It provides an ideal buil
 <connect gate="G$1" pin="INT" pad="7"/>
 <connect gate="G$1" pin="MISO" pad="3"/>
 <connect gate="G$1" pin="MOSI" pad="2"/>
-<connect gate="G$1" pin="N/S@1" pad="9"/>
-<connect gate="G$1" pin="N/S@2" pad="10"/>
+<connect gate="G$1" pin="NS@1" pad="9"/>
+<connect gate="G$1" pin="NS@2" pad="10"/>
 <connect gate="G$1" pin="RESET" pad="8"/>
 <connect gate="G$1" pin="SCK" pad="4"/>
 <connect gate="G$1" pin="SS" pad="1"/>
