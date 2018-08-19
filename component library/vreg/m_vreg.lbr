@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1423,6 +1423,25 @@ grid 2.54 mm</description>
 <text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS6103X">
+<description>&lt;h3&gt;TPS6103X Synchronous Boost Converter&lt;/h3&gt;</description>
+<pin name="SW" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="VBAT" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="EN" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="LBI" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="SYNC" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="LBO" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="FB" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM3405" prefix="IC" uservalue="yes">
@@ -2509,6 +2528,54 @@ The product spectrum is designed for supply voltages of 2.5 V, 3 V, 3.3 V, and 5
 <technology name="">
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="LP2985*IM5*-?.?/NOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS6103X" prefix="IC">
+<description>&lt;h3&gt;TPS6103x 96% Efficient Synchronous Boost Converter With 4A Switch&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/32249763/image/Texas-Instruments-TPS61030RSAR.jpg" alt="TPS6103%3FRSA*" /&gt;&lt;/div&gt;
+&lt;h2&gt; Description&lt;/h2&gt;
+&lt;p&gt;The TPS6103x devices provide a power supply solution for products powered by either a one-cell Li-Ion or Li-polymer, or a two to three-cell alkaline, NiCd or NiMH battery. The converter generates a stable output voltage that is either adjusted by an external resistor divider or fixed internally on the chip. It provides high efficient power conversion and is capable of delivering output currents up to 1 A at 5 V at a supply voltage down to 1.8 V. The implemented boost converter is based on a fixed frequency, pulse-width- modulation (PWM) controller using a synchronous rectifier to obtain maximum efficiency. At low load currents the converter enters Power Save mode to maintain a high efficiency over a wide load current range. The Power Save mode can be disabled, forcing the converter to operate at a fixed switching frequency. It can also operate synchronized to an external clock signal that is applied to the SYNC pin. The maximum peak current in the boost switch is limited to a value of 4500 mA.&lt;/p&gt;
+&lt;p&gt;The converter can be disabled to minimize battery drain. During shutdown, the load is completely disconnected from the battery. A low-EMI mode is implemented to reduce ringing and, in effect, lower radiated electromagnetic energy when the converter enters the discontinuous conduction mode.&lt;/p&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+ &lt;li&gt;96% Efficient Synchronous Boost Converter With &lt;br&gt;1000-mA Output Current From 1.8-V Input&lt;/li&gt;
+ &lt;li&gt;Device Quiescent Current: 20-µA (Typ)&lt;/li&gt; &lt;li&gt;Input Voltage Range: 1.8-V to 5.5-V&lt;/li&gt;
+ &lt;li&gt;Fixed and Adjustable Output Voltage Options Up &lt;br&gt;to 5.5-V&lt;/li&gt;
+ &lt;li&gt;Power Save Mode for Improved Efficiency at Low&lt;br&gt;Output Power&lt;/li&gt;
+ &lt;li&gt;Low Battery Comparator&lt;/li&gt; &lt;li&gt;Low EMI-Converter (Integrated Antiringing Switch)&lt;/li&gt;
+ &lt;li&gt;Load Disconnect During Shutdown&lt;/li&gt;
+ &lt;li&gt;Over-Temperature Protection&lt;/li&gt;
+ &lt;li&gt;Available in a Small 4 mm × 4 mm QFN-16 or in a &lt;br&gt;TSSOP-16 Package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TPS6103%3FRSA*"&gt;Octopart Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2018-08-15&lt;/p&gt;
+&lt;p&gt;TI Document SLUS534G, September 2001, Revised March 2015&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS6103X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RSA" package="S-PVQFN-N16">
+<connects>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="LBI" pad="9"/>
+<connect gate="G$1" pin="LBO" pad="12"/>
+<connect gate="G$1" pin="PGND" pad="5 6 7 PAD"/>
+<connect gate="G$1" pin="SW" pad="3 4"/>
+<connect gate="G$1" pin="SYNC" pad="10"/>
+<connect gate="G$1" pin="VBAT" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="1 15 16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TPS6103?RSA*" constant="no"/>
+<attribute name="VALUE" value="TPS6103X" constant="no"/>
 </technology>
 </technologies>
 </device>
