@@ -1335,8 +1335,8 @@ grid 2.54 mm</description>
 <pin name="VINA" x="-12.7" y="2.54" length="short" direction="pas"/>
 <pin name="EN" x="-12.7" y="-2.54" length="short" direction="pas"/>
 <pin name="!PS!/SYNC" x="-12.7" y="-5.08" length="short" direction="pas"/>
-<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pas"/>
-<pin name="PGND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="-12.7" y="-7.62" length="short" direction="pas"/>
 <pin name="PG" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
 <pin name="FB" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="VOUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
@@ -1425,16 +1425,16 @@ grid 2.54 mm</description>
 </symbol>
 <symbol name="TPS6103X">
 <description>&lt;h3&gt;TPS6103X Synchronous Boost Converter&lt;/h3&gt;</description>
-<pin name="SW" x="-12.7" y="7.62" length="short" direction="pas"/>
-<pin name="VBAT" x="-12.7" y="5.08" length="short" direction="pas"/>
-<pin name="EN" x="-12.7" y="-2.54" length="short" direction="pas"/>
-<pin name="LBI" x="-12.7" y="-5.08" length="short" direction="pas"/>
-<pin name="SYNC" x="-12.7" y="-7.62" length="short" direction="pas"/>
-<pin name="GND" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="PGND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="SW" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="VBAT" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="EN" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="LBI" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="SYNC" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="GND" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="-12.7" y="-7.62" length="short" direction="pas"/>
 <pin name="LBO" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="FB" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="VOUT" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="FB" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
