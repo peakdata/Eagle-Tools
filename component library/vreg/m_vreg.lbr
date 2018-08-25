@@ -1369,11 +1369,11 @@ grid 2.54 mm</description>
 <pin name="VINA" x="-10.16" y="0" length="short" direction="pas"/>
 <pin name="!PS!/SYNC" x="-10.16" y="-5.08" length="short" direction="pas"/>
 <pin name="EN" x="-10.16" y="-2.54" length="short" direction="pas"/>
-<pin name="GND" x="-10.16" y="-7.62" length="short" direction="pas"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" direction="pas" rot="R180"/>
 <pin name="FB" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="VOUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="L2" x="10.16" y="7.62" length="short" direction="pas" rot="R180"/>
-<pin name="PGND" x="10.16" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="PGND" x="-10.16" y="-7.62" length="short" direction="pas"/>
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
