@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -34,7 +34,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -967,8 +967,8 @@ grid 2.54 mm</description>
 <rectangle x1="0.75" y1="-1.5" x2="1.15" y2="-0.875" layer="51"/>
 <rectangle x1="0.75" y1="0.875" x2="1.15" y2="1.5" layer="51" rot="R180"/>
 <rectangle x1="-1.15" y1="0.875" x2="-0.75" y2="1.5" layer="51" rot="R180"/>
-<text x="-1.5" y="-2" size="1.27" layer="25" ratio="16" align="top-left">&gt;NAME</text>
-<text x="-1.5" y="2" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.5" y="-2" size="1.27" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<text x="-1.5" y="2" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 <wire x1="-1.425" y1="0.875" x2="-1.525" y2="0.875" width="0.1" layer="21"/>
 <wire x1="-1.525" y1="0.875" x2="-1.525" y2="-0.875" width="0.1" layer="21"/>
 <wire x1="-1.525" y1="-0.875" x2="-1.425" y2="-0.875" width="0.1" layer="21"/>
@@ -977,7 +977,7 @@ grid 2.54 mm</description>
 <wire x1="1.525" y1="-0.875" x2="1.525" y2="0.875" width="0.1" layer="21"/>
 <wire x1="1.525" y1="0.875" x2="1.425" y2="0.875" width="0.1" layer="21"/>
 <wire x1="-0.4875" y1="0.875" x2="0.4875" y2="0.875" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.4" layer="35"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.3" layer="35"/>
 <polygon width="0.4" layer="39">
 <vertex x="-1.5" y="2"/>
 <vertex x="1.5" y="2"/>
@@ -992,6 +992,87 @@ grid 2.54 mm</description>
 <vertex x="-2" y="1"/>
 <vertex x="-1.5" y="1.5"/>
 </polygon>
+</package>
+<package name="R-PDSO-G6">
+<description>&lt;h3&gt;Plastic Small Outline Package SOT-23 (6)&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/31496320/image/Texas-Instruments-REG710NA-3-3K.jpg" alt="SOT-23 (6) Package"&lt;/div&gt;
+&lt;p&gt;Based on TI drawings 4073253-5/N 12/14, 4209593-4/C 08/11&lt;/p&gt;
+&lt;p&gt;Note: The datsheet calls for a 0.07" soldermask clearance. Thedatasheet specifies paste stencil openings with 0.025" clearance to edge of copper pad. Polygons were used to preserve edge rounding per IEC standards.&lt;/p&gt;</description>
+<smd name="1" x="-0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="2" x="0" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="3" x="0.95" y="-1.35" dx="0.6" dy="1.05" layer="1" roundness="10" cream="no"/>
+<smd name="4" x="0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R180" cream="no"/>
+<smd name="6" x="-0.95" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R180" cream="no"/>
+<polygon width="0.1" layer="31">
+<vertex x="0.225" y="-0.9"/>
+<vertex x="-0.225" y="-0.9"/>
+<vertex x="-0.225" y="-1.8"/>
+<vertex x="0.225" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-0.725" y="-0.9"/>
+<vertex x="-1.175" y="-0.9"/>
+<vertex x="-1.175" y="-1.8"/>
+<vertex x="-0.725" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.175" y="-0.9"/>
+<vertex x="0.725" y="-0.9"/>
+<vertex x="0.725" y="-1.8"/>
+<vertex x="1.175" y="-1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.175" y="0.9"/>
+<vertex x="-0.725" y="0.9"/>
+<vertex x="-0.725" y="1.8"/>
+<vertex x="-1.175" y="1.8"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="0.725" y="0.9"/>
+<vertex x="1.175" y="0.9"/>
+<vertex x="1.175" y="1.8"/>
+<vertex x="0.725" y="1.8"/>
+</polygon>
+<wire x1="-1.525" y1="0.875" x2="1.525" y2="0.875" width="0.1" layer="51"/>
+<wire x1="1.525" y1="0.875" x2="1.525" y2="-0.875" width="0.1" layer="51"/>
+<wire x1="1.525" y1="-0.875" x2="-1.525" y2="-0.875" width="0.1" layer="51"/>
+<wire x1="-1.525" y1="-0.875" x2="-1.525" y2="0.875" width="0.1" layer="51"/>
+<rectangle x1="-0.2" y1="-1.5" x2="0.2" y2="-0.875" layer="51"/>
+<rectangle x1="-1.15" y1="-1.5" x2="-0.75" y2="-0.875" layer="51"/>
+<rectangle x1="0.75" y1="-1.5" x2="1.15" y2="-0.875" layer="51"/>
+<rectangle x1="0.75" y1="0.875" x2="1.15" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.15" y1="0.875" x2="-0.75" y2="1.5" layer="51" rot="R180"/>
+<text x="-1.5" y="-2" size="1.27" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<text x="-1.5" y="2" size="1.27" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<wire x1="-1.425" y1="0.875" x2="-1.525" y2="0.875" width="0.1" layer="21"/>
+<wire x1="-1.525" y1="0.875" x2="-1.525" y2="-0.875" width="0.1" layer="21"/>
+<wire x1="-1.525" y1="-0.875" x2="-1.525" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="1.425" y1="-0.875" x2="1.525" y2="-0.875" width="0.1" layer="21"/>
+<wire x1="1.525" y1="-0.875" x2="1.525" y2="0.875" width="0.1" layer="21"/>
+<wire x1="1.525" y1="0.875" x2="1.425" y2="0.875" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.3" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-1.5" y="2"/>
+<vertex x="1.5" y="2"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="2" y="1"/>
+<vertex x="2" y="-1"/>
+<vertex x="1.5" y="-1.5"/>
+<vertex x="1.5" y="-2"/>
+<vertex x="-1.5" y="-2"/>
+<vertex x="-1.5" y="-1.5"/>
+<vertex x="-2" y="-1"/>
+<vertex x="-2" y="1"/>
+<vertex x="-1.5" y="1.5"/>
+</polygon>
+<smd name="5" x="0" y="1.35" dx="0.6" dy="1.05" layer="1" roundness="10" rot="R180" cream="no"/>
+<polygon width="0.1" layer="31">
+<vertex x="-0.225" y="0.9"/>
+<vertex x="0.225" y="0.9"/>
+<vertex x="0.225" y="1.8"/>
+<vertex x="-0.225" y="1.8"/>
+</polygon>
+<rectangle x1="-0.2" y1="0.875" x2="0.2" y2="1.5" layer="51" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -1441,6 +1522,21 @@ grid 2.54 mm</description>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="12.7" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-10.16" y="-12.7" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="REG710XX">
+<description>&lt;h3&gt;6 Terminal Charge Pump Voltage Regulator with Enable&lt;/h3&gt;</description>
+<pin name="IN" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="EN" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="GND" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CP+" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="CP-" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2576,6 +2672,79 @@ The product spectrum is designed for supply voltages of 2.5 V, 3 V, 3.3 V, and 5
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="TPS6103?RSA*" constant="no"/>
 <attribute name="VALUE" value="TPS6103X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REG710XX" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;30-mA Switched-Cap DC-DC Converter with fixed Output&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/31496209/image/Texas-Instruments-REG71050DRVR.jpg" alt="REG710-*" /&gt;&lt;/div&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The REG710 family of devices are switched capacitor voltage converters that generate regulated, low-ripple output voltage from an unregulated input voltage. A wide input supply voltage from 1.8 V to 5.5 V makes the REG710 family of devices ideal for a variety of battery sources, such as single-cell Li-Ion, or 2-cell and 3-cell nickel-based or alkaline-based chemistries.&lt;/p&gt;
+&lt;p&gt;The input voltage may vary above and below the output voltage and the output remains in regulation. The device works as step-up or step-down converters without the need of an inductor, providing low EMI DC-DC conversion. The high switching frequency allows the use of small surface-mount capacitors, saving board space and reducing cost. The REG710 device is thermally protected and current limited, protecting the load and the regulator during fault conditions. Typical ground pin current (quiescent current) is 65 μA with no load, and less than 1 μA in shutdown mode.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wide Input Voltage Range: 1.8 V to 5.5 V&lt;/li&gt;
+  &lt;li&gt;Automatic Step-Up and Step-Down Operation&lt;/li&gt;
+  &lt;li&gt;Low Input Current Ripple&lt;/li&gt;
+  &lt;li&gt;Low Output Voltage Ripple&lt;/li&gt;
+  &lt;li&gt;Minimum Number of External Components—No Inductors&lt;/li&gt;
+  &lt;li&gt;1-MHz Internal Oscillator Allows Small Capacitors&lt;/li&gt;
+  &lt;li&gt;Shutdown Mode&lt;/li&gt;
+  &lt;li&gt;Thermal and Current Limit Protection&lt;/li&gt;
+  &lt;li&gt;Six Fixed Output Voltages Available:
+    &lt;ul&gt;&lt;li&gt;2.5 V, 2.7 V, 3 V, 3.3 V, 5 V, 5.5 V&lt;/li&gt;&lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Parametrics&lt;/h4&gt;
+
+&lt;table border=0.5 cellpadding=4&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;REG710-25&lt;/th&gt;&lt;th&gt;REG710-27&lt;/th&gt;&lt;th&gt;REG710-3&lt;/th&gt;&lt;th&gt;REG710-33&lt;/th&gt;&lt;th&gt;REG710-5&lt;/th&gt;&lt;th&gt;REG71050&lt;/th&gt;&lt;th&gt;REG71055&lt;/th&gt;&lt;th&gt;REG71055-Q1&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Vin(Min)(V)&lt;/th&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;2.7&lt;/td&gt;&lt;td&gt;2.7&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Vin(Max)(V)&lt;/th&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Vout(Min)(V)&lt;/th&gt;&lt;td&gt;2.5&lt;/td&gt;&lt;td&gt;2.7&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Vout(Max)(V)&lt;/th&gt;&lt;td&gt;2.5&lt;/td&gt;&lt;td&gt;2.7&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3.3&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Iout(Max)(A)&lt;/th&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Regulated Outputs(#)&lt;/th&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Switching Frequency(Min)(kHz)&lt;/th&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Switching Frequency(Max)(kHz)&lt;/th&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;td&gt;1000&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Iq(Typ)(mA)&lt;/th&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;td&gt;0.065&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Features&lt;/th&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;td&gt;Enable&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Operating Temperature Range(C)&lt;/th&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Rating&lt;/th&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Catalog&lt;/td&gt;&lt;td&gt;Automotive&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Package Group&lt;/th&gt;&lt;td&gt;SOT-23 | 6&lt;/td&gt;&lt;td&gt;SOT-23 | 6&lt;/td&gt;&lt;td&gt;SOT-23 | 6&lt;/td&gt;&lt;td&gt;SOT-23 | 6&lt;/td&gt;&lt;td&gt;SOT-23 | 6&lt;/td&gt;&lt;td&gt; SOT-23-THIN|6
+&lt;br&gt;  WSON|6 &lt;/td&gt;&lt;td&gt;SOT-23-THIN | 6&lt;/td&gt;&lt;td&gt;SOT-23-THIN | 6&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+&lt;p&gt;Datasheet link: &lt;a href="http://www.ti.com/lit/gpn/reg710-3"&gt;http://www.ti.com/lit/gpn/reg710-3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=REG710-*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2018-08-27&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="REG710XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_DBV" package="R-PDSO-G6">
+<connects>
+<connect gate="G$1" pin="CP+" pad="6"/>
+<connect gate="G$1" pin="CP-" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="REG710NA-*/*" constant="no"/>
+<attribute name="VALUE" value="REG710NA-X" constant="no"/>
 </technology>
 </technologies>
 </device>
