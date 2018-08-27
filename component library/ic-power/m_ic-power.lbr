@@ -6,11 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -30,8 +42,8 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
@@ -428,6 +440,56 @@ NS Package M08A</description>
 <vertex x="-2.25" y="1.5"/>
 </polygon>
 </package>
+<package name="R-PDSO-G14">
+<description>&lt;h3&gt;R-PDSO-G14 Plastic Small Outline Package&lt;/h3&gt;
+&lt;p&gt;Based on TI drawing 4211284-2/G 08/15 and 4040064-3/G 02/11&lt;/p&gt;</description>
+<smd name="1" x="-1.95" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="2" x="-1.3" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="3" x="-0.65" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="5" x="0.65" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="6" x="1.3" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="7" x="1.95" y="-2.8" dx="0.35" dy="1.6" layer="1"/>
+<smd name="8" x="1.95" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="9" x="1.3" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="10" x="0.65" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="11" x="0" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="12" x="-0.65" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="13" x="-1.3" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<smd name="14" x="-1.95" y="2.8" dx="0.35" dy="1.6" layer="1" rot="R180"/>
+<rectangle x1="-0.15" y1="-3.2" x2="0.15" y2="-2.2" layer="51"/>
+<rectangle x1="-0.8" y1="-3.2" x2="-0.5" y2="-2.2" layer="51"/>
+<rectangle x1="-1.45" y1="-3.2" x2="-1.15" y2="-2.2" layer="51"/>
+<rectangle x1="-2.1" y1="-3.2" x2="-1.8" y2="-2.2" layer="51"/>
+<rectangle x1="0.5" y1="-3.2" x2="0.8" y2="-2.2" layer="51"/>
+<rectangle x1="1.15" y1="-3.2" x2="1.45" y2="-2.2" layer="51"/>
+<rectangle x1="1.8" y1="-3.2" x2="2.1" y2="-2.2" layer="51"/>
+<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.2" x2="2.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-2.2" x2="2.3" y2="-2.2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.2" x2="-2.3" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.2" x2="2.3" y2="-2.2" width="0.127" layer="21"/>
+<rectangle x1="-0.15" y1="2.2" x2="0.15" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="0.5" y1="2.2" x2="0.8" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="1.15" y1="2.2" x2="1.45" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="1.8" y1="2.2" x2="2.1" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="-0.8" y1="2.2" x2="-0.5" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="-1.45" y1="2.2" x2="-1.15" y2="3.2" layer="51" rot="R180"/>
+<rectangle x1="-2.1" y1="2.2" x2="-1.8" y2="3.2" layer="51" rot="R180"/>
+<wire x1="2.3" y1="2.2" x2="-2.3" y2="2.2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.2" x2="2.3" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.2" x2="-2.3" y2="2.2" width="0.127" layer="21"/>
+<circle x="-2.6" y="-2.8" radius="0.15" width="0.3" layer="21"/>
+<text x="2.6" y="-2.2" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<text x="-2.6" y="-2.2" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<wire x1="-1.5" y1="0" x2="1.5" y2="0" width="0.4" layer="35"/>
+<polygon width="0.4" layer="39">
+<vertex x="-2.7" y="3.7"/>
+<vertex x="2.7" y="3.7"/>
+<vertex x="2.7" y="-3.7"/>
+<vertex x="-2.7" y="-3.7"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="IR2101S">
@@ -642,6 +704,29 @@ NS Package M08A</description>
 <wire x1="-12.7" y1="-33.02" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
 <text x="-12.7" y="27.94" size="1.778" layer="95" ratio="7" align="top-left">&gt;NAME</text>
 <text x="-12.7" y="-35.56" size="1.778" layer="96" ratio="7">&gt;VALUE</text>
+</symbol>
+<symbol name="BQ34Z100-G1">
+<description>&lt;h3&gt;bq34z100-G1 Wide Range Fuel Gauge with Impedance Track Technology&lt;/h3&gt;</description>
+<pin name="CE" x="-12.7" y="10.16" length="short" direction="pas"/>
+<pin name="REGIN" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="P1" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="P2" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="P3/SDA" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="P4/SCL" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="P5/HDQ" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="VSS" x="12.7" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="SRN" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="SRP" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="P6/TS" x="-12.7" y="-10.16" length="short" direction="pas"/>
+<pin name="REG25" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="VEN" x="12.7" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="BAT" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="15.24" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1173,6 +1258,91 @@ Features
 <technology name="">
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="bq2477X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ34Z100-G1" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt; BQ34Z100-G1 Multi-Chemistry Impedance Track Standalone Fuel Gauge&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/34946025/image/Texas-Instruments-BQ34Z100PW-G1.jpg" /&gt;&lt;/div&gt;
+&lt;h4&gt; Description&lt;/h4&gt;
+&lt;p&gt;The bq34z100-G1 device is an Impedance Track™ fuel gauge for Li-Ion, PbA, NiMH, and NiCd batteries, and works independently of battery series-cell configurations. Batteries from 3 V to 65 V can be easily supported through an external voltage translation circuit that is controlled automatically to reduce system power consumption.&lt;/p&gt;  
+&lt;p&gt;The bq34z100-G1 device provides several interface options, including an I&lt;sup&gt;2&lt;/sup&gt;C slave, an HDQ slave, one or four direct LEDs, and an &lt;span&gt;ALERT&lt;/span&gt; output pin. Additionally, the bq34z100-G1 provides support for an external port expander for more than four LEDs.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Supports Li-Ion, LiFePO4, PbA, NiMH, and NiCd Chemistries&lt;/li&gt;
+  &lt;li&gt;Capacity Estimation Using Patented Impedance Track™ Technology for Batteries from 3 V to 65 V
+    &lt;ul&gt;
+      &lt;li&gt;Aging Compensation&lt;/li&gt;
+      &lt;li&gt;Self-Discharge Compensation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Supports Battery Capacities up to 29&amp;nbsp;Ah with Standard Configuration Options&lt;/li&gt;
+  &lt;li&gt;Supports Charge and Discharge Currents up to 32&amp;nbsp;A with Standard Configuration Options&lt;/li&gt;
+  &lt;li&gt;External NTC Thermistor Support&lt;/li&gt;
+  &lt;li&gt;Supports Two-Wire I&lt;sup&gt;2&lt;/sup&gt;C™ and HDQ Single-Wire Communication Interfaces with Host System&lt;/li&gt;
+  &lt;li&gt;SHA-1/HMAC Authentication&lt;/li&gt;
+  &lt;li&gt;One- or Four-LED Direct Display Control&lt;/li&gt;
+  &lt;li&gt;Five-LED and Higher Display Through Port Expander&lt;/li&gt;
+  &lt;li&gt;Reduced Power Modes (Typical Battery Pack Operating Range Conditions)
+    &lt;ul&gt;
+      &lt;li&gt;Normal Operation: &amp;lt; 145-µA Average&lt;/li&gt;
+      &lt;li&gt;Sleep: &amp;lt; 84-µA Average&lt;/li&gt;
+      &lt;li&gt;Full Sleep: &amp;lt; 30-µA Average&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Package: 14-Pin TSSOP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Parametrics&lt;/h4&gt;
+&lt;table border="0.5" cellpadding="4"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;BQ34Z100-G1&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Number of Series Cells&lt;/th&gt;&lt;td&gt;Single Cell, 2-4 Cells, &amp;gt;4 Cells&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Cell Chemistry&lt;/th&gt;&lt;td&gt;Lead Acid, Li-Ion/Li-Polymer, LiFePO4, NiCd, NiMH&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Battery Capacity (Max)(mAh)&lt;/th&gt;&lt;td&gt;29000&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Communication Interfac&lt;/th&gt;&lt;td&gt;HDQ, I2C&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Battery Capacity (Min)(mAh)&lt;/th&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;External Capacity Indication&lt;/th&gt;&lt;td&gt;LED&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Implementation&lt;/th&gt;&lt;td&gt;Pack, System&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Gas Gauge Algorithm&lt;/th&gt;&lt;td&gt;Impedance Track&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Cell Balancing&lt;/th&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Features&lt;/th&gt;&lt;td&gt;SHA-1 Authentication&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Operating Temperature Range (&amp;deg;C)&lt;/th&gt;&lt;td&gt;-40 to 85&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;th&gt;Pin/Package&lt;/th&gt;&lt;td&gt;14TSSOP&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Added 2018-08-26&lt;/p&gt;
+&lt;p&gt;Datasheet link: &lt;a href="http://www.ti.com/lit/gpn/bq34z100-g1"&gt;http://www.ti.com/lit/gpn/bq34z100-g1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=BQ34Z100PW*-G1"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BQ34Z100-G1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PW" package="R-PDSO-G14">
+<connects>
+<connect gate="G$1" pin="BAT" pad="4"/>
+<connect gate="G$1" pin="CE" pad="5"/>
+<connect gate="G$1" pin="P1" pad="3"/>
+<connect gate="G$1" pin="P2" pad="1"/>
+<connect gate="G$1" pin="P3/SDA" pad="14"/>
+<connect gate="G$1" pin="P4/SCL" pad="13"/>
+<connect gate="G$1" pin="P5/HDQ" pad="12"/>
+<connect gate="G$1" pin="P6/TS" pad="11"/>
+<connect gate="G$1" pin="REG25" pad="7"/>
+<connect gate="G$1" pin="REGIN" pad="6"/>
+<connect gate="G$1" pin="SRN" pad="10"/>
+<connect gate="G$1" pin="SRP" pad="9"/>
+<connect gate="G$1" pin="VEN" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="BQ34Z100PW*-G1" constant="no"/>
+<attribute name="VALUE" value="bq34z100-G1" constant="no"/>
 </technology>
 </technologies>
 </device>
