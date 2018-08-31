@@ -3864,7 +3864,10 @@ Breaks out the following 4-pin header:
 <connect gate="-4" pin="S" pad="P$4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="48226-0401" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MOLEX-PICOBLADE" package="MOLEX_53047-0410">
@@ -4108,7 +4111,10 @@ Breaks out the following 4-pin header:
 <connect gate="-6" pin="S" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53398-0671" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
