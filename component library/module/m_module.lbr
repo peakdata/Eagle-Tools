@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1027,6 +1027,31 @@
 <wire x1="-6.35" y1="5.588" x2="-6.35" y2="3.556" width="0.254" layer="21"/>
 <wire x1="6.35" y1="5.588" x2="6.35" y2="3.556" width="0.254" layer="21"/>
 </package>
+<package name="PMOD_2A_ESPI">
+<description>&lt;h3&gt;Pmod Interface Type 2A: Expanded SPI, Vertical Through Hole Solder&lt;/h3&gt;</description>
+<pad name="1" x="6.35" y="1.27" drill="1" rot="R270"/>
+<pad name="2" x="3.81" y="1.27" drill="1" rot="R270"/>
+<pad name="3" x="1.27" y="1.27" drill="1" rot="R270"/>
+<pad name="4" x="-1.27" y="1.27" drill="1" rot="R270"/>
+<pad name="5" x="-3.81" y="1.27" drill="1" rot="R270"/>
+<pad name="6" x="-6.35" y="1.27" drill="1" rot="R270"/>
+<pad name="7" x="6.35" y="-1.27" drill="1" rot="R270"/>
+<pad name="8" x="3.81" y="-1.27" drill="1" rot="R270"/>
+<pad name="9" x="1.27" y="-1.27" drill="1" rot="R270"/>
+<pad name="10" x="-1.27" y="-1.27" drill="1" rot="R270"/>
+<pad name="11" x="-3.81" y="-1.27" drill="1" rot="R270"/>
+<pad name="12" x="-6.35" y="-1.27" drill="1" rot="R270"/>
+<text x="6.985" y="3.175" size="1.27" layer="21" align="center">1</text>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="0.635" width="0.254" layer="21"/>
+<text x="-6.985" y="2.54" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-6.985" y="-2.54" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.508" layer="39">
+<vertex x="7.62" y="2.54"/>
+<vertex x="-7.62" y="2.54"/>
+<vertex x="-7.62" y="-2.54"/>
+<vertex x="7.62" y="-2.54"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="GPS-MODULE">
@@ -1918,6 +1943,57 @@ Bluetooth:
 <attribute name="MANUF" value="Adafruit" constant="no"/>
 <attribute name="PARTNUM" value="Adafruit 2479" constant="no"/>
 <attribute name="VALUE" value="Bluefruit LE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIGILENT_PMOD_NAV" prefix="PMOD_NAV">
+<description>&lt;h3&gt;Digilent Pmod NAV: 9-axis IMU Plus Barometer&lt;/h3&gt;
+
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/82549381/image/Digilent-410-326.jpg" alt="digilent 410-326" /&gt;&lt;/div&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The Digilent Pmod NAV&amp;nbsp;uses the&amp;nbsp;&lt;a title="http://www.st.com/web/en/resource/technical/document/datasheet/DM00103319.pdf" href="http://www.st.com/web/en/resource/technical/document/datasheet/DM00103319.pdf"&gt;LSM9DS1&lt;/a&gt;&amp;nbsp;3-axis accelerometer, 3-axis gyroscope, 3-axis magnetometer, plus the&amp;nbsp;&lt;a title="http://www.st.com/web/en/resource/technical/document/datasheet/DM00141379.pdf" href="http://www.st.com/web/en/resource/technical/document/datasheet/DM00141379.pdf"&gt;LPS25HB&lt;/a&gt;&amp;nbsp;digital barometer to provide users with 10-DOF functionality.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The Pmod NAV provides a variety of orientation related data, allowing users to easily determine the exact position the module is in and where it is headed. With 16-bit full scale registers for acceleration, rotation, and orientation, and 24 bits of resolution for pressure data, users can easily figure out if their moving robot is falling over, how high in the air their hot air balloon is located, or which direction they are facing.&lt;/p&gt;
+
+&lt;h4&gt;Features:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;±2/±4/±8/±16 g linear acceleration full scale&lt;/li&gt;
+  &lt;li&gt;±245/±500/±2000 dps angular rate full scale&lt;/li&gt;
+  &lt;li&gt;±4/±8/±12/±16 gauss magnetic full scale&lt;/li&gt;
+  &lt;li&gt;260-1260 hPa piezoresistive pressure sensor&lt;/li&gt;
+  &lt;li&gt;Embedded temperature sensors for compensation&lt;/li&gt;
+  &lt;li&gt;12-pin Pmod connector with SPI interface&lt;/li&gt;
+  &lt;li&gt;Follows Digilent Interface Specification Type 2A&lt;/li&gt;
+  &lt;li&gt;Library and example code available in resource center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Product page: &lt;a href="https://store.digilentinc.com/pmod-nav-9-axis-imu-plus-barometer/"&gt;https://store.digilentinc.com/pmod-nav-9-axis-imu-plus-barometer/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=digilent 410-326"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PMOD-2A-ESPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PMOD_2A_ESPI">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="5"/>
+<connect gate="G$1" pin="GND@2" pad="11"/>
+<connect gate="G$1" pin="INT" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="3"/>
+<connect gate="G$1" pin="MOSI" pad="2"/>
+<connect gate="G$1" pin="NS@1" pad="9"/>
+<connect gate="G$1" pin="NS@2" pad="10"/>
+<connect gate="G$1" pin="RESET" pad="8"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SS" pad="1"/>
+<connect gate="G$1" pin="VCC@1" pad="6"/>
+<connect gate="G$1" pin="VCC@2" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Digilent" constant="no"/>
+<attribute name="PARTNUM" value="digilent 410-326" constant="no"/>
+<attribute name="VALUE" value="Pmod NAV" constant="no"/>
 </technology>
 </technologies>
 </device>
