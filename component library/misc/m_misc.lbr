@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2424,10 +2424,10 @@ grid 2.54 mm</description>
 <vertex x="-4.75" y="-2.5"/>
 </polygon>
 </package>
-<package name="SMT_OVERLAP_2">
-<description>&lt;h3&gt;Two overlapping SMT pads for merging ground nets&lt;/h3&gt;</description>
-<smd name="1" x="-0.2" y="0" dx="1.6" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.2" y="0" dx="1.6" dy="1" layer="1" stop="no" thermals="no" cream="no"/>
+<package name="SMT_MERGE_2">
+<description>&lt;h3&gt;Two SMT pads for merging ground nets&lt;/h3&gt;</description>
+<smd name="1" x="-0.4" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.4" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -6125,7 +6125,7 @@ Part No.: GP.1575.35.3.A.02 GP.35A
 <gate name="G$1" symbol="MERGE_2_NETS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMT" package="SMT_OVERLAP_2">
+<device name="_SMT" package="SMT_MERGE_2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
