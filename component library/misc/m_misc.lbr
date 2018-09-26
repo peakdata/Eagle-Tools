@@ -2426,8 +2426,8 @@ grid 2.54 mm</description>
 </package>
 <package name="SMT_MERGE_2">
 <description>&lt;h3&gt;Two SMT pads for merging ground nets&lt;/h3&gt;</description>
-<smd name="1" x="-0.4" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="0.4" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-0.5" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.5" y="0" dx="0.4" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 </package>
 </packages>
 <symbols>
