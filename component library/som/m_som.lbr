@@ -7004,7 +7004,7 @@
 <vertex x="-53.5" y="5.65"/>
 <vertex x="-53.5" y="-36"/>
 <vertex x="53.5" y="-36"/>
-<vertex x="53" y="-12"/>
+<vertex x="53.5" y="-12"/>
 <vertex x="66" y="-12"/>
 <vertex x="66" y="3"/>
 <vertex x="53.5" y="3"/>
