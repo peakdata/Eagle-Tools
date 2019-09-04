@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1104,6 +1104,47 @@ grid 2.54 mm</description>
 <rectangle x1="-1.4" y1="-1.15" x2="-0.8" y2="-0.75" layer="51"/>
 <rectangle x1="0.8" y1="-1.15" x2="1.4" y2="-0.75" layer="51" rot="R180"/>
 <rectangle x1="0.8" y1="0.75" x2="1.4" y2="1.15" layer="51" rot="R180"/>
+</package>
+<package name="DRV0006A">
+<description>&lt;h3&gt;WSON 0.8mm max height&lt;/h3&gt;
+
+&lt;p&gt;Data from TI drawing 4222173/B 04/2018&lt;/p&gt;
+&lt;p&gt;Added 2019-09-04&lt;/p&gt;</description>
+<smd name="1" x="-0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="15"/>
+<smd name="2" x="-0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="15"/>
+<smd name="3" x="-0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="15"/>
+<smd name="4" x="0.975" y="-0.65" dx="0.45" dy="0.3" layer="1" roundness="15" rot="R180"/>
+<smd name="5" x="0.975" y="0" dx="0.45" dy="0.3" layer="1" roundness="15" rot="R180"/>
+<smd name="6" x="0.975" y="0.65" dx="0.45" dy="0.3" layer="1" roundness="15" rot="R180"/>
+<smd name="PAD" x="0" y="0" dx="1" dy="1.6" layer="1" roundness="5" cream="no"/>
+<rectangle x1="-0.5" y1="-0.8" x2="0.5" y2="-0.1" layer="31"/>
+<rectangle x1="-0.5" y1="0.1" x2="0.5" y2="0.8" layer="31"/>
+<wire x1="-1.55" y1="1.05" x2="1.05" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.05" x2="1.05" y2="-1.05" width="0.127" layer="51"/>
+<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="-1.05" x2="-1.05" y2="1.05" width="0.127" layer="51"/>
+<rectangle x1="-1.05" y1="0.475" x2="-0.75" y2="0.825" layer="51"/>
+<rectangle x1="-1.05" y1="-0.175" x2="-0.75" y2="0.175" layer="51"/>
+<rectangle x1="-1.05" y1="-0.825" x2="-0.75" y2="-0.475" layer="51"/>
+<rectangle x1="0.75" y1="-0.825" x2="1.05" y2="-0.475" layer="51" rot="R180"/>
+<rectangle x1="0.75" y1="-0.175" x2="1.05" y2="0.175" layer="51" rot="R180"/>
+<rectangle x1="0.75" y1="0.475" x2="1.05" y2="0.825" layer="51" rot="R180"/>
+<polygon width="0.1" layer="51">
+<vertex x="-0.15" y="0.75"/>
+<vertex x="0.45" y="0.75"/>
+<vertex x="0.45" y="-0.75"/>
+<vertex x="-0.45" y="-0.75"/>
+<vertex x="-0.45" y="0.45"/>
+</polygon>
+<wire x1="-1.55" y1="1.05" x2="-1.55" y2="0.075" width="0.127" layer="21"/>
+<text x="-2" y="1.25" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2" y="-1.25" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.4" layer="39">
+<vertex x="-1.5" y="1.25"/>
+<vertex x="1.5" y="1.25"/>
+<vertex x="1.5" y="-1.25"/>
+<vertex x="-1.5" y="-1.25"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -2793,6 +2834,76 @@ The product spectrum is designed for supply voltages of 2.5 V, 3 V, 3.3 V, and 5
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="REG710NA-*/*" constant="no"/>
 <attribute name="VALUE" value="REG710NA-X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS7B81-Q1" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;TPS7B81-Q1 150-mA, Off-Battery, Ultra-Low-IQ(3-μA), Low-Dropout Regulator&lt;/h3&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AEC-Q100 qualified for automotive applications:
+    &lt;ul type="circle"&gt;
+      &lt;li&gt;Temperature grade 1: –40°C to 125°C, TA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Device junction temperature range: –40°C to 150°C&lt;/li&gt;
+  &lt;li&gt;3-V to 40-V wide VIN input voltage range with up to 45-V transient&lt;/li&gt;
+  &lt;li&gt;Maximum output current: 150 mA&lt;/li&gt;
+  &lt;li&gt;Low quiescent current IQ:
+    &lt;ul type="circle"&gt;
+      &lt;li&gt;300 nA typical when EN = low (shutdown mode)&lt;/li&gt;
+      &lt;li&gt;2.7 μA typical at light loads&lt;/li&gt;
+      &lt;li&gt;4.5 μA maximum at light loads&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1.5% output-voltage accuracy over line, load and temperature&lt;/li&gt;
+  &lt;li&gt;Maximum dropout voltage: 540 mV at 150-mA load current for fixed 5-V output version&lt;/li&gt;
+  &lt;li&gt;Stable with low-ESR (0.001-Ω to 5-Ω) ceramic output-stability capacitor (1 μF to 200 μF)&lt;/li&gt;
+  &lt;li&gt;Fixed 5-V and 3.3-V output voltage&lt;/li&gt;
+  &lt;li&gt;Integrated fault protection:
+    &lt;ul type="circle"&gt;
+      &lt;li&gt;Thermal shutdown&lt;/li&gt;
+      &lt;li&gt;Short-circuit and overcurrent protection&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Packages:
+    &lt;ul type="circle"&gt;
+      &lt;li&gt;DGN (8-pin HVSSOP), RθJA = 63.9°C/W&lt;/li&gt;
+      &lt;li&gt;DRV (6-pin WSON), RθJA = 72.8°C/W&lt;/li&gt;
+      &lt;li&gt;KVU (5-pin TO-252), RθJA = 38.8°C/W (preview)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+
+&lt;p&gt;In automotive battery-connected applications, low quiescent current (I&lt;sub&gt;Q&lt;/sub&gt;) is important to conserve energy and to extend battery lifetime. Always-on systems must have ultralow I&lt;sub&gt;Q&lt;/sub&gt; over an extended temperature range to enable sustained operation when the vehicle ignition is off.&lt;/p&gt;
+&lt;p&gt;The TPS7B81-Q1 is a low-dropout (LDO) linear regulator designed for up to 40-V V&lt;sub&gt;IN&lt;/sub&gt; applications. With only a 2.7-µA typical quiescent current at light load, the device is an optimal solution for powering microcontrollers and controller area network and local interconnect network (CAN/LIN) transceivers in standby systems.&lt;/p&gt;
+&lt;p&gt;The device features integrated short-circuit and overcurrent protection. This device operates in ambient temperatures from –40°C to +125°C and with junction temperatures from –40°C to +150°C. Additionally, this device is available in several packages of varying size and thermal conductivity. The small WSON package facilitates the most compact PCB design and the TO-252 package enables sustained operation despite significant dissipation across the device. These features make the device well suited as a power supply for various battery-connected automotive applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TPS7B81%3F%3FQDRV*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Added 2019-09-04&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VREG-IN-OUT-EN-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DRV" package="DRV0006A">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3 4 PAD"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="TPS7B81??QDRV*" constant="no"/>
+<attribute name="VALUE" value="TPS7B81XXQ" constant="no"/>
 </technology>
 </technologies>
 </device>
