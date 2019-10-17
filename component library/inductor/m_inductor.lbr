@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -468,6 +468,31 @@ Source: TJ-Serie Vishay.pdf</description>
 <wire x1="0.8" y1="4.4" x2="3.8" y2="4.4" width="0.127" layer="51"/>
 <wire x1="-1.2" y1="-4.4" x2="1.2" y2="-4.4" width="0.127" layer="51"/>
 </package>
+<package name="TDK_MMZ2012">
+<description>&lt;h3&gt;MMZ Series MMZ2012 Chip Bead (0805)&lt;/h3&gt;
+
+&lt;p&gt;Based on TDK Datasheet 007-02 / 20090921 / e9412_mmz2012&lt;/p&gt;
+&lt;p&gt;Footprint added 2019-10-17&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img src="https://sigma.octopart.com/18383100/image/TDK-MMZ2012Y601BT000.jpg" alt="MMZ2012*"/&gt;
+&lt;/div&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1" roundness="10"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1" roundness="10"/>
+<rectangle x1="-1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
+<rectangle x1="0.5" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<wire x1="-0.325" y1="0.625" x2="0.325" y2="0.625" width="0.127" layer="21"/>
+<wire x1="0.325" y1="-0.625" x2="-0.325" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="0" y1="0.15" x2="0" y2="-0.15" width="0.127" layer="35"/>
+<text x="-1.5" y="-0.75" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<text x="-1.5" y="0.75" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.5" y="0.75"/>
+<vertex x="1.5" y="0.75"/>
+<vertex x="1.5" y="-0.75"/>
+<vertex x="-1.5" y="-0.75"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR-FERRITE">
@@ -759,7 +784,7 @@ Vertical, lead spacing 0.55, drill diameter 0.038"</description>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0805" package="L2012C">
+<device name="0805" package="TDK_MMZ2012">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -768,6 +793,7 @@ Vertical, lead spacing 0.55, drill diameter 0.038"</description>
 <technology name="">
 <attribute name="MANUF" value="TDK" constant="no"/>
 <attribute name="PARTNUM" value="MMZ2012XXXXX" constant="no"/>
+<attribute name="VALUE" value="MMZ2012XXXXX" constant="no"/>
 </technology>
 </technologies>
 </device>
