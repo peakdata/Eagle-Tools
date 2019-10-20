@@ -3156,6 +3156,40 @@
 <wire x1="-6.5" y1="7.3" x2="-6.5" y2="-4.7" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="-4.7" x2="-5" y2="-4.7" width="0.127" layer="21"/>
 </package>
+<package name="1X03">
+<description>&lt;h3&gt;3 Pin 0.1" Header&lt;/h3&gt;</description>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<circle x="-4.826" y="0" radius="0.381" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.9304" shape="octagon" rot="R90"/>
+<text x="-3.81" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-1.524" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -3607,6 +3641,30 @@
 <text x="-12.7" y="66.04" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-12.7" y="-66.04" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <text x="0" y="12.7" size="2.54" layer="97" font="vector" rot="R90" align="center-left">PCIe x8</text>
+</symbol>
+<symbol name="AVR_UPDI">
+<description>&lt;h3&gt;3-Pin AVR UPDI Header&lt;/h3&gt;</description>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="UPDI" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="2.54" length="short" rot="R180"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SERIAL_DEBUG">
+<description>&lt;h3&gt;Serial Debugging Header&lt;/h3&gt;</description>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short"/>
+<pin name="TX/OUT" x="-10.16" y="2.54" length="short"/>
+<pin name="RX/IN" x="-10.16" y="0" length="short"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5314,6 +5372,139 @@ Electrical:
 <attribute name="MANUF" value="Phoenix" constant="no"/>
 <attribute name="PARTNUM" value="PTSA 0,5/ 6-2,5-F" constant="no"/>
 <attribute name="VALUE" value="Phoenix PTSA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AVR_UPDI" prefix="UPDI">
+<description>&lt;h3&gt;AVR UPDI Interface Header&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.microchip.com/webdoc/GUID-EAD481FD-28E6-4CD5-87FB-5165E7687C12/index.html?GUID-D6AF4259-B931-4FC0-933A-8F09EF8CA449"&gt;UPDI Physical Interface&lt;/a&gt;&lt;/p&gt;
+Breaks out the following signals in a 3-pin header:
+&lt;ul&gt;
+&lt;li&gt; Pin 1: VCC (for level shifter reference on programmer)&lt;/li&gt;
+&lt;li&gt; Pin 2: UPDI Data/Clock/Reset&lt;/li&gt;
+&lt;li&gt; Pin 3: GND&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="AVR_UPDI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.1&quot;" package="1X03">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="UPDI" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="" constant="no"/>
+<attribute name="PARTNUM" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBLADE_VERTICAL" package="MOLEX_53047-0310">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="UPDI" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53047-0310" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBLADE_SMT_HORIZONTAL" package="MOLEX_53261-0371">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="UPDI" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53261-0371" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBALDE_SMT_VERTICAL" package="MOLEX_53398-0371">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="UPDI" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53398-0371" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SERIAL_DEBUG" prefix="J">
+<description>&lt;h3&gt;Serial Debugging Header&lt;/h3&gt;
+Breaks out the following 3-pin header:
+&lt;ul&gt;
+&lt;li&gt; Pin 1: GND&lt;/li&gt;
+&lt;li&gt; Pin 2: Receive Data In&lt;/li&gt;
+&lt;li&gt; Pin 3: Transmit Data Out&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SERIAL_DEBUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0.1&quot;" package="1X03">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="RX/IN" pad="2"/>
+<connect gate="G$1" pin="TX/OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="" constant="no"/>
+<attribute name="PARTNUM" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBLADE" package="MOLEX_53047-0310">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="RX/IN" pad="2"/>
+<connect gate="G$1" pin="TX/OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53047-0310" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBALDE_SMT_HORIZONTAL" package="MOLEX_53261-0371">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="RX/IN" pad="2"/>
+<connect gate="G$1" pin="TX/OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53261-0371" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MOLEX_PICOBLADE_SMT_VERTICAL" package="MOLEX_53398-0371">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="RX/IN" pad="2"/>
+<connect gate="G$1" pin="TX/OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Molex" constant="no"/>
+<attribute name="PARTNUM" value="53398-0371" constant="no"/>
 </technology>
 </technologies>
 </device>
