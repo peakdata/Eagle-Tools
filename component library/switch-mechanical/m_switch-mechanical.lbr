@@ -498,7 +498,9 @@ This Alps "seesaw" switch features bi-directional opeartion as well as pushbutto
 </devices>
 </deviceset>
 <deviceset name="MS-101233" prefix="SW" uservalue="yes">
-<description>&lt;b&gt;Mountain Switch SMT Tactile Switch&lt;/b&gt;</description>
+<description>&lt;h4&gt;Mountain Switch SMT Tactile Switch&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="https://eu.mouser.com/datasheet/2/209/MS-101233-1172706.pdf"&gt;Mouser Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SWITCH_SPST" x="0" y="0"/>
 </gates>
@@ -509,7 +511,10 @@ This Alps "seesaw" switch features bi-directional opeartion as well as pushbutto
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUF" value="Mountain Switch" constant="no"/>
+<attribute name="PARTNUM" value="101-TF25N-EV" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
