@@ -931,6 +931,47 @@ grid 5.6 mm</description>
 <text x="-3.5" y="-4.15" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
 <text x="3.5" y="-4.15" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
 </package>
+<package name="SOT23_DIODES">
+<description>&lt;h3&gt;SOT23 for Diodes Inc. Devices&lt;/h3&gt;
+
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/79194424/image/Diodes-Inc.-DMN53D0LQ-7.jpg" alt="DMN53D0L" /&gt;&lt;/div&gt;
+&lt;p&gt;Based on Diodes Inc. &lt;a href="https://www.diodes.com/assets/Package-Files/SOT23.pdf" &gt;SOT23 Package Information&lt;/a&gt; document rev. 2017-01-30&lt;/p&gt;
+
+&lt;p&gt;Added 2019-10-30&lt;/p&gt;
+&lt;h4&gt;Pad Numbering Top View:&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</description>
+<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1" roundness="10"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1" roundness="10"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1" roundness="10"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.127" layer="51"/>
+<rectangle x1="-1.115" y1="-1.25" x2="-0.715" y2="-0.7" layer="51"/>
+<rectangle x1="0.715" y1="-1.25" x2="1.115" y2="-0.7" layer="51"/>
+<rectangle x1="-0.2" y1="0.7" x2="0.2" y2="1.25" layer="51"/>
+<wire x1="-1.5" y1="-0.35" x2="-1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-0.6" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.35" x2="1.5" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="0.6" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-0.7" x2="0.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="0" x2="0.25" y2="0" width="0.2" layer="35"/>
+<text x="-2" y="1.75" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2" y="-1.75" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.3" layer="39">
+<vertex x="-1.75" y="-1.7"/>
+<vertex x="1.75" y="-1.7"/>
+<vertex x="1.75" y="1"/>
+<vertex x="0.75" y="1"/>
+<vertex x="0.75" y="1.7"/>
+<vertex x="-0.75" y="1.7"/>
+<vertex x="-0.75" y="1"/>
+<vertex x="-1.75" y="1"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="P_MOSFET">
@@ -1954,6 +1995,100 @@ Features
 <technology name="">
 <attribute name="MANUF" value="Diodes" constant="no"/>
 <attribute name="PARTNUM" value="DMG1013T-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMN53D0LQ" prefix="Q">
+<description>&lt;h3&gt;DMN53D0LQ N-Channel Enhancement Mode MOSFET&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;This MOSFET has been designed to minimize the on-state resistance R&lt;sub&gt;DS(ON)&lt;/sub&gt; and yet maintain superior switching performance, making it ideal for high efficiency power management applications.&lt;/p&gt;
+
+&lt;table border="0.5" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;Qualified to AECQ10x&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;Yes&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;Automotive Compliant PPAP&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;DMN53D0LQ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;Polarity&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;N&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;ESD Diodes&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;Yes&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;VDS&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;50 V&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;VGS&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;20 ±V&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;IDS @ TA = +25°C&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;0.5 A&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;PD @ TA = +25°C&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;N/A W&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;RDS&lt;sub&gt;ON&lt;/sub&gt; Max @ VGS (10V)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;1600 mΩ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;RDS&lt;sub&gt;ON&lt;/sub&gt; Max @ VGS (4.5V)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;2500 mΩ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;RDS&lt;sub&gt;ON&lt;/sub&gt; Max @ VGS (2.5V)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;4500 mΩ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;RDS&lt;sub&gt;ON&lt;/sub&gt; Max @ VGS (1.8V)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;N/A mΩ&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;VGS&lt;sub&gt;th&lt;/sub&gt; Max&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;1.5 V&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;QG Typ @ VGS = 4.5V (nC)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;N/A nC&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th class="align-left valign-top"&gt;QG Typ @ VGS = 10V (nC)&lt;/th&gt;
+            &lt;td class="align-left valign-top"&gt;N/A nC&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=DMN53D0LQ-*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Added 2019-10-30&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23_DIODES">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Diodes" constant="no"/>
+<attribute name="PARTNUM" value="DMN53D0LQ-*" constant="no"/>
+<attribute name="VALUE" value="DMN53D0LQ" constant="no"/>
 </technology>
 </technologies>
 </device>
