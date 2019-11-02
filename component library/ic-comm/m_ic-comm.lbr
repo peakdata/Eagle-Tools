@@ -1023,8 +1023,8 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95" ratio="9" align="top-left">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96" ratio="9">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="MCP2221A">
 <description>&lt;h3&gt;MCP2221A&lt;/h3&gt;
