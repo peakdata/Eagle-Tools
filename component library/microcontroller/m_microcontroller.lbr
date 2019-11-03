@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -350,9 +350,9 @@
 <description>&lt;h3&gt;ATtiny1616/3216&lt;/h3&gt;</description>
 <pin name="VDD" x="-30.48" y="22.86" length="short" direction="pas"/>
 <pin name="AIN4/AIN0/XDIR/!SS!/WO4/WOA/LUT0-OUT/PA4" x="30.48" y="12.7" length="short" direction="pas" rot="R180"/>
-<pin name="/VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" x="30.48" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" x="30.48" y="10.16" length="short" direction="pas" rot="R180"/>
 <pin name="AIN6/AIN2/DACOUT/PA6" x="30.48" y="7.62" length="short" direction="pas" rot="R180"/>
-<pin name="/AIN7/AIN3/LUT1-OUT/PA7" x="30.48" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="AIN7/AIN3/LUT1-OUT/PA7" x="30.48" y="5.08" length="short" direction="pas" rot="R180"/>
 <pin name="CLKOUT/AIN8/WO2/PB5" x="30.48" y="-12.7" length="short" direction="pas" rot="R180"/>
 <pin name="AIN9/WO1/LUT0-OUT/PB4" x="30.48" y="-10.16" length="short" direction="pas" rot="R180"/>
 <pin name="TOSC1/RXD/WO0/PB3" x="30.48" y="-7.62" length="short" direction="pas" rot="R180"/>
@@ -590,14 +590,13 @@ Specially designed for lamp ballast and Motor Control applications, the AT90PWM2
 <device name="-S*" package="SOIC300">
 <connects>
 <connect gate="G$1" pin="!RESET!/UPDI/AIN0/LUT0-IN0/PA0" pad="16"/>
-<connect gate="G$1" pin="/AIN7/AIN3/LUT1-OUT/PA7" pad="5"/>
-<connect gate="G$1" pin="/VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" pad="3"/>
 <connect gate="G$1" pin="AIN1/TXD/MOSI/SDA/LUT0-IN1/PA1" pad="17"/>
 <connect gate="G$1" pin="AIN10/XCK/SDA/WO1/PB1" pad="10"/>
 <connect gate="G$1" pin="AIN11/XDIR/SCL/WO0/PB0" pad="11"/>
 <connect gate="G$1" pin="AIN4/AIN0/XDIR/!SS!/WO4/WOA/LUT0-OUT/PA4" pad="2"/>
 <connect gate="G$1" pin="AIN6/AIN2/DACOUT/PA6" pad="4"/>
 <connect gate="G$1" pin="AIN6/SCK/TCB0WO/WOC/PC0" pad="12"/>
+<connect gate="G$1" pin="AIN7/AIN3/LUT1-OUT/PA7" pad="5"/>
 <connect gate="G$1" pin="AIN7/MISO/WOD/LUT1-OUT/PC1" pad="13"/>
 <connect gate="G$1" pin="AIN9/!SS!/WO3/LUT1-IN0/PC3" pad="15"/>
 <connect gate="G$1" pin="AIN9/WO1/LUT0-OUT/PB4" pad="7"/>
@@ -609,6 +608,7 @@ Specially designed for lamp ballast and Motor Control applications, the AT90PWM2
 <connect gate="G$1" pin="TOSC1/RXD/WO0/PB3" pad="8"/>
 <connect gate="G$1" pin="TOSC2/EVOUT1/TXD/WO2/PB2" pad="9"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
