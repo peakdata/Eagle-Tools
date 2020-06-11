@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -66,7 +66,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -123,6 +123,70 @@
 <vertex x="-2" y="-1"/>
 </polygon>
 </package>
+<package name="ECS-3961/3963_SMD_OSCILLATOR">
+<description>&lt;h3&gt;ECS-3961 (5V) and ECS-3963 (3.3V) miniature SMD crystal controlled oscillators&lt;/h3&gt;
+&lt;h4&gt;3.2 x 5 mm Footprint&lt;/h4&gt;
+&lt;div&gt;&lt;img src="https://ecsxtal.com/images/parametric-search/3951M.png" width=200 /&gt;&lt;/div&gt;</description>
+<smd name="1" x="-1.27" y="-1.1" dx="1.4" dy="1.2" layer="1" roundness="5" thermals="no"/>
+<smd name="2" x="1.27" y="-1.1" dx="1.4" dy="1.2" layer="1" roundness="5" thermals="no"/>
+<smd name="3" x="1.27" y="1.1" dx="1.4" dy="1.2" layer="1" roundness="5" rot="R180" thermals="no"/>
+<smd name="4" x="-1.27" y="1.1" dx="1.4" dy="1.2" layer="1" roundness="5" rot="R180" thermals="no"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-0.45" x2="-2.5" y2="0.45" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="0.75" x2="-2.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.67" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-0.45" x2="-2.5" y2="-0.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="-2.5" y1="0.75" x2="-2.5" y2="0.45" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="2.5" y1="0.45" x2="2.5" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-0.75" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.5" y1="0.45" x2="2.5" y2="0.75" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.5" y1="-0.75" x2="2.5" y2="-0.45" width="0.127" layer="51" curve="-180"/>
+<wire x1="1.67" y1="1.6" x2="1.42" y2="1.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="0.87" y1="1.6" x2="1.12" y2="1.35" width="0.127" layer="51" curve="90"/>
+<wire x1="1.12" y1="1.35" x2="1.42" y2="1.35" width="0.127" layer="51"/>
+<rectangle x1="0.67" y1="0.6" x2="1.87" y2="1.4135" layer="51"/>
+<rectangle x1="0.67" y1="1.4135" x2="0.9" y2="1.6" layer="51"/>
+<rectangle x1="1.64" y1="1.4135" x2="1.87" y2="1.6" layer="51"/>
+<wire x1="-0.87" y1="1.6" x2="-1.12" y2="1.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.67" y1="1.6" x2="-1.42" y2="1.35" width="0.127" layer="51" curve="90"/>
+<wire x1="-1.42" y1="1.35" x2="-1.12" y2="1.35" width="0.127" layer="51"/>
+<rectangle x1="-1.87" y1="0.6" x2="-0.67" y2="1.4135" layer="51"/>
+<rectangle x1="-1.87" y1="1.4135" x2="-1.64" y2="1.6" layer="51"/>
+<rectangle x1="-0.9" y1="1.4135" x2="-0.67" y2="1.6" layer="51"/>
+<wire x1="-0.87" y1="1.6" x2="0.87" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-1.67" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.67" y1="-1.6" x2="-2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.67" y1="-1.6" x2="-1.42" y2="-1.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="-0.87" y1="-1.6" x2="-1.12" y2="-1.35" width="0.127" layer="51" curve="90"/>
+<wire x1="-1.12" y1="-1.35" x2="-1.42" y2="-1.35" width="0.127" layer="51"/>
+<rectangle x1="-1.87" y1="-1.4135" x2="-0.67" y2="-0.6" layer="51" rot="R180"/>
+<rectangle x1="-0.9" y1="-1.6" x2="-0.67" y2="-1.4135" layer="51" rot="R180"/>
+<rectangle x1="-1.87" y1="-1.6" x2="-1.64" y2="-1.4135" layer="51" rot="R180"/>
+<wire x1="0.87" y1="-1.6" x2="1.12" y2="-1.35" width="0.127" layer="51" curve="-90"/>
+<wire x1="1.67" y1="-1.6" x2="1.42" y2="-1.35" width="0.127" layer="51" curve="90"/>
+<wire x1="1.42" y1="-1.35" x2="1.12" y2="-1.35" width="0.127" layer="51"/>
+<rectangle x1="0.67" y1="-1.4135" x2="1.87" y2="-0.6" layer="51" rot="R180"/>
+<rectangle x1="1.64" y1="-1.6" x2="1.87" y2="-1.4135" layer="51" rot="R180"/>
+<rectangle x1="0.67" y1="-1.6" x2="0.9" y2="-1.4135" layer="51" rot="R180"/>
+<wire x1="0.87" y1="-1.6" x2="-0.87" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="1.67" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="2.2" y2="-1.6" width="0.127" layer="21"/>
+<circle x="-2.25" y="-2.2" radius="0.2" width="0.2" layer="21"/>
+<text x="-2.75" y="-2.5" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="2.75" y="-2.5" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.4" layer="39">
+<vertex x="-2.5" y="1.7"/>
+<vertex x="2.5" y="1.7"/>
+<vertex x="2.5" y="-1.7"/>
+<vertex x="-2.5" y="-1.7"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -140,6 +204,29 @@
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="XTAL_OSCILLATOR">
+<description>&lt;h3&gt;Crystal Oscillator with Enable&lt;/h3&gt;</description>
+<pin name="VDD" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -234,6 +321,32 @@ PARAMETERS
 <attribute name="MANUF" value="Abracon" constant="no"/>
 <attribute name="PARTNUM" value="ABS07AIG*" constant="no"/>
 <attribute name="VALUE" value="32.768k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECS-3961/3963" prefix="Y" uservalue="yes">
+<description>&lt;h3&gt;ECS-3961 (5V) and ECS-3963 (3.3V) miniature SMD crystal controlled oscillators&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=ECS-396*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2020-05-29&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XTAL_OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ECS-3961/3963_SMD_OSCILLATOR">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ECS International" constant="no"/>
+<attribute name="PARTNUM" value="ECS-396*" constant="no"/>
+<attribute name="VALUE" value="xMHz" constant="no"/>
 </technology>
 </technologies>
 </device>
