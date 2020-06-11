@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -24,10 +24,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -272,6 +272,75 @@
 <vertex x="-7.5" y="-6"/>
 </polygon>
 </package>
+<package name="VQFN24">
+<description>&lt;h3&gt;VQFN24&lt;/h3&gt;
+&lt;h4&gt;4mm &amp;times; 4mm Very Thin Plastic Quad Flat, No Lead Package (RLB)&lt;/h4&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/82522003/image/Microchip-ATTINY3217-MN.jpg" alt="ATTINY3217-M*"/&gt;&lt;/div&gt;
+&lt;p&gt;Based on Microchip datasheet 40001999C, drawings C04-21386 Rev A, C04-21386 Rev A, C04-23386 Rev A&lt;/p&gt;</description>
+<smd name="PAD" x="0" y="0" dx="2.75" dy="2.75" layer="1" roundness="4" thermals="no"/>
+<smd name="1" x="-2" y="1.25" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="2" x="-2" y="0.75" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="3" x="-2" y="0.25" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="4" x="-2" y="-0.25" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="5" x="-2" y="-0.75" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="6" x="-2" y="-1.25" dx="0.85" dy="0.3" layer="1" roundness="10" thermals="no"/>
+<smd name="7" x="-1.25" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="8" x="-0.75" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="9" x="-0.25" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="10" x="0.25" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="11" x="0.75" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="12" x="1.25" y="-2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R90" thermals="no"/>
+<smd name="13" x="2" y="-1.25" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="14" x="2" y="-0.75" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="15" x="2" y="-0.25" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="16" x="2" y="0.25" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="17" x="2" y="0.75" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="18" x="2" y="1.25" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R180" thermals="no"/>
+<smd name="19" x="1.25" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<smd name="20" x="0.75" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<smd name="21" x="0.25" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<smd name="22" x="-0.25" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<smd name="23" x="-0.75" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<smd name="24" x="-1.25" y="2" dx="0.85" dy="0.3" layer="1" roundness="10" rot="R270" thermals="no"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
+<rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="1.3" layer="51"/>
+<rectangle x1="1.6" y1="0.125" x2="2" y2="0.375" layer="51"/>
+<rectangle x1="1.6" y1="0.625" x2="2" y2="0.875" layer="51"/>
+<rectangle x1="1.6" y1="1.125" x2="2" y2="1.375" layer="51"/>
+<rectangle x1="1.6" y1="-0.375" x2="2" y2="-0.125" layer="51"/>
+<rectangle x1="1.6" y1="-0.875" x2="2" y2="-0.625" layer="51"/>
+<rectangle x1="1.6" y1="-1.375" x2="2" y2="-1.125" layer="51"/>
+<rectangle x1="-0.45" y1="1.675" x2="-0.05" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="-0.95" y1="1.675" x2="-0.55" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="-1.45" y1="1.675" x2="-1.05" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="0.05" y1="1.675" x2="0.45" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="0.55" y1="1.675" x2="0.95" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="1.05" y1="1.675" x2="1.45" y2="1.925" layer="51" rot="R90"/>
+<rectangle x1="-2" y1="-0.375" x2="-1.6" y2="-0.125" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="-0.875" x2="-1.6" y2="-0.625" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="-1.375" x2="-1.6" y2="-1.125" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="0.125" x2="-1.6" y2="0.375" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="0.625" x2="-1.6" y2="0.875" layer="51" rot="R180"/>
+<rectangle x1="-2" y1="1.125" x2="-1.6" y2="1.375" layer="51" rot="R180"/>
+<rectangle x1="0.05" y1="-1.925" x2="0.45" y2="-1.675" layer="51" rot="R270"/>
+<rectangle x1="0.55" y1="-1.925" x2="0.95" y2="-1.675" layer="51" rot="R270"/>
+<rectangle x1="1.05" y1="-1.925" x2="1.45" y2="-1.675" layer="51" rot="R270"/>
+<rectangle x1="-0.45" y1="-1.925" x2="-0.05" y2="-1.675" layer="51" rot="R270"/>
+<rectangle x1="-0.95" y1="-1.925" x2="-0.55" y2="-1.675" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="-1.925" x2="-1.05" y2="-1.675" layer="51" rot="R270"/>
+<wire x1="-2" y1="2" x2="-2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="2" x2="-1.6" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="1.6" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="1.6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-1.6" y2="-2" width="0.127" layer="21"/>
+<circle x="-3" y="1.85" radius="0.2" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AT90PWM2">
@@ -347,33 +416,95 @@
 <pin name="PB7_ADC4/PSCOUT01/SCK" x="25.4" y="17.78" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="ATTINY3216/1616">
-<description>&lt;h3&gt;ATtiny1616/3216&lt;/h3&gt;</description>
-<pin name="VDD" x="-30.48" y="22.86" length="short" direction="pas"/>
-<pin name="AIN4/AIN0/XDIR/!SS!/WO4/WOA/LUT0-OUT/PA4" x="30.48" y="12.7" length="short" direction="pas" rot="R180"/>
-<pin name="VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" x="30.48" y="10.16" length="short" direction="pas" rot="R180"/>
-<pin name="AIN6/AIN2/DACOUT/PA6" x="30.48" y="7.62" length="short" direction="pas" rot="R180"/>
-<pin name="AIN7/AIN3/LUT1-OUT/PA7" x="30.48" y="5.08" length="short" direction="pas" rot="R180"/>
-<pin name="CLKOUT/AIN8/WO2/PB5" x="30.48" y="-12.7" length="short" direction="pas" rot="R180"/>
-<pin name="AIN9/WO1/LUT0-OUT/PB4" x="30.48" y="-10.16" length="short" direction="pas" rot="R180"/>
-<pin name="TOSC1/RXD/WO0/PB3" x="30.48" y="-7.62" length="short" direction="pas" rot="R180"/>
-<pin name="TOSC2/EVOUT1/TXD/WO2/PB2" x="30.48" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="AIN10/XCK/SDA/WO1/PB1" x="30.48" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="AIN11/XDIR/SCL/WO0/PB0" x="30.48" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="AIN6/SCK/TCB0WO/WOC/PC0" x="30.48" y="-17.78" length="short" direction="pas" rot="R180"/>
-<pin name="AIN7/MISO/WOD/LUT1-OUT/PC1" x="30.48" y="-20.32" length="short" direction="pas" rot="R180"/>
-<pin name="EVOUT2/AIN8/MOSI/PC2" x="30.48" y="-22.86" length="short" direction="pas" rot="R180"/>
-<pin name="AIN9/!SS!/WO3/LUT1-IN0/PC3" x="30.48" y="-25.4" length="short" direction="pas" rot="R180"/>
-<pin name="!RESET!/UPDI/AIN0/LUT0-IN0/PA0" x="30.48" y="22.86" length="short" direction="pas" rot="R180"/>
-<pin name="AIN1/TXD/MOSI/SDA/LUT0-IN1/PA1" x="30.48" y="20.32" length="short" direction="pas" rot="R180"/>
-<pin name="EVOUT0/AIN2/RXD/MISO/SCL/LUT0-IN2/PA2" x="30.48" y="17.78" length="short" direction="pas" rot="R180"/>
-<pin name="EXTCLK/AIN3/XCK/SCK/WO3/TCB1WO/PA3" x="30.48" y="15.24" length="short" direction="pas" rot="R180"/>
-<pin name="GND" x="-30.48" y="-15.24" length="short" direction="pas"/>
-<wire x1="-27.94" y1="25.4" x2="27.94" y2="25.4" width="0.254" layer="94"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-27.94" x2="-27.94" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="-27.94" x2="-27.94" y2="25.4" width="0.254" layer="94"/>
-<text x="-27.94" y="27.94" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-27.94" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<description>&lt;h3&gt;ATtiny1616/3216&lt;/h3&gt;
+
+&lt;h4&gt;Key:&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-face:sans;font-size:24px"&gt;*&lt;/span&gt;Indicates alternate pin function&lt;/p&gt;
+&lt;p&gt;ADC inputs are designated as follows:
+&lt;ul&gt;
+&lt;li&gt;AD0A&lt;em&gt;N&lt;/em&gt;: ADC0 analog input &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 11.&lt;/li&gt;
+&lt;li&gt;AD1A&lt;em&gt;N&lt;/em&gt;: ADC1 analog input &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 3 or 6 through 9.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Timer/Counter Waveform Outputs are designated as follows:
+&lt;ul&gt;
+&lt;li&gt;WOA&lt;em&gt;N&lt;/em&gt;: Timer/Counter A0 Waveform Out &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 5.&lt;/li&gt;
+&lt;li&gt;WOB&lt;em&gt;N&lt;/em&gt;: Timer/Counter B&lt;em&gt;N&lt;/em&gt; Waveform Out (TCB only has single output), where &lt;em&gt;N&lt;/em&gt; is 0 or 1.&lt;/li&gt;
+&lt;li&gt;WOD&lt;em&gt;X&lt;/em&gt;: Timer/Counter D0 Waveform Out &lt;em&gt;X&lt;/em&gt;, where &lt;em&gt;X&lt;/em&gt; is A through D.&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="VDD" x="-38.1" y="22.86" length="short" direction="pas"/>
+<pin name="AD0A4/AD1A0/XDIR/XDIR*/!SS!/WOA4/WODA/LT0OUT/PA4" x="38.1" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="VREFA/AD0A5/AD1A1/WOA5/WOB0/WODB/PA5" x="38.1" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A6/AD1A2/DACOUT/ASYNCI/PA6" x="38.1" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A7/AD0A3/LUT1OUT/PA7" x="38.1" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="CLKOUT/AD0A8/WOA2*/PB5" x="38.1" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A9/WOA1*/LUT0OUT*/PB4" x="38.1" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="TOSC1/RXD/WOA0*/PB3" x="38.1" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="TOSC2/EVOUT1/TXD/WOA2/ASYNCI/PB2" x="38.1" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A10/XCK/SDA/WOA1/PB1" x="38.1" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A11/XDIR/SCL/WOA0/PB0" x="38.1" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A6/SCK*/WOB0*/WODC/PC0" x="38.1" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A7/MISO*/WODD/LUT1OUT*/PC1" x="38.1" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="EVOUT2/AD1A8/MOSI*/ASYNCI/PC2" x="38.1" y="-22.86" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A9/!SS!*/WOA3/LUT1IN0/PC3" x="38.1" y="-25.4" length="short" direction="pas" rot="R180"/>
+<pin name="!RESET!/UPDI/AD0A0/LT0IN0/PA0" x="38.1" y="22.86" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A1/TXD*/MOSI/SDA*/LT0IN1/PA1" x="38.1" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="EV0/AD0A2/RXD*/MISO/SCL*/LT0IN2/ASYNCI/PA2" x="38.1" y="17.78" length="short" direction="pas" rot="R180"/>
+<pin name="EXTCLK/AD0A3/XCK*/SCK/WOA3/WOB1/PA3" x="38.1" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-38.1" y="-15.24" length="short" direction="pas"/>
+<wire x1="-35.56" y1="25.4" x2="35.56" y2="25.4" width="0.254" layer="94"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-27.94" x2="-35.56" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-27.94" x2="-35.56" y2="25.4" width="0.254" layer="94"/>
+<text x="-35.56" y="27.94" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-35.56" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ATTINY3217/1617">
+<description>&lt;h3&gt;ATtiny1617/3217&lt;/h3&gt;
+&lt;h4&gt;Key:&lt;/h4&gt;
+&lt;p&gt;&lt;span style="font-face:sans;font-size:24px"&gt;*&lt;/span&gt;Indicates alternate pin function&lt;/p&gt;
+&lt;p&gt;ADC inputs are designated as follows:
+&lt;ul&gt;
+&lt;li&gt;AD0A&lt;em&gt;N&lt;/em&gt;: ADC0 analog input &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 11.&lt;/li&gt;
+&lt;li&gt;AD1A&lt;em&gt;N&lt;/em&gt;: ADC1 analog input &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 11.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Timer/Counter Waveform Outputs are designated as follows:
+&lt;ul&gt;
+&lt;li&gt;WOA&lt;em&gt;N&lt;/em&gt;: Timer/Counter A0 Waveform Out &lt;em&gt;N&lt;/em&gt;, where &lt;em&gt;N&lt;/em&gt; is 0 through 5.&lt;/li&gt;
+&lt;li&gt;WOB&lt;em&gt;N&lt;/em&gt;: Timer/Counter B&lt;em&gt;N&lt;/em&gt; Waveform Out (TCB only has single output), where &lt;em&gt;N&lt;/em&gt; is 0 or 1.&lt;/li&gt;
+&lt;li&gt;WOD&lt;em&gt;X&lt;/em&gt;: Timer/Counter D0 Waveform Out &lt;em&gt;X&lt;/em&gt;, where &lt;em&gt;X&lt;/em&gt; is A through D.&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="VDD" x="-38.1" y="27.94" length="short" direction="pas"/>
+<pin name="AD0A4/AD1A0/XDIR/XDIR*/!SS!/WOA4/WODA/LT0OUT/PA4" x="38.1" y="17.78" length="short" direction="pas" rot="R180"/>
+<pin name="VREFA/AD0A5/AD1A1/WOA5/WOB0/WODB/PA5" x="38.1" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A6/AD1A2/DACOUT/ASYNCI/PA6" x="38.1" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A7/AD0A3/LUT1OUT/PA7" x="38.1" y="10.16" length="short" direction="pas" rot="R180"/>
+<pin name="CLKOUT/AD0A8/WOA2*/PB5" x="38.1" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A9/WOA1*/LUT0OUT*/PB4" x="38.1" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="TOSC1/RXD/WOA0*/PB3" x="38.1" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="TOSC2/EVOUT1/TXD/WOA2/ASYNCI/PB2" x="38.1" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A10/XCK/SDA/WOA1/PB1" x="38.1" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A11/XDIR/SCL/WOA0/PB0" x="38.1" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A6/SCK*/WOB0*/WODC/PC0" x="38.1" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A7/MISO*/WODD/LUT1OUT*/PC1" x="38.1" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="EVOUT2/AD1A8/MOSI*/ASYNCI/PC2" x="38.1" y="-22.86" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A9/!SS!*/WOA3/LUT1IN0/PC3" x="38.1" y="-25.4" length="short" direction="pas" rot="R180"/>
+<pin name="!RESET!/UPDI/AD0A0/LT0IN0/PA0" x="38.1" y="27.94" length="short" direction="pas" rot="R180"/>
+<pin name="AD0A1/TXD*/MOSI/SDA*/LT0IN1/PA1" x="38.1" y="25.4" length="short" direction="pas" rot="R180"/>
+<pin name="EV0/AD0A2/RXD*/MISO/SCL*/LT0IN2/ASYNCI/PA2" x="38.1" y="22.86" length="short" direction="pas" rot="R180"/>
+<pin name="EXTCLK/AD0A3/XCK*/SCK/WOA3/WOB1/PA3" x="38.1" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-38.1" y="-20.32" length="short" direction="pas"/>
+<wire x1="-35.56" y1="30.48" x2="35.56" y2="30.48" width="0.254" layer="94"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-33.02" x2="-35.56" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-33.02" x2="-35.56" y2="30.48" width="0.254" layer="94"/>
+<text x="-35.56" y="33.02" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-35.56" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="AD1A5/ASYNCI/PB6" x="38.1" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A4/PB7" x="38.1" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="AD1A10/WOA4*/WOB1*/LUT1IN1/PC4" x="38.1" y="-27.94" length="short" direction="pas" rot="R180"/>
+<pin name="WOA5/LUT1IN2/PC5" x="38.1" y="-30.48" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -589,32 +720,188 @@ Specially designed for lamp ballast and Motor Control applications, the AT90PWM2
 <devices>
 <device name="-S*" package="SOIC300">
 <connects>
-<connect gate="G$1" pin="!RESET!/UPDI/AIN0/LUT0-IN0/PA0" pad="16"/>
-<connect gate="G$1" pin="AIN1/TXD/MOSI/SDA/LUT0-IN1/PA1" pad="17"/>
-<connect gate="G$1" pin="AIN10/XCK/SDA/WO1/PB1" pad="10"/>
-<connect gate="G$1" pin="AIN11/XDIR/SCL/WO0/PB0" pad="11"/>
-<connect gate="G$1" pin="AIN4/AIN0/XDIR/!SS!/WO4/WOA/LUT0-OUT/PA4" pad="2"/>
-<connect gate="G$1" pin="AIN6/AIN2/DACOUT/PA6" pad="4"/>
-<connect gate="G$1" pin="AIN6/SCK/TCB0WO/WOC/PC0" pad="12"/>
-<connect gate="G$1" pin="AIN7/AIN3/LUT1-OUT/PA7" pad="5"/>
-<connect gate="G$1" pin="AIN7/MISO/WOD/LUT1-OUT/PC1" pad="13"/>
-<connect gate="G$1" pin="AIN9/!SS!/WO3/LUT1-IN0/PC3" pad="15"/>
-<connect gate="G$1" pin="AIN9/WO1/LUT0-OUT/PB4" pad="7"/>
-<connect gate="G$1" pin="CLKOUT/AIN8/WO2/PB5" pad="6"/>
-<connect gate="G$1" pin="EVOUT0/AIN2/RXD/MISO/SCL/LUT0-IN2/PA2" pad="18"/>
-<connect gate="G$1" pin="EVOUT2/AIN8/MOSI/PC2" pad="14"/>
-<connect gate="G$1" pin="EXTCLK/AIN3/XCK/SCK/WO3/TCB1WO/PA3" pad="19"/>
+<connect gate="G$1" pin="!RESET!/UPDI/AD0A0/LT0IN0/PA0" pad="16"/>
+<connect gate="G$1" pin="AD0A1/TXD*/MOSI/SDA*/LT0IN1/PA1" pad="17"/>
+<connect gate="G$1" pin="AD0A10/XCK/SDA/WOA1/PB1" pad="10"/>
+<connect gate="G$1" pin="AD0A11/XDIR/SCL/WOA0/PB0" pad="11"/>
+<connect gate="G$1" pin="AD0A4/AD1A0/XDIR/XDIR*/!SS!/WOA4/WODA/LT0OUT/PA4" pad="2"/>
+<connect gate="G$1" pin="AD0A6/AD1A2/DACOUT/ASYNCI/PA6" pad="4"/>
+<connect gate="G$1" pin="AD0A7/AD0A3/LUT1OUT/PA7" pad="5"/>
+<connect gate="G$1" pin="AD0A9/WOA1*/LUT0OUT*/PB4" pad="7"/>
+<connect gate="G$1" pin="AD1A6/SCK*/WOB0*/WODC/PC0" pad="12"/>
+<connect gate="G$1" pin="AD1A7/MISO*/WODD/LUT1OUT*/PC1" pad="13"/>
+<connect gate="G$1" pin="AD1A9/!SS!*/WOA3/LUT1IN0/PC3" pad="15"/>
+<connect gate="G$1" pin="CLKOUT/AD0A8/WOA2*/PB5" pad="6"/>
+<connect gate="G$1" pin="EV0/AD0A2/RXD*/MISO/SCL*/LT0IN2/ASYNCI/PA2" pad="18"/>
+<connect gate="G$1" pin="EVOUT2/AD1A8/MOSI*/ASYNCI/PC2" pad="14"/>
+<connect gate="G$1" pin="EXTCLK/AD0A3/XCK*/SCK/WOA3/WOB1/PA3" pad="19"/>
 <connect gate="G$1" pin="GND" pad="20"/>
-<connect gate="G$1" pin="TOSC1/RXD/WO0/PB3" pad="8"/>
-<connect gate="G$1" pin="TOSC2/EVOUT1/TXD/WO2/PB2" pad="9"/>
+<connect gate="G$1" pin="TOSC1/RXD/WOA0*/PB3" pad="8"/>
+<connect gate="G$1" pin="TOSC2/EVOUT1/TXD/WOA2/ASYNCI/PB2" pad="9"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VREFA/AIN5/AIN1/WO5/TCB0WO/WOB/PA5" pad="3"/>
+<connect gate="G$1" pin="VREFA/AD0A5/AD1A1/WOA5/WOB0/WODB/PA5" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="Microchip" constant="no"/>
 <attribute name="PARTNUM" value="ATtiny3216-S*" constant="no"/>
 <attribute name="VALUE" value="ATtiny3216" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATTINY1617/3217" prefix="IC" uservalue="yes">
+<description>&lt;h3&gt;ATtiny1617/3217&lt;/h3&gt;
+
+&lt;h4&gt;tinyAVR® 1-series&lt;/h4&gt;
+
+&lt;h4&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;The ATtiny1617/3217 are members of the tinyAVR® 1-series of microcontrollers, using the AVR® processor with hardware multiplier, running at up to 20 MHz, with 16/32 KB Flash, 2 KB of SRAM, and 256 bytes of EEPROM in a 24-pin package.&lt;/p&gt;
+&lt;p&gt;The tinyAVR® 1-series uses the latest technologies with a flexible, low-power architecture including Event System and SleepWalking, accurate analog features, and Core Independent Peripherals.&lt;/p&gt;
+&lt;p&gt;Capacitive touch interfaces with driven shield are supported with the integrated QTouch® peripheral touch controller.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;CPU&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;AVR® CPU&lt;/li&gt;
+    &lt;li&gt;Running at up to 20 MHz&lt;/li&gt;
+    &lt;li&gt;Single-cycle I/O access&lt;/li&gt;
+    &lt;li&gt;Two-level interrupt controller&lt;/li&gt;
+    &lt;li&gt;Two-cycle hardware multiplier&lt;/li&gt;
+  &lt;/ul&gt;
+    
+  &lt;li&gt;Memories&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;32/16 KB In-system self-programmable Flash memory&lt;/li&gt;
+    &lt;li&gt;256 bytes EEPROM&lt;/li&gt;
+    &lt;li&gt;2 KB SRAM&lt;/li&gt;
+    &lt;li&gt;Write/erase endurance: Flash 10,000 cycles EEPROM 100,000 cycles&lt;/li&gt;
+    &lt;li&gt;Data retention: 40 years at 55°C&lt;/li&gt;
+  &lt;/ul&gt;
+    
+  &lt;li&gt;System&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Power-on Reset (POR)&lt;/li&gt;
+    &lt;li&gt;Brown-out Detector (BOD)&lt;/li&gt;
+    &lt;li&gt;Clock options:&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;16/20 MHz low-power internal RC oscillator&lt;/li&gt;
+        &lt;li&gt;32.768 kHz Ultra Low-Power (ULP) internal RC oscillator&lt;/li&gt;
+        &lt;li&gt;32.768 kHz external crystal oscillator&lt;/li&gt;
+        &lt;li&gt;External clock input&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;Single-pin Unified Program and Debug Interface (UPDI)&lt;/li&gt;
+    &lt;li&gt;Three sleep modes:&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Idle with all peripherals running for immediate wake-up&lt;/li&gt;
+        &lt;li&gt;Standby&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;Configurable operation of selected peripherals&lt;/li&gt;
+    &lt;li&gt;SleepWalking peripherals&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Power-Down with full data retention&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;Peripherals&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;One 16-bit Timer/Counter type A (TCA) with dedicated period register and three compare channels&lt;/li&gt;
+    &lt;li&gt;Two 16-bit Timer/Counter type B (TCB) with input capture&lt;/li&gt;
+    &lt;li&gt;One 12-bit Timer/Counter type D (TCD) optimized for control applications&lt;/li&gt;
+    &lt;li&gt;One 16-bit Real-Time Counter (RTC) running from an external crystal, external clock, or internal RC oscillator&lt;/li&gt;
+    &lt;li&gt;Watchdog Timer (WDT) with Window mode, with a separate on-chip oscillator&lt;/li&gt;
+    &lt;li&gt;One USART with fractional baud rate generator, auto-baud, and start-of-frame detection&lt;/li&gt;
+    &lt;li&gt;One master/slave Serial Peripheral Interface (SPI)&lt;/li&gt;
+    &lt;li&gt;One Two-Wire Interface (TWI) with dual address match&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Philips I2C compatible&lt;/li&gt;
+        &lt;li&gt;Standard mode (Sm, 100 kHz)&lt;/li&gt;
+        &lt;li&gt;Fast mode (Fm, 400 kHz)&lt;/li&gt;
+        &lt;li&gt;Fast mode plus (Fm+, 1 MHz)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;Three Analog Comparators (AC) with low propagation delay&lt;/li&gt;
+    &lt;li&gt;Two 10-bit 115 ksps Analog-to-Digital Converters (ADC)&lt;/li&gt;
+    &lt;li&gt;Three 8-bit Digital-to-Analog Converters (DAC) with one external channel&lt;/li&gt;
+    &lt;li&gt;Multiple voltage references (VREF):&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;0.55V&lt;/li&gt;
+        &lt;li&gt;1.1V&lt;/li&gt;
+        &lt;li&gt;1.5V&lt;/li&gt;
+        &lt;li&gt;2.5V&lt;/li&gt;
+        &lt;li&gt;4.3V&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;Event System (EVSYS) for CPU independent and predictable inter-peripheral signaling&lt;/li&gt;
+    &lt;li&gt;Configurable Custom Logic (CCL) with two programmable look-up tables&lt;/li&gt;
+    &lt;li&gt;Automated CRC memory scan&lt;/li&gt;
+    &lt;li&gt;Peripheral Touch Controller (PTC)&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Capacitive touch buttons, sliders, wheels and 2D surfaces&lt;/li&gt;
+        &lt;li&gt;Wake-up on touch&lt;/li&gt;
+        &lt;li&gt;Driven shield for improved moisture and noise handling performance&lt;/li&gt;
+        &lt;li&gt;Up to 14 self capacitance channels&lt;/li&gt;
+        &lt;li&gt;Up to 49 mutual capacitance channels&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;External interrupt on all general purpose pins&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;I/O and Packages:&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;22 programmable I/O lines&lt;/li&gt;
+    &lt;li&gt;24-pin VQFN 4x4 mm&lt;/li&gt;
+    &lt;li&gt;Temperature Ranges:&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;-40°C to 105°C&lt;/li&gt;
+        &lt;li&gt;-40°C to 125°C&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;li&gt;Speed Grades:&lt;/li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;0-5 MHz @ 1.8V - 5.5V&lt;/li&gt;
+        &lt;li&gt;0-10 MHz @ 2.7V - 5.5V&lt;/li&gt;
+        &lt;li&gt;0-20 MHz @ 4.5V - 5.5V&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;&lt;/li&gt;&lt;/li&gt;
+
+&lt;p&gt;&lt;a href='https://octopart.com/search?q=attiny3217-*'&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2020-05-21&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATTINY3217/1617" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-M*" package="VQFN24">
+<connects>
+<connect gate="G$1" pin="!RESET!/UPDI/AD0A0/LT0IN0/PA0" pad="23"/>
+<connect gate="G$1" pin="AD0A1/TXD*/MOSI/SDA*/LT0IN1/PA1" pad="24"/>
+<connect gate="G$1" pin="AD0A10/XCK/SDA/WOA1/PB1" pad="15"/>
+<connect gate="G$1" pin="AD0A11/XDIR/SCL/WOA0/PB0" pad="16"/>
+<connect gate="G$1" pin="AD0A4/AD1A0/XDIR/XDIR*/!SS!/WOA4/WODA/LT0OUT/PA4" pad="5"/>
+<connect gate="G$1" pin="AD0A6/AD1A2/DACOUT/ASYNCI/PA6" pad="7"/>
+<connect gate="G$1" pin="AD0A7/AD0A3/LUT1OUT/PA7" pad="8"/>
+<connect gate="G$1" pin="AD0A9/WOA1*/LUT0OUT*/PB4" pad="12"/>
+<connect gate="G$1" pin="AD1A10/WOA4*/WOB1*/LUT1IN1/PC4" pad="21"/>
+<connect gate="G$1" pin="AD1A4/PB7" pad="9"/>
+<connect gate="G$1" pin="AD1A5/ASYNCI/PB6" pad="10"/>
+<connect gate="G$1" pin="AD1A6/SCK*/WOB0*/WODC/PC0" pad="17"/>
+<connect gate="G$1" pin="AD1A7/MISO*/WODD/LUT1OUT*/PC1" pad="18"/>
+<connect gate="G$1" pin="AD1A9/!SS!*/WOA3/LUT1IN0/PC3" pad="20"/>
+<connect gate="G$1" pin="CLKOUT/AD0A8/WOA2*/PB5" pad="11"/>
+<connect gate="G$1" pin="EV0/AD0A2/RXD*/MISO/SCL*/LT0IN2/ASYNCI/PA2" pad="1"/>
+<connect gate="G$1" pin="EVOUT2/AD1A8/MOSI*/ASYNCI/PC2" pad="19"/>
+<connect gate="G$1" pin="EXTCLK/AD0A3/XCK*/SCK/WOA3/WOB1/PA3" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3 PAD"/>
+<connect gate="G$1" pin="TOSC1/RXD/WOA0*/PB3" pad="13"/>
+<connect gate="G$1" pin="TOSC2/EVOUT1/TXD/WOA2/ASYNCI/PB2" pad="14"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VREFA/AD0A5/AD1A1/WOA5/WOB0/WODB/PA5" pad="6"/>
+<connect gate="G$1" pin="WOA5/LUT1IN2/PC5" pad="22"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Microchip" constant="no"/>
+<attribute name="PARTNUM" value="ATtiny3217-M*" constant="no"/>
+<attribute name="VALUE" value="ATtiny3217" constant="no"/>
 </technology>
 </technologies>
 </device>
