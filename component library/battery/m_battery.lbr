@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -119,6 +119,32 @@
 <vertex x="-38.5" y="-20"/>
 </polygon>
 </package>
+<package name="KEYSTONE_1013_DUAL_AA_HOLDER_THROUGH_HOLE">
+<description>&lt;h3&gt;Nylon Dual AA Cell Holder&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/135488035/image/Keystone-1013.jpg" alt="keystone 1013" width="250" /&gt;&lt;/div&gt;
+&lt;p&gt;Data from Keystone Electronics catalog page 18&lt;/p&gt;</description>
+<hole x="-27.25" y="13.9" drill="2"/>
+<pad name="C1_N" x="27.25" y="-7.2" drill="1.2" shape="long" rot="R90"/>
+<pad name="C1_P" x="-27.25" y="-7.2" drill="1.2" shape="long" rot="R90"/>
+<pad name="C2_N" x="-27.25" y="7.2" drill="1.2" shape="long" rot="R270"/>
+<pad name="C2_P" x="27.25" y="7.2" drill="1.2" shape="long" rot="R270"/>
+<wire x1="-30" y1="15" x2="30" y2="15" width="0.2" layer="21"/>
+<wire x1="30" y1="15" x2="30" y2="-15" width="0.2" layer="21"/>
+<wire x1="30" y1="-15" x2="-30" y2="-15" width="0.2" layer="21"/>
+<wire x1="-30" y1="-15" x2="-30" y2="15" width="0.2" layer="21"/>
+<text x="32" y="-8" size="1.778" layer="21" ratio="16" rot="R90" align="center">1(-)</text>
+<text x="-32" y="-8" size="1.778" layer="21" ratio="16" rot="R90" align="center">1(+)</text>
+<text x="-32" y="7.5" size="1.778" layer="21" ratio="16" rot="R90" align="center">2(-)</text>
+<text x="32" y="7.5" size="1.778" layer="21" ratio="16" rot="R90" align="center">2(+)</text>
+<text x="-30" y="16" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-30" y="-16" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.8" layer="39">
+<vertex x="-30.5" y="15.5"/>
+<vertex x="30.5" y="15.5"/>
+<vertex x="30.5" y="-15.5"/>
+<vertex x="-30.5" y="-15.5"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="BATTERY_HOLDER_DUAL">
@@ -176,6 +202,36 @@
 <technology name="">
 <attribute name="MANUF" value="Keystone Electronics" constant="no"/>
 <attribute name="PARTNUM" value="1049" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KEYSTONE_DUAL_AA_BATTERY_HOLDER" prefix="B">
+<description>&lt;h3&gt;Keystone Electronics Dual AA Battery Holder Through Hole&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/135488698/image/Keystone-1013.jpg" alt="Keystone 1013" /&gt;&lt;/div&gt;
+
+&lt;p&gt;Heat-resistant nylon AA battery holder with 4 through-hole terminals.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=keystone+1013"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Added 2020-05-05&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY_HOLDER_DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KEYSTONE_1013_DUAL_AA_HOLDER_THROUGH_HOLE">
+<connects>
+<connect gate="G$1" pin="1_N" pad="C1_N"/>
+<connect gate="G$1" pin="1_P" pad="C1_P"/>
+<connect gate="G$1" pin="2_N" pad="C2_N"/>
+<connect gate="G$1" pin="2_P" pad="C2_P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Keystone" constant="no"/>
+<attribute name="PARTNUM" value="1013" constant="no"/>
+<attribute name="VALUE" value="2xAA" constant="no"/>
 </technology>
 </technologies>
 </device>
