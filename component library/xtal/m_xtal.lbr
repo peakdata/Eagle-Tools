@@ -187,6 +187,34 @@
 <vertex x="-2.5" y="-1.7"/>
 </polygon>
 </package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="0.8104" y1="-1.4224" x2="-0.8104" y2="-1.4224" width="0.1524" layer="21"/>
+<wire x1="-0.8104" y1="-1.4224" x2="-0.8104" y2="1.4224" width="0.1524" layer="51"/>
+<wire x1="-0.8104" y1="1.4224" x2="0.8104" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="0.8104" y1="1.4224" x2="0.8104" y2="-1.4224" width="0.1524" layer="51"/>
+<wire x1="0.8104" y1="0.4724" x2="0.8104" y2="-0.4724" width="0.1524" layer="21"/>
+<wire x1="-0.4" y1="0.75" x2="-0.4" y2="1.1" width="0.2" layer="21"/>
+<smd name="1" x="-1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-1.3001" y="0" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="1.3001" y="-0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="1.3001" y="0.95" dx="0.55" dy="1.2" layer="1" rot="R270"/>
+<text x="-2" y="1.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2" y="-1.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.425" y1="0.625" x2="-0.925" y2="1.275" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-0.325" x2="-0.925" y2="0.325" layer="51" rot="R270"/>
+<rectangle x1="-1.425" y1="-1.275" x2="-0.925" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="-1.275" x2="1.425" y2="-0.625" layer="51" rot="R270"/>
+<rectangle x1="0.925" y1="0.625" x2="1.425" y2="1.275" layer="51" rot="R270"/>
+<wire x1="0" y1="0.25" x2="0" y2="-0.25" width="0.3" layer="35"/>
+<polygon width="0.2" layer="39">
+<vertex x="-2.25" y="1.75"/>
+<vertex x="2.25" y="1.75"/>
+<vertex x="2.25" y="-1.75"/>
+<vertex x="-2.25" y="-1.75"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -227,6 +255,18 @@
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MEMS_OSCILLATOR">
+<description>&lt;h3&gt;MEMS Oscillator&lt;/h3&gt;</description>
+<pin name="VDD" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -347,6 +387,75 @@ PARAMETERS
 <attribute name="MANUF" value="ECS International" constant="no"/>
 <attribute name="PARTNUM" value="ECS-396*" constant="no"/>
 <attribute name="VALUE" value="xMHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIT2018B" prefix="Y" uservalue="yes">
+<description>&lt;h3&gt;SiT2018B 1 to 110 MHz, High Temperature (-40 to +125°C) SOT23 Oscillator&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The SiT2018B oscillator comes in a SOT23 package for the best board-level solder joint reliability and low-cost, optical-ONLY board-level inspection.&gt;/p&gt;
+&lt;p&gt;This device features a wide frequency range, excellent stability, and the shortest lead time for industrial, medical, automotive, avionics, and other high-temperature applications. This device also features the industry's best 0.1 ppb/g vibration sensitivity, 50,000 g shock and 70 g vibration resistance.oard-level inspection.  This device features the widest frequency range, the lowest power consumption, the best stability and the shortest lead time for consumer, networking, industrial and other applications.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;h4&gt;±20 ppm over automotive temp. (-40 to +125 °C)&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Better timing margin ideal for outdoor and high-temp. operating environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Configurable feature sets&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Any frequency between 1 - 110 MHz with 6 decimal places of accuracy&lt;/li&gt;
+    &lt;li&gt;1.8 V or 2.5 V to 3.3 V supply voltage&lt;/li&gt;
+    &lt;li&gt;Customize specification for optimal system performance&lt;/li&gt;
+    &lt;li&gt;Use same base device for many design, reducing qualification needs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;0.1 ppb/&lt;em&gt;g&lt;/em&gt; low g-sensitivity&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Improved system performance under vibration&lt;/li&gt;
+    &lt;li&gt;Carrier drop-test compliance (STB, etc.);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;70 &lt;em&gt;g&lt;/em&gt; vibration and 50,000 &lt;em&gt;g&lt;/em&gt; shock&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Best system reliability in harsh environments;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;FlexEdge™ rise/fall time&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Optimize EMI to reduce interference to other subsystems;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;SOT23-5 package&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Best board-level solder joint reliability&lt;/li&gt;
+    &lt;li&gt;Easy, low-cost, optical-only, board-level inspection of solder joints;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Ultra-fast lead time (4 to 6 weeks)&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Reduce inventory overhead&lt;/li&gt;
+    &lt;li&gt;Mitigate shortage risks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.sitime.com/products/automotive-high-temp-oscillators/sit2018"&gt;Device Information Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sitime.com/part-number-generator"&gt;Part Number Generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=SIT2018BA-S1-33N-16.000000E"&gt;Octopart Search&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Added 2020-06-22&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MEMS_OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="SiTime" constant="no"/>
+<attribute name="PARTNUM" value="
+SIT2018BA-S1-33N-16.000000E" constant="no"/>
+<attribute name="VALUE" value="16MHz" constant="no"/>
 </technology>
 </technologies>
 </device>
