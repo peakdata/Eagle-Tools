@@ -528,6 +528,28 @@ Source: TJ-Serie Vishay.pdf</description>
 </polygon>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.4" layer="35"/>
 </package>
+<package name="BOURNS_3261_SERIES">
+<description>&lt;h3&gt;Bourns MH3261 Series High Current Chip Ferrite Beads&lt;/h3&gt;
+&lt;p&gt;Data from Bourns MH Series High Current Chip Ferrite Beads datasheet rev. 07/12&lt;/p&gt;
+&lt;p&gt;Added 2020-07-18&lt;/p&gt;</description>
+<smd name="1" x="-1.55" y="0" dx="1.1" dy="1.4" layer="1" roundness="5"/>
+<smd name="2" x="1.55" y="0" dx="1.1" dy="1.4" layer="1" roundness="5"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<text x="-2.25" y="1" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2.25" y="-1" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-2.4" y="1"/>
+<vertex x="2.4" y="1"/>
+<vertex x="2.4" y="-1"/>
+<vertex x="-2.4" y="-1"/>
+</polygon>
+<wire x1="0" y1="0.25" x2="0" y2="-0.25" width="0.2" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR-FERRITE">
@@ -829,6 +851,19 @@ Vertical, lead spacing 0.55, drill diameter 0.038"</description>
 <attribute name="MANUF" value="TDK" constant="no"/>
 <attribute name="PARTNUM" value="MMZ2012XXXXX" constant="no"/>
 <attribute name="VALUE" value="MMZ2012XXXXX" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="BOURNS_MH3261" package="BOURNS_3261_SERIES">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Bourns" constant="no"/>
+<attribute name="PARTNUM" value="MH3261-XXXX" constant="no"/>
+<attribute name="VALUE" value="MH3261-XXXX" constant="no"/>
 </technology>
 </technologies>
 </device>
