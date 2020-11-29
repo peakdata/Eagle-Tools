@@ -337,6 +337,46 @@
 <vertex x="6.5" y="-3"/>
 </polygon>
 </package>
+<package name="ALPS-SKST-TACT-SWITCH">
+<description>&lt;h3&gt;Alps 8.5mm Square Middle-stroke Type SKST Series Tactile Switch (SMT)&lt;/h3&gt;
+
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/145622507/image/ALPS-SKSTAAE010.jpg" alt="Alps SKST" width="180" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://tech.alpsalpine.com/prod/e/html/tact/surfacemount/skst/skstaae010.html"&gt;Alps Technical Specifications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2020-11-29&lt;/p&gt;</description>
+<smd name="1" x="-4.05" y="0" dx="1.7" dy="2.7" layer="1" roundness="5"/>
+<smd name="2" x="4.05" y="0" dx="1.7" dy="2.7" layer="1" roundness="5"/>
+<wire x1="-3.75" y1="4.25" x2="3.75" y2="4.25" width="0.4064" layer="21"/>
+<wire x1="3.75" y1="4.25" x2="4.25" y2="3.75" width="0.4064" layer="21" curve="-90"/>
+<wire x1="4.25" y1="3.75" x2="4.25" y2="1.75" width="0.4064" layer="21"/>
+<wire x1="-4.25" y1="3.75" x2="-4.25" y2="1.75" width="0.4064" layer="21"/>
+<wire x1="-3.75" y1="4.25" x2="-4.25" y2="3.75" width="0.4064" layer="21" curve="90"/>
+<wire x1="3.75" y1="-4.25" x2="-3.75" y2="-4.25" width="0.4064" layer="21"/>
+<wire x1="-3.75" y1="-4.25" x2="-4.25" y2="-3.75" width="0.4064" layer="21" curve="-90"/>
+<wire x1="-4.25" y1="-3.75" x2="-4.25" y2="-1.75" width="0.4064" layer="21"/>
+<wire x1="-4.25" y1="-1.75" x2="-4.25" y2="1.75" width="0.4064" layer="51"/>
+<wire x1="4.25" y1="-3.75" x2="4.25" y2="-1.75" width="0.4064" layer="21"/>
+<wire x1="4.25" y1="-1.75" x2="4.25" y2="1.75" width="0.4064" layer="51"/>
+<wire x1="3.75" y1="-4.25" x2="4.25" y2="-3.75" width="0.4064" layer="21" curve="90"/>
+<circle x="0" y="0" radius="2.15" width="0.4064" layer="21"/>
+<rectangle x1="-4.6" y1="-1.05" x2="-4.25" y2="1.05" layer="51"/>
+<rectangle x1="4.25" y1="-1.05" x2="4.6" y2="1.05" layer="51" rot="R180"/>
+<text x="-4" y="4.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-4" y="-4.5" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.6" layer="39">
+<vertex x="-4.5" y="4.5"/>
+<vertex x="4.5" y="4.5"/>
+<vertex x="4.5" y="2"/>
+<vertex x="5.5" y="2"/>
+<vertex x="5.5" y="-2"/>
+<vertex x="4.5" y="-2"/>
+<vertex x="4.5" y="-4.5"/>
+<vertex x="-4.5" y="-4.5"/>
+<vertex x="-4.5" y="-2"/>
+<vertex x="-5.5" y="-2"/>
+<vertex x="-5.5" y="2"/>
+<vertex x="-4.5" y="2"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="TACT-SWITCH-4T-SPST">
@@ -649,6 +689,63 @@ RI-80 SMD Series Features
 <technology name="">
 <attribute name="MANUF" value="Bourns" constant="no"/>
 <attribute name="PARTNUM" value="PEC11R-4xxxF-Nxxxx" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ALPS-SKST-SMT-TACT-SWITCH" prefix="S">
+<description>&lt;h3&gt;ALPS 8.5mm Square Middle-stroke Type (Surface Mount) SKST Series Tact Switch&lt;/h3&gt;
+&lt;h4&gt;Specifications&lt;/h4&gt;
+&lt;div&gt;
+&lt;table border="0.5"&gt;
+&lt;tr&gt;
+    &lt;td&gt;Type&lt;/td&gt;
+    &lt;td&gt;Surface mount&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Operating force&lt;/td&gt;
+    &lt;td&gt;4N&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Operating direction&lt;/td&gt;
+    &lt;td&gt;Top push&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Travel&lt;/td&gt;
+    &lt;td&gt;0.9mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Operating life&lt;br&gt;(50mA 16V DC)&lt;/td&gt;
+    &lt;td&gt;500,000 cycles&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Initial contact resistance&lt;/td&gt;
+    &lt;td&gt;100mΩ max.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;Stem color&lt;/td&gt;
+    &lt;td&gt;Green&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=SKSTA*E010"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2020-11-29&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SWITCH_SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ALPS-SKST-TACT-SWITCH">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="ALPS" constant="no"/>
+<attribute name="PARTNUM" value=" SKSTAAE010" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
