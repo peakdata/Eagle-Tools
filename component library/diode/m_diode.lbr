@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -84,7 +84,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h3&gt;Diode&lt;/h3&gt;</description>
+<description>&lt;h3&gt;Diodes and Protection Devices&lt;/h3&gt;</description>
 <packages>
 <package name="TO-252-COMMON-PINS">
 <wire x1="3.048" y1="3.556" x2="3.048" y2="3.048" width="0.127" layer="51"/>
@@ -457,6 +457,31 @@ grid 5.6 mm</description>
 </polygon>
 <wire x1="-0.25" y1="0" x2="0.25" y2="0" width="0.3" layer="35"/>
 </package>
+<package name="DFN-1.6MMX1.6MM-6LEAD">
+<description>&lt;h3&gt;DFN 1.6mm x 1.6mm 6-Lead Package&lt;/h3&gt;
+&lt;p&gt;Added 2023-02-19 from Semtech TDS3011P datasheet&lt;/p&gt;</description>
+<smd name="P$1" x="-0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
+<smd name="P$2" x="0" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
+<smd name="P$3" x="0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
+<smd name="P$4" x="0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
+<smd name="P$5" x="0" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
+<smd name="P$6" x="-0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
+<circle x="-1.1" y="-0.7" radius="0.1" width="0.2" layer="21"/>
+<text x="-1.5" y="-1" size="1.27" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<text x="1" y="-1" size="1.27" layer="27" font="vector" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.127" layer="39">
+<vertex x="-1" y="1.25"/>
+<vertex x="1" y="1.25"/>
+<vertex x="1" y="-1.25"/>
+<vertex x="-1" y="-1.25"/>
+</polygon>
+<wire x1="-0.85" y1="0.8" x2="-0.85" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.8" x2="0.85" y2="0.8" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_SCHOTTKY">
@@ -774,6 +799,23 @@ grid 5.6 mm</description>
 <circle x="0" y="-5.08" radius="0.1778" width="0.254" layer="94"/>
 <text x="-3.81" y="5.08" size="1.778" layer="95" align="bottom-right">&gt;NAME</text>
 <text x="-3.81" y="2.54" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;</description>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0.762" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1118,6 +1160,52 @@ The TPD4E001 is available in DRL, DBV (SOT-23), DCK (SC-70), DRS (QFN), and DPK 
 <attribute name="MANUF" value="Bourns" constant="no"/>
 <attribute name="PARTNUM" value="CD 143A-SR 70" constant="no"/>
 <attribute name="VALUE" value="70V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TDS3011P" prefix="D">
+<description>&lt;h3&gt;Semtech Transient Diverting Suppressor&lt;/h3&gt;
+&lt;h4&gt;TDS3011P Transient Diverting Suppressor 1-Line, 30V EOS Protection&lt;/h4&gt;
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;Transient Diverting Suppressors(TDS) are designed to provide high energy EOS protection with superior clamping and temperature characteristics when compared to standard TVS devices. The device uses a surge rated FET as the main protection element. During an EOS event, transient voltage increases beyond the rated breakdown voltage of the device. The FET in turn switches on and conducts transient current to ground. The TDS clamping voltage is nearly constant across the rated peak pulse current range due to the extremely low ON Resistance of the FET. Lower clamping voltage at maximum peak pulse current makes them more suitable for protecting today’s sensitive IC’s.&lt;/p&gt;
+&lt;p&gt;TDS3011P is designed to protect voltage bus or data lines with an operating voltage as high as 30V . It is rated for a high-energy transient current up to 35A (tp = 8/20μs) and may be used to meet the common industrial voltage surge standard of +/-2kV per IEC 61000-4-5 (RS = 42Ω, CS= 0.5μF).&lt;/p&gt;
+&lt;p&gt;TDS3011P is in a small DFN 1.6mm x 1.6mm x 0.55mm 6- Lead package and represents significant board space savings over traditional SMAJ and SMBJ packaged devices.&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;High ESD withstand Voltage: +/-30kV (Contact) and +/-30kV (Air) per IEC 61000-4-2&lt;/li&gt;
+&lt;li&gt;High peak pulse current capability: 35A (tp = 8/20μs), 2kV (tp = 1.2/50μs, RS = 42Ω ) per IEC 61000-4-5&lt;/li&gt;
+&lt;li&gt;High EFT Withstand Voltage: ±4kV (100kHz and 5kHz, • 5/50ns) IEC 61000-4-4&lt;/li&gt;
+&lt;li&gt;Protects one I/O or power line&lt;/li&gt;
+&lt;li&gt;Low ESD and clamping voltage&lt;/li&gt;
+&lt;li&gt;Working voltage: 30V&lt;/li&gt;
+&lt;li&gt;Solid-state technology&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Mechanical Characteristics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Package: DFN 1.6mm x 1.6mm x 0.55mm 6-Lead&lt;/li&gt;
+&lt;li&gt;Pb-free, Halogen Free, RoHS/WEEE Compliant&lt;/li&gt;
+&lt;li&gt;Molding compound flammability rating: UL 94V-0 • Lead Finish: Lead-free&lt;/li&gt;
+&lt;li&gt;Marking: Marking code and Date Code&lt;/li&gt;
+&lt;li&gt;Packaging: Tape and Reel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Added 2023-02-19, based on data from Semtech TDS3011P Datasheet Rev 2.0 6/16/2021&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=TDS3011P.C"&gt;Octopart search&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-1.6MMX1.6MM-6LEAD">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1 P$2 P$3"/>
+<connect gate="G$1" pin="C" pad="P$4 P$5 P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Semtech" constant="no"/>
+<attribute name="PARTNUM" value="TDS3011P.C" constant="no"/>
+<attribute name="VALUE" value="30V" constant="no"/>
 </technology>
 </technologies>
 </device>
