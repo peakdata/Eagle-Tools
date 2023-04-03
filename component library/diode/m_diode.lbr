@@ -237,22 +237,26 @@
 <text x="-2.5" y="-1.75" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 <package name="MICRO-SMP">
+<description>&lt;h3&gt;MicroSMP (DO-219AD)&lt;/h3&gt;
+&lt;p&gt;Updated 2023-03-29&lt;/p&gt;</description>
 <wire x1="-1.55" y1="0.75" x2="1.05" y2="0.75" width="0.127" layer="21"/>
 <wire x1="1.05" y1="0.75" x2="1.05" y2="0.575" width="0.127" layer="21"/>
 <wire x1="1.05" y1="-0.575" x2="1.05" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="1.05" y1="-0.75" x2="-1.55" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="-1.55" y1="0.75" x2="-1.55" y2="-0.75" width="0.127" layer="51"/>
 <wire x1="1.05" y1="0.575" x2="1.05" y2="-0.575" width="0.127" layer="51"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="39"/>
-<wire x1="1.5" y1="-0.75" x2="-2.25" y2="-0.75" width="0.127" layer="39"/>
-<wire x1="-2.25" y1="-0.75" x2="-2.25" y2="0.75" width="0.127" layer="39"/>
-<wire x1="-2.25" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="39"/>
-<smd name="CATHODE" x="-1" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="ANODE" x="0.9" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="CATHODE" x="-1" y="0" dx="2" dy="1.1" layer="1" roundness="10"/>
+<smd name="ANODE" x="0.9" y="0" dx="0.8" dy="0.8" layer="1" roundness="10"/>
 <text x="-2.25" y="1.25" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.25" y="-2.5" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="0.75" x2="-1" y2="1" layer="21"/>
 <rectangle x1="-1.25" y1="-1" x2="-1" y2="-0.75" layer="21"/>
+<polygon width="0.2" layer="39">
+<vertex x="-2.2" y="1"/>
+<vertex x="1.5" y="1"/>
+<vertex x="1.5" y="-1"/>
+<vertex x="-2.2" y="-1"/>
+</polygon>
 </package>
 <package name="SOT-723">
 <description>&lt;h3&gt;SOT-723 Surface Mount Package&lt;/h3&gt;
@@ -959,6 +963,19 @@ D2PAK TO252</description>
 <attribute name="MANUF" value="Diodes" constant="no"/>
 <attribute name="PARTNUM" value="SDM2100S1F-7*" constant="no"/>
 <attribute name="VALUE" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MICROSMP" package="MICRO-SMP">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="VISHAY" constant="no"/>
+<attribute name="PARTNUM" value="V2P6-M3/H" constant="no"/>
+<attribute name="VALUE" value="60V" constant="no"/>
 </technology>
 </technologies>
 </device>
