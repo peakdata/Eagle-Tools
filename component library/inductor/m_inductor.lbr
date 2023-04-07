@@ -550,6 +550,30 @@ Source: TJ-Serie Vishay.pdf</description>
 </polygon>
 <wire x1="0" y1="0.25" x2="0" y2="-0.25" width="0.2" layer="35"/>
 </package>
+<package name="MURATA_1206_BLM31KN">
+<description>&lt;h3&gt;Murata BLM31KN Series 1206 SMT Package&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/cdn-cgi/image/width=75,height=75,fit=contain/10320719/image/Murata-BLM31KN102SN1L.jpg" /&gt;&lt;/div&gt;
+&lt;p&gt;Based on &lt;a href="https://www.murata.com/products/productdata/8801529331742/ENFA0091.pdf?1660793420000"&gt;Murata Spec No.: JENF243A_0091C-01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2022-04-03&lt;/p&gt;</description>
+<smd name="1" x="-1.575" y="0" dx="1.15" dy="1.8" layer="1" roundness="10"/>
+<smd name="2" x="1.575" y="0" dx="1.15" dy="1.8" layer="1" roundness="10" rot="R180"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-0.9" y2="0.8" layer="51"/>
+<rectangle x1="0.9" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<wire x1="-0.7" y1="0.8" x2="0.7" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-0.8" x2="0.7" y2="-0.8" width="0.127" layer="21"/>
+<text x="0" y="1.1" size="1.27" layer="25" ratio="16" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.1" size="1.27" layer="27" ratio="16" align="top-center">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-2.4" y="1.1"/>
+<vertex x="2.4" y="1.1"/>
+<vertex x="2.4" y="-1.1"/>
+<vertex x="-2.4" y="-1.1"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR-FERRITE">
@@ -644,8 +668,8 @@ Source: TJ-Serie Vishay.pdf</description>
 <wire x1="-1.27" y1="-1.016" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
 <text x="-2.54" y="1.524" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
-<pin name="P$2" x="2.54" y="0" visible="off" length="short" rot="R180"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="TRANSFORMER_SECONDARY_CENTERTAP">
 <description>&lt;h3&gt;Transformer Symbol with Centertapped Secondary&lt;/h3&gt;</description>
@@ -1290,6 +1314,47 @@ value without current.&lt;/li&gt;
 <attribute name="MANUF" value="EPCOS" constant="no"/>
 <attribute name="PARTNUM" value="B82422A3100*" constant="no"/>
 <attribute name="VALUE" value="0.010u" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MURATA_BLM31KN_SERIES_SMT_CHIP_BEADS" prefix="FB" uservalue="yes">
+<description>&lt;h3&gt;Murata BLM31KN Series SMT Ferrite Beads&lt;/h3&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;The chip ferrite beads BLM series is designed to
+function nearly as a resistor at noise frequencies,
+which greatly reduces the possibility of resonance and
+leaves signal wave forms undistorted.
+BLM series is effective in circuits without stable
+ground lines because BLM series does not need a
+connection to ground.&lt;/li&gt;
+  &lt;li&gt;The nickel barrier structure of the external
+electrodes provides excellent solder heat resistance.&lt;/li&gt;
+  &lt;li&gt;BLM31KN series can be used in high current circuits
+due to its low DC resistance. It can match power lines
+to a maximum of 6A DC.&lt;/li&gt;
+  &lt;li&gt;Extended the spec of former BLM31PG/41PG series.
+Got larger rated current at same impedance value of
+BLM31PG/41PG series.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Murata &lt;a href="https://www.murata.com/en-us/products/emc/emifil/products-search/selectionguide?intcid1=com_prd_pdd_mi_lf_lib#commonmode"&gt;Product Selection Guide&lt;/a&gt;, &lt;a href="https://www.murata.com/en-us/search/productsearch?cate=cgsubChipFerriBead&amp;partno=BLM31KN%3F%3F%3F%3FN%3F"&gt;table of products.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2023-04-03&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1206" package="MURATA_1206_BLM31KN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Murata" constant="no"/>
+<attribute name="PARTNUM" value="BLM31KN102SN1*" constant="no"/>
+<attribute name="VALUE" value="1kΩ@1E5Hz" constant="no"/>
 </technology>
 </technologies>
 </device>
