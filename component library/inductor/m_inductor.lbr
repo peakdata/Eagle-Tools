@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -572,6 +572,30 @@ Source: TJ-Serie Vishay.pdf</description>
 <vertex x="2.4" y="1.1"/>
 <vertex x="2.4" y="-1.1"/>
 <vertex x="-2.4" y="-1.1"/>
+</polygon>
+</package>
+<package name="MURATA_0805_BLM21SP">
+<description>&lt;h3&gt;Murata BLM21SP Series 0805 SMT Package&lt;/h3&gt;
+&lt;div&gt;&lt;img src="https://sigma.octopart.com/cdn-cgi/image/width=75,height=75,fit=contain/10320719/image/Murata-BLM21SP471SN1D.jpg" /&gt;&lt;/div&gt;
+&lt;p&gt;Based on &lt;a href="https://www.murata.com/products/productdata/8796738977822/ENFA0005.pdf?1653276712000"&gt;Murata Spec No.: JENF243A_0005AC-01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2022-04-15&lt;/p&gt;</description>
+<smd name="P$1" x="-0.9" y="0" dx="0.6" dy="1.25" layer="1" roundness="10"/>
+<smd name="P$2" x="0.9" y="0" dx="0.6" dy="1.25" layer="1" roundness="10"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<text x="0" y="0.875" size="1.27" layer="25" ratio="16" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.875" size="1.27" layer="27" ratio="16" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
+<rectangle x1="0.5" y1="-0.625" x2="1" y2="0.625" layer="51"/>
+<wire x1="-0.35" y1="0.625" x2="0.35" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.35" y1="-0.625" x2="0.35" y2="-0.625" width="0.127" layer="21"/>
+<polygon width="0.2" layer="39">
+<vertex x="-1.425" y="0.85"/>
+<vertex x="1.425" y="0.85"/>
+<vertex x="1.425" y="-0.85"/>
+<vertex x="-1.425" y="-0.85"/>
 </polygon>
 </package>
 </packages>
@@ -1355,6 +1379,43 @@ BLM31PG/41PG series.&lt;/li&gt;
 <attribute name="MANUF" value="Murata" constant="no"/>
 <attribute name="PARTNUM" value="BLM31KN102SN1*" constant="no"/>
 <attribute name="VALUE" value="1kΩ@1E5Hz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MURATA_BLM21SP_SERIES_SMT_CHIP_BEADS" prefix="FB">
+<description>&lt;h3&gt;Murata BLM31KN Series SMT Ferrite Beads&lt;/h3&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;The chip ferrite beads BLM series is designed to
+function nearly as a resistor at noise frequencies,
+which greatly reduces the possibility of resonance and
+leaves signal wave forms undistorted.&lt;/li&gt;
+  &lt;li&gt;BLM series is effective in circuits without stable
+ground lines because BLM series does not need a
+connection to ground.&lt;/li&gt;
+  &lt;li&gt;The nickel barrier structure of the external
+electrodes provides excellent solder heat resistance.
+BLM21SP series can be used in high current circuits due
+to its low DC resistance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Murata &lt;a href="https://www.murata.com/en-us/products/emc/emifil/products-search/selectionguide?intcid1=com_prd_pdd_mi_lf_lib#commonmode"&gt;Product Selection Guide&lt;/a&gt;, &lt;a href="https://www.murata.com/en-us/search/productsearch?cate=cgsubChipFerriBead&amp;partno=BLM21S%3F%3F%3F%3F%3FN%3F&amp;realtime=1&amp;sort=a_dcresistancemax"&gt;table of products.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2023-04-15&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0805" package="MURATA_0805_BLM21SP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Murata" constant="no"/>
+<attribute name="PARTNUM" value="BLM21SN300SN1*" constant="no"/>
+<attribute name="VALUE" value="30Ω@1E5" constant="no"/>
 </technology>
 </technologies>
 </device>
