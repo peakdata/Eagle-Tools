@@ -1,0 +1,40 @@
+#usage "<b>Toggle visible PCB layers between top and bottom.</b>\n"
+
+string Version = "Version 0.1 2023-04-21";
+// the possible layers to toggle, without leading 't' or 'b'
+string layers[] = {"Place", "Origins", "Names", "Values", "Stop", "Cream", "Keepout", "Docu"};
+// layer name arguments for DISPLAY command
+string cmd_args;
+
+if (!board) {
+  dlgMessageBox(usage + "<hr><b>ERROR: No board!</b><p>\nThis ULP must be run in the board editor.");
+  exit(1);
+}
+
+board(B) {
+  B.layers(L) {
+    if (!L.visible) {
+      continue;
+    }
+    // handle Top and Bottom layers seperately
+    if (L.name == "Top") {
+      cmd_args += "-Top Bottom ";
+    } else if (L.name == "Bottom") {
+      cmd_args += "-Bottom Top ";
+    } else {
+      // Loop through all the possible layer names, prepending 't' and 'b' for top and bottom.
+      // If a top layer is visible, append '-tLayer' and 'bLayer' to arguments.
+      // If a bottom layer is visible, append '-bLayer' and 'tLayer' to arguments.
+      for (int i=0; layers[i]; i++) {
+        string nt = "t" + layers[i];
+        string nb = "b" + layers[i];
+        if (L.name == nt) {
+          cmd_args += "-" + nt + " " + nb + " ";
+        } else if (L.name == nb) {
+          cmd_args += "-" + nb + " " + nt + " ";
+        }
+      }
+    }
+  }
+}
+exit("DISPLAY " + cmd_args + ";");
