@@ -2,7 +2,7 @@
 
 string Version = "Version 0.1 2023-04-21";
 // the possible layers to toggle, without leading 't' or 'b'
-string layers[] = {"Place", "Origins", "Names", "Values", "Stop", "Cream", "Keepout", "Docu"};
+string layers[] = {"Place", "Origins", "Names", "Values", "Stop", "Cream", "Keepout", "Restrict", "Docu"};
 // layer name arguments for DISPLAY command
 string cmd_args;
 
