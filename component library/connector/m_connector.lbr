@@ -16,8 +16,8 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -38,9 +38,9 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -3450,6 +3450,306 @@
 <wire x1="6.25" y1="-2" x2="6.75" y2="-2.5" width="0.127" layer="51"/>
 <smd name="6" x="6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
 </package>
+<package name="PHOENIX_PTSM_0,5/7-HV-2,5-SMD">
+<description>&lt;h3&gt;Feed-through header - PTSM 0,5/ 7-HV0-2,5-SMD&lt;/h3&gt;
+&lt;p&gt;Data from Phoenix Contact Datasheet &lt;a href="https://www.phoenixcontact.com/us/products/1839240"&gt;https://www.phoenixcontact.com/us/products/1839240&lt;/a&gt;
+&lt;p&gt;Added 2025-01-05&lt;/p&gt;</description>
+<wire x1="-9.6" y1="2.5" x2="-9.6" y2="-1" width="0.127" layer="51"/>
+<wire x1="-9.6" y1="2.5" x2="-6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="-5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-5.75" y1="2.5" x2="-4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="-3.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.5" x2="0.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="2.5" x2="4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="-2.5" x2="-5.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.5" y1="-2.5" x2="-4.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-0.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-9.6" y1="-1" x2="-8.1" y2="-2.5" width="0.127" layer="51"/>
+<circle x="-9.1" y="-3.6" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-5" y1="-2" x2="-5.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="-2" x2="-4.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0" y2="-2" width="0.127" layer="51"/>
+<wire x1="0" y1="-2" x2="0.5" y2="-2.5" width="0.127" layer="51"/>
+<polygon width="0.6" layer="39">
+<vertex x="-12.25" y="3"/>
+<vertex x="12.25" y="3"/>
+<vertex x="12.25" y="-3.5"/>
+<vertex x="9.5" y="-3.5"/>
+<vertex x="9.5" y="-5.25"/>
+<vertex x="-9.5" y="-5.25"/>
+<vertex x="-9.5" y="-3.5"/>
+<vertex x="-12.25" y="-3.5"/>
+</polygon>
+<wire x1="9.6" y1="2.5" x2="9.6" y2="-1" width="0.127" layer="51"/>
+<wire x1="4.25" y1="2.5" x2="5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.75" y1="2.5" x2="6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="6.75" y1="2.5" x2="9.6" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-2.5" x2="4.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-2.5" x2="5.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.5" y1="-2.5" x2="7" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="7" y1="-2.5" x2="8" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="8" y1="-2.5" x2="8.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="9.6" y1="-1" x2="8.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-2.5" x2="5" y2="-2" width="0.127" layer="51"/>
+<wire x1="5" y1="-2" x2="5.5" y2="-2.5" width="0.127" layer="51"/>
+<smd name="1" x="-7.5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="2" x="-5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="3" x="-2.5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="4" x="0" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="6" x="5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="PAD@1" x="-10.8" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<smd name="PAD@2" x="10.8" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<wire x1="-9.6" y1="-1" x2="-9.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-9.6" y1="-2.5" x2="-8.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="9.6" y1="-1" x2="9.6" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="9.6" y1="-2.5" x2="8.1" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-11.55" y1="-2" x2="-9.6" y2="2" layer="51"/>
+<rectangle x1="9.6" y1="-2" x2="11.55" y2="2" layer="51"/>
+<text x="-9.25" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-9.25" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-7" y1="1.5" x2="7" y2="1.5" width="0.4" layer="35"/>
+<wire x1="-7.5" y1="-2" x2="-8" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-2" x2="-7" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="7.5" y1="-2" x2="7" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="7.5" y1="-2" x2="8" y2="-2.5" width="0.127" layer="51"/>
+<smd name="7" x="7.5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="5" x="2.5" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<wire x1="2" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-7" y1="2.5" x2="-7.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="2" x2="-8" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="2.5" x2="-5" y2="2" width="0.127" layer="51"/>
+<wire x1="-5" y1="2" x2="-5.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.5" x2="-2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="2.5" x2="0" y2="2" width="0.127" layer="51"/>
+<wire x1="0" y1="2" x2="-0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2" x2="2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.5" y1="2.5" x2="5" y2="2" width="0.127" layer="51"/>
+<wire x1="5" y1="2" x2="4.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="8" y1="2.5" x2="7.5" y2="2" width="0.127" layer="51"/>
+<wire x1="7.5" y1="2" x2="7" y2="2.5" width="0.127" layer="51"/>
+</package>
+<package name="PHOENIX_DMCV_0,5/4-G1-2,54">
+<description>&lt;h3&gt;Phoenix Contact  DMCV 0,5/ 4-G1-2,54 SMD R32 - PCB header&lt;/h3&gt;
+&lt;p&gt;Based on footprint data from Phoenix Contact online catalog, part number &lt;a href="https://www.phoenixcontact.com/us/products/1845195"&gt;1845195&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2025-01-17&lt;/p&gt;</description>
+<smd name="P$1" x="-3.81" y="2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<smd name="P$2" x="-1.27" y="2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<smd name="P$3" x="1.27" y="2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<smd name="P$4" x="3.81" y="2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<pad name="P$5" x="-3.81" y="-1.27" drill="1.2"/>
+<pad name="P$8" x="3.81" y="-1.27" drill="1.2"/>
+<smd name="P$6" x="-1.27" y="-2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<smd name="P$7" x="1.27" y="-2.095" dx="1.2" dy="2.85" layer="1" roundness="10"/>
+<wire x1="-5.33" y1="4.16" x2="5.33" y2="4.16" width="0.127" layer="51"/>
+<wire x1="5.33" y1="4.16" x2="5.33" y2="-3.24" width="0.127" layer="51"/>
+<wire x1="5.33" y1="-3.24" x2="-5.33" y2="-3.24" width="0.127" layer="51"/>
+<wire x1="-5.33" y1="-3.24" x2="-5.33" y2="4.16" width="0.127" layer="51"/>
+<text x="-5.25" y="4.5" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-5.25" y="-4" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-5.33" y1="-3.24" x2="-5.33" y2="4.16" width="0.127" layer="21"/>
+<wire x1="5.33" y1="4.16" x2="5.33" y2="-3.24" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="3.5" x2="-5.75" y2="1.5" width="0.254" layer="21"/>
+<polygon width="0.6" layer="39">
+<vertex x="-5.5" y="4.25"/>
+<vertex x="5.5" y="4.25"/>
+<vertex x="5.5" y="-3.5"/>
+<vertex x="2.25" y="-3.5"/>
+<vertex x="2.25" y="-3.75"/>
+<vertex x="-2.25" y="-3.75"/>
+<vertex x="-2.25" y="-3.5"/>
+<vertex x="-5.5" y="-3.5"/>
+</polygon>
+</package>
+<package name="PHOENIX_PTSM_0,5/8-HV-2,5-SMD">
+<description>&lt;h3&gt;Phoenix PTSM 0,5/ 8-HV-2,5-SMD WH R44 PCB Header&lt;/h3&gt;</description>
+<wire x1="-10.85" y1="2.5" x2="-10.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="2.5" x2="-9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-9.25" y1="2.5" x2="-8.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-8.25" y1="2.5" x2="-6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="-5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-5.75" y1="2.5" x2="-4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="-3.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-2.5" x2="-5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.75" y1="-2.5" x2="-4.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="-2.5" x2="-3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-2.5" x2="-1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.5" x2="-0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="-1" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<circle x="-10.35" y="-3.6" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-8.75" y1="2" x2="-9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="2" x2="-8.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-2" x2="-6.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-2" x2="-5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="-2.5" x2="-3.75" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-2" x2="-3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.5" x2="-1.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2" x2="-0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="-6.25" y2="2" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="2" x2="-5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="-3.75" y2="2" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="2" x2="-3.25" y2="2.5" width="0.127" layer="51"/>
+<polygon width="0.6" layer="39">
+<vertex x="-13.5" y="3"/>
+<vertex x="13.5" y="3"/>
+<vertex x="13.5" y="-3.5"/>
+<vertex x="10.75" y="-3.5"/>
+<vertex x="10.75" y="-5.25"/>
+<vertex x="-10.75" y="-5.25"/>
+<vertex x="-10.75" y="-3.5"/>
+<vertex x="-13.5" y="-3.5"/>
+</polygon>
+<wire x1="10.85" y1="2.5" x2="10.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.5" x2="-1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.5" x2="-0.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="-2.5" x2="0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-2.5" x2="3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-2.5" x2="4.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-1" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="-2.5" x2="1.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-2" x2="1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.5" x2="-1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="2" x2="-0.75" y2="2.5" width="0.127" layer="51"/>
+<smd name="1" x="-8.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="2" x="-6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="3" x="-3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="4" x="-1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="5" x="1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="PAD@1" x="-12.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<smd name="PAD@2" x="12.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<hole x="-10.15" y="-2.1" drill="1"/>
+<hole x="10.15" y="-2.1" drill="1"/>
+<wire x1="-10.85" y1="-1" x2="-10.85" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="-2.5" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-1" x2="10.85" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-12.8" y1="-2" x2="-10.85" y2="2" layer="51"/>
+<rectangle x1="10.85" y1="-2" x2="12.8" y2="2" layer="51"/>
+<text x="-10.5" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-10.5" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-8.25" y1="1.5" x2="8.25" y2="1.5" width="0.4" layer="35"/>
+<wire x1="-8.75" y1="-2" x2="-9.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="-2" x2="-8.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2" x2="3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2" x2="4.25" y2="-2.5" width="0.127" layer="51"/>
+<smd name="6" x="3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="7" x="6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="8" x="8.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<wire x1="0.75" y1="2.5" x2="1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="2" x2="1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3.25" y1="2.5" x2="3.75" y2="2" width="0.127" layer="51"/>
+<wire x1="3.75" y1="2" x2="4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.75" y1="2.5" x2="6.25" y2="2" width="0.127" layer="51"/>
+<wire x1="6.25" y1="2" x2="6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="8.25" y1="2.5" x2="8.75" y2="2" width="0.127" layer="51"/>
+<wire x1="8.75" y1="2" x2="9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="9.25" y1="-2.5" x2="8.75" y2="-2" width="0.127" layer="51"/>
+<wire x1="8.75" y1="-2" x2="8.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="6.75" y1="-2.5" x2="6.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-2" x2="5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="2.5" x2="10.85" y2="2.5" width="0.127" layer="51"/>
+<wire x1="4.25" y1="-2.5" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-2.5" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-2.5" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+</package>
+<package name="PHOENIX_PTSM_0,5/8-HV-2,5-SMD_NO_HOLE">
+<description>&lt;h3&gt;Phoenix PTSM 0,5/ 8-HV-2,5-SMD WH R44 PCB Header without alignment holes&lt;/h3&gt;</description>
+<wire x1="-10.85" y1="2.5" x2="-10.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="2.5" x2="-9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-9.25" y1="2.5" x2="-8.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-8.25" y1="2.5" x2="-6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="-5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-5.75" y1="2.5" x2="-4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="-3.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-2.5" x2="-5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.75" y1="-2.5" x2="-4.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="-2.5" x2="-3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-2.5" x2="-1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.5" x2="-0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="-1" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<circle x="-10.35" y="-3.6" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-8.75" y1="2" x2="-9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="2" x2="-8.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-2" x2="-6.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-2" x2="-5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="-2.5" x2="-3.75" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-2" x2="-3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-2.5" x2="-1.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-2" x2="-0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="2.5" x2="-6.25" y2="2" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="2" x2="-5.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.25" y1="2.5" x2="-3.75" y2="2" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="2" x2="-3.25" y2="2.5" width="0.127" layer="51"/>
+<polygon width="0.6" layer="39">
+<vertex x="-13.5" y="3"/>
+<vertex x="13.5" y="3"/>
+<vertex x="13.5" y="-3.5"/>
+<vertex x="10.75" y="-3.5"/>
+<vertex x="10.75" y="-5.25"/>
+<vertex x="-10.75" y="-5.25"/>
+<vertex x="-10.75" y="-3.5"/>
+<vertex x="-13.5" y="-3.5"/>
+</polygon>
+<wire x1="10.85" y1="2.5" x2="10.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.5" x2="-1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.5" x2="-0.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="-2.5" x2="0.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-2.5" x2="3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-2.5" x2="4.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-1" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.75" y1="-2.5" x2="1.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-2" x2="1.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.5" x2="-1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="2" x2="-0.75" y2="2.5" width="0.127" layer="51"/>
+<smd name="1" x="-8.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="2" x="-6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="3" x="-3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="4" x="-1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="5" x="1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="PAD@1" x="-12.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<smd name="PAD@2" x="12.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<hole x="-10.15" y="-2.1" drill="1"/>
+<hole x="10.15" y="-2.1" drill="1"/>
+<wire x1="-10.85" y1="-1" x2="-10.85" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-10.85" y1="-2.5" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-1" x2="10.85" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-12.8" y1="-2" x2="-10.85" y2="2" layer="51"/>
+<rectangle x1="10.85" y1="-2" x2="12.8" y2="2" layer="51"/>
+<text x="-10.5" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-10.5" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-8.25" y1="1.5" x2="8.25" y2="1.5" width="0.4" layer="35"/>
+<wire x1="-8.75" y1="-2" x2="-9.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="-2" x2="-8.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2" x2="3.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2" x2="4.25" y2="-2.5" width="0.127" layer="51"/>
+<smd name="6" x="3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="7" x="6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="8" x="8.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<wire x1="0.75" y1="2.5" x2="1.25" y2="2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="2" x2="1.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3.25" y1="2.5" x2="3.75" y2="2" width="0.127" layer="51"/>
+<wire x1="3.75" y1="2" x2="4.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5.75" y1="2.5" x2="6.25" y2="2" width="0.127" layer="51"/>
+<wire x1="6.25" y1="2" x2="6.75" y2="2.5" width="0.127" layer="51"/>
+<wire x1="8.25" y1="2.5" x2="8.75" y2="2" width="0.127" layer="51"/>
+<wire x1="8.75" y1="2" x2="9.25" y2="2.5" width="0.127" layer="51"/>
+<wire x1="9.25" y1="-2.5" x2="8.75" y2="-2" width="0.127" layer="51"/>
+<wire x1="8.75" y1="-2" x2="8.25" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="6.75" y1="-2.5" x2="6.25" y2="-2" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-2" x2="5.75" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.75" y1="2.5" x2="10.85" y2="2.5" width="0.127" layer="51"/>
+<wire x1="4.25" y1="-2.5" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="-2.5" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="10.85" y1="-2.5" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -4724,6 +5024,24 @@ Breaks out the following 4-pin header:
 </technology>
 </technologies>
 </device>
+<device name="PHOENIX_PTSM_0,5/7-HV0-2,5-SMD" package="PHOENIX_PTSM_0,5/7-HV-2,5-SMD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Phoenix" constant="no"/>
+<attribute name="PARTNUM" value="1839240" constant="no"/>
+<attribute name="VALUE" value="Phoenix PTSM 0,5/7" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TE_1-84952" prefix="X">
@@ -5317,6 +5635,60 @@ Electrical:
 <technology name="">
 <attribute name="MANUF" value="Molex" constant="no"/>
 <attribute name="PARTNUM" value="53398-0871" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DMCV_0,5/4-G1-2,54_SMD" package="PHOENIX_DMCV_0,5/4-G1-2,54">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
+<connect gate="-3" pin="S" pad="P$3"/>
+<connect gate="-4" pin="S" pad="P$4"/>
+<connect gate="-5" pin="S" pad="P$5"/>
+<connect gate="-6" pin="S" pad="P$6"/>
+<connect gate="-7" pin="S" pad="P$7"/>
+<connect gate="-8" pin="S" pad="P$8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Phoenix" constant="no"/>
+<attribute name="PARTNUM" value="DMCV 0,5/ 4-G1-2,54 SMD R32" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PTSM_0,5/8-HV-2,5-SMD" package="PHOENIX_PTSM_0,5/8-HV-2,5-SMD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Phoenix" constant="no"/>
+<attribute name="PARTNUM" value="1778751" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PTSM_0,5/8-HV-2,5-SMD_NO_HOLE" package="PHOENIX_PTSM_0,5/8-HV-2,5-SMD_NO_HOLE">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+<connect gate="-7" pin="S" pad="7"/>
+<connect gate="-8" pin="S" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Phoenix" constant="no"/>
+<attribute name="PARTNUM" value="1778751" constant="no"/>
 </technology>
 </technologies>
 </device>
