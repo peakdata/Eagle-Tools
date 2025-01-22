@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -809,7 +809,6 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 <wire x1="-2.5" y1="-1.9" x2="-2.5" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="2.5" y1="1.9" x2="2.5" y2="-1.9" width="0.2032" layer="21"/>
-<circle x="-2.9" y="-2.7" radius="0.2" width="0.2" layer="21"/>
 <polygon width="0.2" layer="39">
 <vertex x="-2.5" y="3.9"/>
 <vertex x="2.5" y="3.9"/>
@@ -824,6 +823,7 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <vertex x="-2.9" y="2"/>
 <vertex x="-2.5" y="2.4"/>
 </polygon>
+<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="-3.7" width="0.254" layer="21"/>
 </package>
 <package name="SC70-5_DCK">
 <description>&lt;h3&gt;TI SC70-5 DCK Package&lt;/h3&gt;
@@ -1188,6 +1188,37 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.46646875" width="0.1524" layer="94"/>
 <text x="-2.54" y="5.08" size="1.778" layer="95" font="vector" align="bottom-right">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" font="vector" align="bottom-right">&gt;VALUE</text>
+</symbol>
+<symbol name="TI_ISO1211">
+<description>&lt;h3&gt;TI ISO1211 Isolated 24-V to 60-V Digital Input Receiver&lt;/h3&gt;</description>
+<pin name="SENSE" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="IN" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="FGND" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="SUB" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="VCC1" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="GND1" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="SKYWORKS_SI8710">
+<description>&lt;h3&gt;Skyworks Si8710 Led Emulator Input Isolater with Open Collector Output&lt;/h3&gt;</description>
+<pin name="ANODE" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="CATHODE" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="VDD" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="VO" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1866,6 +1897,94 @@ Transfer Data Concurrently with USB Transfers Over the Same Endpoint
 <attribute name="MANUF" value="TI" constant="no"/>
 <attribute name="PARTNUM" value="SN74LV1T34DCK" constant="no"/>
 <attribute name="VALUE" value="SN74LV1T34" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TI_ISO1211" prefix="IC">
+<description>&lt;h3&gt;ISO1211 Isolated 24-V to 60-V Digital Input Receiver for Digital Input Modules&lt;/h3&gt;
+&lt;h4&gt;Features:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Compliant to IEC 61131-2; Type 1, 2, 3 characteristics for 24-V isolated digital inputs&lt;/li&gt;
+&lt;li&gt;Supports 9-V to 300-V DC and AC digital input designs using external resistors&lt;/li&gt;
+&lt;li&gt;Accurate Current Limit for Low-Power Dissipation:
+  &lt;ul&gt;
+    &lt;li&gt;2.2mA to 2.47mA for Type3&lt;/li&gt;
+    &lt;li&gt;Adjustable up to 6.5 mA&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Eliminates the need for field-side power supply&lt;/li&gt;
+&lt;li&gt;High input-voltage range with reverse polarity protection: ±60 V&lt;/li&gt;
+&lt;li&gt;Wire-break detection (refer to TIDA-01509)&lt;/li&gt;
+&lt;li&gt;Configurable as sourcing or sinking input&lt;/li&gt;
+&lt;li&gt;High data rates: up to 4 Mbps&lt;/li&gt;
+&lt;li&gt;Enable pin to multiplex output signals&lt;/li&gt;
+&lt;li&gt;High transient immunity: ±70-kV/μs CMTI&lt;/li&gt;
+&lt;li&gt;Wide supply range (VCC1): 2.25 V to 5.5 V&lt;/li&gt;
+&lt;li&gt;Ambient temperature range: –40°C to +125°C&lt;/li&gt;
+&lt;li&gt;Compact package options:
+  &lt;ul&gt;
+    &lt;li&gt;Single-channel ISO1211, SOIC-8&lt;/li&gt;
+    &lt;li&gt;Dual-channel ISO1212, SSOP-16&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Safety-Related Certifications:
+  &lt;ul&gt;
+    &lt;li&gt;Basic insulation per DIN VDE V 0884-11&lt;/li&gt;
+    &lt;li&gt;UL 1577 recognition, 2500-VRMS insulation&lt;/li&gt;
+    &lt;li&gt;IEC 60950-1, IEC 62368-1, IEC 61010-1 and GB 4943.1-2011 certifications&lt;/li&gt;
+  &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=ISO1211D*"&gt;Octopart search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2025-01-05&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TI_ISO1211" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="FGND" pad="6"/>
+<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="IN" pad="7"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="SENSE" pad="8"/>
+<connect gate="G$1" pin="SUB" pad="5"/>
+<connect gate="G$1" pin="VCC1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="ISO1211D*" constant="no"/>
+<attribute name="VALUE" value="ISO1211" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKYWORKS_SI8710" prefix="IC">
+<description>&lt;h3&gt;Skyworks Si8710 Digital Isolator with LED Emulation Input and Open Collector Output&lt;/h3&gt;
+
+&lt;p&gt;Based on data from Skyworks document 206198A, rev. 1.33 date 2022-01-25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=SI8710*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2025-01-19&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SKYWORKS_SI8710" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC-8" package="SO08">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="2"/>
+<connect gate="G$1" pin="CATHODE" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5 7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VO" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Skyworks" constant="no"/>
+<attribute name="PARTNUM" value="Si8710*" constant="no"/>
+<attribute name="VALUE" value="Si8710" constant="no"/>
 </technology>
 </technologies>
 </device>
