@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -971,6 +971,67 @@ grid 5.6 mm</description>
 <vertex x="-0.75" y="1"/>
 <vertex x="-1.75" y="1"/>
 </polygon>
+</package>
+<package name="SOT89">
+<smd name="P$1" x="-1.5" y="0" dx="0.58" dy="1.73" layer="1"/>
+<smd name="P$3" x="1.5" y="0" dx="0.58" dy="1.73" layer="1"/>
+<smd name="P$2" x="0" y="-0.115" dx="0.76" dy="1.5" layer="1"/>
+<smd name="P$4" x="0" y="2.1635" dx="1.933" dy="3.03" layer="1"/>
+</package>
+<package name="U-DFN2020-3_TYPE_B">
+<description>&lt;h3&gt;Diodes U-DFN2020-3 Type B SMT Package&lt;/h3&gt;
+&lt;p&gt;Based on Diodes Inc. Package Outline Dimensions document dated 2022-07-20&lt;/p&gt;
+&lt;p&gt;Added 2025-01-27&lt;/p&gt;</description>
+<smd name="1" x="-0.65" y="-0.9" dx="0.35" dy="0.5" layer="1" roundness="10"/>
+<smd name="2" x="0.65" y="-0.9" dx="0.35" dy="0.5" layer="1" roundness="10"/>
+<polygon width="0.1" layer="1">
+<vertex x="-0.125" y="1.1"/>
+<vertex x="0.125" y="1.1"/>
+<vertex x="0.125" y="0.63"/>
+<vertex x="0.71" y="0.63"/>
+<vertex x="0.71" y="-0.36"/>
+<vertex x="-0.71" y="-0.36"/>
+<vertex x="-0.71" y="0.63"/>
+<vertex x="-0.125" y="0.63"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-0.125" y="1.1"/>
+<vertex x="0.125" y="1.1"/>
+<vertex x="0.125" y="0.63"/>
+<vertex x="0.61" y="0.63"/>
+<vertex x="0.61" y="-0.26"/>
+<vertex x="-0.61" y="-0.26"/>
+<vertex x="-0.61" y="0.63"/>
+<vertex x="-0.125" y="0.63"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-0.225" y="1.2"/>
+<vertex x="0.225" y="1.2"/>
+<vertex x="0.225" y="0.73"/>
+<vertex x="0.81" y="0.73"/>
+<vertex x="0.81" y="-0.46"/>
+<vertex x="-0.81" y="-0.46"/>
+<vertex x="-0.81" y="0.73"/>
+<vertex x="-0.225" y="0.73"/>
+</polygon>
+<smd name="3" x="0" y="0" dx="0.35" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="1" x2="-1" y2="1" width="0.1" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-0.5" width="0.1" layer="21"/>
+<wire x1="0.5" y1="1" x2="1" y2="1" width="0.1" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="-0.5" width="0.1" layer="21"/>
+<text x="-1.5" y="-1.5" size="1.27" layer="25" ratio="16" rot="R90">&gt;NAME</text>
+<text x="1.25" y="-1.5" size="1.27" layer="27" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.25" y="1.25"/>
+<vertex x="1.25" y="1.25"/>
+<vertex x="1.25" y="-1.25"/>
+<vertex x="-1.25" y="-1.25"/>
+</polygon>
+<wire x1="-1.25" y1="-0.25" x2="-1.25" y2="-1.25" width="0.195" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2000,21 +2061,38 @@ Features
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMN53D0LQ" prefix="Q">
-<description>&lt;h3&gt;DMN53D0LQ N-Channel Enhancement Mode MOSFET&lt;/h3&gt;
+<deviceset name="DMN53D0L" prefix="Q">
+<description>&lt;h3&gt;DMN53D0L* N-Channel Enhancement Mode MOSFET&lt;/h3&gt;
 
 &lt;h4&gt;Description&lt;/h4&gt;
 &lt;p&gt;This MOSFET has been designed to minimize the on-state resistance R&lt;sub&gt;DS(ON)&lt;/sub&gt; and yet maintain superior switching performance, making it ideal for high efficiency power management applications.&lt;/p&gt;
 
+&lt;h4&gt;The base DMN53D0L* part number has two variants available as follows:&lt;/h4&gt;
+&lt;table border="0.5" cellpadding="5"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Part Number&lt;/th&gt;
+            &lt;th&gt;Package&lt;/th&gt;
+            &lt;th&gt;Search&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;DMN53D0LQ&lt;/td&gt;
+            &lt;td&gt;SOT23&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://octopart.com/search?q=DMN53D0LQ-*"&gt;Octopart Search&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;DMN53D0L&lt;b&gt;T&lt;/b&gt;Q&lt;/td&gt;
+            &lt;td&gt;SOT523&lt;/td&gt;
+            &lt;td&gt;&lt;a href="https://octopart.com/search?q=DMN53D0LTQ-*"&gt;Octopart Search&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;table border="0.5" cellpadding="5"&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
             &lt;th class="align-left valign-top"&gt;Qualified to AECQ10x&lt;/th&gt;
             &lt;td class="align-left valign-top"&gt;Yes&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th class="align-left valign-top"&gt;Automotive Compliant PPAP&lt;/th&gt;
-            &lt;td class="align-left valign-top"&gt;DMN53D0LQ&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;th class="align-left valign-top"&gt;Polarity&lt;/th&gt;
@@ -2053,32 +2131,19 @@ Features
             &lt;td class="align-left valign-top"&gt;4500 mΩ&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;th class="align-left valign-top"&gt;RDS&lt;sub&gt;ON&lt;/sub&gt; Max @ VGS (1.8V)&lt;/th&gt;
-            &lt;td class="align-left valign-top"&gt;N/A mΩ&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
             &lt;th class="align-left valign-top"&gt;VGS&lt;sub&gt;th&lt;/sub&gt; Max&lt;/th&gt;
             &lt;td class="align-left valign-top"&gt;1.5 V&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th class="align-left valign-top"&gt;QG Typ @ VGS = 4.5V (nC)&lt;/th&gt;
-            &lt;td class="align-left valign-top"&gt;N/A nC&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;th class="align-left valign-top"&gt;QG Typ @ VGS = 10V (nC)&lt;/th&gt;
-            &lt;td class="align-left valign-top"&gt;N/A nC&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a href="https://octopart.com/search?q=DMN53D0LQ-*"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Added 2019-10-30&lt;/p&gt;</description>
+&lt;p&gt;Added 2019-10-30&lt;/p&gt;
+&lt;p&gt;Updated 2026-03-19&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23_DIODES">
+<device name="Q" package="SOT23_DIODES">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -2089,6 +2154,55 @@ Features
 <attribute name="MANUF" value="Diodes" constant="no"/>
 <attribute name="PARTNUM" value="DMN53D0LQ-*" constant="no"/>
 <attribute name="VALUE" value="DMN53D0LQ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TQ" package="SOT523">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Diodes" constant="no"/>
+<attribute name="PARTNUM" value="DMN53D0LTQ-*" constant="no"/>
+<attribute name="VALUE" value="DMN53D0LTQ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC56-16PA" prefix="Q">
+<description>&lt;h3&gt;NPN Medium Power Transistor&lt;/h3&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;BVCEO &amp;gt; 80V&lt;/li&gt;
+&lt;li&gt;IC = 1A High Continuous Collector Current&lt;/li&gt;
+&lt;li&gt;ICM = 2A Peak Pulse Current&lt;/li&gt;
+&lt;li&gt;520mW Power Dissipation&lt;/li&gt;
+&lt;li&gt;Low Saturation Voltage VCE(sat) &lt; 500mV @ 0.5A&lt;/li&gt;
+&lt;li&gt;Complementary PNP Type: BC53-16PA&lt;/li&gt;
+&lt;li&gt;Totally Lead-Free &amp; Fully RoHS Compliant (Notes 1 &amp; 2)&lt;/li&gt;
+&lt;li&gt;Halogen and Antimony Free. “Green” Device (Note 3)&lt;/li&gt;
+&lt;li&gt;Qualified to AEC-Q101 Standards for High Reliability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=BC56-16PA-7"&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2025-01-27, based on Diodes Inc datasheet number DS37784 Rev. 2 - 2, January 2016&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN_TRANSISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U-DFN2020-3_TYPE_B">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Diodes" constant="no"/>
+<attribute name="PARTNUM" value="BC56-16PA-7" constant="no"/>
 </technology>
 </technologies>
 </device>
