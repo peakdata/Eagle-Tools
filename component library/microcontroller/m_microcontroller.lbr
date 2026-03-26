@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -353,6 +353,74 @@
 <text x="-2.75" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
 <text x="-2.75" y="-2.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
 </package>
+<package name="VQFN32">
+<description>&lt;h4&gt;32-Lead Very Thin Plastic Quad Flat, No Lead Package (RXB) - 5x5x0.9 mm Body [VQFN]
+With 3.1x3.1 mm Exposed Pad; Atmel Legacy Global Package Code ZMF&lt;/h4&gt;
+&lt;p&gt;Microchip document DS40002183E&lt;/p&gt;
+&lt;p&gt;Added 2026-03-08&lt;/p&gt;</description>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="2.15" x2="-2.75" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-2.75" y1="2.75" x2="-2.25" y2="2.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="2.75" x2="2.75" y2="2.75" width="0.127" layer="21"/>
+<wire x1="2.75" y1="2.75" x2="2.75" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-2.25" x2="2.75" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-2.75" x2="2.25" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-2.75" x2="-2.75" y2="-2.75" width="0.127" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="-2.25" width="0.127" layer="21"/>
+<text x="-2.75" y="3" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2.75" y="-3" size="1.016" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-2.5" y="1.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="2" x="-2.5" y="1.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="3" x="-2.5" y="0.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="4" x="-2.5" y="0.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="5" x="-2.5" y="-0.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="6" x="-2.5" y="-0.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="7" x="-2.5" y="-1.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="8" x="-2.5" y="-1.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R90"/>
+<smd name="9" x="-1.75" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="10" x="-1.25" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="11" x="-0.75" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="12" x="-0.25" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="13" x="0.25" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="14" x="0.75" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="15" x="1.25" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="16" x="1.75" y="-2.5" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R180"/>
+<smd name="17" x="2.5" y="-1.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="18" x="2.5" y="-1.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="19" x="2.5" y="-0.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="20" x="2.5" y="-0.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="21" x="2.5" y="0.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="22" x="2.5" y="0.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="23" x="2.5" y="1.25" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="24" x="2.5" y="1.75" dx="0.3" dy="0.8" layer="1" roundness="12" rot="R270"/>
+<smd name="25" x="1.75" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="26" x="1.25" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="27" x="0.75" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="28" x="0.25" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="29" x="-0.25" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="30" x="-0.75" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="31" x="-1.25" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="32" x="-1.75" y="2.5" dx="0.3" dy="0.8" layer="1" roundness="12"/>
+<smd name="PAD" x="0" y="0" dx="3.2" dy="3.2" layer="1" roundness="5" thermals="no"/>
+<wire x1="-2.75" y1="2.15" x2="-3.5" y2="2.15" width="0.127" layer="21"/>
+<polygon width="0.2" layer="39">
+<vertex x="-2.25" y="3.25"/>
+<vertex x="-2.25" y="2.25"/>
+<vertex x="-3.25" y="2.25"/>
+<vertex x="-3.25" y="-2.25"/>
+<vertex x="-2.25" y="-2.25"/>
+<vertex x="-2.25" y="-3.25"/>
+<vertex x="2.25" y="-3.25"/>
+<vertex x="2.25" y="-2.25"/>
+<vertex x="3.25" y="-2.25"/>
+<vertex x="3.25" y="2.25"/>
+<vertex x="2.25" y="2.25"/>
+<vertex x="2.25" y="3.25"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="AT90PWM2">
@@ -517,6 +585,48 @@
 <pin name="AD1A4/PB7" x="38.1" y="-12.7" length="short" direction="pas" rot="R180"/>
 <pin name="AD1A10/WOA4*/WOB1*/LUT1IN1/PC4" x="38.1" y="-27.94" length="short" direction="pas" rot="R180"/>
 <pin name="WOA5/LUT1IN2/PC5" x="38.1" y="-30.48" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="AVR*DA32*">
+<description>&lt;h4&gt;AVR*DA32* AVR CPU&lt;/h4&gt;
+&lt;p&gt;32-Pin variant microcontroller of the AVR® DA family&lt;/p&gt;</description>
+<pin name="PA0/EXTCLK" x="17.78" y="30.48" length="short" direction="pas" rot="R180"/>
+<pin name="PA1" x="17.78" y="27.94" length="short" direction="pas" rot="R180"/>
+<pin name="PA3" x="17.78" y="22.86" length="short" direction="pas" rot="R180"/>
+<pin name="PA4" x="17.78" y="20.32" length="short" direction="pas" rot="R180"/>
+<pin name="PA5" x="17.78" y="17.78" length="short" direction="pas" rot="R180"/>
+<pin name="PA6" x="17.78" y="15.24" length="short" direction="pas" rot="R180"/>
+<pin name="PA7/CLKOUT" x="17.78" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="PC0" x="17.78" y="7.62" length="short" direction="pas" rot="R180"/>
+<pin name="PC1" x="17.78" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="PC2" x="17.78" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="PC3" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="PD0" x="17.78" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="PD1" x="17.78" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="PD2" x="17.78" y="-10.16" length="short" direction="pas" rot="R180"/>
+<pin name="PD3" x="17.78" y="-12.7" length="short" direction="pas" rot="R180"/>
+<pin name="PD4" x="17.78" y="-15.24" length="short" direction="pas" rot="R180"/>
+<pin name="PD5" x="17.78" y="-17.78" length="short" direction="pas" rot="R180"/>
+<pin name="VDD" x="-17.78" y="38.1" length="short" direction="pas"/>
+<pin name="GND@19" x="-17.78" y="-38.1" length="short" direction="pas"/>
+<pin name="PD6" x="17.78" y="-20.32" length="short" direction="pas" rot="R180"/>
+<pin name="PD7" x="17.78" y="-22.86" length="short" direction="pas" rot="R180"/>
+<pin name="PF0/XTAL32K1" x="17.78" y="-27.94" length="short" direction="pas" rot="R180"/>
+<pin name="PF1/XTAL32K2" x="17.78" y="-30.48" length="short" direction="pas" rot="R180"/>
+<pin name="PF2" x="17.78" y="-33.02" length="short" direction="pas" rot="R180"/>
+<pin name="PF3" x="17.78" y="-35.56" length="short" direction="pas" rot="R180"/>
+<pin name="PF4" x="17.78" y="-38.1" length="short" direction="pas" rot="R180"/>
+<pin name="PF5" x="17.78" y="-40.64" length="short" direction="pas" rot="R180"/>
+<pin name="AVDD" x="-17.78" y="35.56" length="short" direction="pas"/>
+<pin name="GND@29" x="-17.78" y="-40.64" length="short" direction="pas"/>
+<pin name="PF6/!RESET" x="17.78" y="38.1" length="short" direction="pas" rot="R180"/>
+<pin name="UPDI" x="17.78" y="35.56" length="short" direction="pas" rot="R180"/>
+<pin name="PA2" x="17.78" y="25.4" length="short" direction="pas" rot="R180"/>
+<wire x1="-15.24" y1="40.64" x2="15.24" y2="40.64" width="0.254" layer="94"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-43.18" x2="-15.24" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-43.18" x2="-15.24" y2="40.64" width="0.254" layer="94"/>
+<text x="-15.24" y="43.18" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-15.24" y="-45.72" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -914,6 +1024,165 @@ Specially designed for lamp ballast and Motor Control applications, the AT90PWM2
 <attribute name="MANUF" value="Microchip" constant="no"/>
 <attribute name="PARTNUM" value="ATtiny3217-M*" constant="no"/>
 <attribute name="VALUE" value="ATtiny3217" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AVR128DA32" prefix="U">
+<description>&lt;h3&gt;AVR128DA28/32/48/64(S)&lt;/h3&gt;
+
+&lt;h4&gt;AVR® DA family&lt;/h4&gt;
+
+&lt;h4&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;The AVR128DA28/32/48/64(S) microcontrollers are members of the AVR® DA family, using the AVR® CPU with hardware multiplier, running at up to 24 MHz, with 128 KB Flash, 16 KB SRAM, and 512B EEPROM in 28-, 32-, 48-, or 64-pin packages.&lt;/p&gt;
+&lt;p&gt;The AVR® DA(S) family uses a flexible, low-power architecture with Event System, intelligent analog features, advanced digital peripherals, and Peripheral Touch Controller (PTC).&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;CPU&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;AVR® CPU&lt;/li&gt;
+    &lt;li&gt;Running at up to 24 MHz&lt;/li&gt;
+    &lt;li&gt;Single-cycle I/O access&lt;/li&gt;
+    &lt;li&gt;Two-level interrupt controller&lt;/li&gt;
+    &lt;li&gt;Two-cycle hardware multiplier&lt;/li&gt;
+    &lt;li&gt;Supply voltage range: 1.8V to 5.5V&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;Memories&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;128 KB In-System self-programmable Flash memory&lt;/li&gt;
+    &lt;li&gt;512B EEPROM&lt;/li&gt;
+    &lt;li&gt;16 KB SRAM&lt;/li&gt;
+    &lt;li&gt;32B user row in nonvolatile memory (retained through chip-erase)&lt;/li&gt;
+    &lt;li&gt;Write/erase endurance: Flash 10,000 cycles, EEPROM 100,000 cycles&lt;/li&gt;
+    &lt;li&gt;Data retention: 40 years at 55°C&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;System&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Power-on Reset (POR)&lt;/li&gt;
+    &lt;li&gt;Brown-out Detector (BOD)&lt;/li&gt;
+    &lt;li&gt;Clock options:&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;High-precision internal high-frequency oscillator up to 24 MHz (OSCHF)&lt;/li&gt;
+      &lt;li&gt;Internal PLL up to 48 MHz for Timer/Counter type D operation&lt;/li&gt;
+      &lt;li&gt;32.768 kHz Ultra Low-Power internal oscillator (OSC32K)&lt;/li&gt;
+      &lt;li&gt;32.768 kHz external crystal oscillator (XOSC32K)&lt;/li&gt;
+      &lt;li&gt;External clock input&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Single-pin Unified Program and Debug Interface (UPDI)&lt;/li&gt;
+    &lt;li&gt;Three sleep modes:&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Idle with all peripherals running for immediate wake-up&lt;/li&gt;
+      &lt;li&gt;Standby&lt;/li&gt;
+      &lt;li&gt;Power-Down with full data retention&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Configurable operation of selected peripherals&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;Peripherals&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Up to two 16-bit Timer/Counter type A (TCA) with dedicated period register and three PWM channels&lt;/li&gt;
+    &lt;li&gt;Up to five 16-bit Timer/Counter type B (TCB) with input capture and simple PWM functionality&lt;/li&gt;
+    &lt;li&gt;One 12-bit Timer/Counter type D (TCD) optimized for power control&lt;/li&gt;
+    &lt;li&gt;One 16-bit Real-Time Counter (RTC)&lt;/li&gt;
+    &lt;li&gt;Up to six USART with fractional baud rate generator, auto-baud, and start-of-frame detection&lt;/li&gt;
+    &lt;li&gt;Two master/slave Serial Peripheral Interface (SPI)&lt;/li&gt;
+    &lt;li&gt;Up to two Two-Wire Interface (TWI) with dual address match&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Independent master and slave operation (Dual mode)&lt;/li&gt;
+      &lt;li&gt;Philips I2C compatible&lt;/li&gt;
+      &lt;li&gt;Standard mode (Sm, 100 kHz)&lt;/li&gt;
+      &lt;li&gt;Fast mode (Fm, 400 kHz)&lt;/li&gt;
+      &lt;li&gt;Fast mode plus (Fm+, 1 MHz)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Event System (EVSYS) for CPU-independent inter-peripheral signaling&lt;/li&gt;
+    &lt;li&gt;Configurable Custom Logic (CCL) with up to six programmable LUTs&lt;/li&gt;
+    &lt;li&gt;One 12-bit differential 130 ksps Analog-to-Digital Converter (ADC)&lt;/li&gt;
+    &lt;li&gt;Three Analog Comparators (AC) with window compare&lt;/li&gt;
+    &lt;li&gt;One 10-bit Digital-to-Analog Converter (DAC)&lt;/li&gt;
+    &lt;li&gt;Up to three Zero-Cross Detectors (ZCD)&lt;/li&gt;
+    &lt;li&gt;Multiple voltage references (VREF):&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;1.024V&lt;/li&gt;
+      &lt;li&gt;2.048V&lt;/li&gt;
+      &lt;li&gt;2.500V&lt;/li&gt;
+      &lt;li&gt;4.096V&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Peripheral Touch Controller (PTC) with Driven Shield+ and Boost Mode&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Capacitive touch buttons, sliders, wheels and 2D surfaces&lt;/li&gt;
+      &lt;li&gt;Up to 46 self-capacitance channels&lt;/li&gt;
+      &lt;li&gt;Up to 529 mutual-capacitance channels&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Automated CRC Flash memory scan&lt;/li&gt;
+    &lt;li&gt;Watchdog Timer (WDT) with Window mode and separate on-chip oscillator&lt;/li&gt;
+    &lt;li&gt;External interrupt on all general purpose pins&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;li&gt;I/O and Packages&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Up to 55 programmable I/O pins&lt;/li&gt;
+    &lt;li&gt;28-pin SPDIP, SSOP, SOIC&lt;/li&gt;
+    &lt;li&gt;32-pin VQFN 5x5 mm, TQFP 7x7 mm&lt;/li&gt;
+    &lt;li&gt;48-pin VQFN 6x6 mm, TQFP 7x7 mm&lt;/li&gt;
+    &lt;li&gt;64-pin VQFN 9x9 mm, TQFP 10x10 mm&lt;/li&gt;
+    &lt;li&gt;Temperature ranges:&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Industrial: -40°C to +85°C&lt;/li&gt;
+      &lt;li&gt;Extended: -40°C to +125°C&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='https://octopart.com/search?q=avr128da*'&gt;Octopart Search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Added 2026-03-08&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="AVR*DA32*" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/RXB" package="VQFN32">
+<connects>
+<connect gate="G$1" pin="AVDD" pad="18"/>
+<connect gate="G$1" pin="GND@19" pad="19"/>
+<connect gate="G$1" pin="GND@29" pad="29 PAD"/>
+<connect gate="G$1" pin="PA0/EXTCLK" pad="30"/>
+<connect gate="G$1" pin="PA1" pad="31"/>
+<connect gate="G$1" pin="PA2" pad="32"/>
+<connect gate="G$1" pin="PA3" pad="1"/>
+<connect gate="G$1" pin="PA4" pad="2"/>
+<connect gate="G$1" pin="PA5" pad="3"/>
+<connect gate="G$1" pin="PA6" pad="4"/>
+<connect gate="G$1" pin="PA7/CLKOUT" pad="5"/>
+<connect gate="G$1" pin="PC0" pad="6"/>
+<connect gate="G$1" pin="PC1" pad="7"/>
+<connect gate="G$1" pin="PC2" pad="8"/>
+<connect gate="G$1" pin="PC3" pad="9"/>
+<connect gate="G$1" pin="PD0" pad="10"/>
+<connect gate="G$1" pin="PD1" pad="11"/>
+<connect gate="G$1" pin="PD2" pad="12"/>
+<connect gate="G$1" pin="PD3" pad="13"/>
+<connect gate="G$1" pin="PD4" pad="14"/>
+<connect gate="G$1" pin="PD5" pad="15"/>
+<connect gate="G$1" pin="PD6" pad="16"/>
+<connect gate="G$1" pin="PD7" pad="17"/>
+<connect gate="G$1" pin="PF0/XTAL32K1" pad="20"/>
+<connect gate="G$1" pin="PF1/XTAL32K2" pad="21"/>
+<connect gate="G$1" pin="PF2" pad="22"/>
+<connect gate="G$1" pin="PF3" pad="23"/>
+<connect gate="G$1" pin="PF4" pad="24"/>
+<connect gate="G$1" pin="PF5" pad="25"/>
+<connect gate="G$1" pin="PF6/!RESET" pad="26"/>
+<connect gate="G$1" pin="UPDI" pad="27"/>
+<connect gate="G$1" pin="VDD" pad="28"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Microchip" constant="no"/>
+<attribute name="PARTNUM" value="AVR128DA32*-*/RXB " constant="no"/>
+<attribute name="VALUE" value="AVR128DA32" constant="no"/>
 </technology>
 </technologies>
 </device>
