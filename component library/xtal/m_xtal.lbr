@@ -215,6 +215,29 @@
 <vertex x="-2.25" y="-1.75"/>
 </polygon>
 </package>
+<package name="SIT_4L_PQFN_2.5X2.0">
+<description>&lt;h4&gt;SiTime 4L PQFN 2.5x2.0 mm SMT Package&lt;/h4&gt;
+&lt;p&gt;From SiT Drawing No. POD-096-PQFN-004-G02520, date 2025-05-12&lt;/p&gt;
+&lt;p&gt;Added 2026-03-20&lt;/p&gt;</description>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.5" x2="-1.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-0.75" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-0.75" dx="1.1" dy="1" layer="1" roundness="5"/>
+<smd name="2" x="0.95" y="-0.75" dx="1.1" dy="1" layer="1" roundness="5"/>
+<smd name="3" x="0.95" y="0.75" dx="1.1" dy="1" layer="1" roundness="5" rot="R180"/>
+<smd name="4" x="-0.95" y="0.75" dx="1.1" dy="1" layer="1" roundness="5" rot="R180"/>
+<text x="-2" y="-1.5" size="1.27" layer="25" ratio="16" rot="R90">&gt;NAME</text>
+<text x="1.75" y="-1.5" size="1.27" layer="27" ratio="16" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.75" y="1.5"/>
+<vertex x="1.75" y="1.5"/>
+<vertex x="1.75" y="-1.5"/>
+<vertex x="-1.75" y="-1.5"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -453,9 +476,81 @@ PARAMETERS
 <technologies>
 <technology name="">
 <attribute name="MANUF" value="SiTime" constant="no"/>
-<attribute name="PARTNUM" value="
-SIT2018BA-S1-33N-16.000000E" constant="no"/>
+<attribute name="PARTNUM" value=" SIT2018BA-S1-33N-16.000000E" constant="no"/>
 <attribute name="VALUE" value="16MHz" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIT1625" prefix="Y" uservalue="yes">
+<description>&lt;h3&gt;SiT1625 AEC-Q100, Low Jitter and Low Power Oscillator&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The SiT1625 low power, low-jitter AEC-Q100 oscillator is designed for automotive and extreme temperature applications. This device provides a perfect combination of low jitter (500 fs typical), low power (2.3 mA typical current consumption), excellent stability (as low as ±50 ppm) and wide temperature range (-40°C to 125°C) in the smallest 1.6 x 1.2 mm package that is not readily available from quartz.&lt;/p&gt;
+&lt;p&gt;It is based on SiTime's latest generation of highly reliable MEMS technology and features the industry's best shock and vibration resistance. The high performance of the SiT1625 makes it ideal for the next generation of high speed connectivity for ADAS and Infotainment systems.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;h4&gt;500 fs RMS phase jitter&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Low jitter for high-speed automotive connectivity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;±50 ppm frequency stability over -40 to +125 °C&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;AEC-Q100 Grade 1 temperature range&lt;/li&gt;
+    &lt;li&gt;Better timing margin for outdoor and high-temp. operating environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Low power consumption&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;2.3 mA typical at 1.8 V&lt;/li&gt;
+    &lt;li&gt;1 µA standby current&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Industry-standard packages with small footprint&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;2.0 x 1.6, 2.5 x 2.0, 3.2 x 2.5 mm packages&lt;/li&gt;
+    &lt;li&gt;100% drop-in replacement of quartz XO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Configurable feature sets&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;44 standard frequencies&lt;/li&gt;
+    &lt;li&gt;1.2 V, 1.5 V, 1.8 V, 2.5 V, or 3.3 V supply voltage&lt;/li&gt;
+    &lt;li&gt;Flexible voltage range option: 1.62 to 3.63 V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Quick startup time&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&amp;lt;1 ms startup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Power supply noise immunity&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;0.4 ps/mV power supply-induced jitter sensitivity&lt;/li&gt;
+    &lt;li&gt;Simplify power supply design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Superior reliability&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;2.2 billion hours MTBF&lt;/li&gt;
+    &lt;li&gt;Lifetime warranty: reduces field failures due to clock components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.sitime.com/products/auto-aec-q100-timing/mhz-oscillators/sit1625"&gt;Device Information Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sitime.com/part-number-generator"&gt;Part Number Generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=SIT1625"&gt;Octopart Search&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Added 2026-03-20&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MEMS_OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PQFN_2.5X2.0" package="SIT_4L_PQFN_2.5X2.0">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="SiTime" constant="no"/>
+<attribute name="PARTNUM" value="SiT1625BA-13-33N-16.000000" constant="no"/>
+<attribute name="VALUE" value="16M" constant="no"/>
 </technology>
 </technologies>
 </device>
