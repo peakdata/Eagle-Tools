@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -88,6 +88,7 @@
 &lt;li&gt;Serial Transceivers&lt;/li&gt;
 &lt;li&gt;USB Interfaces&lt;/li&gt;
 &lt;li&gt;Level shifters&lt;/li&gt;
+&lt;li&gt;Isolation&lt;/li&gt;
 &lt;li&gt;Level Inverters&lt;/li&gt;
 &lt;/ul&gt;</description>
 <packages>
@@ -869,6 +870,45 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 </polygon>
 <wire x1="-1.1" y1="-0.725" x2="-1.1" y2="-1.425" width="0.127" layer="21"/>
 </package>
+<package name="SOIC-DFF-5">
+<description>&lt;h3&gt;Texas Instruments DFF0005A SOIC 5 Package&lt;/h3&gt;
+&lt;p&gt;Created from TI Drawing 4227025/D rev. 08/2024&lt;/p&gt;
+&lt;p&gt;Solder pads IPC-7351 NOMINAL 4.5 CLEARANCE / CREEPAGE&lt;/p&gt;
+&lt;p&gt;added 2026-02-23&lt;/p&gt;</description>
+<wire x1="-2.4" y1="1.75" x2="2.4" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1.75" x2="2.4" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.75" x2="-2.4" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.75" x2="-2.4" y2="1.75" width="0.2032" layer="51"/>
+<rectangle x1="2.4" y1="-0.25" x2="3.625" y2="0.25" layer="51"/>
+<rectangle x1="2.4" y1="-0.25" x2="3.625" y2="0.25" layer="51"/>
+<rectangle x1="2.4" y1="1.02" x2="3.625" y2="1.52" layer="51"/>
+<rectangle x1="2.4" y1="-1.52" x2="3.625" y2="-1.02" layer="51"/>
+<rectangle x1="-3.625" y1="-1.52" x2="-2.4" y2="-1.02" layer="51" rot="R180"/>
+<rectangle x1="-3.625" y1="1.02" x2="-2.4" y2="1.52" layer="51" rot="R180"/>
+<wire x1="-2.4" y1="1.75" x2="2.4" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.75" x2="-2.4" y2="-1.75" width="0.2032" layer="51"/>
+<smd name="1" x="-3" y="1.27" dx="1.2" dy="0.6" layer="1" roundness="16"/>
+<smd name="2" x="-3" y="-1.27" dx="1.2" dy="0.6" layer="1" roundness="16"/>
+<smd name="3" x="3" y="-1.27" dx="1.2" dy="0.6" layer="1" roundness="16"/>
+<smd name="4" x="3" y="0" dx="1.2" dy="0.6" layer="1" roundness="16"/>
+<smd name="5" x="3" y="1.27" dx="1.2" dy="0.6" layer="1" roundness="16"/>
+<text x="-3.5" y="2" size="1.27" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-3.5" y="-2" size="1.27" layer="27" font="vector" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="2.5" y="2.25"/>
+<vertex x="-2.5" y="2.25"/>
+<vertex x="-2.5" y="1.75"/>
+<vertex x="-3.75" y="1.75"/>
+<vertex x="-3.75" y="-1.75"/>
+<vertex x="-2.5" y="-1.75"/>
+<vertex x="-2.5" y="-2.25"/>
+<vertex x="2.5" y="-2.25"/>
+<vertex x="2.5" y="-1.75"/>
+<vertex x="3.75" y="-1.75"/>
+<vertex x="3.75" y="1.75"/>
+<vertex x="2.5" y="1.75"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX3420E">
@@ -1211,6 +1251,20 @@ Source: http://www.linear.com .. LTC 6820f, added 2013-05-28</description>
 <pin name="ANODE" x="-12.7" y="2.54" length="short" direction="pas"/>
 <pin name="CATHODE" x="-12.7" y="-2.54" length="short" direction="pas"/>
 <pin name="VDD" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="VO" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+</symbol>
+<symbol name="TI_ISOM8710">
+<description>&lt;h3&gt;TI High-Speed Single-Channel Opto-Emulator&lt;/h3&gt;</description>
+<pin name="ANODE" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="CATHODE" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="VCC" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
 <pin name="VO" x="12.7" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="GND" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
 <wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -1985,6 +2039,70 @@ Transfer Data Concurrently with USB Transfers Over the Same Endpoint
 <attribute name="MANUF" value="Skyworks" constant="no"/>
 <attribute name="PARTNUM" value="Si8710*" constant="no"/>
 <attribute name="VALUE" value="Si8710" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TI_ISOM8710" prefix="U">
+<description>&lt;h3&gt;High-Speed Single-Channel Opto-Emulator, CMOS Output (ISOM8710)&lt;/h3&gt;
+
+&lt;table cellpadding="5" border="0.5"&gt;
+&lt;tr bgcolor="lightgray"&gt;&lt;th colspan="6"&gt;ELECTRICAL CHARACTERISTICS (TA = 25°C unless otherwise noted)&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th colspan="2"&gt;Characteristic&lt;/th&gt;&lt;th&gt;Symbol&lt;/th&gt;&lt;th&gt;Min&lt;/th&gt;&lt;th&gt;Max&lt;/th&gt;&lt;th&gt;Unit&lt;/th&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;th colspan="6"&gt;RECOMMENDED OPERATING CONDITIONS&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Supply Voltage&lt;/td&gt;&lt;td&gt;VCC&lt;/td&gt;&lt;td&gt;2.7&lt;/td&gt;&lt;td&gt;5.5&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input OFF-State Voltage&lt;/td&gt;&lt;td&gt;VF(off)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0.8&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input ON-State Forward Current&lt;/td&gt;&lt;td&gt;IF(on)&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;mA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input OFF-State Forward Current&lt;/td&gt;&lt;td&gt;IF(off)&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;td&gt;µA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Ambient Temperature&lt;/td&gt;&lt;td&gt;TA&lt;/td&gt;&lt;td&gt;-40&lt;/td&gt;&lt;td&gt;125&lt;/td&gt;&lt;td&gt;°C&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;th colspan="6"&gt;DC CHARACTERISTICS&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input Forward Voltage (IF = 6 mA)&lt;/td&gt;&lt;td&gt;VF&lt;/td&gt;&lt;td&gt;1.3&lt;/td&gt;&lt;td&gt;1.8&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Logic HIGH Output Supply Current (IF = 0 mA)&lt;/td&gt;&lt;td&gt;ICCH&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;mA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Logic LOW Output Supply Current (IF = 6 mA)&lt;/td&gt;&lt;td&gt;ICCL&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;mA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Logic HIGH Output Voltage (IF = 0, IO = -4 mA)&lt;/td&gt;&lt;td&gt;VOH&lt;/td&gt;&lt;td&gt;VCC - 0.4&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Logic LOW Output Voltage (IF = 6 mA, IO = 4 mA)&lt;/td&gt;&lt;td&gt;VOL&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;0.2&lt;/td&gt;&lt;td&gt;V&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input Threshold Current&lt;/td&gt;&lt;td&gt;ITH&lt;/td&gt;&lt;td&gt;0.6&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;mA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input Reverse Current (VR = 5 V)&lt;/td&gt;&lt;td&gt;IR&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;µA&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Input Capacitance (f = 1 MHz, VF = 0 V)&lt;/td&gt;&lt;td&gt;CI&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;pF&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;th colspan="6"&gt;SWITCHING CHARACTERISTICS (ISOM8710)&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Output Rise Time (CL = 15 pF)&lt;/td&gt;&lt;td&gt;tr&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Output Fall Time (CL = 15 pF)&lt;/td&gt;&lt;td&gt;tf&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Propagation Delay, LOW→HIGH (IF: 6 mA→0 mA, CL = 15 pF)&lt;/td&gt;&lt;td&gt;tPLH&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Propagation Delay, HIGH→LOW (IF: 0 mA→6 mA, CL = 15 pF)&lt;/td&gt;&lt;td&gt;tPHL&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Pulse Width Distortion |tPHL - tPLH| (IF = 6 mA, CL = 15 pF)&lt;/td&gt;&lt;td&gt;PWD&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Part-to-Part Delay Skew (IF = 6 mA, CL = 15 pF)&lt;/td&gt;&lt;td&gt;tpsk&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;ns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;CMTI, Static LOW Output (VCM = 1200 Vp-p, IF = 6 mA)&lt;/td&gt;&lt;td&gt;|CMTI&lt;sub&gt;L&lt;/sub&gt;|&lt;/td&gt;&lt;td&gt;±125&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;kV/µs&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;CMTI, Static HIGH Output (VCM = 1200 Vp-p, IF = 0 mA)&lt;/td&gt;&lt;td&gt;|CMTI&lt;sub&gt;H&lt;/sub&gt;|&lt;/td&gt;&lt;td&gt;±800&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;kV/µs&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;th colspan="6"&gt;ISOLATION CHARACTERISTICS&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;UL 1577 Withstand Isolation Voltage (60 s)&lt;/td&gt;&lt;td&gt;VISO&lt;/td&gt;&lt;td&gt;3750&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;VRMS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Maximum Isolation Working Voltage (AC)&lt;/td&gt;&lt;td&gt;VIOWM&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;500&lt;/td&gt;&lt;td&gt;VRMS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;Maximum Surge Isolation Voltage&lt;/td&gt;&lt;td&gt;VIOSM&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;10000&lt;/td&gt;&lt;td&gt;VPK&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Based on Texas Instruments &lt;a href="https://www.ti.com/lit/ds/sllsfo4"&gt;ISOM8710 / ISOM8711 datasheet&lt;/a&gt;, SLLSFO4D, August 2025 (Rev. D).&lt;/p&gt;
+&lt;p&gt;Added 2026-02-23&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TI_ISOM8710" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-DFF-5">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="VO" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Texas Instruments" constant="no"/>
+<attribute name="PARTNUM" value="ISOM8710DFFR*" constant="no"/>
+<attribute name="VALUE" value="ISOM8710" constant="no"/>
 </technology>
 </technologies>
 </device>
