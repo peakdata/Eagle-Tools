@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3750,6 +3750,148 @@
 <wire x1="-6.75" y1="-2.5" x2="-9.35" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="10.85" y1="-2.5" x2="9.35" y2="-2.5" width="0.127" layer="51"/>
 </package>
+<package name="PHOENIX_PTSM_0,5/4-HV-2,5-SMD">
+<description>&lt;h3&gt;Feed-through header - PTSM 0,5/ 4-HV-2,5-SMD&lt;/h3&gt;
+&lt;p&gt;Data from Phoenix Contact Datasheet &lt;a href="https://www.phoenixcontact.com/us/products/1778719"&gt;https://www.phoenixcontact.com/us/products/1778719&lt;/a&gt;</description>
+<wire x1="-5.83" y1="2.5" x2="-5.83" y2="-1" width="0.127" layer="51"/>
+<wire x1="-5.83" y1="2.5" x2="-2.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.98" y1="2.5" x2="-1.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="2.5" x2="-0.48" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-0.48" y1="2.5" x2="0.52" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.52" y1="2.5" x2="2.02" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.02" y1="2.5" x2="3.02" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.33" y1="-2.5" x2="-2.98" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.98" y1="-2.5" x2="-1.98" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-1.98" y1="-2.5" x2="-0.48" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.48" y1="-2.5" x2="0.52" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.52" y1="-2.5" x2="2.02" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.02" y1="-2.5" x2="3.02" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.83" y1="-1" x2="-4.33" y2="-2.5" width="0.127" layer="51"/>
+<circle x="-5.33" y="-3.6" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-2.48" y1="2" x2="-2.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.48" y1="2" x2="-1.98" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.48" y1="-2" x2="-2.98" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.48" y1="-2" x2="-1.98" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.48" y1="-2.5" x2="0.02" y2="-2" width="0.127" layer="51"/>
+<wire x1="0.02" y1="-2" x2="0.52" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.02" y1="-2.5" x2="2.52" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.52" y1="-2" x2="3.02" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.48" y1="2.5" x2="0.02" y2="2" width="0.127" layer="51"/>
+<wire x1="0.02" y1="2" x2="0.52" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.02" y1="2.5" x2="2.52" y2="2" width="0.127" layer="51"/>
+<wire x1="2.52" y1="2" x2="3.02" y2="2.5" width="0.127" layer="51"/>
+<polygon width="0.6" layer="39">
+<vertex x="-8.48" y="3"/>
+<vertex x="8.48" y="3"/>
+<vertex x="8.48" y="-3.5"/>
+<vertex x="5.73" y="-3.5"/>
+<vertex x="5.73" y="-5.25"/>
+<vertex x="-5.73" y="-5.25"/>
+<vertex x="-5.73" y="-3.5"/>
+<vertex x="-8.48" y="-3.5"/>
+</polygon>
+<wire x1="5.83" y1="2.5" x2="5.83" y2="-1" width="0.127" layer="51"/>
+<wire x1="3.02" y1="2.5" x2="5.83" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3.02" y1="-2.5" x2="5.83" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="4.52" y1="-2.5" x2="4.33" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.83" y1="-1" x2="4.33" y2="-2.5" width="0.127" layer="51"/>
+<smd name="1" x="-3.73" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="2" x="-1.23" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="3" x="1.27" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="4" x="3.77" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="PAD@1" x="-7.03" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<smd name="PAD@2" x="7.03" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<hole x="-5.13" y="-2.1" drill="1"/>
+<hole x="5.13" y="-2.1" drill="1"/>
+<wire x1="-5.83" y1="-1" x2="-5.83" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.83" y1="-2.5" x2="-4.33" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.83" y1="-1" x2="5.83" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-7.78" y1="-2" x2="-5.83" y2="2" layer="51"/>
+<rectangle x1="5.83" y1="-2" x2="7.78" y2="2" layer="51"/>
+<text x="-5.48" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-5.48" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-3.23" y1="1.5" x2="3.23" y2="1.5" width="0.4" layer="35"/>
+</package>
+<package name="EDGE-CONNECT_ECV3-06-IDC">
+<description>&lt;h3&gt;ECV3-06-IDC 6-pin Castellated Board-Edge Connector&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The ECV3-06-IDC is a 6-pin Edge-Connect connector terminated in a 6-pin 0.1" pitch female IDC. It connects to the physical edge of the PCB using castellated holes, essentially eliminating the wasted real-estate needed by traditional JTAG programming and test connectors.&lt;/p&gt;
+&lt;p&gt;Edge-Connect is an ideal solution for space-sensitive PCBs and modules that don't have room on the board for traditional connectors but still need a means of programming firmware and testing. ECV3 is the third generation in the Edge-Connect family and is NOT compatible with previous Edge-Connect versions.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;h4&gt;Zero component cost on the PCB&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;No header required on target board&lt;/li&gt;
+    &lt;li&gt;Eliminates the cost of a connector on every board&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Connects to the literal edge of the PCB&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Springy gold-plated contacts mate with edge castellation&lt;/li&gt;
+    &lt;li&gt;PCB snaps directly onto the Edge-Connect&lt;/li&gt;
+    &lt;li&gt;Requires just one tiny locating hole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Maximizes available PCB real-estate&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Low profile edge access ideal for stacked PCBs with no access headroom&lt;/li&gt;
+    &lt;li&gt;1.27 mm castellation pitch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Keyed connection&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Cannot be connected backwards due to keyed feature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Broad debugger compatibility&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Segger J-LINK (SWD, cJTAG)&lt;/li&gt;
+    &lt;li&gt;ST-LINK/V2, ST-LINK V3 SET (SWD)&lt;/li&gt;
+    &lt;li&gt;PEmicro Multilink / Cyclone (SWD)&lt;/li&gt;
+    &lt;li&gt;Atmel AVRISP (SPI/PDI/debugWIRE)&lt;/li&gt;
+    &lt;li&gt;Xilinx Platform Cable, Digilent JTAG-HS2/HS3, Lattice HW-USBN-2B (JTAG)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.tag-connect.com/product/ecv3-06-idc-6-pin-castellated-board-edge-connectors"&gt;Device Information Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=ECV3-06-IDC"&gt;Octopart Search&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Added 2026-03-20&lt;/p&gt;</description>
+<pad name="1" x="-3.81" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<pad name="3" x="-1.27" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<pad name="4" x="1.27" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<pad name="5" x="2.54" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<pad name="6" x="3.81" y="0" drill="0.81" diameter="1.016" shape="square"/>
+<hole x="0" y="-1.5" drill="1.06"/>
+<hole x="-5.08" y="0" drill="1"/>
+<wire x1="-6.5" y1="0" x2="6.5" y2="0" width="0.2" layer="51" style="shortdash"/>
+<polygon width="0.3" layer="40">
+<vertex x="-6.5" y="1"/>
+<vertex x="6.5" y="1"/>
+<vertex x="6.5" y="-2"/>
+<vertex x="-6.5" y="-2"/>
+</polygon>
+<polygon width="0.3" layer="40">
+<vertex x="2.5" y="-2" curve="-25.057615"/>
+<vertex x="0" y="-2.8" curve="-31.087315"/>
+<vertex x="-2.5" y="-2"/>
+</polygon>
+<wire x1="-6.5" y1="-0.5" x2="-6.5" y2="-1" width="0.2" layer="21"/>
+<wire x1="6.5" y1="-0.5" x2="6.5" y2="-1" width="0.2" layer="21"/>
+<polygon width="0.3" layer="39">
+<vertex x="-6.5" y="1"/>
+<vertex x="6.5" y="1"/>
+<vertex x="6.5" y="-1"/>
+<vertex x="1" y="-1"/>
+<vertex x="1" y="-1.5" curve="-90"/>
+<vertex x="0" y="-2.5" curve="-90"/>
+<vertex x="-1" y="-1.5"/>
+<vertex x="-1" y="-1"/>
+<vertex x="-6.5" y="-1"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="-3.81" y="-1.016"/>
+<vertex x="-4.064" y="-1.524"/>
+<vertex x="-3.556" y="-1.524"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ADXL320_BREAKOUT_HEADER">
@@ -4712,6 +4854,17 @@ Breaks out the following 4-pin header:
 <attribute name="MANUF" value="Phoenix" constant="no"/>
 <attribute name="PARTNUM" value="PTSM0,5/4-HV-2,5-THR" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="PHOENIX_PTSM_0,5/4-HV-2,5-SMD" package="PHOENIX_PTSM_0,5/4-HV-2,5-SMD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6197,6 +6350,74 @@ Breaks out the following 3-pin header:
 <technology name="">
 <attribute name="MANUF" value="Molex" constant="no"/>
 <attribute name="PARTNUM" value="53398-0371" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECV3-06-*" prefix="J">
+<description>&lt;h3&gt;ECV3-06-IDC 6-pin Castellated Board-Edge Connector&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The ECV3-06-IDC is a 6-pin Edge-Connect connector terminated in a 6-pin 0.1" pitch female IDC. It connects to the literal edge of the PCB using castellated holes, essentially eliminating the wasted real-estate needed by traditional JTAG programming and test connectors.&lt;/p&gt;
+&lt;p&gt;Edge-Connect is an ideal solution for space-sensitive PCBs and modules that don't have room on the board for traditional connectors but still need a means of programming firmware and testing. ECV3 is the third generation in the Edge-Connect family and is NOT compatible with previous Edge-Connect versions.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;h4&gt;Zero component cost on the PCB&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;No header required on target board&lt;/li&gt;
+    &lt;li&gt;Eliminates the cost of a connector on every board&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Connects to the literal edge of the PCB&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Springy gold-plated contacts mate with edge castellation&lt;/li&gt;
+    &lt;li&gt;PCB snaps directly onto the Edge-Connect&lt;/li&gt;
+    &lt;li&gt;Requires just one tiny locating hole&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Maximizes available PCB real-estate&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Low profile edge access ideal for stacked PCBs with no access headroom&lt;/li&gt;
+    &lt;li&gt;1.27 mm castellation pitch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Keyed connection&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Cannot be connected backwards due to keyed feature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Broad debugger compatibility&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Segger J-LINK (SWD, cJTAG)&lt;/li&gt;
+    &lt;li&gt;ST-LINK/V2, ST-LINK V3 SET (SWD)&lt;/li&gt;
+    &lt;li&gt;PEmicro Multilink / Cyclone (SWD)&lt;/li&gt;
+    &lt;li&gt;Atmel AVRISP (SPI/PDI/debugWIRE)&lt;/li&gt;
+    &lt;li&gt;Xilinx Platform Cable, Digilent JTAG-HS2/HS3, Lattice HW-USBN-2B (JTAG)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.tag-connect.com/product/ecv3-06-idc-6-pin-castellated-board-edge-connectors"&gt;Device Information Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=ECV3-06-IDC"&gt;Octopart Search&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Added 2026-03-20&lt;/p&gt;</description>
+<gates>
+<gate name="-1" symbol="M" x="2.54" y="7.62"/>
+<gate name="-2" symbol="M" x="2.54" y="5.08"/>
+<gate name="-3" symbol="M" x="2.54" y="2.54"/>
+<gate name="-4" symbol="M" x="2.54" y="0"/>
+<gate name="-5" symbol="M" x="2.54" y="-2.54"/>
+<gate name="-6" symbol="M" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="EDGE-CONNECT_ECV3-06-IDC">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="Tag-Connect" constant="no"/>
+<attribute name="PARTNUM" value="ECV3-06-*" constant="no"/>
 </technology>
 </technologies>
 </device>
