@@ -3334,10 +3334,10 @@
 <vertex x="-9.75" y="3"/>
 <vertex x="9.75" y="3"/>
 <vertex x="9.75" y="-3.5"/>
-<vertex x="7" y="-3.5"/>
-<vertex x="7" y="-5.25"/>
-<vertex x="-7" y="-5.25"/>
-<vertex x="-7" y="-3.5"/>
+<vertex x="6" y="-3.5"/>
+<vertex x="6" y="-5.25"/>
+<vertex x="-6" y="-5.25"/>
+<vertex x="-6" y="-3.5"/>
 <vertex x="-9.75" y="-3.5"/>
 </polygon>
 <wire x1="7.1" y1="2.5" x2="7.1" y2="-1" width="0.127" layer="51"/>
@@ -3380,7 +3380,6 @@
 <wire x1="-5.5" y1="2.5" x2="-4.5" y2="2.5" width="0.127" layer="51"/>
 <wire x1="-4.5" y1="2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
 <wire x1="-3" y1="2.5" x2="-2" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2" y1="2.5" x2="2" y2="2.5" width="0.127" layer="51"/>
 <wire x1="2" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
 <wire x1="-6.85" y1="-2.5" x2="-4.25" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="-4.25" y1="-2.5" x2="-3.25" y2="-2.5" width="0.127" layer="51"/>
@@ -3406,10 +3405,10 @@
 <vertex x="-11" y="3"/>
 <vertex x="11" y="3"/>
 <vertex x="11" y="-3.5"/>
-<vertex x="8.25" y="-3.5"/>
-<vertex x="8.25" y="-5.25"/>
-<vertex x="-8.25" y="-5.25"/>
-<vertex x="-8.25" y="-3.5"/>
+<vertex x="7.25" y="-3.5"/>
+<vertex x="7.25" y="-5.25"/>
+<vertex x="-7.25" y="-5.25"/>
+<vertex x="-7.25" y="-3.5"/>
 <vertex x="-11" y="-3.5"/>
 </polygon>
 <wire x1="8.35" y1="2.5" x2="8.35" y2="-1" width="0.127" layer="51"/>
@@ -3449,6 +3448,11 @@
 <wire x1="6.25" y1="-2" x2="5.75" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="6.25" y1="-2" x2="6.75" y2="-2.5" width="0.127" layer="51"/>
 <smd name="6" x="6.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<wire x1="-0.5" y1="2.5" x2="0" y2="2" width="0.127" layer="51"/>
+<wire x1="0" y1="2" x2="0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.5" x2="-0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="2.5" x2="0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="2.5" x2="2" y2="2.5" width="0.127" layer="51"/>
 </package>
 <package name="PHOENIX_PTSM_0,5/7-HV-2,5-SMD">
 <description>&lt;h3&gt;Feed-through header - PTSM 0,5/ 7-HV0-2,5-SMD&lt;/h3&gt;
@@ -3479,10 +3483,10 @@
 <vertex x="-12.25" y="3"/>
 <vertex x="12.25" y="3"/>
 <vertex x="12.25" y="-3.5"/>
-<vertex x="9.5" y="-3.5"/>
-<vertex x="9.5" y="-5.25"/>
-<vertex x="-9.5" y="-5.25"/>
-<vertex x="-9.5" y="-3.5"/>
+<vertex x="8.5" y="-3.5"/>
+<vertex x="8.5" y="-5.25"/>
+<vertex x="-8.5" y="-5.25"/>
+<vertex x="-8.5" y="-3.5"/>
 <vertex x="-12.25" y="-3.5"/>
 </polygon>
 <wire x1="9.6" y1="2.5" x2="9.6" y2="-1" width="0.127" layer="51"/>
@@ -3600,10 +3604,10 @@
 <vertex x="-13.5" y="3"/>
 <vertex x="13.5" y="3"/>
 <vertex x="13.5" y="-3.5"/>
-<vertex x="10.75" y="-3.5"/>
-<vertex x="10.75" y="-5.25"/>
-<vertex x="-10.75" y="-5.25"/>
-<vertex x="-10.75" y="-3.5"/>
+<vertex x="9.75" y="-3.5"/>
+<vertex x="9.75" y="-5.25"/>
+<vertex x="-9.75" y="-5.25"/>
+<vertex x="-9.75" y="-3.5"/>
 <vertex x="-13.5" y="-3.5"/>
 </polygon>
 <wire x1="10.85" y1="2.5" x2="10.85" y2="-1" width="0.127" layer="51"/>
@@ -3691,10 +3695,10 @@
 <vertex x="-13.5" y="3"/>
 <vertex x="13.5" y="3"/>
 <vertex x="13.5" y="-3.5"/>
-<vertex x="10.75" y="-3.5"/>
-<vertex x="10.75" y="-5.25"/>
-<vertex x="-10.75" y="-5.25"/>
-<vertex x="-10.75" y="-3.5"/>
+<vertex x="9.75" y="-3.5"/>
+<vertex x="9.75" y="-5.25"/>
+<vertex x="-9.75" y="-5.25"/>
+<vertex x="-9.75" y="-3.5"/>
 <vertex x="-13.5" y="-3.5"/>
 </polygon>
 <wire x1="10.85" y1="2.5" x2="10.85" y2="-1" width="0.127" layer="51"/>
@@ -3789,10 +3793,10 @@
 <vertex x="-8.5" y="3"/>
 <vertex x="8.5" y="3"/>
 <vertex x="8.5" y="-3.5"/>
-<vertex x="5.75" y="-3.5"/>
-<vertex x="5.75" y="-5.25"/>
-<vertex x="-5.75" y="-5.25"/>
-<vertex x="-5.75" y="-3.5"/>
+<vertex x="4.75" y="-3.5"/>
+<vertex x="4.75" y="-5.25"/>
+<vertex x="-4.75" y="-5.25"/>
+<vertex x="-4.75" y="-3.5"/>
 <vertex x="-8.5" y="-3.5"/>
 </polygon>
 <wire x1="5.85" y1="2.5" x2="5.85" y2="-1" width="0.127" layer="51"/>
