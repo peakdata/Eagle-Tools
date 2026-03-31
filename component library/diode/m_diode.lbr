@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -564,6 +564,36 @@ grid 5.6 mm</description>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
 </package>
+<package name="SOD-523">
+<description>&lt;h3&gt;SOD-523 (DYA0002A) SMT Package&lt;/h3&gt;
+&lt;p&gt;From TI Drawing 4224978/C, date 11/2024&lt;/p&gt;
+&lt;p&gt;Added 2026-03-26&lt;/p&gt;</description>
+<smd name="CATHODE" x="-0.74" y="0" dx="0.67" dy="0.4" layer="1" roundness="15"/>
+<smd name="ANODE" x="0.74" y="0" dx="0.67" dy="0.4" layer="1" roundness="15"/>
+<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.127" layer="51"/>
+<rectangle x1="-0.8" y1="-0.15" x2="-0.6" y2="0.15" layer="51"/>
+<rectangle x1="0.6" y1="-0.15" x2="0.8" y2="0.15" layer="51"/>
+<wire x1="-0.225" y1="0.75" x2="-0.225" y2="-0.75" width="0.127" layer="21"/>
+<text x="-1.75" y="0.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.75" y="-0.75" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<polygon width="0.2" layer="39">
+<vertex x="-1.15" y="0.4"/>
+<vertex x="-0.75" y="0.4"/>
+<vertex x="-0.75" y="0.65"/>
+<vertex x="0.75" y="0.65"/>
+<vertex x="0.75" y="0.4"/>
+<vertex x="1.15" y="0.4"/>
+<vertex x="1.15" y="-0.4"/>
+<vertex x="0.75" y="-0.4"/>
+<vertex x="0.75" y="-0.65"/>
+<vertex x="-0.75" y="-0.65"/>
+<vertex x="-0.75" y="-0.4"/>
+<vertex x="-1.15" y="-0.4"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_SCHOTTKY">
@@ -910,6 +940,23 @@ grid 5.6 mm</description>
 <wire x1="-2.54" y1="0" x2="-1.143" y2="0" width="0.1524" layer="94"/>
 <text x="-3.302" y="1.778" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.302" y="-1.778" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE-ESD-CLAMPING">
+<description>&lt;h3&gt;ESD Clamping Diode&lt;/h3&gt;</description>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1363,6 +1410,70 @@ The TPD4E001 is available in DRL, DBV (SOT-23), DCK (SC-70), DRS (QFN), and DPK 
 <attribute name="MANUF" value="SEMITEC" constant="no"/>
 <attribute name="PARTNUM" value="S-102T" constant="no"/>
 <attribute name="VALUE" value="1mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESD321" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;ESD321 0.9 pF 3.6 V ±30 kV ESD Protection Diode&lt;/h3&gt;
+
+&lt;h4&gt;Description&lt;/h4&gt;
+&lt;p&gt;The ESD321 is a uni-directional TVS ESD protection diode featuring low dynamic resistance and low clamping voltage. It is rated to dissipate ESD strikes up to ±30 kV per the IEC 61000-4-2 standard.&lt;/p&gt;
+&lt;p&gt;The ultra-low dynamic resistance (0.13 &amp;#8486;) and extremely low clamping voltage (6.8 V at 16 A TLP) ensure system-level protection against transient events. The low capacitance of 0.9 pF makes it suitable for protecting interfaces such as USB 2.0 and Ethernet 10/100/1000 Mbps. Available in industry-standard 0402 (DFN1006P2) and SOD-523 packages.&lt;/p&gt;
+
+&lt;h4&gt;Features&lt;/h4&gt;
+
+&lt;h4&gt;IEC 61000-4-2 Level 4 ESD protection&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;±30 kV contact discharge&lt;/li&gt;
+    &lt;li&gt;±30 kV air gap discharge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;IEC 61000-4-4 and IEC 61000-4-5 protection&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;80 A (5/50 ns) EFT protection&lt;/li&gt;
+    &lt;li&gt;6 A (8/20 µs) surge protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Low capacitance&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;0.9 pF typical IO capacitance&lt;/li&gt;
+    &lt;li&gt;Suitable for USB 2.0, Ethernet, audio, GPIO, keypad interfaces&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Extremely low clamping voltage&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;6.8 V at 16 A TLP (I/O to GND)&lt;/li&gt;
+    &lt;li&gt;Dynamic resistance: 0.13 &amp;#8486;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Wide operating range&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;3.6 V reverse working voltage&lt;/li&gt;
+    &lt;li&gt;4.5 V minimum breakdown voltage&lt;/li&gt;
+    &lt;li&gt;0.1 nA typical leakage current&lt;/li&gt;
+    &lt;li&gt;-55 °C to +150 °C operating temperature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Small footprint packages&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;0402 / DFN1006P2 (1.0 x 0.6 mm)&lt;/li&gt;
+    &lt;li&gt;SOD-523 (1.6 x 0.8 mm)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.ti.com/product/ESD321"&gt;Device Information Page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://octopart.com/search?q=ESD321"&gt;Octopart Search&lt;/a&gt;&lt;p&gt;
+&lt;p&gt;Added 2026-03-20&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-ESD-CLAMPING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DYA" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUF" value="TI" constant="no"/>
+<attribute name="PARTNUM" value="ESD321DYA*" constant="no"/>
+<attribute name="VALUE" value="3.6V" constant="no"/>
 </technology>
 </technologies>
 </device>
