@@ -464,12 +464,12 @@ grid 5.6 mm</description>
 <package name="DFN-1.6MMX1.6MM-6LEAD">
 <description>&lt;h3&gt;DFN 1.6mm x 1.6mm 6-Lead Package&lt;/h3&gt;
 &lt;p&gt;Added 2023-02-19 from Semtech TDS3011P datasheet&lt;/p&gt;</description>
-<smd name="P$1" x="-0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
-<smd name="P$2" x="0" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
-<smd name="P$3" x="0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5" thermals="no"/>
-<smd name="P$4" x="0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
-<smd name="P$5" x="0" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
-<smd name="P$6" x="-0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180" thermals="no"/>
+<smd name="P$1" x="-0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5"/>
+<smd name="P$2" x="0" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5"/>
+<smd name="P$3" x="0.5" y="-0.725" dx="0.3" dy="0.65" layer="1" roundness="5"/>
+<smd name="P$4" x="0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180"/>
+<smd name="P$5" x="0" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180"/>
+<smd name="P$6" x="-0.5" y="0.725" dx="0.3" dy="0.65" layer="1" roundness="5" rot="R180"/>
 <wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
 <wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
 <wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
