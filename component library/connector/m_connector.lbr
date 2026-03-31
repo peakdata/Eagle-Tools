@@ -3753,64 +3753,73 @@
 <package name="PHOENIX_PTSM_0,5/4-HV-2,5-SMD">
 <description>&lt;h3&gt;Feed-through header - PTSM 0,5/ 4-HV-2,5-SMD&lt;/h3&gt;
 &lt;p&gt;Data from Phoenix Contact Datasheet &lt;a href="https://www.phoenixcontact.com/us/products/1778719"&gt;https://www.phoenixcontact.com/us/products/1778719&lt;/a&gt;</description>
-<wire x1="-5.83" y1="2.5" x2="-5.83" y2="-1" width="0.127" layer="51"/>
-<wire x1="-5.83" y1="2.5" x2="-2.98" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.98" y1="2.5" x2="-1.98" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-1.98" y1="2.5" x2="-0.48" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-0.48" y1="2.5" x2="0.52" y2="2.5" width="0.127" layer="51"/>
-<wire x1="0.52" y1="2.5" x2="2.02" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.02" y1="2.5" x2="3.02" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-4.33" y1="-2.5" x2="-2.98" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.98" y1="-2.5" x2="-1.98" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-1.98" y1="-2.5" x2="-0.48" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-0.48" y1="-2.5" x2="0.52" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="0.52" y1="-2.5" x2="2.02" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.02" y1="-2.5" x2="3.02" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-5.83" y1="-1" x2="-4.33" y2="-2.5" width="0.127" layer="51"/>
-<circle x="-5.33" y="-3.6" radius="0.3" width="0.6" layer="21"/>
-<wire x1="-2.48" y1="2" x2="-2.98" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.48" y1="2" x2="-1.98" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.48" y1="-2" x2="-2.98" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.48" y1="-2" x2="-1.98" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-0.48" y1="-2.5" x2="0.02" y2="-2" width="0.127" layer="51"/>
-<wire x1="0.02" y1="-2" x2="0.52" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.02" y1="-2.5" x2="2.52" y2="-2" width="0.127" layer="51"/>
-<wire x1="2.52" y1="-2" x2="3.02" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-0.48" y1="2.5" x2="0.02" y2="2" width="0.127" layer="51"/>
-<wire x1="0.02" y1="2" x2="0.52" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.02" y1="2.5" x2="2.52" y2="2" width="0.127" layer="51"/>
-<wire x1="2.52" y1="2" x2="3.02" y2="2.5" width="0.127" layer="51"/>
+<smd name="1" x="-3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="2" x="-1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="3" x="1.25" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<smd name="4" x="3.75" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
+<wire x1="-5.85" y1="2.5" x2="-5.85" y2="-0.975" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="-0.975" x2="-5.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="2.5" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="-2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2" y1="2.5" x2="-0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="2.5" x2="0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="2.5" x2="2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-4.35" y1="-2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2.5" x2="-0.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="-1" x2="-4.35" y2="-2.5" width="0.127" layer="51"/>
+<circle x="-5.35" y="-3.6" radius="0.3" width="0.6" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2" x2="-2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-2" x2="-2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0" y2="-2" width="0.127" layer="51"/>
+<wire x1="0" y1="-2" x2="0.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="2.5" x2="0" y2="2" width="0.127" layer="51"/>
+<wire x1="0" y1="2" x2="0.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="2.5" x2="2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2" x2="3" y2="2.5" width="0.127" layer="51"/>
 <polygon width="0.6" layer="39">
-<vertex x="-8.48" y="3"/>
-<vertex x="8.48" y="3"/>
-<vertex x="8.48" y="-3.5"/>
-<vertex x="5.73" y="-3.5"/>
-<vertex x="5.73" y="-5.25"/>
-<vertex x="-5.73" y="-5.25"/>
-<vertex x="-5.73" y="-3.5"/>
-<vertex x="-8.48" y="-3.5"/>
+<vertex x="-8.5" y="3"/>
+<vertex x="8.5" y="3"/>
+<vertex x="8.5" y="-3.5"/>
+<vertex x="5.75" y="-3.5"/>
+<vertex x="5.75" y="-5.25"/>
+<vertex x="-5.75" y="-5.25"/>
+<vertex x="-5.75" y="-3.5"/>
+<vertex x="-8.5" y="-3.5"/>
 </polygon>
-<wire x1="5.83" y1="2.5" x2="5.83" y2="-1" width="0.127" layer="51"/>
-<wire x1="3.02" y1="2.5" x2="5.83" y2="2.5" width="0.127" layer="51"/>
-<wire x1="3.02" y1="-2.5" x2="5.83" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="4.52" y1="-2.5" x2="4.33" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="5.83" y1="-1" x2="4.33" y2="-2.5" width="0.127" layer="51"/>
-<smd name="1" x="-3.73" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
-<smd name="2" x="-1.23" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
-<smd name="3" x="1.27" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
-<smd name="4" x="3.77" y="-2.7" dx="1.2" dy="4.4" layer="1" roundness="5"/>
-<smd name="PAD@1" x="-7.03" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
-<smd name="PAD@2" x="7.03" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
-<hole x="-5.13" y="-2.1" drill="1"/>
-<hole x="5.13" y="-2.1" drill="1"/>
-<wire x1="-5.83" y1="-1" x2="-5.83" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-5.83" y1="-2.5" x2="-4.33" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="5.83" y1="-1" x2="5.83" y2="-2.5" width="0.127" layer="51"/>
-<rectangle x1="-7.78" y1="-2" x2="-5.83" y2="2" layer="51"/>
-<rectangle x1="5.83" y1="-2" x2="7.78" y2="2" layer="51"/>
-<text x="-5.48" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="-5.48" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
-<wire x1="-3.23" y1="1.5" x2="3.23" y2="1.5" width="0.4" layer="35"/>
+<wire x1="5.85" y1="2.5" x2="5.85" y2="-1" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="2" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="5.85" y2="2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.5" x2="4.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.85" y1="-1" x2="4.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2" y1="2.5" x2="2.5" y2="2" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2" x2="3" y2="2.5" width="0.127" layer="51"/>
+<smd name="PAD@1" x="-7.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<smd name="PAD@2" x="7.05" y="0" dx="2.2" dy="5.6" layer="1" roundness="5"/>
+<hole x="-5.15" y="-2.1" drill="1"/>
+<hole x="5.15" y="-2.1" drill="1"/>
+<wire x1="-5.85" y1="-0.975" x2="-5.85" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-5.85" y1="-2.5" x2="-4.35" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.85" y1="-1" x2="5.85" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5.85" y1="-2.5" x2="4.35" y2="-2.5" width="0.127" layer="51"/>
+<rectangle x1="-7.8" y1="-2" x2="-5.85" y2="2" layer="51"/>
+<rectangle x1="5.85" y1="-2" x2="7.8" y2="2" layer="51"/>
+<text x="-5.5" y="2.75" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-5.5" y="-5.25" size="1.27" layer="27" ratio="16" align="top-left">&gt;VALUE</text>
+<wire x1="-3.25" y1="1.5" x2="3.25" y2="1.5" width="0.4" layer="35"/>
 </package>
 <package name="EDGE-CONNECT_ECV3-06-IDC">
 <description>&lt;h3&gt;ECV3-06-IDC 6-pin Castellated Board-Edge Connector&lt;/h3&gt;
